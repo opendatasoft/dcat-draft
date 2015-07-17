@@ -1,0 +1,17 @@
+
+<http://public.opendatasoft.com/api/datasets/1.0/concessions_dans_les_jardins> a <http://www.w3.org/ns/dcat#Dataset> ;
+	<http://purl.org/dc/terms/identifier> "concessions_dans_les_jardins" ;
+	<http://purl.org/dc/terms/publisher> "Ville de Paris" ;
+	<http://purl.org/dc/terms/title> "Concessions dans les jardins" ;
+	<http://purl.org/dc/terms/modified> <2013-05-30T01:51:37+00:00> ;
+	<http://purl.org/dc/terms/description> "<p>Liste des concessions (manèges, chalet de vente,...)  dans les jardins parisiens par arrondissement.</p>" .
+
+<http://public.opendatasoft.com/api/datasets/1.0/trottoirs_des_rues_de_paris> a <http://www.w3.org/ns/dcat#Dataset> ;
+	<http://purl.org/dc/terms/identifier> "trottoirs_des_rues_de_paris" ;
+	<http://purl.org/dc/terms/publisher> "Ville de Paris" ;
+	<http://purl.org/dc/terms/title> "Trottoirs des rues de Paris" ;
+	<http://purl.org/dc/terms/modified> <2013-05-30T01:51:53+00:00> ;
+	<http://purl.org/dc/terms/description> """Données de type vecteur décrivant les trottoirs parisiens.
+
+Exemple(s) de réutilisation(s) des données :
+- Cartographie sur http://demo.3liz.fr/opendataparis""" .

@@ -1,47 +1,59 @@
 (ns ods.pipeline
     (:require
      [grafter.tabular :refer [defpipe defgraft column-names columns rows
-                              derive-column mapc swap drop-rows
+                              derive-column mapc swap drop-rows take-rows
                               read-dataset read-datasets make-dataset
                               move-first-row-to-header _ graph-fn melt
-                              test-dataset]]
-     [grafter.rdf :refer [s]]
+                              test-dataset rename-columns]]
      [grafter.rdf.protocols :refer [->Quad]]
      [grafter.rdf.templater :refer [graph]]
      [grafter.vocabularies.rdf :refer :all]
+     [grafter.vocabularies.dcterms :refer :all]
      [grafter.vocabularies.foaf :refer :all]
-     [ods.prefix :refer [base-id base-graph base-vocab base-data]]
-     [ods.transform :refer [->integer]]))
+     [grafter.vocabularies.dcat :refer [dcat:Dataset dcat:theme]]
+     [ods.prefix :refer :all]
+     [ods.util :refer [import-rdf]]
+     [ods.transform :refer :all]))
 
-;; Declare our graph template which will destructure each row and
-;; convert it into an RDF graph.  This will be the final step in our
-;; pipeline definition.
+(def c "datasets.csv")
 
-(def make-graph
-  (graph-fn [{:keys [name sex age person-uri gender]}]
-            (graph (base-graph "example")
-                   [person-uri
-                    [rdf:a foaf:Person]
-                    [foaf:gender sex]
-                    [foaf:age age]
-                    [foaf:name (s name)]])))
+(def cols [:datasetid :title :description :theme :keyword :license :language :modified :data_processed :metadata_processed :publisher :references :odi_certificate_url :records_count :attributions :source_domain :source_domain_title :source_domain_address :source_dataset :oauth_scope :dcatcreated :dcatissued :dcatcreator :dcatcontributor :dcataccrualperiodicity :dcatspatial :dcattemporal :dcatgranularity :dcatdataquality :inspirefile_identifier :inspirehierarchy_level :inspirehierarchy_level_name :inspirecontact_individual_name :inspirecontact_position :inspirecontact_address :inspirecontact_email :inspireidentification_purpose :inspireextend_description :inspireextend_bounding_box_westbound_longitude :inspireextend_bounding_box_eastbound_longitude :inspireextend_bounding_box_southbound_latitude :inspireextend_bounding_box_northbound_latitude :exploredownload_count])
 
+(def catalog-template
+  (graph-fn [{:keys [dataset-uri datasetid title description modified publisher
+                     ]}]
+            (graph (base-graph "catalog")
+                   [dataset-uri
+                    [rdf:a dcat:Dataset]
+                    [dcterms:identifier (s datasetid)]
+                    [dcterms:publisher (s publisher)]
+                    [dcterms:license ]
+                    [dcterms:title (s title)]
+                    [dcterms:modified modified]
+                    [dcterms:language ]
+                    [dcat:theme ]
+                    [dcterms:references ]
+                    [dcterms:description (s (clean-str-str description))]])))
 
-;; Declare a pipe so the plugin can find and run it.  It's just a
-;; function from Datasetable -> Dataset.
-(defpipe convert-persons-data
-  "Pipeline to convert tabular persons data into a different tabular format."
+(defpipe convert-catalog
+  "Pipeline to convert tabular ODS catalog data"
   [data-file]
   (-> (read-dataset data-file)
-      (drop-rows 1)
-      (make-dataset [:name :sex :age])
-      (derive-column :person-uri [:name] base-id)
-      (mapc {:age ->integer
-             :sex {"f" (s "female")
-                   "m" (s "male")}})))
+      (make-dataset move-first-row-to-header)
+      (rename-columns (comp keyword slugify))
+      (take-rows 2)
+      (derive-column :dataset-uri [:datasetid] base-domain)
+      (columns [:description])
+      (mapc {:description clean-str-str})
+      ))
 
-;; Declare a graft so the plugin can find and run it.  A graft is the
-;; composition of a pipe with graph-fn graph template.
-(defgraft convert-persons-data-to-graph
-  "Pipeline to convert the tabular persons data sheet into graph data."
-  convert-persons-data make-graph)
+(defgraft catalog->graph
+  "Pipeline to convert the tabular ODS catalog data sheet into graph data."
+  convert-catalog catalog-template)
+
+(defn catalog-pipeline
+  [data-file output]
+  (-> (convert-catalog data-file)
+      catalog-template
+      (import-rdf output))
+  (println "Grafted: " data-file))

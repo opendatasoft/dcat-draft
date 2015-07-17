@@ -1,0 +1,1190 @@
+"datasetid","title","description","theme","keyword","license","language","modified","data_processed","metadata_processed","publisher","references","odi_certificate_url","records_count","attributions","source_domain","source_domain_title","source_domain_address","source_dataset","oauth_scope","dcat.created","dcat.issued","dcat.creator","dcat.contributor","dcat.accrualperiodicity","dcat.spatial","dcat.temporal","dcat.granularity","dcat.dataquality","inspire.file_identifier","inspire.hierarchy_level","inspire.hierarchy_level_name","inspire.contact_individual_name","inspire.contact_position","inspire.contact_address","inspire.contact_email","inspire.identification_purpose","inspire.extend_description","inspire.extend_bounding_box_westbound_longitude","inspire.extend_bounding_box_eastbound_longitude","inspire.extend_bounding_box_southbound_latitude","inspire.extend_bounding_box_northbound_latitude","explore.download_count",,,,,,,,,,,
+"concessions_dans_les_jardins","Concessions dans les jardins","<p>Liste des concessions (manèges, chalet de vente,...)  dans les jardins parisiens par arrondissement.</p>","Environnement","jardin, parc, concessions, chalet de vente, manège, théâtre, souvenirs","ODbL Paris","fr","2013-05-30T01:51:37+00:00",,,"Ville de Paris",,,118,,,,,,,,"2011-01-26","Ville de Paris","Ville de Paris","non précisée","Paris",2011,"arrondissement",,,,,,,,,,,,,,,1,,,,,,,,,,,
+"trottoirs_des_rues_de_paris","Trottoirs des rues de Paris","Données de type vecteur décrivant les trottoirs parisiens.
+
+Exemple(s) de réutilisation(s) des données :
+- Cartographie sur http://demo.3liz.fr/opendataparis","Urbanisme","trottoir, rue, voie, piéton","Open Database License (ODbL)","fr","2013-05-30T01:51:53+00:00",,,"Ville de Paris",,,110076,,,,,,,,"2011-12-04","Ville de Paris","Ville de Paris",,"Paris",2011,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"arbresremarquablesparis2011","Les arbres remarquables","<p><em>Couche anciennement intitulée ""Arbres remarquables - Données géographiques"" (2011).</em></p><p>Cette couche à figuré ponctuel localise géographiquement l’ensemble des arbres remarquables présents sur le territoire parisien<em>.</em> La classification, le nom commun et la taille des arbres etc. sont renseignés sur la couche de données.</p><p>Pour plus de renseignements, consultez la notice en pièce jointe OU le dossier spécial <em><a href=""http://www.paris.fr/pratique/jardinage-vegetation/dossier-arbres-remarquables/les-arbres-remarquables-a-paris/rub_10043_dossier_103510_port_25125"" target=""_blank"">Arbres remarquables à Paris</a> </em>hébergé sur le site de la ville.</p>","Environnement","ArbresRemarquables, Arbres, DEVE","Open Database License (ODbL)","fr","2013-06-21T13:04:22+00:00","2015-06-25T14:55:00+00:00","2015-07-16T15:55:01+00:00","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris",,,98,,,,,,,,"2011-08-25","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris","Annuelle",,,,,,,,,,,,,,,,,,2418,,,,,,,,,,,
+"volumes_d_eau_distribues","Volumes d'eau distribués","<p>
+	Fichier détaillant les volumes d'eau potables consommés par mois en 2011 à Paris.
+</p>","Environnement","eau, consommation","Open Database License (ODbL)","fr","2013-06-24T16:17:51+00:00",,,"Ville de Paris - Direction de la propreté et de l'eau",,,12,,,,,,,,"2012-10-05","Ville de Paris \ Direction de la propreté et de l'eau","Ville de Paris \ Direction de la propreté et de l'eau","annuelle","Paris",2011,"Paris",,,,,,,,,,,,,,,2,,,,,,,,,,,
+"etiquettes_energetiques_des_batiments_municipaux","Etiquettes énergétiques des batiments municipaux","<p>
+	 Jeu de données qualifiant les performances énergétiques des bâtiments :<br>
+<span style=""line-height: 1.45em;"">- Étiquette énergie<br>
+</br></span><span style=""line-height: 1.45em;"">- Étiquette Gaz à effet de serre.</span>
+</br></p>
+<p>
+	 Les informations de ce jeu de données sont valables 10 ans.
+</p>","Environnement","GES, énergie, diagnostic","ODbL Paris","fr","2013-07-18T14:40:12+00:00",,,"Ville de Paris",,,1743,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2012-05-31","Ville de Paris","Ville de Paris","Tous les 10 ans","Paris",2011,,,,,,,,,,,,,,,,3,,,,,,,,,,,
+"liste_des_jardins_partages_a_paris","Les jardins partagés","<p><em>Couche anciennement intitulée ""Liste des jardins partagés à Paris"" (2011).</em></p><p>Cette couche à figuré ponctuel localise géographiquement l’ensemble  des jardins partagés, pédagogiques et/ou d’insertion gérés par  différentes associations.</p><p>Pour plus de renseignements,  consultez la notice en pièce jointe.</p><p style=""margin-left: 200px;""><br><strong>/!\ INFOS /!\ </strong></br></p><p>Suite à la mise à jour de ce jeu de données, nous avons décidé  de modifier le nom des champs :</p><table><tbody><tr><td><strong>Ancien nom</strong></td><td><strong>Nouveau nom</strong></td></tr><tr><td>Nom du jardin</td><td>NOM JARDIN</td></tr><tr><td>Type de jardin – activité principale</td><td>TYPE JARDIN</td></tr><tr><td>Adresse complète</td><td>ADRESSE JARDIN</td></tr><tr><td>Nom de l’association gestionnaire (...)</td><td>NOM GESTIONNAIRE</td></tr><tr><td>Adresse postale de l’association gestionnaire</td><td>ADRESSE GESTIONNAIRE</td></tr></tbody></table>","Environnement","jardins, JardinsPartagés, DEVE","Open Database License (ODbL)","fr","2013-07-29T09:59:18+00:00",,,"Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris",,,90,,,,,,,,"2011-10-27","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris","Annuelle",,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+"boston-public-schools-map","Public Schools, Boston, MA","<p>
+	<span style=""line-height: 1.45em;"">Location of Boston Public Schools</span>
+</p>
+<p>
+	<span style=""line-height: 1.45em;"">source: </span><span style=""line-height: 1.45em;""></span><a href=""https://data.cityofboston.gov/dataset/Boston-Public-Schools-Map/vrhg-954w"" style=""line-height: 1.45em;"">https://data.cityofboston.gov/dataset/Boston-Public-Schools-Map/vrhg-954w</a>
+</p>","Education","facilities, education, schools",,"en","2013-08-23T08:46:12+00:00",,,"BOSTON/Boston Public Schools",,,133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+"2013-2014-nyc-school-zones","2013-2014 School Zones, NYC","<p>
+	   2013-2014 School Zones (as of May 8, 2013)
+</p>
+<p>
+	   They are broken down by elementary school zones (ES_Zones), middle school zones (MS_Zones) and high school zones (HS_Zones).
+</p>
+<p>
+	 <span style=""line-height: 1.45em;"">Source: </span><a href=""https://data.cityofnewyork.us/Education/2013-2014-School-Zones/pp5b-95kq"" style=""line-height: 1.45em;"">https://data.cityofnewyork.us/Education/2013-2014-School-Zones/pp5b-95kq</a>
+</p>","Education","gis, map, 2013-2014 school zones, doe, board of ed, ed",,"en","2013-08-23T08:46:32+00:00",,,"NYC/Department of Education (DOE)",,,341,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,,,,,,,,,,,
+"boston-urban-orchards","Urban Orchards, Boston, MA","<p>
+	 <span style=""line-height: 1.45em;"">Urban orchards and fruit trees in and around the city of Boston. Please note: locations have not been verified, and may be on private property, inaccessible, not bearing fruit, or no longer there. Always confirm permission to enter and forage with any property owners. Use utmost caution in identifying and consuming any fruit. Feel free to contact us with any information pertaining to current conditions, and we will update the data.</span>
+</p>
+<p>
+	 Source: <a href=""https://data.cityofboston.gov/Health/Urban-Orchards-Map-View/wv26-euyd"">https://data.cityofboston.gov/Health/Urban-Orchards-Map-View/wv26-euyd</a>
+</p>","Health","food, food initiatives, fruit, orchards, trees, green streets, urban agriculture, boston",,"en","2013-08-23T08:46:57+00:00",,,"BOSTON/Mayor's Office of Food Initiatives",,,28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,
+"boston-active-food-establishment-map","Active Food Establishment, Boston, MA","<p>
+	 <span style=""line-height: 1.45em;"">Listing of food establishments with active licenses in Boston, USA</span>
+</p>
+<p>
+	 <span style=""line-height: 1.45em;"">source: </span><span style=""line-height: 1.45em;""></span><a href=""https://data.cityofboston.gov/Permitting/Active-Food-Establishment-Map/3a6m-dwve"" style=""line-height: 1.45em;"">https://data.cityofboston.gov/Permitting/Active-Food-Establishment-Map/3a6m-dwve</a>
+</p>","Permitting","food, restaurants, inspetions",,"en","2013-08-23T08:49:07+00:00",,,"BOSTON/Inspectional Services Dept.",,,2765,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,,,,,,,,,,,
+"geoflar-departements","Geofla® - Départements","<p>
+	<span style=""line-height: 1.45em;"">GEOFLA® contient la description de l'ensemble des unités administratives du territoire national.</span>
+</p>
+<p>
+	<span style=""line-height: 1.45em;""> Les données existent en 2 versions: GEOFLA® Communes, et GEOFLA® Départements.</span>
+</p>",,,"La réutilisation de GEOFLA® est gratuite pour tous les usages, y compris commerciaux, selon les termes de la ""licence ouverte"" version 1.0","fr","2013-09-02T14:42:29+00:00","2015-06-24T15:55:00+00:00","2015-07-06T20:55:00+00:00","IGN","http://professionnels.ign.fr/geofla#tab-3",,96,,,,,,,"2013-01-14","2013-01-14","IGN",,,"France Métropolitaine",,,,,,,,,,,,,,,,,452,,,,,,,,,,,
+"geoflar-communes","Geofla® - Communes","<p>
+	 <span style=""line-height: 1.45em;"">GEOFLA® contient la description de l'ensemble des unités administratives du territoire national.</span>
+</p>
+<p>
+	 <span style=""line-height: 1.45em;""> Les données existent en 2 versions: GEOFLA® Communes, et GEOFLA® Départements.</span>
+</p>",,,"La réutilisation de GEOFLA® est gratuite pour tous les usages, y compris commerciaux, selon les termes de la ""licence ouverte"" version 1.0.","fr","2013-09-02T17:45:11+00:00","2015-06-16T08:55:00+00:00","2015-07-17T07:55:00+00:00","IGN","http://professionnels.ign.fr/geofla#tab-3",,36613,,,,,,,"2013-01-14","2013-01-14","IGN",,,"France Métropolitaine",,,,,,,,,,,,,,,,,348,,,,,,,,,,,
+"etalages_et_terrasses_autorisees_a_paris","Etalages et terrasses autorisées à Paris","<p>
+	  Liste des 19000 autorisations d’occupation du domaine public délivrées aux commerces parisiens (autorisation d’installer des étalages, terrasses, commerces accessoires, contre terrasse, contre étalage,...).<br>
+<br>
+<strong>Description des données</strong><br>
+<em>Dossier   </em><br>
+	  Numéro du dossier du  commerce bénéficiaire de l’autorisation d’installation d’un ou plusieurs objets. <br>
+	  Ce numéro permet d’accéder à l’affichette décrivant l’autorisation accordée au commerce. Cette affichette est accessible via une URL construite à partir du numéro de dossier : <br>
+	  Exemple :<br>
+	  dossier : 740062012003<br>
+<a href=""http://affichette-commerce.paris.fr/Quartier74/740062012%20003.pdf"">http://affichette-commerce.paris.fr/Quartier74/740062012%20003.pdf</a><br>
+	  le numéro de quartier est sur deux chiffres. Pour les quartiers de 1 à 9 : ajouter un zéro avant le numéro de dossier.<br>
+<br>
+<em>Arrondissement   </em><br>
+	  Numéro de l’arrondissement où est situé le commerce.<br>
+<br>
+<em>Adresse</em><br>
+	  Adresse d’installation du dispositif autorisé au format : «n° dans la voie» «type de voie» «nom de la voie». Exemple : 23 BOULEVARD DIDEROT<br>
+	  Lorsque le dispositif autorisé se situe sur l’angle entre deux rues, le dispositif autorisé est localisé comme suit : «Pan coupé »  «adresse1»/«adresse2». Exemple :  Pan coupé 28 BOULEVARD DIDEROT / 9 RUE HECTOR MALO<br>
+<br>
+<em>Libelle_type_objet   </em><br>
+	  Type de l’objet autorisé : type étalage, contre-étalage, terrasse ouverte, contre-terrasse, terrasse fermée, commerce accessoire, plancher mobile, bâche.<br>
+<em><br>
+	  Dima   </br></em><br>
+	  Largeur de l’emprise autorisée. <br>
+<em><br>
+	  Dimb   </br></em><br>
+	  Longueur de l’emprise autorisée.<br>
+<br>
+<em>Dosred </em><br>
+	    Raison sociale du bénéficiaire de l’autorisation et indication de la nature du commerce entre parenthèses. Exemple : SA CHEZ RIBE  (RESTAURANT)
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></p>","Urbanisme","étalage, terrasse, autorisation, occupation, rue, trottoir, piéton","Open Database License (ODbL)","fr","2013-09-04T16:21:54+00:00",,,"Ville de Paris",,,18745,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2013-10-06","Ville de Paris","Ville de Paris","Annuelle","Paris",,"Arrondissement",,,,,,,,,,,,,,,7,,,,,,,,,,,
+"conseils-quartiers","Les conseils de quartier par arrondissement","<p>
+<span style=""line-height: 1.45em;"">La carte des périmètres des conseils de quartier par arrondissement</span>
+</p>
+<p>
+	         Vous pouvez également la retrouver <a href=""http://www.paris.fr/politiques/conseils-de-quartier/conseils-de-quartier/p10047"" style=""line-height: 1.45em;"">ici</a>
+</p>
+<p>
+	 En pièce jointe, le jeu de données au format d'origine.
+</p>","Citoyens","Conseil de quartier, Quartier, arrondissement","Open Database License (ODbL)","fr","2013-09-10T14:58:32+00:00",,,"Ville de Paris",,,121,,,,,,,,"2013-07-19","Ville de Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+"liste_des_marches_conclus_en_2011","Liste des marchés conclus en 2011","Liste des attributaires des marchés de l'État tel que référencé sur la plateforme du SAE, comprenant le nom de l'entité publique, l'entité d'achat, le nom de l'attributaire, la date de notification, le code postal, la tranche budgétaire en euro HT, la nature de l'achat, l'objet du marché, le montant du marché, l'attribution à une PME.",,"Service, Travaux publics, Achats, Marché, Attributaire, Fourniture, Travaux","http://www.data.gouv.fr/Licence-Ouverte-Open-Licence","fr","2013-09-14T13:45:13+00:00",,,"Etalab","http://www.data.gouv.fr/DataSet/30380017?xtmc=&xtcr=1",,12325,,,,,,,,"2013-03-29",,,"Yearly","France",2011,,,,,,,,,,,,,,,,38,,,,,,,,,,,
+"espaces-cityssimo","Espaces Cityssimo","<p>
+	Liste des Points Cityssimo, incluant l’adresse, les coordonnées de géolocalisation ainsi que leurs horaires d’ouverture et les dates de fermeture. Les espaces Cityssimo sont des sites de retrait automatiques des colis accessibles 7j/7 et 24h/24 (sauf espaces Cityssimo soumis aux horaires des galeries marchandes).
+</p>","Service Postal",,"http://www.data.gouv.fr/Licence-Ouverte-Open-Licence","en","2013-10-22T20:00:25+00:00",,,"La Poste","http://www.data.gouv.fr/DataSet/573333",,35,,,,,,,,"2013-09-20",,,,,,,,,,,,,,,,,,,,,84,,,,,,,,,,,
+"points-de-contact-du-reseau-postal-francais","Points de Contact du Réseau Postal Français","<p>
+	Liste des points de contact du réseau postal français (bureau de poste et agence postale), incluant l'adresse, les coordonnées de géolocalisation et les services associés (Distributeur de billets, affranchissement libre service, photocopieur, ...).
+</p>","Service Postal",,"http://www.data.gouv.fr/Licence-Ouverte-Open-Licence","en","2013-10-22T20:05:02+00:00",,,"La Poste","http://www.data.gouv.fr/DataSet/551640",,17063,,,,,,,,"2013-08-21",,,,,,,,,,,,,,,,,,,,,51,,,,,,,,,,,
+"liste-des-boites-aux-lettres-paris","Liste des Boîtes aux Lettres - Paris","<p>
+	Liste des boîtes aux lettres de rue (Boîtes aux lettres et boîtes aux lettres modulables), incluant l’adresse, les coordonnées
+</p>
+<p>
+	de géolocalisation ainsi que leurs horaires de levées intra-départementales et extra-départementales.
+</p>","Service Postal",,"http://www.data.gouv.fr/Licence-Ouverte-Open-Licence","en","2013-10-22T21:19:40+00:00","2015-06-22T14:55:00+00:00","2015-07-07T16:55:00+00:00","La Poste","http://legroupe.laposte.fr/Actualite/Le-Groupe-La-Poste-partenaire-du-concours-Dataconnexions",,1838,,,,,,,,,,,,,,,,,,,,,,,,,,,,,109,,,,,,,,,,,
+"liste-des-boites-aux-lettres-alpes-maritimes","Liste des Boîtes aux Lettres - Alpes Maritimes","<p>
+	Liste des boîtes aux lettres de rue (Boîtes aux lettres et boîtes aux lettres modulables), incluant l’adresse, les coordonnées
+</p>
+<p>
+	de géolocalisation ainsi que leurs horaires de levées intra-départementales et extra-départementales.
+</p>","Service Postal",,"http://www.data.gouv.fr/Licence-Ouverte-Open-Licence","en","2013-10-22T21:20:15+00:00",,,"La Poste","http://legroupe.laposte.fr/Actualite/Le-Groupe-La-Poste-partenaire-du-concours-Dataconnexions",,1846,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,,,,,,,,,,,
+"liste-des-boites-aux-lettres-bordeaux","Liste des Boîtes aux Lettres - Bordeaux","<p>
+	Liste des boîtes aux lettres de rue (Boîtes aux lettres et boîtes aux lettres modulables), incluant l’adresse, les coordonnées
+</p>
+<p>
+	de géolocalisation ainsi que leurs horaires de levées intra-départementales et extra-départementales.
+</p>","Service Postal",,"http://www.data.gouv.fr/Licence-Ouverte-Open-Licence","en","2013-10-22T21:20:41+00:00","2015-06-01T05:19:37+00:00","2015-07-07T13:55:00+00:00","La Poste","http://legroupe.laposte.fr/Actualite/Le-Groupe-La-Poste-partenaire-du-concours-Dataconnexions",,240,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,,,,,,,,,,,
+"hurricane-tracks-1851-20071","Hurricane Tracks 1851-2007","<p>
+	This Historical North Atlantic Tropical Cyclone Tracks file contains the 6-hourly (0000, 0600, 1200, 1800 UTC) center locations and intensities for all subtropical depressions and storms, extratropical storms, tropical lows, waves, disturbances, depressions and storms, and all hurricanes, from 1851 through 2008. Purpose: These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the National Oceanic and Atmospheric Administration in the use of these data.
+</p>",,,,"en","2013-11-25T17:13:53+00:00",,"2015-07-16T14:55:03+00:00",,,,58007,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32,,,,,,,,,,,
+"restaurants_a_proximite_de_pepiniere_27","Restaurants à proximité de Pépinière 27","<p>
+	      Liste de restaurants facilement accessibles à pied depuis Pépinière 27, pépinière d'entreprises dont fait partie <span style=""line-height: 1.45em;"">OpenDataSoft</span><span style=""line-height: 1.45em;"">.</span>
+</p>
+<p>
+	      Les horaires, prix moyens et plats conseillés sont également indiqués.
+</p>","Restaurants","Restaurants, Pépinière 27",,"fr","2013-11-26T13:57:38+00:00","2015-06-01T05:19:34+00:00","2015-07-02T15:55:00+00:00","OpenDataSoft",,,16,,,,,,,"2013-08-09","2013-08-09",,,,,,,,,,,,,,,,,,,,,15,,,,,,,,,,,
+"representation-feminine-au-sein-des-chambres-consulaires-territoriales-ccit","Représentation féminine au sein des chambres consulaires territoriales (CCIT)","<p>
+	Représentation des femmes au sein des chambres consulaires territoriales (CCIT), pour la mandature 2010-2015, à l'exception des DOM-TOM. Source des données: étude d'impact projet de loi et CCI France.
+</p>
+<p>
+	Issu de l'Open Data Camp Etalab (28/11/2013).
+</p>",,,,"en","2013-11-28T16:27:10+00:00",,,,,,117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,,,,,,,,,,,
+"nyc-subway-stations","NYC Subway Stations","<p>
+	 NYC Subway Stations
+</p>
+<p>
+	http://www.mta.info/nyct/subway/index.html
+</p>","Transportation","subway, stations, map, transit, train, travel, transfer",,"en","2013-12-26T16:01:54+00:00",,,"NYC/Department of Information Technology & Telecommunications (DoITT)","https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49",,470,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,,,,,,,,,,,
+"limites-administratives-des-epci-du-maine-et-loire","Limites administratives des EPCI du Maine-et-Loire","<p>
+	Limite administrative des Établissements Publics de Coopération Intercommunale (EPCI) de Maine-et-Loire.
+</p>
+<p>
+	Détail des données
+</p>
+<p>
+	Système de projection RGF93 Lambert 93 / WGS84<br>
+	Échelle : 1/100000<br>
+	<strong>Données attributaires :</strong><br>
+	NOM : nom de l'EPCI<br>
+	N_EPCI : code INSEE de l'EPCI<br>
+	NATURE_EPCI : nature de l'EPCI (CA = communauté d'agglomération ; CC = communauté de communes)<br>
+	ADRESSE : adresse postale du siège de l'EPCI<br>
+	CP : code postal du siège de l'EPCI<br>
+	SIEGE : commune du siège de l'EPCI<br>
+	TELEPHONE : numéro de téléphone de l'EPCI<br>
+	FAX : numéro de fax de l'EPCI<br>
+	MAIL : adresse courriel de l'EPCI<br>
+	WEB : site internet officiel de l'EPCI
+</p>","Territoire","EPCI","ODbL","fr","2013-12-26T16:05:03+00:00",,,"Département de Maine-et-Loire",,,30,,,,,,,,"2012-05-29","Département de Maine-et-Loire",,,,,,,,,,,,,,,,,,,,24,,,,,,,,,,,
+"liste_epci_maine_et_loire","Liste des EPCI du Maine-et-Loire","<p>
+	Liste des Établissements Publics de Coopération Intercommunale (EPCI) de Maine-et-Loire.
+</p>
+<p>
+	Description des données
+</p>
+<p>
+	NOM : nom de l'EPCI<br>
+	INSEE : code INSEE de l'EPCI<br>
+	NATURE_EPCI : nature de l'EPCI (CA = communauté d'agglomération ; CC = communauté de communes)<br>
+	ADRESSE : adresse postale du siège de l'EPCI<br>
+	CP : code postal du siège de l'EPCI<br>
+	SIEGE : commune du siège de l'EPCI<br>
+	TELEPHONE : numéro de téléphone de l'EPCI<br>
+	FAX : numéro de fax de l'EPCI<br>
+	MAIL : adresse courriel de l'EPCI
+</p>
+<p>
+	WEB : site internet officiel de l'EPCI
+</p>","Territoire","EPCI","ODbL","fr","2013-12-26T16:05:57+00:00","2015-06-11T09:55:01+00:00","2015-07-01T07:55:01+00:00","Département de Maine-et-Loire",,,30,,,,,,,,"2013-12-03","Département de Maine-et-Loire",,,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,
+"nyc-theaters","NYC Theaters","<p>
+	Listing of NYC Theaters
+</p>","Culture","theater, entertainment, map",,"en","2013-12-26T16:27:48+00:00",,,"NYC/Department of Information Technology & Telecommunications (DoITT)","https://data.cityofnewyork.us/Recreation/Theaters/kdu2-865w",,117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+"nyc-museums-and-galleries","NYC Museums and Galleries","<p>
+	NYC Museums and Galleries
+</p>","Culture","art, culture, map, museum, gallery",,"en","2013-12-26T16:35:11+00:00",,,"NYC/Department of Information Technology & Telecommunications (DoITT)","https://data.cityofnewyork.us/Recreation/Museums-and-Galleries/sat5-adpb",,130,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,,,,,,
+"nyc-wifi-hotspot-locations","NYC Wifi Hotspot Locations","<p>
+	Location of wifi hotspots in NYC with basic descriptive information
+</p>","Services","wifi, wireless, services, telecommunication, hot spot, map",,"en","2013-12-26T17:03:32+00:00",,,"NYC/Department of Information Technology & Telecommunications (DoITT)","https://data.cityofnewyork.us/Recreation/Wifi-Hotspot-Locations/ehc4-fktp",,1225,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,,,,,,,,,,,
+"nyc-parking-spots","NYC Parking Spots","<p>
+	A list of all parking facilities in New York City
+</p>","Transportation","parking spot, parking facility, car, automobile, map",,"en","2013-12-26T17:49:34+00:00",,,"NYC/Department of Consumer Affairs (DCA)","https://data.cityofnewyork.us/Transportation/NYC-Parking-Spots/nxab-ch29",,1912,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,
+"openstreetmap-pois-california","OpenStreetMap POIs - California, USA","<p>
+	 OpenStreetMap Points of Interest in California, USA.
+</p>
+<p>
+	© OpenStreetMap contributors
+</p>","Services, Social","openstreetmap, POI, california, map","http://www.openstreetmap.org/copyright/en","en","2013-12-27T14:01:54+00:00",,,"OpenStreetMap","http://download.geofabrik.de/north-america.html",,58782,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,,,,,,,,,,,
+"openstreetmap-pois-new-york-usa","OpenStreetMap POIs - New York, USA","<p>
+	OpenStreetMap Points of Interest in New York, USA.
+</p>
+<p>
+	© OpenStreetMap contributors
+</p>","Services, Social","openstreetmap, POI, new york, map","http://www.openstreetmap.org/copyright/en","en","2013-12-27T14:21:47+00:00",,,"OpenStreetMap","http://download.geofabrik.de/north-america.html",,36626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,,,,,,,,,,,
+"school-improvement-2010-grants-map-view0","School Improvement 2010 Grants, USA","<p>
+	 <span style=""line-height: 1.45em;"">Since President Obama took office, Congress has appropriated more than $4 billion to help turn around the nation's lowest-performing schools. States were awarded nearly $3.5 billion in School Improvement Grant funds in 2010 to turn around their persistently lowest achieving schools. School districts then applied to state for the funds this spring. When school districts applied, they were required to indicate that they would implement one of the following four models in their persistently lowest achieving schools:</span>
+</p>
+<p>
+	 <span style=""line-height: 1.45em;"">Turnaround Model: Replace the principal, screen existing school staff, and rehire no more than half the teachers; adopt a new governance structure; and improve the school through curriculum reform, professional development, extending learning time, and other strategies.</span>
+</p>
+<p>
+	 <span style=""line-height: 1.45em;"">Restart Model: Convert a school or close it and re-open it as a charter school or under an education management organization.</span>
+</p>
+<p>
+	 <span style=""line-height: 1.45em;"">School Closure: Close the school and send the students to higher-achieving schools in the district.</span>
+</p>
+<p>
+	 <span style=""line-height: 1.45em;"">Transformation Model: Replace the principal and improve the school through comprehensive curriculum reform, professional development, extending learning time, and other strategies.</span>
+</p>
+<p>
+	     source: <a href=""https://explore.data.gov/Education/School-Improvement-2010-Grants-Map-View/b5in-8tnq"">https://explore.data.gov/Education/School-Improvement-2010-Grants-Map-View/b5in-8tnq</a>
+</p>","Education","school improvement grants, schools",,"en","2013-12-27T19:56:33+00:00",,,"USA/Office of Elementary and Secondary Education",,,831,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,,,,,,,,,,,
+"openstreetmap-pois-usa","OpenStreetMap POIs - USA","<p>
+	OpenStreetMap Points of Interest in the USA.
+</p>
+<p>
+	© OpenStreetMap contributors
+</p>","Services, Social","openstreetmap, POI, USA, map","http://www.openstreetmap.org/copyright/en","en","2014-01-03T11:37:05+00:00","2015-06-01T05:19:40+00:00","2015-06-28T13:55:01+00:00","OpenStreetMap","http://download.geofabrik.de/north-america.html",,747977,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,,,,,,,,,,,
+"bpe_ensemble","Base Permanente des Équipements","<p>
+	La base permanente des équipements (BPE) contient pour chaque territoire la liste des équipements et des services rendus à la population.
+</p>
+<p>
+	Cette base permet de mesurer la présence ou l'absence d'un équipement, la densité d'un équipement ou un indicateur de disponibilité d'un équipement du point de vue des habitants. Ces données sont disponibles par région, département, commune ou quartier IRIS.
+</p>","Services, Social","Service public, Equipements","http://www.data.gouv.fr/Licence-Ouverte-Open-Licence","fr","2014-01-04T09:29:01+00:00","2015-06-22T07:55:01+00:00","2015-07-17T07:55:02+00:00","INSEE","http://www.insee.fr/fr/themes/detail.asp?reg_id=99&ref_id=fd-bpe11&page=fichiers_detail/bpe11/telechargement.htm",,1418873,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1264,,,,,,,,,,,
+"fire-houses-nyc","​Fire Houses, NYC","<p>
+	<span style=""line-height: 1.45em;"">Listing of all the fire houses in New York City</span>
+</p>
+<p>
+	<span style=""line-height: 1.45em;"">source: </span><span style=""line-height: 1.45em;""></span><a href=""https://data.cityofnewyork.us/Public-Safety/Map-of-NYC-Fire-Houses/pg99-2ihy"" style=""line-height: 1.45em;"">https://data.cityofnewyork.us/Public-Safety/Map-of-NYC-Fire-Houses/pg99-2ihy</a>
+</p>","Public Safety","fire department, fdny, fd, fires, station, fire station, fire house, emergency, 911",,"en","2014-01-04T09:45:46+00:00","2015-06-01T05:19:35+00:00","2015-06-28T18:55:00+00:00","NYC/Fire Department of New York City (FDNY)",,,218,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18,,,,,,,,,,,
+"assistantes-maternelles-antony","Assistantes maternelles à Antony","<p>Listes des assistantes maternelles de la ville d'antony. Générée à partir de la liste édité par la ville d'Antony, au 4 décembre 2013</p>","Services, Social","antony, assistante maternelle",,"en","2014-01-17T14:51:48+00:00",,,,,,224,,,,,,,"2014-01-17","2014-01-17",,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,
+"resultat_ballon_d_or_2014","Résultats Ballon d'Or FIFA 2013","<p>Résultats du Ballon d'Or FIFA 2013, révélés le 13 janvier 2014.</p><p>Extraits du fichier officiel de la FIFA.</p>","Sport, Loisirs","Football, Ballon d'Or, FIFA, Ribéry Franck, Ronaldo Cristiano, Messi Lionel",,,"2014-01-17T16:02:06+00:00",,,"FIFA","http://www.fifa.com/mm/document/ballond'or/playeroftheyear(men)/02/26/02/68/fboaward_menplayer2013_neutral.pdf",,1623,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,,,,,,,,,,,
+"correspondance-code-insee-code-postal","Correspondance Code INSEE - Code Postal","<p>
+	Correspondance entre les codes postaux et codes INSEE des communes Françaises.</p><p>
+	Ce jeu de données intègre par ailleurs des données de référence sur les communes:</p><ul>
+<li>Population</li>
+<li>Superficie</li>
+<li>Altitude moyenne</li>
+<li>Forme géographique</li></ul><p>
+	Ce jeu de données a été constitué à partir des données de la base GEOFLA® mise à disposition par l'IGN (codes INSEE) ainsi qu'à partir de données Wikipédia (codes postaux).</p>","Services, Social",,"http://www.data.gouv.fr/Licence-Ouverte-Open-Licence","en","2014-01-21T08:41:52+00:00","2015-06-26T05:55:00+00:00","2015-07-17T12:55:00+00:00","OpenDataSoft",,"https://certificates.theodi.org/datasets/2613/certificates/14996/",36742,,,,,,,"2013-12-02","2013-12-03",,,,"France",,,,,,,,,,,,,,,,,24595,,,,,,,,,,,
+"polices-municipales-20120","Polices municipales - 2012","<p>Données statistiques relatives aux polices municipales par commune pour l'année 2012</p>","Sécurité","Police, polices municipales","Licence Ouverte / Open Licence","fr","2014-01-23T11:10:10+00:00","2015-06-25T19:55:01+00:00","2015-07-17T10:55:01+00:00","Ministère de l'Intérieur","http://www.data.gouv.fr/fr/dataset/polices-municipales",,4348,,,,,,,,,,,"annuelle",,"01/01/2012 - 31/01/2012","commune",,,,,,,,,,,,,,,422,,,,,,,,,,,
+"zones-de-rattachement-des-bureaux-de-vote-en-2012","Zones de rattachement des bureaux de vote en 2012","<p>Zones de rattachement des bureaux de vote en 2012</p>","Citoyens","élection, vote, bureau","Open Data Paris","fr","2014-01-24T15:16:15+00:00",,,"Ville de Paris",,,869,,,,,,,"2014-01-24","2014-01-24","Ville de Paris","Ville de Paris","Annuelle","Paris",2012,"Arrondissement",,,,,,,,,,,,,,,9,,,,,,,,,,,
+"zones-de-rattachement-des-bureaux-de-vote-en-2014","Zones de rattachement des bureaux de vote en 2014","<p>Zones de rattachement des bureaux de vote en 2014</p>","Citoyens","élection, élections, vote, bureau","Open Data Paris","fr","2014-01-24T15:30:23+00:00",,,"Ville de Paris",,,869,,,,,,,"2014-01-24","2014-01-24","Ville de Paris","Ville de Paris","Annuelle","Paris",2014,"Arrondissement",,,,,,,,,,,,,,,6,,,,,,,,,,,
+"reserve-parlementaire-2013-de-lassemblee-nationale0","Réserve parlementaire 2013 de l'Assemblée nationale","<p>Subventions accordées aux collectivités et associations dans le cadre de la réserve parlementaire de 2013</p><p>Tableaux HTML scrapés sur le site de l'Assemblée nationale (http://www2.assemblee-nationale.fr/reserve_parlementaire/plf)&nbsp","et complétés par Regards Citoyens (http://www.regardscitoyens.org/)&nbsp","avec des informations issues de NosDéputés.fr (http://www.nosdeputes.fr/)</p>","Citoyens","législatives, Assemblée nationale, réserve parlementaire","Open Database License (ODbL)","fr","2014-02-01T19:10:12+00:00",,,"Assemblée nationale / NosDéputés.fr / Regards Citoyens","http://www.nosdonnees.fr/dataset/r-serve-parlementaire-2013-de-l-assembl-e-nationale",,10933,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67,,,,,,,,,
+"stations_et_espaces_autolib_de_la_metropole_parisienne","Stations et espaces AutoLib de la métropole parisienne","<p>Ce jeu de données fournit pour l'ensemble des stations Autolib' d'Ile-de-France, leur positionnement géographique et leur capacité d'accueil de véhicules. </p><p>Définition:</p><div>- ID: Ce numero ID est composé d'un code commune suivi d'un code numéro station par commune.</div><div>- Identifiant Autolib': Cette identifiant est compsé du nom de la commune d'implantation de la station, du nom de la rue et du numéro de rue.</div><div>- Rue: Numéro de rue et rue de la station</div><div>- Code postal: Code postal de la commune d'implantation de la station</div><div>- Ville :Commune d'implantation de la station</div><div>- Emplacement: Espace d'emplacement de la station (Voirie ou Parking)</div><div>- Autolib': Nombre de places destinées aux véhicules Autolib'</div><div>- Tiers: Nombre de places destinées aux véhicules Tiers</div><div>- Abri: Précision sur le fait qu'il y ai ou non un espace d'abonnement sur le lieu de la station (1 = oui, 0 = non).</div>","Déplacements","Autolib, transport, stations, espaces, bornes, véhicules, abris","Open Data Paris","fr","2014-02-11T13:31:28+00:00",,,"AutoLib","www.autolibmetropole.fr",,869,,,,,,,,"2013-05-20","AutoLib","AutoLib","semestrielle","Paris métropole",2014,,,,,,,,,,,,,,,,19,,,,,,,,,,,
+"plaques_commemoratives_1939-1945","Plaques commémoratives 1939-1945","<p>
+	  La list des plaques commémoratives des personnes et des organisations qui se sont illustrées durant la période 1939-1945 par arrondissement.</p><p>
+	      Exemples de réutilisations: - A l'aide du site www.plaques-paris.fr, conformément à la licence ODbl, le fichier web service tabulaire (Google Feuille de calcul) a reçu une amélioration. (Ajout des coordonnées géographiques)</p>","Culture","commémoration, guerre, plaque, patrimoine","Open Data Paris","fr","2014-02-28T01:58:03+00:00","2015-06-24T23:55:02+00:00","2015-07-07T16:55:01+00:00","Ville de Paris",,,1219,,,,,,,,"2012-05-31","Ville de Paris","Ville de Paris","Annuelle","Paris",2012,"Arrondissement",,,,,,,,,,,,,,,11,,,,,,,,,,,
+"utilisations_mensuelles_des_hotspots_paris_wi-fi","Utilisations mensuelles des hotspots Paris Wi-Fi","<p>
+<span style=""line-height: 1.45em;"">Données quantifiées des utilisations mensuelles des hotspots Paris Wi-Fi par type de site.<br>
+<br>
+</br></br></span><span style=""line-height: 1.45em;"">Le jeu de données comprend : le nombre de sites ouverts, leur répartition par site, les trafics en minutes par type de site, le nombre de session utilisées par type de site, le nombre de minutes par session, le nombre de Go consommés, le nombre moyen de Mo par session. Ce jeu de données permet d’analyser les consommations et les usages du dispositif Paris Wi-Fi par type de site.</span></p>","Services","wifi, hotspots, internet, wifi paris, trafic","Open Database License (ODbL)","fr","2014-03-06T11:07:54+00:00",,,,,,54,,,,,,,,"2012-08-22","Ville de Paris","Ville de Paris",,,"2009 - 2012",,,,,,,,,,,,,,,,12,,,,,,,,,,,
+"liste_des_bureaux_de_vote_2013_liste_des_bureaux","Liste des bureaux de vote","<p>Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales.</p><p>Exemple(s) de réutilisation(s) des données :
+- Cartographie sur http://mounirsimon.com/dequelbord/</p>","Citoyens","élections, résultats, présidentielles, municipales, législatives, européennes, régionales, vote","ODbL Paris","fr","2014-03-06T13:32:29+00:00",,,"Ville de Paris",,,870,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2011-01-17","Ville de Paris","Ville de Paris","annuelle","Paris",2013,"voie",,,,,,,,,,,,,,,6,,,,,,,,,,,
+"liste_des_bureaux_de_vote_2013_voies_de_paris","Liste des bureaux de vote : voies de Paris","<p>Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales.</p><p>Exemple(s) de réutilisation(s) des données :
+- Cartographie sur http://mounirsimon.com/dequelbord/</p>","Citoyens","élections, résultats, présidentielles, municipales, législatives, européennes, régionales, vote","ODbL Paris","fr","2014-03-06T13:37:45+00:00",,,"Ville de Paris",,,7612,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2011-01-17","Ville de Paris","Ville de Paris","annuelle","Paris",2013,"voie",,,,,,,,,,,,,,,5,,,,,,,,,,,
+"titres-diffuses-sur-6-stations-de-radios-francaises","Titres diffusés sur 6 stations de radios françaises (13/01/2014 - 05/03/2014)","<p>Liste des titres diffusés sur 6 stations de radio musicales françaises: NRJ, Fun Radio, Europe 2, Virgin Radio, Ouï FM, Radio Nova.</p><p>Cette liste a été constituée à partir des informations en direct sur les sites de chaque station de radio (""titre en cours de diffusion"") entre le 13 janvier 2014 et le 5 mars 2014.</p><p>La différence de nombre de titres collectés par station s'explique par l'absence d'informations sur certaines plages horaires (par exemple la nuit, durant les émissions de type talk-show ou matinales...).</p>","Culture, Patrimoine","radio, musique","Open Database License (ODbL)","en","2014-03-07T08:32:17+00:00","2015-06-01T05:19:41+00:00","2015-06-29T15:55:02+00:00","OpenDataSoft",,,74560,,,,,,,,,,,,,,,,,,,,,,,,,,,,,105,,,,,,,,,,,
+"liste-des-marches-de-fournitures-passes-par-le-departement-de-paris","Liste des marchés de fournitures passés par le Département de Paris","<p>
+<span style=""line-height: 1.45em;"">Le jeu de données comprend les marchés de fournitures passés passés le Département de Paris, de 2009 à 2013.</span></p><p>
+<span style=""line-height: 1.45em;"">Ce jeu de données précise:</span></p><p>
+<span style=""line-height: 1.45em;"">- l'année</span></p><p>
+<span style=""line-height: 1.45em;"">- le n° national de marché</span></p><p>
+<span style=""line-height: 1.45em;"">- le nom du titulaire</span></p><p>
+<span style=""line-height: 1.45em;"">- le code postal</span></p><p>
+<span style=""line-height: 1.45em;"">- l'objet du marché</span></p><p>
+<span style=""line-height: 1.45em;"">- le montant </span></p><p>
+<span style=""line-height: 1.45em;"">- la date de notif </span></p>","Finances","marché, département, fournitures","Open Database License (ODbL)","fr","2014-03-12T15:25:57+00:00",,,"Ville de Paris",,,227,,,,,,,,,"Ville De Paris","Ville de Paris","Annuelle",,"2009-2012",,,,,,,,,,,,,,,,,,,,,,,,,,,
+"liste-des-marches-de-fournitures-passes-par-la-ville-de-paris","Liste des marchés de fournitures passés par la Ville de Paris","<p>
+	  Le jeu de données comprend les marchés de fournitures passés par la Ville de Paris, de 2009 à 2013.</p><p>
+	  Ce jeu de données comprend:</p><p>
+	  - l'année</p><p>
+	  - le n° national de marché</p><p>
+	  - le nom du titulaire</p><p>
+	  - le code postal</p><p>
+	  - l'objet du marché</p><p>
+	  - le montant</p><p>
+<span style=""line-height: 1.45em;"">- la date de notif</span></p>","Finances","marché, fournitures, Ville","Open Database License (ODbL)","fr","2014-03-12T15:26:14+00:00",,,,,,1200,,,,,,,,,"Ville De Paris","Ville de Paris","Annuelle",,,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"liste-des-marches-de-services-passes-par-la-ville-de-paris","Liste des marchés de services passés par la Ville de Paris","<p>
+<span style=""line-height: 1.45em;"">Le jeu de données comprend les marchés de fournitures passés par la Ville de Paris, de 2009 à 2013.</span></p><p>
+	 Ce jeu de données comprend:</p><p>
+	 - l'année</p><p>
+	 - le n° national de marché</p><p>
+	 - le nom du titulaire</p><p>
+	 - le code postal</p><p>
+	 - l'objet du marché</p><p>
+	 - le montant</p><p>
+	 - la date de notif</p>","Finances","marché, Ville, Services","Open Database License (ODbL)","fr","2014-03-12T16:29:45+00:00",,,"Ville de Paris",,,4926,,,,,,,,,"Ville De Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,
+"liste-des-marches-de-services-passes-par-le-departement-de-paris","Liste des marchés de services passés par le Département de Paris","<p>
+<span style=""line-height: 1.45em;"">Le jeu de données comprend les marchés de services passés par le Département de Paris, de 2009 à 2013.</span></p><p>
+<span style=""line-height: 1.45em;"">Ce jeu de données comprend:</span></p><p>
+<span style=""line-height: 1.45em;"">- l'année</span></p><p>
+	   -le n° national de marché</p><p>
+	   - le nom du titulaire</p><p>
+	   - le code postal</p><p>
+	   - l'objet du marché</p><p>
+	   - le montant</p><p>
+	   - la date de notif</p>","Finances","marché, Services, département","Open Database License (ODbL)","fr","2014-03-12T16:29:53+00:00",,,"Ville de Paris",,,818,,,,,,,,,"Ville De Paris","Ville de Paris","Annuelle",,"2009-2012",,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"liste-des-marches-de-travaux-passes-par-la-ville-de-paris","Liste des marchés de travaux passés par la Ville de Paris","<p>
+<span style=""line-height: 1.45em;"">Le jeu de données comprend les marchés des travaux passés par la Ville de Paris, de 2009 à 2013.</span></p><p>
+	  Ce jeu de données comprend:</p><p>
+	  - l'année</p><p>
+	  - le n° national de marché</p><p>
+	  - le nom du titulaire</p><p>
+	  - le code postal</p><p>
+	  - l'objet du marché</p><p>
+	  - le montant</p><p>
+	  - la date de notif</p>","Finances","marché, ville, travaux","Open Database License (ODbL)","fr","2014-03-12T16:30:01+00:00",,,"Ville de Paris",,,3524,,,,,,,,,"Ville De Paris","Ville de Paris","Annuelle",,"2009-2013",,,,,,,,,,,,,,,,6,,,,,,,,,,,
+"liste-des-marches-de-travaux-passes-par-le-departement-de-paris","Liste des marchés de travaux passés par le Département de Paris","<p>
+<span style=""line-height: 1.45em;"">Le jeu de données comprend les marchés de travaux passés par le Département de Paris, de 2009 à 2013.</span></p><p>
+	  Ce jeu de données comprend:</p><p>
+	  - l'année</p><p>
+	  - le n° national de marché</p><p>
+	  - le nom du titulaire</p><p>
+	  - le code postal</p><p>
+	  - l'objet du marché</p><p>
+	  - le montant</p><p>
+	  - la date de notif</p>","Finances","marché, travaux, département","Open Database License (ODbL)","fr","2014-03-12T16:30:09+00:00",,,"Ville de Paris",,,447,,,,,,,,,"Ville De Paris","Ville de Paris","Annuelle",,,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"liste_des_prenoms_2004_a_2012","Liste des prénoms 2004 à 2014","<p>
+<span style=""line-height: 1.45em;"">Liste des prénoms déclarés à l'état-civil  de 2004 à 2014.</span></p><p>
+	   Un ""X"" dans la case ""sexe"" signifie que le prénom est mixte et que le sexe n'est pas spécifié.</p>","Citoyens","Prénoms, bébés, paris, état-civil","Open Database License (ODbL)","fr","2014-03-24T01:52:23+00:00","2015-06-25T22:55:01+00:00","2015-07-02T12:55:02+00:00","Ville de Paris",,,11000,,,,,,,,"2013-07-03","Ville de Paris","Ville de Paris","Annuelle",,"2004 - 2014",,,,,,,,,,,,,,,,18,,,,,,,,,,,
+"resultats-de-lelection-municipale-2014-1er-tour","Résultats de l'élection municipale 2014 1er tour","<p>Résultats du 1er tour des élections Municipales de 2014</p>","Citoyens","élections, résultats, municipales, vote, bureau, candidat","Open Data Paris","fr","2014-03-24T15:20:39+00:00",,,"Ville de Paris",,,7298,,,,,,,,,"Ville de Paris","Ville de Paris","Annuelle","Paris",2014,"Arrondissement",,,,,,,,,,,,,,,3,,,,,,,,,,,
+"resultats-de-lelection-municipale-2014-2eme-tour","Résultats de l'élection municipale 2014 2ème tour","<p>Résultats du 2ème tour des élections Municipales de 2014</p>","Citoyens","élections, résultats, municipales, vote, bureau, candidat","Open Data Paris","fr","2014-03-31T12:19:14+00:00",,,"Ville de Paris",,,1536,,,,,,,,,"Ville de Paris","Ville de Paris","Annuelle","Paris",2014,"Arrondissement",,,,,,,,,,,,,,,3,,,,,,,,,,,
+"pokedex_clean","Google Pokemon Challenge","<p>Location of Google Pokemon Challenge's pokemons. Gotta Catch 'Em All!</p>","Sport, Loisirs","Pokemon, April Fools, Google Maps, Pokemon Challenge, Google","CC BY-SA","en","2014-04-01T13:20:54+00:00",,,"OpenDataSoft","http://pokemonaprilfools.wikia.com/wiki/Sorted_by_Pokedex_No",,151,,,,,,,,,,,,,,,,,,,,,,,,,,,,,262,,,,,,,,,,,
+"accessibilite_des_equipements_de_la_ville_de_paris","Accessibilité des équipements de la Ville de Paris","<p>
+<span style=""line-height: 1.45em;"">Ce jeu de données recense les équipements accessibles de la Ville.</span></p><p>
+	   Il détaille :<br>
+<span style=""line-height: 1.45em;"">- le type d'équipement<br>
+</br></span><span style=""line-height: 1.45em;"">- le nom de l'équipement<br>
+</br></span><span style=""line-height: 1.45em;"">- l'adresse complète<br>
+</br></span><span style=""line-height: 1.45em;"">- le type de handicap</span></br></p><p>
+<span style=""line-height: 1.45em;""></span></p><p>
+<span style=""line-height: 1.45em;"">Consultez la notice en pièce jointe, définissant les niveaux d'accéssibilité de chaque équipement.</span></p>","Déplacements","Equipements","Open Database License (ODbL)","fr","2014-04-22T09:55:26+00:00",,,,,,2324,,,,,,,,"2013-08-02","Ville de Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"les_1000_titres_les_plus_empruntes_de_2013","les 1000 titres les plus empruntés de 2013","<p>
+	 <span style=""line-height: 1.45em;"">Les 1000 références les plus empruntées en 2013 au sein des bibliothèques municipales de la ville de Paris.</span></p><p>
+	 La mise de ce jeu de données est semestrielle.</p><p>
+	 En pièce jointe, vous trouverez le même fichier au format xls contenant les liens vers les oeuvres.</p>","Culture","bibliothèques, livres, documents, DVD, références, prêt","ODBl Paris","fr","2014-04-22T15:49:10+00:00",,,,,,1000,,,,,,,,"2013-08-07","Ville de Paris","Ville de Paris","semestrielle",,2013,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"les_1000_titres_les_plus_reserves_en_2013","Les 1000 titres les plus réservés en 2013","<p>
+	<span style=""line-height: 1.45em;"">Les 1000 références les plus réservées en 2013 au sein des bibliothèques municipales de la ville de Paris.</span></p><p>
+	La mise de ce jeu de données est semestrielle.</p><p>
+	En pièce jointe, vous trouverez le même fichier au format xls contenant les liens vers les oeuvres.</p>","Culture","bibliothèques, livres, documents, DVD, références, prêt, recherche","ODbL Paris","fr","2014-04-22T16:16:38+00:00",,,,,,1000,,,,,,,,"2013-08-07","Ville de Paris","Ville de Paris","Semestrielle","Paris",2013,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"les_1000_titres_les_plus_recherches_en_2013","Les 1000 titres les plus recherchés en 2013","<p>
+	 <span style=""line-height: 1.45em;"">Les 1000 références les plus recherchées en 2013 au sein des bibliothèques municipales de la ville de Paris.</span></p><p>
+	 La mise de ce jeu de données est semestrielle.</p><p>
+	 En pièce jointe, vous trouverez le même fichier au format xls contenant les liens vers les oeuvres.</p>","Culture","bibliothèques, livres, documents, DVD, références, prêt, recherche","ODBl Paris","fr","2014-04-22T16:22:40+00:00",,,,,,1000,,,,,,,,"2013-08-07","Ville de Paris","Ville de Paris","Semestrielle","Paris",2013,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"bornes_et_arceaux_de_stationnement_a_paris","Bornes et Arceaux de Stationnement à Paris","<p>
+<span style=""line-height: 1.45em;"">Données de type vecteur décrivant des bornes: à vélo, d'amarrage, rabattable, les épingles moto, arceaux pour véhicules...</span></p>","Déplacements","Equipements, Paris, Mobilier urbain, bornes, arceaux","Open Database License (ODbL)","fr","2014-04-25T14:13:21+00:00","2015-06-24T14:55:01+00:00","2015-07-02T19:55:02+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=91&portlet_id=106",,524414,,,,,,,,"2012-04-04",,,,,,,,,,,,,,,,,,,,,13,,,,,,,,,,,
+"liste-des-cafes-a-un-euro","Liste des cafés à un euro","<p>
+	                     La liste des cafés à un euro de Paris.</p><p>
+	                     Ce jeu de données est totalement crowdsourcé. N'hésitez pas à participer à l'enrichissement de ce jeu de données ici: <a href=""https://docs.google.com/spreadsheet/viewform?formkey=dGNHWl83NzJvUm9USk1NZVkzWENRUUE6MQ"">https://docs.google.com/spreadsheet/viewform?formkey=dGNHWl83NzJvUm9USk1NZVkzWENRUUE6MQ</a></p>","Services","Café, bistrot, euro, snack, bar, terrasse","ODbL Paris","fr","2014-05-15T10:44:01+00:00","2015-07-05T22:00:03+00:00","2015-07-08T12:55:02+00:00",,"https://docs.google.com/spreadsheet/viewform?formkey=dGNHWl83NzJvUm9USk1NZVkzWENRUUE6MQ",,181,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,"2013-08-13",,,,,,,,,,,,,,,,,,,,,,11,,,,,,,,,,,
+"resultats_electoraux","Résultats électoraux","<p>Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales de 2007 à 2014 par arrondissement, bureau et candidat.</p><p>A partir des Elections Européennes de 2014, ont été rajoutées les colonnes ""Nombres de blancs"", ""Nombres de nuls"" et ""Nombre de procurations""</p>","Citoyens","élections, résulats, présidentielles, communales, municipales, législatives, européennes, régionales, vote, bureau, candidat","Open Data Paris","fr","2014-05-26T16:01:21+00:00",,,"Ville de Paris",,,124736,,,,,,,,"2012-11-17","Ville de Paris","Ville de Paris","Annuelle","Paris",2012,"Arrondissement",,,,,,,,,,,,,,,5,,,,,,,,,,,
+"accidentologie","Accidentologie","<p>Elements d'accidentologie de Paris.</p><p>Intitulés des colonnes: </p><p>- Carac = Caractéristiques ; </p><p>- Com =
+Commune (nombre à 3 chiffres, composé du 1 [pour paris] et suivi du numéro de
+l’arrondissement) ; </p><p>- Carr = carrefour ; </p><p>- Segm = segment de voie ; </p><p>- NomV = nom de voie ; </p><p>- Vehi1 = véhicule 1 ; </p><p>- CAdmin = catégorie
+administrative du véhciules, </p><p>- LVeh = lettre affectée au véhicule impliqué (le
+vehi1 a la lettre A, le vehi2 a la lettre B, le vehi 3, s’il y en a un 3ème, a
+la lettre C, la lettre Z signifie « Véhicule en fuite » ;</p><p>- CatU =
+catégorie d’usager (BL = blessé léger ; BH = blessé hospitalisé</p><p>Le code carrefour est un code nœud du RGU (référentiel
+géographique unique).</p>","Déplacements","accident, voiture, véhicule","ODbL Paris ","fr","2014-05-27T09:45:01+00:00",,,"Direction de la Voirie et des déplacements - Agence de la mobilité",,,13630,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,,,,"Annuelle",,"01-01-12 / 31-12-13",,,,,,,,,,,,,,,,9,,,,,,,,,,,
+"mobilierelectriqueparis2011","Mobilier électrique - Données géographiques","<p>
+    Données de type vecteur, décrivant certains mobiliers électriques : bornes pour véhicule électrique, prises basse tension. </p>","Déplacements, Urbanisme","Equipements, Mobilier urbain, Paris, voiture éléctrique","Open Database License (ODbL)","fr","2014-06-16T15:40:04+00:00",,,"Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=95&portlet_id=102",,1146,,,,,,,,"2011-04-05","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,8,,,,,,,,,,,
+"mobiliereaupotableparis2011","Mobiliers de distribution d'eau potable et non potable - Données géographiques","<p>
+    Données de type vecteur décrivant divers points de distribution d'eau potable ou non potable : fontaine wallace, borne fontaine, vanne, bouche...
+    <br>
+<br>
+<strong style=""line-height: 1.45em;"">
+                Exemple(s) de réutilisation(s) des données :
+                <br>
+</br>
+</strong>
+<span style=""line-height: 1.45em;"">
+                - Site web et App iPhone
+            </span>
+<a href=""http://www.eaupen.net%20/"" style=""line-height: 1.45em;"">
+                http://www.eaupen.net
+            </a>
+</br>
+</br>
+</p>","Urbanisme","Paris, Mobilier urbain, Equipements, Eau potable, eau","Open Database License (ODbL)","fr","2014-06-16T15:42:25+00:00","2015-06-24T14:55:02+00:00","2015-07-08T15:55:01+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=92&portlet_id=102",,65966,,,,,,,,"2011-04-04","Ville de Paris","Ville de Paris",,"annuelle",,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+"tournagesdefilmsparis2011","Lieux de tournage de films (long métrage)","Liste des lieux de tournages extérieurs de long métrage à Paris de 2002 à 2010. Avertissement : certains films ont pu changer de nom entre le moment des tournages et leurs sorties en salle.
+","Culture","Cinéma, Paris","Open Data Paris","fr","2014-06-16T15:45:35+00:00",,,"Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=110&portlet_id=106",,8593,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,,,,,,,,,,,
+"sanisettesparis2011","Sanisettes - Données géographiques","<p>
+    Données de type vecteur décrivant divers modèles de sanisettes
+    <br>
+<br>
+<strong style=""line-height: 1.45em;"">
+                Exemple(s) de réutilisation(s) des données
+            </strong>
+<span style=""line-height: 1.45em;"">
+                :
+                <br>
+</br>
+</span>
+<span style=""line-height: 1.45em;"">
+                - Paris Toilettes Publiques une application mobile sur Windows Phone 7 présente sur le Windows Phone Market
+                <br>
+</br>
+</span>
+<span style=""line-height: 1.45em;"">
+                - Une
+            </span>
+<a href=""https://market.android.com/details?id=com.magetys.sanisettes"" style=""line-height: 1.45em;"">
+                application mobile pour Android sur Google Play
+                <br>
+</br>
+</a>
+<span style=""line-height: 1.45em;"">
+                -
+            </span>
+<a href=""http://toilettes-paris.com/"" style=""line-height: 1.45em;"">
+                Une application mobile pour iPhone
+                <br>
+</br>
+</a>
+<span style=""line-height: 1.45em;"">
+                - Application Android ""VuzZz""
+            </span>
+<a href=""https://play.google.com/store/apps/details?id=com.vuzzz.android&amp;feature=search_result#?t=W251bGwsMSwyLDEsImNvbS52dXp6ei5hbmRyb2lkIl0."" style=""line-height: 1.45em;"">
+                Lien Google Play
+            </a>
+</br>
+</br>
+</p>","Urbanisme","Equipements, Paris, Mobilier urbain","Open Database License (ODbL)","fr","2014-06-16T15:50:56+00:00",,,"Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=93&portlet_id=106",,398,,,,,,,,"2011-04-04",,,"annuelle",,,,,,,,,,,,,,,,,,15,,,,,,,,,,,
+"liste_des_sites_des_hotspots_paris_wifi","Liste des sites des hotspots Paris WiFi","<p>
+    Liste des sites municipaux disposant d'un hotspot Paris WiFi permettant une connexion à Internet offerte pendant 2h.
+</p>","Services","wifi, internet, navigation, hotspot, web","Open Database License (ODbL)","fr","2014-06-16T15:52:04+00:00","2015-06-25T11:55:00+00:00","2015-07-08T14:55:04+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=125&portlet_id=102",,296,,,,,,,,"2012-04-12","Ville de Paris","Ville de Paris","trimestrielle",,,,,,,,,,,,,,,,,,13,,,,,,,,,,,
+"consultations_des_centres_de_sante","Consultations des centres de santé à Paris","<p>
+    Des professionnels médicaux, paramédicaux et sociaux accueillent et proposent des consultations de médecine générale et spécialisée, ou dentaires, des examens radiologiques et échographiques, des soins infirmiers et de pédicure, des informations et des conseils de prévention. Le jeu de données comprend toutes les consultations proposées par les centres de santé du réseau paris santé avec leur type, leur localisation, leurs horaires.
+</p>","Services","médecins, dentistes, prévention, soins, paramédicaux, santé","Open Database License (ODbL)","fr","2014-06-16T15:56:26+00:00",,,"Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=122&portlet_id=102",,5189,,,,,,,,"2012-05-17",,,,,,,,,,,,,,,,,,,,,19,,,,,,,,,,,
+"parcs_de_stationnement_en_sous_sol_a_paris","Parc de stationnement en sous-sol","<p>Ce jeu de données comprend les parcs de stationnement en sous-sol concédés à Paris ainsi que ceux d'autres fournisseurs non affiliés à la Ville.</p><p>Le jeu de données comprend de nombreuses données : </p><ul><li><span style=""line-height: 1.45em; background-color: initial;"">Nom</span></li><li><span style=""line-height: 1.45em; background-color: initial;""></span><span style=""line-height: 1.45em; background-color: initial;"">A</span><span style=""line-height: 1.45em; background-color: initial;"">dresse</span></li><li><span style=""line-height: 1.45em; background-color: initial;""></span><span style=""line-height: 1.45em; background-color: initial;"">C</span><span style=""line-height: 1.45em; background-color: initial;"">aractéristiques et services du parc</span></li><li><span style=""line-height: 1.45em; background-color: initial;""></span>Nom , site internet et téléphone du délégataire</li><li>Places pour les personnes à mobilité réduite</li><li>Horaires</li><li>Accès selon les véhicules</li><li><span style=""line-height: 1.45em; background-color: initial;"">T</span><span style=""line-height: 1.45em; background-color: initial;"">arification selon le véhicule et la durée du stationnelent</span></li><li><span style=""line-height: 1.45em; background-color: initial;""></span><span style=""line-height: 1.45em; background-color: initial;"">D</span><span style=""line-height: 1.45em; background-color: initial;"">urée de stationnement</span></li><li><span style=""line-height: 1.45em; background-color: initial;""></span>Tarfication des abonnements</li></ul><p>En pièce jointe, une version simplifiée du jeu de données comrpenant le nom du parc, l'adresse et la société gestionnaire</p>","Déplacements","parking, stationnement, voiture","Open Data Paris","fr","2014-06-25T13:28:06+00:00","2015-06-26T01:55:01+00:00","2015-06-29T10:55:02+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=136&portlet_id=102",,161,,,,,,,,"2012-04-23","Ville De Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,98,,,,,,,,,,,
+"jcdecaux_bike_data","JCDecaux Bike Stations Data","<p>JCDecaux bike stations availability data. This dataset is updated in real time.</p><p>You can access these data directly from the JCDecaux Developer site: <a href=""https://developer.jcdecaux.com/#/home"" target=""_blank"">https://developer.jcdecaux.com/#/home</a>.</p>","Transport, Movements","Urban Data, Mobility, Bike","https://developer.jcdecaux.com/#/opendata/license","en","2014-06-26T23:05:28+00:00","2015-07-17T13:24:01+00:00","2015-07-17T13:24:02+00:00","JCDecaux","https://developer.jcdecaux.com/#/home",,3568,,,,,,,,,,,,,,,,,,,,,,,,,,,,,56,,,,,,,,,,,
+"resultats-du-baccalaureat-2014","Résultats du baccalauréat 2014","<p>Résultats du baccalauréat 2014</p>","Education, Formation, Recherche, Enseignement",,,"fr","2014-07-04T15:44:44+00:00",,,"OpenDataSoft","http://www.letudiant.fr/resultat/bac/",,301667,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"evenements-publics-cibul","Evenements Publics - OpenAgenda","<p>Liste des événements publics publiés dans les agendas OpenAgenda.</p>","Culture, Patrimoine, Sport, Loisirs","concert, théâtre, exposition, salon, manifestation, colloque, compétition, rencontre, art, sport","Open Database License (ODbL)","fr","2014-07-16T16:10:59+00:00","2015-07-17T01:00:42+00:00","2015-07-17T01:00:43+00:00","OpenAgenda","https://openagenda.com/","https://certificates.theodi.org/datasets/2665/certificates/15052/",39319,,,,,,,,,,,,,,,,,,,,,,,,,,,,,856,,,,,,,,,,,
+"natural-earth-countries-1_110m","Natural Earth - Countries 1:110m","<p>Matched boundary lines and polygons with names attributes for countries and sovereign states. Includes dependencies (French Polynesia), map units (U.S. Pacific Island Territories) and sub-national map subunits (Corsica versus mainland Metropolitan France).</p>","Spatial planning, Town planning, Buildings, Equipment, Housing","Natural Earth, Country, Boundary","Public Domain","en","2014-10-02T08:47:41+00:00",,,"Natural Earth","http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",,176,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49,,,,,,,,,,,
+"natural-earth-countries-1_50m","Natural Earth - Countries 1:50m","<p>Matched boundary lines and polygons with names attributes for countries and sovereign states. Includes dependencies (French Polynesia), map units (U.S. Pacific Island Territories) and sub-national map subunits (Corsica versus mainland Metropolitan France).</p>","Spatial planning, Town planning, Buildings, Equipment, Housing","Natural Earth, Country, Boundary","Public Domain","en","2014-10-02T08:47:41+00:00",,,"Natural Earth","http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",,240,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,
+"index-de-legalite-des-sexes","Index de l'égalité des sexes","<p>L'index de l'égalité des sexes est un jeu de données initialement créé par l'<em>European Institute for Gender Equality</em>. Il mesure la distance séparant l'Europe des 27 et ses états membres d'une égalité complète entre les sexes en 2010. L'index fournit des données au niveau de l'Europe des 27 et de ses états membres. </p><p>Cet outil synthétise la complexité du concept d'égalité des sexes en une mesure aisément interrogeable et interprétable. facilement navigable et interprétable.</p><p>Il prend en compte 6 domaines-clés : </p><ol><li>travail</li><li>argent</li><li>connaissance</li><li>temps</li><li>pouvoir</li><li>santé</li></ol><p>Pour cette réutilisation, nous n'avons pas tenu compte de deux domaines satellites ""inégalités croisées"" et ""violence"". N'hésitez pas à consulter le jeu de données original pour explorer ces deux facettes complémentaires. </p><p>L'index attribue à chaque état membre une note située entre 1 (inégalité totale) et 100 (égalité complète). Il attribue également une note à chaque domaine et sous-domaine.</p>","Education, Formation, Recherche, Enseignement, Santé, Égalité des chances, Economie, Business, PME, Développement économique, Emploi","égalité des sexes, travail, santé, éducation, temps, pouvoir, argent","http://ec.europa.eu/geninfo/legal_notices_en.htm","fr","2014-10-02T10:14:47+00:00",,,"European Institute for Gender Equality","http://open-data.europa.eu/en/data/dataset/gender-equality-index",,28,,,,,,,"2014-10-02","2014-10-02","European Institute for Gender Equality","OpenDataSoft",,,,,,,,,,,,,,,,,,,6,,,,,,,,,,,
+"prix-des-carburants-stations-non-modifiees","Prix des carburants - Stations non modifiées","<div>Les informations sont extraites du système d’information « Prix Carburants ». Elles ont été récupérés via le service <a href=""http://www.prix-carburants.gouv.fr/itineraire/infos/ID_STATION"" target=""_blank"">www.prix-carburants.gouv.fr/itineraire/infos/ID_ST...</a></div> <div><hr/></div><div>Description des champs :</div> <ul><li>Identifiant Station : Identifiant de la station</li><li>Nom : Nom de la station</li><li>Marque : Marque de la station</li></ul>","Transports, Déplacements","Carburant, Prix, Voiture, Station service","Licence Ouverte (Etalab)","fr","2014-10-03T07:46:46+00:00",,,"Ministère des finances et des comptes publics","http://www.prix-carburants.gouv.fr/rubrique/opendata/",,10965,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,
+"prix_des_carburants_stations","Prix des carburants - Stations","<div>Les informations sont extraites du système d’information « Prix Carburants ». Elles ont été récupérés via le service <a href=""http://www.prix-carburants.gouv.fr/itineraire/infos/ID_STATION"" target=""_blank"">www.prix-carburants.gouv.fr/itineraire/infos/ID_ST...</a></div> <div><hr/></div><div>Description des champs :</div> <ul><li>Identifiant Station : Identifiant de la station</li><li>Nom : Nom de la station</li><li>Marque : Marque de la station</li></ul>","Transports, Déplacements","Carburant, Prix, Voiture, Station service","Licence Ouverte (Etalab)","fr","2014-10-03T07:46:46+00:00","2015-06-17T17:55:05+00:00","2015-07-06T20:55:02+00:00","Ministère des finances et des comptes publics","http://www.prix-carburants.gouv.fr/rubrique/opendata/",,10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,,,,,,,,,,,
+"historique_prix_carburants","Prix des carburants - Historique","<p>Les informations sont extraites du système d’information « Prix Carburants » à J-7 et l'historique 2014.</p>
+<hr> <div>Description des champs :</div>
+<ul>
+<li>Nom : Nom de la station</li><li>Marque : Marque de la station</li><li>Identifiant Station : Identifiant de la station</li><li>Code Postal : Code postal de la station</li><li>Présence : Présence de la station (A = autoroute, R = route)</li><li>Adresse : Adresse de la station</li><li>Ville : Ville</li><li>Heure Ouverture : Horaire d'ouverture</li><li>Heure Fermeture : Horaire de fermeture</li><li>Type Fermeture : Type de fermeture (temporaire ou définitive)</li><li>Début Fermeture : Date de début de la fermeture</li><li>Fin Fermeture : Date de fin de la fermeture</li><li>Carburant : Liste des carburants disponible</li><li>Rupture : Liste des carburants en rupture</li><li>Mise à jour : Date de la mise à jour des informations</li><li>Prix Gazole : Prix d'un litre de Gazole (en euro)</li><li>Prix SP95 : Prix d'un litre de SP95 (en euro)</li><li>Prix SP98 : Prix d'un litre de SP98 (en euro)</li><li>Prix GPLc : Prix d'un litre de GPLc (en euro)</li><li>Prix E10 : Prix d'un litre de E10 (en euro)</li><li>Prix E85 : Prix d'un litre de E85 (en euro)</li><li>Services : Liste des services proposées par la station</li></ul></hr>","Transports, Déplacements","Carburant, Prix, Voiture, Mobilité","Licence Ouverte (Etalab)","fr","2014-10-03T08:16:23+00:00","2015-07-17T05:00:52+00:00","2015-07-17T05:00:53+00:00","Ministère de l'Economie, de l'Industrie et du Numérique","http://www.prix-carburants.gouv.fr/rubrique/opendata/",,1748173,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,,,,,,,,,,,
+"prix_des_carburants_j_7","Prix des carburants - J-7","<p>Les informations sont extraites du système d’information « Prix Carburants » à J-7.</p>
+<hr><div>Description des champs :</div><ul>
+<li>Nom : Nom de la station</li><li>Marque : Marque de la station</li><li>Identifiant Station : Identifiant de la station</li><li>Code Postal : Code postal de la station</li><li>Présence : Présence de la station (A = autoroute, R = route)</li><li>Adresse : Adresse de la station</li><li>Ville : Ville</li><li>Coordonnées : Coordonnées Géographique de la station (WSG84, latitude, longitude) </li><li>Heure Ouverture : Horaire d'ouverture</li><li>Heure Fermeture : Horaire de fermeture</li><li>Type Fermeture : Type de fermeture (temporaire ou définitive)</li><li>Début Fermeture : Date de début de la fermeture</li><li>Fin Fermeture : Date de fin de la fermeture</li><li>Carburant : Liste des carburants disponible</li><li>Rupture : Liste des carburants en rupture</li><li>Mise à jour : Date de la mise à jour des informations</li><li>Prix Gazole : Prix d'un litre de Gazole (en euro)</li><li>Prix SP95 : Prix d'un litre de SP95 (en euro)</li><li>Prix SP98 : Prix d'un litre de SP98 (en euro)</li><li>Prix GPLc : Prix d'un litre de GPLc (en euro)</li><li>Prix E10 : Prix d'un litre de E10 (en euro)</li><li>Prix E85 : Prix d'un litre de E85 (en euro)</li><li>Services : Liste des services proposées par la station</li></ul></hr>","Transports, Déplacements","Carburant, Prix, Voiture, Mobilité","Licence Ouverte (Etalab)","fr","2014-10-03T08:16:23+00:00","2015-07-17T05:00:52+00:00","2015-07-17T05:00:54+00:00","Ministère de l'Economie, de l'Industrie et du Numérique","http://www.prix-carburants.gouv.fr/rubrique/opendata/",,9823,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1277,,,,,,,,,,,
+"gender-equality-in-europe","Gender Equality in Europe","<p>The Gender Equality Index was initially created by the<em> European Institute for Gender Equality</em>. It measures how far (or close) the  EU-27 and its Member States were from achieving complete gender equality  in 2010. It provides results at both Member States and EU-27 level. It synthesises the complexity of gender equality in an easily interpretable measure. </p><p>The Index consists of six core domains:</p><ol><li>work</li><li>money</li><li>knowledge</li><li>time</li><li>power</li><li>health</li></ol><p>For this reuse, we did not took the two satellite domains (intersecting inequalities and violence) into account. Feel free to look at the original dataset to explore these two additional categories. </p><p>The Gender Equality  Index assigns scores for Member States, between 1,  total inequality and  100, full equality. It also provides results for  each domain and  sub-domain.</p>","Education, Training, Research, Teaching, Health, Economy, Business, SME, Economic development, Employment","gender equality, time, money, work, knowledge, health, power","http://ec.europa.eu/geninfo/legal_notices_en.htm","en","2014-10-03T15:34:18+00:00",,,"European Institute for Gender Equality","http://open-data.europa.eu/en/data/dataset/gender-equality-index",,28,,,,,,,,,"European Institute for Gender Equality","OpenDataSoft",,,,,,,,,,,,,,,,,,,274,,,,,,,,,,,
+"sppoptotl_indicator_en_csv_v2","Population mondiale","<p>http://data.worldbank.org/indicator/SP.POP.TOTL</p>","Health",,"http://www.worldbank.org/terms-datasets","en","2014-11-03T22:22:27+00:00",,,"The World Bank",,,13199,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"opendatasoft-netatmo-weather-station","Station Météo Netatmo d'OpenDataSoft","<p>Historique de la station météo Netatmo d'OpenDataSoft.</p><p>La station est située au 130 rue de Lourmel, dans l'incubateur Boucicaut, au 3ème étage. Son adresse mac est <em>70:ee:50:04:a3:78.</em></p><p>Les données récupérées sont les données publiques :</p><ul>
+<li>la température en degré Celcius (°C)</li><li>le pourcentage d'humidité dans l'air (%)</li><li>la pression atmosphérique en millibar (mbar)</li><li>la concentration de CO2 dans l'air en parties par million (ppm) </li><li>le niveau sonore en décibel (db)</li></ul><p>Notre station n'est pas équipée du module pluviomètre et possède un seul module additionel.</p>","Environnement","meteo, netatmo, weather station","Netatmo","fr","2014-11-05T09:33:13+00:00",,,"OpenDataSoft","http://www.netatmo.com",,9629,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+"carte-des-stations-netatmo-en-france","Carte des stations Netatmo en France","<p>Carte des stations météo Netatmo en France.</p><p>Les données récupérées sont les données disponibles publiquement:</p><ul><li>la température en degré Celcius (°C)</li><li>le pourcentage d'humidité dans l'air (%)</li><li>la pression atmosphérique en millibar (mbar)</li><li>la pluie en direct en millimètre (mm) </li><li>la pluie sur les dernières 24 heures en millimètre (mm)</li><li>la pluie sur les dernières 60 minutes en millimètre (mm)</li><li>l'altitude de la station en mètre (m)</li></ul>","Environnement","meteo, netatmo, weather map, weather station","Netatmo","fr","2014-11-05T09:33:13+00:00",,,"OpenDataSoft","http://www.netatmo.com",,14177,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"chicago_incidents_2001_present","Incidents in Chicago from 2001 to Present","<p>List of incidents in Chicago from 2001 to present. Built from https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2.</p>","Justice, Safety, Police, Crime",,,"en","2014-11-07T07:14:12+00:00","2015-06-18T10:55:03+00:00","2015-07-03T12:55:03+00:00","Chicago Police Department","https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2",,4716834,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61,,,,,,,,,,,
+"population-francaise-region-2011","Population française - Régions - 2011","<p>Population légale par région issue du recensement de la population de 2011</p>
+<hr><div><strong><em style=""background-color: initial;"">Population municipale</em> :</strong><br/></div>
+<div>La population municipale comprend les personnes ayant leur résidence habituelle sur le territoire de la commune, dans un logement ou une communauté, les personnes détenues dans les établissements pénitentiaires de la commune, les personnes sans abri recensées sur le territoire de la commune et les personnes résidant habituellement dans une habitation mobile recensées sur le territoire de la commune.</div>
+<div><em><br/></em></div><div><strong><em>Population comptée à part</em> :</strong></div>
+<div>La population comptée à part comprend certaines personnes dont la résidence habituelle est dans une autre commune mais qui ont conservé une résidence sur le territoire de la commune :</div><ul>
+<li>les personnes mineures dont la résidence familiale est dans une autre commune mais qui résident, du fait de leurs études, dans la commune</li><li>les personnes ayant une résidence familiale sur le territoire de la commune et résidant dans une communauté d’une autre commune ; la communauté faisant partie de la liste suivante :
+<ul>
+<li>services de moyen ou de long séjour des établissements publics ou privés de santé, établissements sociaux de moyen ou de long séjour,maisons de retraite, foyers et résidences sociales ;</li><li>commaunautés religieuses ;</li><li>casernes ou établissements militaires ;</li></ul></li><li>les personnes majeures âgées de moins de 25 ans ayant leur résidence familiale sur le territoire de la commune et qui résident dans une autre commune pour leurs études ;</li><li>les personnes sans domicile fixe rattachées à la commune au sens de la loi du 3 janvier 1969 et non recensées dans la commune.</li></ul><div><em><br/></em></div><div><strong><em>Population totale </em>:</strong></div>
+<div>La population totale est la somme de la population municipale et de la population comptée à part.</div></hr>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Recensement, Population, Région","Insee","fr","2014-11-13T16:24:49+00:00",,,"INSEE","http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011",,26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,
+"population-francaise-des-communes-2011","Population française - Communes - 2011","<p>Population légale par commune issue du recensement de la population de 2011</p>
+<hr><div><strong><em>Population municipale</em> :</strong><div>La population municipale comprend les personnes ayant leur résidence habituelle sur le territoire de la commune, dans un logement ou une communauté, les personnes détenues dans les établissements pénitentiaires de la commune, les personnes sans abri recensées sur le territoire de la commune et les personnes résidant habituellement dans une habitation mobile recensées sur le territoire de la commune.</div> <br><div><strong><em>Population comptée à part</em> :</strong></div> <div>La population comptée à part comprend certaines personnes dont la résidence habituelle est dans une autre commune mais qui ont conservé une résidence sur le territoire de la commune :</div><ul> <li>les personnes mineures dont la résidence familiale est dans une autre commune mais qui résident, du fait de leurs études, dans la commune</li><li>les personnes ayant une résidence familiale sur le territoire de la commune et résidant dans une communauté d’une autre commune ; la communauté faisant partie de la liste suivante : <ul> <li>services de moyen ou de long séjour des établissements publics ou privés de santé, établissements sociaux de moyen ou de long séjour,maisons de retraite, foyers et résidences sociales ;</li><li>commaunautés religieuses ;</li><li>casernes ou établissements militaires ;</li></ul></li><li>les personnes majeures âgées de moins de 25 ans ayant leur résidence familiale sur le territoire de la commune et qui résident dans une autre commune pour leurs études ;</li><li>les personnes sans domicile fixe rattachées à la commune au sens de la loi du 3 janvier 1969 et non recensées dans la commune.</li></ul><div><strong><em>Population totale </em>:</strong></div> <div>La population totale est la somme de la population municipale et de la population comptée à part.</div></br></div></hr>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Recensement, Population, Commune","Insee","fr","2014-11-13T16:24:49+00:00","2015-06-16T12:55:03+00:00","2015-07-15T16:55:02+00:00","INSEE","http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011",,36706,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63,,,,,,,,,,,
+"population-francaise-departements-2011","Population française - Départements - 2011","<p>Population légale par département issue du recensement de la population de 2011</p>
+<hr><div><strong><em>Population municipale</em> :</strong><div>La population municipale comprend les personnes ayant leur résidence habituelle sur le territoire de la commune, dans un logement ou une communauté, les personnes détenues dans les établissements pénitentiaires de la commune, les personnes sans abri recensées sur le territoire de la commune et les personnes résidant habituellement dans une habitation mobile recensées sur le territoire de la commune.</div> <br><div><strong><em>Population comptée à part</em> :</strong></div> <div>La population comptée à part comprend certaines personnes dont la résidence habituelle est dans une autre commune mais qui ont conservé une résidence sur le territoire de la commune :</div><ul> <li>les personnes mineures dont la résidence familiale est dans une autre commune mais qui résident, du fait de leurs études, dans la commune</li><li>les personnes ayant une résidence familiale sur le territoire de la commune et résidant dans une communauté d’une autre commune ; la communauté faisant partie de la liste suivante : <ul> <li>services de moyen ou de long séjour des établissements publics ou privés de santé, établissements sociaux de moyen ou de long séjour,maisons de retraite, foyers et résidences sociales ;</li><li>commaunautés religieuses ;</li><li>casernes ou établissements militaires ;</li></ul></li><li>les personnes majeures âgées de moins de 25 ans ayant leur résidence familiale sur le territoire de la commune et qui résident dans une autre commune pour leurs études ;</li><li>les personnes sans domicile fixe rattachées à la commune au sens de la loi du 3 janvier 1969 et non recensées dans la commune.</li></ul><div><strong><em>Population totale </em>:</strong></div> <div>La population totale est la somme de la population municipale et de la population comptée à part.</div></br></div></hr>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Recensement, Population, Département","Insee","fr","2014-11-13T16:24:49+00:00","2015-06-19T16:55:00+00:00","2015-07-17T09:55:02+00:00","INSEE","http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011",,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47,,,,,,,,,,,
+"c_reseau_tmja2010_compresse_classes_mja2010","Trafic routier moyen journalier en Ile de France maj 2010",,"Transports, Déplacements, Environnement","mobilité, trafic",,"fr","2014-11-13T21:49:10+00:00",,,"Ministère de l'Écologie, du Développement durable et de l'Énergie","http://cartelie.application.developpement-durable.gouv.fr/cartelie/voir.do?carte=TMJA2010_cartelie_v.2bis&service=DRIEA_IF",,218,,,,,,,,,,,,,,,,,,,,,,,,,,,,,109,,,,,,,,,,,
+"geoflar-communes-2013","GEOFLA®  Communes - 2013","<p>GEOFLA® Communes décrit le découpage administratif au niveau communal. </p><div><hr/></div><ul><li>Code géographique de la commune : <strong>CODE_COMM</strong></li></ul> <div>Type : chaîne de caractères. </div> <div>Il s'agit du code géographique permettant d'identifier la commune dans son département </div> <div>d'appartenance (texte de trois caractères). </div> <ul><li>Numéro INSEE de la commune : <strong>INSEE_COM</strong></li></ul> <div>Type : chaîne de caractères. </div> <div>Il s'agit d’un numéro de 5 caractères : le code du département suivi du code géographique </div> <div>de la commune. Pour les DOM, le 3ème caractère est commun au n° de département et au n° </div> <div>de commune. </div> <ul><li>Nom : <b style=""background-color: initial;"">NOM_COMM</b></li></ul> <div>Type : chaîne de caractères. </div> <div>Nom de la commune (source INSEE). C'est un texte en majuscules non accentuées d'au </div> <div>plus 50 caractères.</div><ul><li>Statut administratif : <b style=""background-color: initial;"">STATUT</b></li></ul> <div>Type : énuméré. </div> <div>Valeurs possibles :</div><ul><li><ul><li><span style=""background-color: initial;"">Capitale d'État<br/></span></li><li>Préfecture de région</li><li>Préfecture de département</li><li>Sous-préfecture</li><li>Chef-lieu de canton</li><li>Commune simple</li></ul></li><li>Abscisse du chef-lieu : <strong>X_CHF_LIEU</strong></li></ul> <div>Type : entier </div> <div>Abscisse du chef-lieu de la commune (en hectomètres). </div> <ul><li>Ordonnée du chef-lieu : <strong>Y_CHF_LIEU</strong></li></ul> <div>Type : entier </div> <div>Ordonnée du chef-lieu de la commune (en hectomètres). </div> <ul><li>Abscisse du centroïde1 : <strong>X_CENTROID</strong></li></ul> <div>Type : entier </div> <div>Abscisse du centroïde de la commune (en hectomètres). </div> <ul><li>Ordonnée du centroïde1 : <strong>Y_CENTROID</strong></li></ul> <div>Type : entier </div> <div>Ordonnée du centroïde de la commune (en hectomètres). </div> <ul><li>Altitude2 moyenne : <strong>Z_MOYEN</strong></li></ul> <div>Type : entier </div> <div>Altitude moyenne de la commune (en mètres). </div> <ul><li>Superficie : <b style=""background-color: initial;"">SUPERFICIE</b></li></ul> <div>Type : entier </div> <div>Superficie de la commune en hectares. C'est la somme des surfaces des faces BD CARTO®</div> <div>composant la commune (avant allégement géométrique et suppression des îles et </div> <div>enclaves). </div> <ul><li>Population : <b style=""background-color: initial;"">POPULATION</b></li></ul> <div>Type : décimal </div> <div>Chiffre de population sans doubles comptes au dernier recensement, en milliers d'habitants, </div> <div>à une décimale. Pour Mayotte, ce chiffre provient du recensement de 1997. </div> <ul><li>Code géographique du canton : <b style=""background-color: initial;"">CODE_CANT</b></li></ul> <div>Type : chaîne de caractères </div> <div>Code géographique du canton auquel appartient la commune (texte de deux caractères). </div> <ul><li>Code géographique de l'arrondissement : <strong>CODE_ARR</strong></li></ul> <div>Type : chaîne de caractères </div> <div>Code géographique de l'arrondissement auquel appartient la commune (texte d'un </div> <div>caractère). Ce champ est vide pour les communes de Mayotte : il n’y a pas </div> <div>d’arrondissement dans cette collectivité départementale </div> <ul><li>Code géographique du département : <strong>CODE_DEPT</strong></li></ul> <div>Type : chaîne de caractères </div> <div>Code géographique du département auquel appartient la commune (texte de deux </div> <div>caractères). </div> <ul><li>Nom du département : <strong>NOM_DEPT</strong></li></ul> <div>Type : chaîne de caractères </div> <div>Nom du département auquel appartient la commune. C'est un texte en majuscules non </div> <div>accentuées d'au plus 30 caractères. </div> <ul><li>Code géographique de la région : <b style=""background-color: initial;"">CODE_REG</b></li></ul> <div>Type : chaîne de caractères </div> <div>Code géographique de la région à laquelle appartient la commune (texte de deux </div> <div>caractères). </div> <ul><li>Nom de la région : <strong>NOM_REGION</strong></li></ul> <div>Type : chaîne de caractères </div> <div>Nom de la région à laquelle appartient la commune. C'est un texte en majuscules non </div> <div>accentuées d'au plus 30 caractères. </div>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Geofla, Communes, Découpage, INSEE","Licence Ouverte (Etalab)","fr","2014-11-14T13:57:13+00:00","2015-06-17T17:55:06+00:00","2015-07-17T10:55:02+00:00","IGN","http://professionnels.ign.fr/geofla",,36723,,,,,,,,,,,,,,,,,,,,,,,,,,,,,300,,,,,,,,,,,
+"code-insee-postaux-geoflar","Base officielle des codes postaux croisée avec  Geofla® - Communes 2013","<p>Base officielle des codes postaux croisée avec les donnée GEOFLA® Communes.</p><p>Geofla contient uniquement les données pour la France métropolitaine, la Guadeloupe, la Martinique, la Guyane, la Réunion et Mayotte. Les territoires d'outre-mer et Monaco n'ont pas de correspondance.</p><hr>
+<p><strong>Champs La Poste :</strong></p><ul>
+<li>Le code commune INSEE : <strong>CODE INSEE</strong></li><li>Le nom de la commune : <strong>NOM DE LA COMMUNE</strong></li><li>Le code postal : <strong>CODE POSTAL</strong></li><li>Le libellé d’acheminement : <strong>LIBELLE D'ACHEMINEMENT</strong></li></ul><p><strong>Champs Geofla :</strong></p><ul>
+<li>Code géographique de la commune : <strong>CODE_COMM</strong></li></ul>
+<div>
+	Type : chaîne de caractères.
+</div>
+<div>
+	Il s'agit du code géographique permettant d'identifier la commune dans son département
+</div>
+<div>
+	d'appartenance (texte de trois caractères).
+</div><ul><li>Numéro INSEE de la commune : <strong>INSEE_COM</strong></li></ul>
+<div>
+	Type : chaîne de caractères.
+</div>
+<div>
+	Il s'agit d’un numéro de 5 caractères : le code du département suivi du code géographique
+</div>
+<div>
+	de la commune. Pour les DOM, le 3ème caractère est commun au n° de département et au n°
+</div>
+<div>
+	de commune.
+</div><ul><li>Nom : <strong>NOM_COMM</strong></li></ul>
+<div>
+	Type : chaîne de caractères.
+</div>
+<div>
+	Nom de la commune (source INSEE). C'est un texte en majuscules non accentuées d'au
+</div>
+<div>
+	plus 50 caractères.
+</div><ul><li>Statut administratif : <strong>STATUT</strong></li></ul>
+<div>
+	Type : énuméré.
+</div>
+<div>
+	Valeurs possibles :
+</div><ul><li><ul><li>Capitale d'État</li><li>Préfecture de région</li><li>Préfecture de département</li><li>Sous-préfecture</li><li>Chef-lieu de canton</li><li>Commune simple</li> </ul></li><li>Abscisse du chef-lieu : <strong>X_CHF_LIEU</strong></li></ul>
+<div>
+	Type : entier
+</div>
+<div>
+	Abscisse du chef-lieu de la commune (en hectomètres).
+</div><ul><li>Ordonnée du chef-lieu : <strong>Y_CHF_LIEU</strong></li></ul>
+<div>
+	Type : entier
+</div>
+<div>
+	Ordonnée du chef-lieu de la commune (en hectomètres).
+</div><ul><li>Abscisse du centroïde1 : <strong>X_CENTROID</strong></li></ul>
+<div>
+	Type : entier
+</div>
+<div>
+	Abscisse du centroïde de la commune (en hectomètres).
+</div><ul><li>Ordonnée du centroïde1 : <strong>Y_CENTROID</strong></li></ul>
+<div>
+	Type : entier
+</div>
+<div>
+	Ordonnée du centroïde de la commune (en hectomètres).
+</div><ul><li>Altitude2 moyenne : <strong>Z_MOYEN</strong></li></ul>
+<div>
+	Type : entier
+</div>
+<div>
+	Altitude moyenne de la commune (en mètres).
+</div><ul><li>Superficie : <strong>SUPERFICIE</strong></li></ul>
+<div>
+	Type : entier
+</div>
+<div>
+	Superficie de la commune en hectares. C'est la somme des surfaces des faces BD CARTO®
+</div>
+<div>
+	composant la commune (avant allégement géométrique et suppression des îles et
+</div>
+<div>
+	enclaves).
+</div><ul><li>Population : <strong>POPULATION</strong></li></ul>
+<div>
+	Type : décimal
+</div>
+<div>
+	Chiffre de population sans doubles comptes au dernier recensement, en milliers d'habitants,
+</div>
+<div>
+	à une décimale. Pour Mayotte, ce chiffre provient du recensement de 1997.
+</div><ul><li>Code géographique du canton : <strong>CODE_CANT</strong></li></ul>
+<div>
+	Type : chaîne de caractères
+</div>
+<div>
+	Code géographique du canton auquel appartient la commune (texte de deux caractères).
+</div><ul><li>Code géographique de l'arrondissement : <strong>CODE_ARR</strong></li></ul>
+<div>
+	Type : chaîne de caractères
+</div>
+<div>
+	Code géographique de l'arrondissement auquel appartient la commune (texte d'un
+</div>
+<div>
+	caractère). Ce champ est vide pour les communes de Mayotte : il n’y a pas
+</div>
+<div>
+	d’arrondissement dans cette collectivité départementale
+</div><ul><li>Code géographique du département : <strong>CODE_DEPT</strong></li></ul>
+<div>
+	Type : chaîne de caractères
+</div>
+<div>
+	Code géographique du département auquel appartient la commune (texte de deux
+</div>
+<div>
+	caractères).
+</div><ul><li>Nom du département : <strong>NOM_DEPT</strong></li></ul>
+<div>
+	Type : chaîne de caractères
+</div>
+<div>
+	Nom du département auquel appartient la commune. C'est un texte en majuscules non
+</div>
+<div>
+	accentuées d'au plus 30 caractères.
+</div><ul><li>Code géographique de la région : <strong>CODE_REG</strong></li></ul>
+<div>
+	Type : chaîne de caractères
+</div>
+<div>
+	Code géographique de la région à laquelle appartient la commune (texte de deux
+</div>
+<div>
+	caractères).
+</div><ul><li>Nom de la région : <strong>NOM_REGION</strong></li></ul>
+<div>
+	Type : chaîne de caractères
+</div>
+<div>
+	Nom de la région à laquelle appartient la commune. C'est un texte en majuscules non
+</div>
+<div>
+	accentuées d'au plus 30 caractères. 
+</div></hr>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement, Administration, Gouvernement, Finances publiques, Citoyenneté","INSEE, Code Postaux, Correspondance, La Poste","Licence Ouverte (Etalab)","fr","2014-11-14T14:13:04+00:00","2015-06-26T01:55:01+00:00","2015-07-17T07:55:05+00:00","OpenDataSoft","https://www.data.gouv.fr/fr/datasets/base-officielle-des-codes-postaux/",,37173,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1046,,,,,,,,,,,
+"killings-by-law-enforcement-officers-in-the-usa","Killings by law enforcement officers in the USA (from 2009-01-01 to 2014-12-09)","<p>
+<a href=""http://en.wikipedia.org/wiki/List_of_killings_by_law_enforcement_officers_in_the_United_States"">http://en.wikipedia.org/wiki/List_of_killings_by_law_enforcement_officers_in_the_United_States</a>:
+</p>
+<p>
+	""Lists of people killed by nonmilitary law enforcement officers, whether in the line of duty or not, and regardless of reason or method. Inclusion in the lists implies neither wrongdoing nor justification on the part of the person killed or the officer involved. The listing merely documents the occurrence of a death.
+</p>
+<p>
+	The lists below are incomplete, as the annual average number of justifiable homicides alone is estimated to be near 400. Although Congress instructed the Attorney General in 1994 to compile and publish annual statistics on police use of excessive force, this was never carried out, and the FBI does not collect these data either.""
+</p>","Justice, Safety, Police, Crime","killings, law enforcement officers, USA","CC BY-SA","en","2014-12-10T13:51:32+00:00",,,"Wikipedia Contributors","http://en.wikipedia.org/wiki/List_of_killings_by_law_enforcement_officers_in_the_United_States",,1718,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,,,,,,,,,,,
+"natural-earth-us-states-provinces-1110m","Natural Earth - US States & Provinces 1:110m","<p>Internal, first-order administrative boundaries and polygons for the United States.</p>","Spatial planning, Town planning, Buildings, Equipment, Housing","Natural Earth, State, Province, USA, Boundary","Public Domain","en","2014-12-10T14:17:09+00:00",,,"Natural Earth","http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-1-states-provinces/",,51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,,,,,,,,,,,
+"top10_nyc_christmas_scenes_en","Top 10 New York Christmas Scenes","<p>The Holiday Season is here and the OpenDataSoft team has pulled a list of its New-York Christmas favorite scenes. From a black-and-white movie to Barney Stinson’s very personal carols, the team thought you’d like to have it. Who knows, you might need it to help you pass through the never-ending family dinners.</p><p>And because OpenDataSoft’s strong suit is helping you making the most of your data, each scene as been selected with love, picked and mapped by hand. We tracked each scene iconic location and gathered their coordinates in a nicely wrapped dataset. We uploaded it onto our Cartograph tool and wham! It is now possible to discover where your favorite bits were shot. It is fair to say that OpenDataSoft has almost invented the “organic data” label. You heard it here first. </p>","Culture, Heritage","Christmas, Holidays, Movies, Series, Scenes","CC BY-SA","en","2014-12-18T15:59:22+00:00","2015-06-01T05:20:24+00:00","2015-07-09T10:55:06+00:00","OpenDataSoft",,,10,,,,,,,,,"OpenDataSoft",,,,,,,,,,,,,,,,,,,,17,,,,,,,,,,,
+"top10_nyc_christmas_scenes_fr","Le Top 10 des scènes de Noël à New York","<p>Les fêtes de fin d’années sont proches et OpenDataSoft a dressé sa liste  des meilleures scènes de Noël à New York. Du film en noir-et-blanc aux  hymnes truculents de Barney Stinson, les membres de l’équipe partagent  leurs classiques. Et qui sait, cela pourrait vous être utile lors d’un  interminable dîner en famille. </p><p>La spécialité d’OpenDataSoft  étant de vous aider à extraire le meilleur de vos données, l’équipe a  sélectionné chaque scène avec amour. Les coordonnées géographiques  principales de chaque scène ont été intégrées à un beau jeu de données  et ont été passées à la moulinette de notre Cartographe. Le résultat ?  Une carte interactive sur laquelle vous retrouverez chacune de vos  scènes favorites géo-localisée. Une telle qualité de données mériterait  presque un label « données BIO ».  </p>","Culture, Patrimoine","New York, Séries, FIlms, Noël, Vacances","CC BY-SA","fr","2014-12-19T09:44:47+00:00","2015-06-01T05:20:25+00:00","2015-06-29T14:55:04+00:00","OpenDataSoft",,,10,,,,,,,,,"Open",,,,,,,,,,,,,,,,,,,,206,,,,,,,,,,,
+"depenses-dassurance-maladie-hors-prestations-hospitalieres","Dépenses d'assurance maladie hors prestations hospitalières","<p>
+	Cette base de données contient l'ensemble des remboursements mensuels effectués par le régime général de l'assurance maladie (hors prestations hospitalières) par type de prestations (soins et prestations en espèces), type d'exécutant (médecins par spécialité, chirurgiens dentistes, auxiliaires médicaux, laboratoires d'analyse, pharmaciens, ...) et par type de prescripteurs. Les dépenses sont indiquées en montants remboursés et présentées au remboursement.
+</p>
+<p>
+	Champs disponibles:
+</p>
+<table cellpadding=""2px"" cellspacing=""2px"" rules=""all"" style=""border: 1px solid black"">
+<tbody>
+<tr>
+<td style=""width:200px"">
+		Libellé
+	</td>
+<td style=""width:150px"">
+		Nom technique
+	</td>
+<td>
+		Description
+	</td>
+</tr>
+<tr>
+<td>
+		Série statistique mensuelle
+	</td>
+<td>
+		l_serie
+	</td>
+<td>
+		Une série de la Statistique Mensuelle est un poste de dépenses obtenu par croisement de la prestation et de la spécialité exécutant. Pour ce qui concerne le médicament, un croisement est également opéré avec le taux de remboursement.
+	</td>
+</tr>
+<tr>
+<td>
+		Prestation
+	</td>
+<td>
+		l_prs_nat
+	</td>
+<td>
+		Chaque prestation est codifiée par un code à 4 chiffres dans le SNIIRAM.  Une prestation est un acte réalisé par professionnel de santé (médécin, auxiliaire, …) ou un produit de santé (médicament, prothèse, ..) pris en charge par l'assurance maladie.  Cela peut être également un versement de prestation en espèces (indemnités journalières dans le cas d'un arrêt maladie, rente d'accident du travail, pension d'invalidité)...
+	</td>
+</tr>
+<tr>
+<td>
+		Date de remboursement
+	</td>
+<td>
+		rem_date
+	</td>
+<td>
+		Correspond au mois et à l'année auxquels l’organisme a remboursé la prestation.
+	</td>
+</tr>
+<tr>
+<td>
+		Date des soins
+	</td>
+<td>
+		sns_date
+	</td>
+<td>
+		Mois et année  auxquels le prestataire de soins a executé un acte ou délivré un produit.  Pour les prestations en espèces : mois et année de début de la période de versement.
+	</td>
+</tr>
+<tr>
+<td>
+		Nature d'assurance
+	</td>
+<td>
+		l_asu_nat
+	</td>
+<td>
+		Risque au titre duquel est prise en charge la prestation: Maladie, Maternité, Accident du Travail-Maladie Professionnelle, Invalidité, Décès.
+	</td>
+</tr>
+<tr>
+<td>
+		Complement d'acte
+	</td>
+<td>
+		l_cpl_cod
+	</td>
+<td>
+		Cette variable permet de toper les suppléments tarifés, ajouté au montant de l’acte lorsqu'il est réalisé dans un contexte spécifique ( majoration de nuit, de dimanche ou jour férié, urgence).
+	</td>
+</tr>
+<tr>
+<td>
+		Taux de remboursement
+	</td>
+<td>
+		rem_tau
+	</td>
+<td>
+		Le taux de remboursement de la sécurité sociale est le taux sur lequel cet organisme se base pour effectuer ses remboursements. Il s'applique sur le tarif conventionnel et varie en fonction de l'acte médical et du régime obligatoire de l'assuré social, et de la situation de l'assuré.
+	</td>
+</tr>
+<tr>
+<td>
+		Spécialité prescripteur
+	</td>
+<td>
+		l_pre_spe
+	</td>
+<td>
+		 Spécialité exercée par le médecin (généraliste, cardiologue, etc), nature d'activité des auxilaires médicaux (infirmiers, masseurs-kinésithérapeutes).
+	</td>
+</tr>
+<tr>
+<td>
+		Regroupement spécialité prescripteur
+	</td>
+<td>
+		l_pre_spe1
+	</td>
+<td>
+		Spécialité regroupée par grande catégorie de prescripteur: médecins omnipraticiens, médecins spécialistes, chirurgiens dentiste...
+	</td>
+</tr>
+<tr>
+<td>
+		Mode d'exercice prescripteur
+	</td>
+<td>
+		l_pre_stj1
+	</td>
+<td>
+		Statut du professionnel de santé sur sa manière d'exercer: libéral ou salarié.
+	</td>
+</tr>
+<tr>
+<td>
+		Spécialité exécutant
+	</td>
+<td>
+		l_exe_spe
+	</td>
+<td>
+		Spécialité exercée par le médecin (généraliste, cardiologue, etc), nature d'activité des auxilaires médicaux (infirmiers, masseurs-kinésithérapeutes)...
+	</td>
+</tr>
+<tr>
+<td>
+		Regroupement spécialité exécutant
+	</td>
+<td>
+		l_exe_spe1
+	</td>
+<td>
+		Spécialité regroupée par grande catégorie d'exécutant: médecins omnipraticiens, médecins spécialistes,… Cette notion ne concerne que les  médecins.
+	</td>
+</tr>
+<tr>
+<td>
+		Mode d'exercice exécutant
+	</td>
+<td>
+		l_exe_stj1
+	</td>
+<td>
+		Statut du professionnel de santé sur sa manière d'exercer: libéral ou salarié.
+	</td>
+</tr>
+<tr>
+<td>
+		Montant remboursé
+	</td>
+<td>
+		rem_mon
+	</td>
+<td>
+		Montant que l’Assurance Maladie rembourse à l’assuré : (base de remboursement * taux de remboursement).
+	</td>
+</tr>
+<tr>
+<td>
+		Base de remboursement
+	</td>
+<td>
+		rec_mon
+	</td>
+<td>
+		La base de remboursement correspond au montant pris en considération par l’Assurance Maladie avant application du taux de remboursement. C'est le tarif conventionnel pour les Professionnels de Santé. Exemple : pour une consultation de médecin généraliste la base de remboursement est de 23€ et le taux de remboursement est de 70% (si vous avez un médecin traitant) sauf pour les personnes en affection longue durée 100%.
+	</td>
+</tr>
+<tr>
+<td>
+		Dépassement d'honoraires
+	</td>
+<td>
+		dep_mon
+	</td>
+<td>
+		On parle de montant de dépassement lorsque les prix pratiqués par les professionnels de santé sont supérieurs aux tarifs de convention fixés pour chaque acte médical par la sécurité sociale. Les dépassements d'honoraires peuvent être pris en charge par les complémentaires santé. Cette notion ne concerne que les honoraires des médecins.
+	</td>
+</tr>
+<tr>
+<td>
+		Dénombrement
+	</td>
+<td>
+		act_dnb
+	</td>
+<td>
+		 Une partie des actes peut être dénombrée car codifiée avec un code qui permet de connaître directement la nature exacte et le tarif de l'acte (CCAM).
+	</td>
+</tr>
+<tr>
+<td>
+		Coefficient global
+	</td>
+<td>
+		act_coe
+	</td>
+<td>
+		 Une partie des actes de soins est décrite par
+		<br>
+<ul>
+<li>Une lettre clé qui varie selon les professions et catégories d'actes et qui a une valeur unitaire</li>
+<li>Un coefficient qui reflète la complexité de l'acte, et qui, multiplié par la valeur unitaire de la lettre clé, donne le tarif de l'acte. </li>
+</ul>
+		Ceci est notamment le cas des actes techniques médicaux et des actes d'auxilaires médicaux (infirmier, kiné, ...)
+		<br/>
+		 Par exemple, un pansement lourd exécuté par un infirmier est côté AMI 4 soit une base de remboursement de 3,15 (valeur conventionnelle AMI)*4=12,6 euros.
+	</br></td>
+</tr>
+</tbody>
+</table>","Santé","cnam, sécurité sociale, dépenses publiques","Licence Ouverte (Etalab)","fr","2014-12-22T10:20:28+00:00",,"2015-07-02T12:55:05+00:00","CNAM","https://www.data.gouv.fr/fr/datasets/depenses-d-assurance-maladie-hors-prestations-hospitalieres/",,9957940,,,,,,,,,,,,,,,,,,,,,,,,,,,,,377,,,,,,,,,,,
+"liste-des-conseillers-communautaires-de-saint-malo-agglomeration","Liste des conseillers Communautaires de Saint-Malo Agglomération","<p>Liste des conseillers Communautaires, avec leurs fonctions communautaires et communales, délégations et communes d'appartenance, pour la période 2014-2020.</p>","Administration, Gouvernement, Finances publiques, Citoyenneté","conseillers communautaires, saint-malo","Licence Ouverte (Etalab)","fr","2014-12-22T15:47:22+00:00",,,"Saint-Malo Agglomération","https://www.data.gouv.fr/fr/datasets/liste-des-conseillers-communautaires-de-saint-malo-agglomeration-1/",,71,,,,,,,,,,,"Annuelle",,,"Intercommunalité (EPCI)",,,,,,,,,,,,,,,1,,,,,,,,,,,
+"points-dapport-volontaire0","Points d'Apport Volontaire","<p>Localisation géographique des points d'apport volontaire, avec identification de la commune et du type de point (colonne papier ou verre, en surface ou enterrée,...)</p>","Environnement","points d'apport volontaire, saint-malo, déchets","Licence Ouverte (Etalab)","fr","2014-12-22T15:47:23+00:00",,,"Saint-Malo Agglomération","https://www.data.gouv.fr/fr/datasets/points-dapport-volontaire-shp/",,274,,,,,,,,,,,"Annuelle",,,"Intercommunalité (EPCI)",,,,,,,,,,,,,,,79,,,,,,,,,,,
+"emplacement-des-arrets-de-bus-du-reseau-transport-saint-malo-agglomeration","Emplacement des Arrêts de Bus du Réseau Transport Saint-Malo Agglomération","<p>Localisation géographique des arrêts de bus du réseau de transport urbain et péri-urbain sur le territoire de l’agglomération du Pays de Saint-Malo.</p>","Transports, Déplacements","arrêts de bus, saint-malo","Licence Ouverte (Etalab)","fr","2014-12-22T15:47:24+00:00","2015-06-26T05:55:02+00:00","2015-07-17T12:55:02+00:00","Saint-Malo Agglomération","https://www.data.gouv.fr/fr/datasets/emplacement-des-arrets-de-bus-du-reseau-transport-saint-malo-agglomeration-2/",,271,,,,,,,,,,,"Annuelle",,,"Intercommunalité (EPCI)",,,,,,,,,,,,,,,6102,,,,,,,,,,,
+"donnees-sur-les-medecins-accredites","Données sur les médecins accrédités","<p>En application de l’article L. 1414-3-2 du Code de la santé publique, l’accréditation des médecins est une démarche volontaire. C’est une démarche de gestion des risques fondée sur les programmes élaborés par les organismes agréés pour l’accréditation (OA-Accréditation) dont objectif est d’améliorer la qualité des pratiques professionnelles, de réduire le nombre et de limiter les conséquences des événements indésirables associés aux soins au bénéfice de la sécurité du patient. Elle concerne le s médecins exerçant une spécialité ou une activité dite «à risques» en établissement de santé décret n° 2006-909 du 21 juillet 2006. : gynécologie-obstétrique, anesthésie-réanimation, chirurgie, spécialités interventionnelles, échographie obstétricale, réanimation ou de soins intensifs. Pour plus d’information sur l’accréditation : <a href=""http://www.has-sante.fr/portail/jcms/c_428381/fr/mieux-connaitre-laccreditation"" style=""font-size: 14px;"">http://www.has-sante.fr/portail/jcms/c_428381/fr/mieux-connaitre-laccreditation</a></p>","Health","Médecin, HAS, Accrédité","Licence Ouverte (Etalab)","fr","2014-12-24T09:26:50+00:00",,,"Haute Autorité de Santé",,,10763,,,,,,,,,,,,,,,,,,,,,,,,,,,,,113,,,,,,,,,,,
+"repartition-de-la-reserve-parlementaire-en-2014","Répartition de la réserve parlementaire en 2014","<p>Répartition de la réserve parlementaire française en 2014, par député, groupe politique, type de dépense</p>","Administration, Government, Public finances, Citizenship","réserve parlementaire, député, assemblée, Assemblée nationale, parlement","Licence Ouverte (Etalab)","fr","2015-02-13T08:18:51+00:00","2015-06-22T12:55:05+00:00","2015-07-15T13:55:08+00:00","Assemblée Nationale",,,13129,,,,,,,,,,,,,,,,,,,,,,,,,,,,,79,,,,,,,,,,,
+"contours-osm-des-cantons-electoraux-departementaux-2015","Contours OSM des cantons électoraux départementaux 2015","<p>Contours géographiques des nouveaux cantons électoraux départementaux issu des limites communales d'OpenStreetMap et du découpage publié au Journal Officiel.</p><p>Ces données sont issues du crowdsourcing effectué par les contributeurs au projet OpenStreetMap et sont donc sous licence ODbL qui impose un partage à l'identique et la mention obligatoire d'attribution doit être ""<strong>© les contributeurs d'OpenStreetMap sous licence ODbL</strong>"" conformément à <a href=""http://osm.org/copyright"">http://osm.org/copyright</a></p><h2>Descriptif du contenu des fichiers ""cantons 2015""</h2><h3>Origine des données</h3><p>Les données proviennent du découpage communal issu de la base de données cartographiques OpenStreetMap (constituées à partir du cadastre mis à disposition par la DGFiP sur <a href=""http://cadastre.gouv.fr/"">cadastre.gouv.fr</a>) et de la lecture du Journal Officiel. Les informations sur la population légale <a href=""http://insee.fr/fr/themes/detail.asp?reg_id=0&amp;ref_id=cantons-2015"">proviennent de l'INSEE</a>.</p><p>Pour plus de détail, consultez le wiki OpenStreetMap: <a href=""http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France"">http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France</a></p><h3>Format</h3><p>Ces fichiers sont proposés au format shapefile (en WGS84, EPSG:4326, textes en UTF-8), ainsi que KML.</p><h3>Contenu</h3><p>Pour chaque canton, les attributs suivants sont fournis:</p><ul> <li>ref : code du canton, composé du code du département et du N° de canton (ex: 094-01, 02B-04)</li><li>nom : nom du canton figurant au JORF (source OSM)</li><li>wikipedia: lien wikipedia vers l'article du canton (source OSM)</li><li>code_dep : code INSEE du département (source INSEE)</li><li>num_canton: N° du canton dans le département (source INSEE)</li><li>nom_insee: Nom du canton dans le fichier INSEE (source INSEE)</li><li>pop_legale: population légale dans le canton selon l'INSEE</li></ul>","Administration, Gouvernement, Finances publiques, Citoyenneté","cantons, OSM, départements, élections, élections cantonales, cantonales, élections départementales","Open Database License (ODbL)","fr","2015-03-02T17:32:27+00:00",,,"OpenStreetMap",,,1995,,,,,,,,"2015-03-01",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"cantons-2015-metropole-json-simplifies","Contours OSM des cantons électoraux départementaux 2015","<p>Contours géographiques des nouveaux cantons électoraux départementaux issu des limites communales d'OpenStreetMap et du découpage publié au Journal Officiel.</p><p>Ces données sont issues du crowdsourcing effectué par les contributeurs au projet OpenStreetMap et sont donc sous licence ODbL qui impose un partage à l'identique et la mention obligatoire d'attribution doit être ""<strong>© les contributeurs d'OpenStreetMap sous licence ODbL</strong>"" conformément à <a href=""http://osm.org/copyright"">http://osm.org/copyright</a></p><h2>Descriptif du contenu des fichiers ""cantons 2015""</h2><h3>Origine des données</h3><p>Les données proviennent du découpage communal issu de la base de données cartographiques OpenStreetMap (constituées à partir du cadastre mis à disposition par la DGFiP sur <a href=""http://cadastre.gouv.fr/"">cadastre.gouv.fr</a>) et de la lecture du Journal Officiel. Les informations sur la population légale <a href=""http://insee.fr/fr/themes/detail.asp?reg_id=0&amp;ref_id=cantons-2015"">proviennent de l'INSEE</a>.</p><p>Pour plus de détail, consultez le wiki OpenStreetMap: <a href=""http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France"">http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France</a></p><h3>Format</h3><p>Ces fichiers sont proposés au format shapefile (en WGS84, EPSG:4326, textes en UTF-8), ainsi que KML.</p><h3>Contenu</h3><p>Pour chaque canton, les attributs suivants sont fournis:</p><ul> <li>ref : code du canton, composé du code du département et du N° de canton (ex: 094-01, 02B-04)</li><li>nom : nom du canton figurant au JORF (source OSM)</li><li>wikipedia: lien wikipedia vers l'article du canton (source OSM)</li><li>code_dep : code INSEE du département (source INSEE)</li><li>num_canton: N° du canton dans le département (source INSEE)</li><li>nom_insee: Nom du canton dans le fichier INSEE (source INSEE)</li><li>pop_legale: population légale dans le canton selon l'INSEE</li></ul>","Administration, Gouvernement, Finances publiques, Citoyenneté","cantons, cantonales, élections départementales, élections cantonales","Open Database License (ODbL)","fr","2015-03-02T18:00:48+00:00","2015-06-25T15:55:03+00:00","2015-07-17T09:55:04+00:00","OpenStreetMap",,,1995,,,,,,,,"2015-03-01",,,,,,,,,,,,,,,,,,,,,166,,,,,,,,,,,
+"the-deadliest-hurricanes-in-the-united-states-1900-1996","The Deadliest Hurricanes In The United States 1900-1996","<p>This is taken from The Deadliest, Costliest, and Most Intense United States hurricanes of this century (and other frequently requested hurricane facts) [NOAA Technical Memorandum NWS TPC-1] updated in February, 1997.</p>","Environment","Hurricanes",,"en","2015-03-09T10:59:03+00:00",,,,"http://www.nhc.noaa.gov/pastdead.html",,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,,,,,,,,,,,
+"ordres_du_jour_du_conseil_general","Ordres du jour du Conseil Général","<p>
+<span style=""line-height: 1.45em;"">Ordres du jour du Conseil Général de mars 2008 à décembre 2014 par séance. <br>
+<br>
+<br><br/></br></br></br></span><span style=""line-height: 1.45em;"">Dans le jeu de données, les abréviations PJ, LR, A, V, VNR, DSP correspondent aux intitulés suivants : <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>PJ </strong>: projet de délibération <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>LR </strong>: Lettre rectificative <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>A </strong>: Amendement <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>V </strong>: Vœu <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>VNR </strong>: vœu non rattaché à un projet de délibération <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>DSP </strong>: Délégation de service public</span></p>","Citoyens","délibération, assemblée, vote",,"fr","2015-03-19T15:36:57+00:00",,,,,,6808,,,,,,,,"2013-01-14","Ville de Paris","Ville de Paris","annuelle",,"2008 - 2014",,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ordres_du_jour_du_conseil_municipal","Ordres du jour du Conseil Municipal","<p>
+<span style=""line-height: 1.45em;"">Ordres du jour du conseil municipal de mars 2008 à décembre 2014 par séance. <br>
+<br>
+<br><br/></br></br></br></span><span style=""line-height: 1.45em;"">Dans le jeu de données, les abréviations PJ, LR, A, V, VNR, DSP correspondent aux intitulés suivants : <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>PJ </strong>: projet de délibération <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>LR </strong>: Lettre rectificative <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>A </strong>: Amendement <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>V </strong>: Vœu <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>VNR </strong>: vœu non rattaché à un projet de délibération <br>
+<br/></br></span><span style=""line-height: 1.45em;""><strong>DSP </strong>: Délégation de service public </span></p>","Citoyens","délibération, aseemblée, vote","Open Database License (ODbL)","fr","2015-03-19T15:39:09+00:00",,,,,,32167,,,,,,,,"2013-01-14","Ville de Paris","Ville de Paris","annuelle",,"2008 - 2014",,,,,,,,,,,,,,,,,,,,,,,,,,,
+"tous-les-documents-des-bibliotheques-de-pret","Tous les documents des bibliothèques de prêt (février 2015)","<p>Toutes les collections des bibliothèques de prêt, telles qu'elles étaient en février 2015. Plus de 750 000 titres sont référencés. Attention les données peuvent avoir évolué depuis, elles ne sont pas dynamiques</p><p>Le jeu de données comprend de nombreuses données sauf les résumés et les mots clés sujet</p>","Culture","bibliothèques, ouvrages, DVD, CD, Livres, discothèques, vidéothèques, médiathèques, revues","Open Database License (ODbL)","fr","2015-03-25T19:39:22+00:00","2015-06-22T13:55:06+00:00","2015-07-15T20:55:01+00:00","Réseau des bibliothèques de prêt de la Ville de Paris",,,766108,,,,,,,"2014-05-13","2014-05-13","Mairie de Paris/Direction des Affaires Culturelles/Service informatique des bibliothèques",,"Annuel",,"jusqu'en février 2015",,,,,,,,,,,,,,,,19,,,,,,,,,,,
+"plan_de_l_hemicycle_du_conseil_de_paris","Plan de l'hémicycle du conseil de Paris","<p>
+<span style=""line-height: 1.45em;"">Le fichier CSV regroupe tous les membres du conseil de Paris ainsi que leur emplacement dans l'hémicycle, leur partie politique et d'autres informations.<br>
+<br>
+</br></br></span><span style=""line-height: 1.45em;"">Le fichier PDF contient une photo de tous les membres à leur place respective dans l'hémicycle.</span>
+</p>","Citoyens","hémicycle, conseil de Paris, partie poitique, place, paris","Open Data Paris","fr","2015-03-30T11:25:01+00:00",,,,,,326,,,,,,,,"2012-10-24","Ville de Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"european-train-stations","European train stations","<h2>Capitaine Train train stations data, released under the ODbL license.</h2>
+<p>Up to date informations on <a href=""https://github.com/capitainetrain/stations/blob/master/README.md"">the original repository</a>
+<h3>Description</h3>
+<p>Capitaine Train sells train tickets for many operators across Europe.</p>
+<p>This file contains all informations we use to identify a station in any system of the carriers.</p>
+<p>If you want to contribute to this database, please read <a href=""https://github.com/capitainetrain/stations/blob/master/CONTRIBUTING.md"">CONTRIBUTING.md</a>.</p>
+<h3>Licence</h3>
+<p>The file stations.csv is distributed under the ODbL licence (see LICENCE.txt). In short, any modification to this data source must be published.</p>
+<p>Data sources include Openstreetmap and SNCF OpenData that are under ODbL or compatible and a lot of sweat, tears and blood.</p>
+<h3>The data</h3>
+<p>
+The file stations.csv contains all our data representing stations. Here is an explanation of the columns:
+
+    <ul>
+<li>id: our internal unique identifier</li>
+<li>name: the name of the station as it is locally known (see info_* for translations)</li>
+<li>slug: it is guaranteed to be unique across all the suggestable stations (see is_suggestable)</li>
+<li>uic: the UIC code of the station</li>
+<li>uic8_sncf: the SNCF sometimes uses an UIC code with 8 digits instead of 7. The last digit is a checksum</li>
+<li>latlong: coordinates as a couple of decimals values</li>
+<li>parent_station_id: a station might belong to a meta station whose id is this value. For instance Paris Gare d’Austerlitz belongs to the metastation Paris</li>
+<li>is_city, is_main_station: this value is not reliable</li>
+<li>country: 2 letter ISO code</li>
+<li>timezone: as [Continent]/[country] ISO code</li>
+<li>is_suggestable: can the user input this station</li>
+<li>[carrier]_id: the id of the station as it is known by the carrier</li>
+<li>[carrier]_is_enabled: can a ticket be booked to/from the station through that carrier</li>
+<li>info:[lang]: extra information that is useful in the specific language</li>
+<li>same_as: in some systems, a station can be split in two, with two id. If this value is set, the station pointed by that value should be considered as the actual station</li>
+</ul>
+</p></p>","Transport, Movements, Spatial planning, Town planning, Buildings, Equipment, Housing","train, station, train station, Europe, Mobility","Open Database License (ODbL)","en","2015-04-23T11:40:30+00:00","2015-06-25T06:55:10+00:00","2015-07-06T12:55:04+00:00","Capitaine Train","https://github.com/capitainetrain/stations",,21461,,,,,,,"2015-04-23","2015-04-23","Capitaine Train",,,,,,,,,,,,,,,,,,,,24,,,,,,,,,,,
+"fromagescsv-fromagescsv","Liste des Fromages Français","<p>Ce jeu de données réunit la liste de 338 spécialités fromagères françaises. </p><p>Le jeu de données comprend :</p><ul><li>le nom du fromage</li><li> le département de fabrication</li><li>l'URL de la page Wikipédia française</li><li>l'URL de la page Wikipédia anglaise quand elle existait</li><li>la photographie quand elle existait</li><li>les coordonnées géographiques du département de fabrication</li></ul>","Culture, Heritage","Fromage, Carte, Gastronomie","CC BY-SA","fr","2015-04-23T12:13:46+00:00","2015-06-25T09:55:02+00:00","2015-07-01T23:55:03+00:00","OpenDataSoft","http://fr.wikipedia.org/wiki/Liste_des_sp%C3%A9cialit%C3%A9s_r%C3%A9gionales_fran%C3%A7aises_de_fromages",,338,,,,,,,,,,,,,,,,,,,,,,,,,,,,,106,,,,,,,,,,,
+"frenchcheese","List of French Cheese","<p>This dataset gathers the list of all 338 French cheese. </p><p>In this dataset, you will find for each cheese: </p><ul>
+<li>its name</li><li>its department of production</li><li>the French Wikipedia page URL</li><li>the English Wikipedia page URL</li><li>its picture whenever available</li><li>the geographic coordinates of the department of production</li></ul>","Culture, Heritage","cheese, France","CC BY-SA","en","2015-04-30T13:25:52+00:00","2015-06-23T15:55:03+00:00","2015-07-13T11:55:05+00:00","OpenDataSoft","http://fr.wikipedia.org/wiki/Liste_des_sp%C3%A9cialit%C3%A9s_r%C3%A9gionales_fran%C3%A7aises_de_fromages",,338,,,,,,,,,"OpenDataSoft",,,,,,,,,,,,,,,,,,,,29,,,,,,,,,,,
+"contours-iris-2014","Contours Iris - édition 2014","<p>Coédition INSEE et IGN, Contours Iris® est un fond numérisé des Iris définis par l'INSEE pour les besoins des recensements sur l'ensemble des communes de plus de 10 000 habitants et la plupart des communes de 5 000 à 10 000 habitants.</p>",,"Limites territoriales, organisation administrative, distribution démographique, unités administratives, statistique","Licence Ouverte 1.0 (Etalab)","fr","2015-05-13T13:29:37+00:00",,,"IGN","http://professionnels.ign.fr/contoursiris",,50880,,,,,,,,"2015-04-27","Institut national de l'information géographique et forestière (IGN-F)",,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+"population-projection-in-helsinki-and-the-helsinki-region-by-age-and-sex","Population Projection in Helsinki and the Helsinki region by age and sex","<p>This dataset is a projection of the Helsinki and Helsinki Region population for the years 2014-2050, broken down further by age and sex. This data was taken from the Helsinki Region Infoshare website, and the original can be found here: http://www.hri.fi/fi/dataset/helsingin-ja-helsingin-seudun-vaestoennuste-sukupuolen-ja-ian-mukaan</p>","Administration, Government, Public finances, Citizenship, Spatial planning, Town planning, Buildings, Equipment, Housing","Population, Age, Sex, Urban Statistics , Regional Statistics , Helsinki, Helsinki Region, Population Projections","CC BY","en","2015-05-26T07:17:58+00:00",,,"Helsinki Urban Facts","http://www.hri.fi/fi/dataset/helsingin-ja-helsingin-seudun-vaestoennuste-sukupuolen-ja-ian-mukaan",,342,"Helsinki Urban Facts",,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,
+"traffic-accidents-in-helsinki","Traffic accidents in Helsinki","<p>Traffic accidents occurred in Helsinki venues, by severity and accident types.</p>","Spatial planning, Town planning, Buildings, Equipment, Housing, Transport, Movements, Justice, Safety, Police, Crime","accidents, accident, traffic, pedestrian, bicycle, bike, car, Helsinki, Finland","CC BY","en","2015-05-26T08:02:38+00:00","2015-06-04T08:55:02+00:00","2015-07-10T05:55:03+00:00","City of Helsinki City Planning Department","http://www.hri.fi/en/dataset/liikenneonnettomuudet-helsingissa",,37528,"City of Helsinki Planning Department, City of Helsinki Transport Planning Department",,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,
+"parcsetjardinsparis2010","Les espaces verts","<p><em>Couche anciennement intitulée ""Liste des parcs et jardins"" (2011).</em> </p><p>Cette couche surfacique localise géographiquement l'emprise des espaces verts publics (parcs, squares, promenades etc...) gérés par la Mairie de Paris.</p><p>Pour plus de renseignements, consultez la notice en pièce jointe.</p><p><strong>-------------------------------------------------------------<br/></strong></p><p><strong><em>Exemple(s) de réutilisation(s) des données
+    </em></strong><em>
+<span style=""line-height: 1.45em;"">
+        :
+        <br>
+</br></span><span style=""line-height: 1.45em;"">- Cartographie sur
+    </span>
+<a href=""http://demo.3liz.fr/opendataparis"">
+        http://demo.3liz.fr/opendataparis
+        <br>
+</br></a><span style=""line-height: 1.45em;"">- Application Android ""VuzZz""
+    </span>
+</em><a href=""https://play.google.com/store/apps/details?id=com.vuzzz.android&amp;feature=search_result#?t=W251bGwsMSwyLDEsImNvbS52dXp6ei5hbmRyb2lkIl0.""><em>
+        Lien Google Play
+    </em></a></p>","Environnement","parcs, jardins","Open Database License (ODbL)","fr","2015-05-29T07:43:49+00:00","2015-06-26T04:55:01+00:00","2015-06-29T14:55:03+00:00","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris",,,942,,,,,,,,"2013-01-01","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris","Annuelle",,,,,,,,,,,,,,,,,,33,,,,,,,,,,,
+"points-dinterets-openstreetmap-en-france","Points d'intérêt OpenStreetMap en France","<p>
+	 Liste des commodités (<em>amenity</em>) extraite des données OpenStreetMap situées en France. Données © contributeurs <a href=""http://www.openstreetmap.org/"" target=""_blank"">OpenStreetMap</a>
+</p>",,,"http://www.openstreetmap.org/copyright","en","2015-06-02T10:26:40+00:00","2015-06-24T12:55:00+00:00","2015-07-12T20:55:00+00:00","OpenStreetMap",,,330931,,,,,,,,,,,,,,,,,,,,,,,,,,,,,543,,,,,,,,,,,
+"arbresalignementparis2010","Les arbres d'alignement","<p>Couche anciennement intitulée <em>Arbres d'alignement - Données géographiques (2011)</em></p><p>Cette couche à figuré ponctuel localise géographiquement l’ensemble des arbres d’alignement présents sur le territoire parisien. </p>","Environnement","Arbres, DEVE","Open Database License (ODbL)","fr","2015-06-12T00:39:58+00:00","2015-06-25T15:55:00+00:00","2015-07-15T13:55:04+00:00","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris",,,104025,,,,,,,,"2011-01-13","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris","Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris","Annuelle",,,,,,,,,,,,,,,,,,119,,,,,,,,,,,
+"lignes-de-bus-du-reseau-tcl-grand-lyon","Lignes de bus du réseau TCL Grand Lyon","<p>La représentation graphique des lignes de bus et trolleybus du réseau  TCL est un objet linéaire qui localise la ligne et son parcours de  terminus à terminus. La représentation graphique des lignes est caractérisée par des  informations de gestion (identifiant, numéro de ligne et sens, libellé,  unité de transport, couleur du tracé, famille de transport) et de tracés  (polylignes de terminus à terminus).</p>","Transports, Déplacements","arrêts de bus","Licence Ouverte (Etalab)","fr","2015-07-01T14:16:10+00:00","2015-07-01T14:28:44+00:00","2015-07-01T14:28:45+00:00","Data Grand Lyon","http://data.grandlyon.com/equipements/lignes-de-bus-du-rfseau-tcl/",,296,,,,,,,,,"SYTRAL",,"Journalière",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"station-velov-grand-lyon","Station Vélo'V Grand Lyon","<p>Le jeu de données décrit l'état des stations Vélo'V du Grand Lyon (nom, adresse, nombre de bornettes, ...). Pour accéder aux données temps réel indiquant la disponibilité de vélos en place, préférez le jeu de données original. </p>","Transports, Déplacements","vélo","Licence Ouverte (Etalab)","fr","2015-07-01T14:29:22+00:00","2015-07-01T14:33:21+00:00","2015-07-01T14:33:22+00:00","Data Grand Lyon","http://data.grandlyon.com/equipements/station-vflov-disponibilitfs-temps-rfel/",,348,,,,,,,,,"Métropole de Lyon / Direction de la voirie (DV)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"lignes-de-tramway-du-reseau-tcl-grand-lyon","Lignes de tramway du réseau TCL Grand Lyon","<p>La représentation des lignes de tramway du réseau TCL localise la ligne et son parcours de terminus à terminus.</p>","Transports, Déplacements","tramway","Licence Ouverte (Etalab)","fr","2015-07-01T14:36:06+00:00","2015-07-01T14:39:34+00:00","2015-07-10T15:55:03+00:00","Data Grand Lyon","http://data.grandlyon.com/equipements/lignes-de-tramway-du-rfseau-tcl/",,10,,,,,,,,,"SYTRAL",,,,,,,,,,,,,,,,,,,,145,,,,,,,,,,,
+"stations-autopartage-grand-lyon","Stations Autopartage Grand Lyon","<p>Les Stations Autopartage sont des emplacements  réservés au stationnement des véhicules d'autopartage (Citiz LPA,  Bluely, Sunmoov, Wattmobile).</p>","Transports, Déplacements","automobile","Licence Ouverte (Etalab)","fr","2015-07-01T14:40:25+00:00","2015-07-01T14:42:28+00:00","2015-07-01T14:42:29+00:00","Data Grand Lyon","http://data.grandlyon.com/equipements/station-autopartage/",,143,,,,,,,,,"Métropole de Lyon / Direction de la voirie (DV)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"lignes-de-metro-et-funiculaire-du-reseau-tcl-grand-lyon","Lignes de métro et funiculaire du réseau TCL Grand Lyon","<p>Le jeu de données donne la représentation graphique des lignes de métro et de funiculaire du  réseau TCL et son parcours  de terminus à terminus.</p>","Transports, Déplacements","métro, furniculaire","Licence Ouverte (Etalab)","fr","2015-07-01T14:42:56+00:00","2015-07-01T14:45:20+00:00","2015-07-01T15:55:03+00:00","Data Grand Lyon","data.grandlyon.com/equipements/lignes-de-mftro-et-funiculaire-du-rfseau-tcl/",,11,,,,,,,,,"SYTRAL",,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"pointsaccueilpoliceparis2011","Points d'accueil police (coordonnées) - Paris","Liste des points d'accueil police pour Paris répertoriant par arrondissement les services, adresses, téléphones, horaires, conditions d'accessibilité.","Justice, Sécurité, Police, Crime","Paris, Sécurité, Police","Licence Ouverte data.gouv.fr","fr","2015-07-16T13:26:52+00:00","2015-07-16T13:40:13+00:00","2015-07-16T13:40:14+00:00","data.gouv.fr","http://www.data.gouv.fr/fr/datasets/carte-des-points-d-accueil-police-a-paris-idf/",,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,,,,,,
+"immeublesprotegesiledefrancedatapublica2011","Monuments Historiques Protégés - Ile de France","Liste des Immeubles protégés au titre des Monuments Historiques pour la région Ile-de-France (43720 monuments pour l'ensemble des régions). Libellés des champs : REF (référence de l'édifice dans la base Mérimée) "," ETUD (type d'étude : recensement immeubles MH, avec éventuellement la mention label Xxe) "," LOCA OU REG + DEPT + COM (localisation de l'édifice) "," INSEE (code INSEE) "," TICO (appellation courante de l'édifice) "," ADRS (adresse, n° de la voie, type de voie, nom de la voie) "," STAT (statut propriété : type de propriétaire par catégorie "," pas de noms) "," AFFE (affectataire : utile pour les propriétés de l'Etat, mentionne le nom du ministère affectataire) "," PPRO (précisions sur la protection : article 1er de l'arrêté de protection + cadastre + nature et date de la protection) "," AUTR (architecte ou maître d'oeuvre) "," SCLE (période de construction).","Culture, Patrimoine, Sport, Loisirs","Art et culture, Monuments","Licence Ouverte data.gouv.fr","fr","2015-07-16T13:50:54+00:00","2015-07-16T13:51:12+00:00","2015-07-16T13:51:13+00:00","Data Publica","http://www.data-publica.com/opendata/12144--liste-des-immeubles-proteges-au-titre-des-monuments-historiques-ile-de-france",,3804,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24
+"listeassociationsparis2012","Liste des associations parisiennes","Liste des associations en relation avec la municipalité parisienne. Ce jeu de données comprend le nom statutaire de l'association, son code postal et sa ville d'enregistrement, ses secteurs d'activité, son domaine d'activité, ses publics, son secteur géographique d'activité et l'identifiant de sa fiche si elle est présente dans l'annuaire parisien des associations accessible via l'adresse : http://w35-associations.apps.paris.fr/searchasso/jsp/site/Portal.jsp?page=searchasso&amp","id","Err:509","Services, Social, Sport, Loisirs, Culture, Patrimoine","Associations, Services, Paris","Open Data Paris","fr","2015-07-16T14:04:28+00:00","2015-07-16T14:04:33+00:00","2015-07-16T14:04:34+00:00","Ville de Paris","http://opendata.paris.fr/explore/dataset/liste_des_associations_parisiennes/?tab=table",,70993,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,,,,,,,,,
+"hotspot_paris_wifi","Sites hotspots Paris Wifi","Liste des sites municipaux disposant d'un hotspot Paris WiFi permettant une connexion à Internet offerte pendant 2h. ","Services, Social","Paris","Open Data Paris","fr","2015-07-16T14:38:11+00:00","2015-07-16T14:40:54+00:00","2015-07-16T14:40:56+00:00",,,,296,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,
+"rgc2011dom","Répertoire Géographique des Communes 2011 - DOM","Le RGC, Répertoire Géographique des Communes, donne des renseignements géographiques et administratifs sur les communes françaises. Il contient le nom, la situation géographique et l'altitude des chefs-lieux de communes (mairies), couplés à des renseignements administratifs.
+","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Mairies, France, Communes","Licence Ouverte data.gouv.fr","fr","2015-07-16T14:45:00+00:00","2015-07-16T14:45:05+00:00","2015-07-16T14:45:06+00:00","IGN","http://professionnels.ign.fr/ficheProduitCMS.do?idDoc=5323862#top",,131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,,,,,,
+"rgc2011","Répertoire Géographique des Communes 2011","Le RGC, Répertoire Géographique des Communes, donne des renseignements géographiques et administratifs sur les communes françaises. Il contient le nom, la situation géographique et l'altitude des chefs-lieux de communes (mairies), couplés à des renseignements administratifs.","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Mairies, France, Communes","Licence Ouverte data.gouv.fr","fr","2015-07-16T14:45:47+00:00","2015-07-16T14:46:27+00:00","2015-07-16T14:46:28+00:00","IGN","http://professionnels.ign.fr/ficheProduitCMS.do?idDoc=5323862#top",,36568,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,,,,,,,,,,,
+"inseerecensementgeographie2008","Résultats du recensement de la population - 2008","Résultats du recensement de la population - 2008. Vue géographique.","Administration, Gouvernement, Finances publiques, Citoyenneté","Recensement",,"fr","2015-07-16T14:46:52+00:00","2015-07-17T09:46:54+00:00","2015-07-17T09:46:55+00:00","INSEE","http://www.recensement.insee.fr/documentation.action",,36682,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,,,,,,,,,,,
+"equipements_de_proximite","Équipements de proximité","<p> Liste des équipements de proximité (piscines, bibliothèques,jardins, gymnases,...)
+  <br/>
+<br/><strong>Exemple(s) de réutilisation(s) des données</strong> :
+  <br/>- La bibliothèque la plus proche de vous avec l'<a href=""http://parisbibli.bulte.net/"" target=""_blank"" title=""App Paris Bibli"">application Open Source pour iPhone Paris Bibli</a>
+<br/> - Cartographie sur <a href=""http://www.govdata.eu/Samples/Paris/ParisEquipements.html"" target=""_blank"" title=""Cartographie sur govdate.eu"">http://www.govdata.eu/Samples/Paris/ParisEquipements.html</a>
+<br/>- Application mobile Windows Phone <a href=""http://www.windowsphone.com/fr-FR/apps/2458a842-c90c-4423-846c-38031595c090"" target=""_blank"" title=""Paris Equipements"">Paris Equipements</a>
+<br/>- Application sur Windows8 : <a href=""http://apps.microsoft.com/webpdp/fr-fr/app/paris-equipements/27a5085f-0215-49f4-b91e-629f4e126d3d/m/ROW"" target=""_blank"" title=""app win 8"">Paris Equipements</a>
+<br/></p>","Services, Social","équipement, piscine, gymnase, jardin","Open Database License (ODbL)","fr","2015-07-16T14:51:22+00:00","2015-06-25T15:55:00+00:00","2015-07-16T14:51:41+00:00","Ville de Paris",,,2193,,,,,,,,"2011-01-17","Ville de Paris","Ville de Paris","annuelle","Paris",2011,"Paris",,,,,,,,,,,,,,,5,,,,,,,,,,,
+"tonnages_des_dechets_bacs_verts","Tonnages des déchets bacs verts","Tonnages des déchets bacs verts collectés par arrondissement et par mois.","Environnement","collecte, déchets, tonnages","Open Database License (ODbL)","fr","2015-07-16T15:18:26+00:00","2015-06-25T12:55:00+00:00","2015-07-16T15:26:18+00:00","Ville de Paris",,,21,,,,,,,,"2012-04-16","Ville de Paris","Ville de Paris","annuelle","Paris",2011,"arrondissement",,,,,,,,,,,,,,,1,,,,,,,,,,,
+"tonnages_des_dechets_bacs_jaunes","Tonnages des déchets bacs jaunes","Tonnages des déchets bacs jaunes collectés par arrondissement et par mois.","Environnement","collecte, dechets, arrondissement, tonnages","Open Database License (ODbL)","fr","2015-07-16T15:25:47+00:00","2015-06-12T14:55:03+00:00","2015-07-16T15:25:56+00:00","Ville de Paris",,,21,,,,,,,,"2012-04-16","Ville de Paris","Ville de Paris","annuelle","Paris",2011,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+"tonnages_de_la_collecte_du_verre","Tonnages de la collecte du verre","Tonnages de la collecte du verre en porte à porte, via les gros producteurs et en colonnes à verre par arrondissement et par mois.","Environnement","collecte, dechets, arrondissement, verre, tonnages","Open Database License (ODbL)","fr","2015-07-16T15:27:09+00:00","2015-06-16T23:55:02+00:00","2015-07-16T15:27:19+00:00","Ville de Paris",,,21,,,,,,,,"2012-04-16","Ville de Paris","Ville de Paris","annuelle","Paris",2011,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"poteaux_divers_sur_voie_publique","Poteaux divers sur voie publique","Données de type vecteur, décrivant des poteaux divers sur voie publique","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","poteau, bois, voie, publique","Open Data Paris","fr","2015-07-16T15:28:18+00:00","2015-06-19T13:55:04+00:00","2015-07-16T15:28:31+00:00","Ville de Paris",,,1080,,,,,,,,"2011-12-04","Ville de Paris","Ville de Paris","Annuelle","Paris",2011,,,,,,,,,,,,,,,,15,,,,,,,,,,,
+"horloges_exterieures_et_interieures","Horloges extérieures et intérieures","Listes des horloges mécaniques extérieures et intérieures, monumentales ou de  cheminée pour certaines très anciennes présentes sur des sites municipaux.","Culture, Patrimoine, Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","horloges, monumentales, mécaniques, cheminées anciennes","Open Database License (ODbL)","fr","2015-07-16T15:30:49+00:00","2015-06-19T22:55:00+00:00","2015-07-16T15:30:54+00:00","Ville de Paris",,,1204,,,,,,,,"2012-04-13","Ville de Paris","Ville de Paris","annuelle","Paris",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"mobiliers_de_voies_routieres_de_type_barriere","Mobiliers de voies routières de type barriere","Données de type vecteur décrivant : barrières piétons, garde-corps, glissière, poteau ...","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Barrière, glissière, sécurité, garde-corps, route, rue, voie","Open Data Paris","fr","2015-07-16T15:32:57+00:00","2015-06-25T18:55:01+00:00","2015-07-16T15:33:18+00:00","Ville de Paris",,,134277,,,,,,,,"2011-04-04","Ville de Paris","Ville de Paris","Annuelle","Paris",2011,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"detail_du_bati","Détail du Bâti","Données de type vecteur décrivant :accès piéton, accès véhicule, seuil de porte, rampe d'accès, escalier extérieur, terrasse, etc.","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","bâti, détail, accès, rampe, escalier extérieur, terrasse, marche, ascenseur","Open Database License (ODbL)","fr","2015-07-16T15:33:51+00:00","2015-06-25T15:55:02+00:00","2015-07-16T15:34:10+00:00","Ville de Paris",,,487476,,,,,,,,"2011-04-04","Ville de Paris","Ville de Paris","Annuelle","Paris",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"nomenclature_du_tri_selectif","Nomenclature du tri sélectif","Nomenclature du tri sélectif utilisé à Paris. Le jeu de données comprend l'identifiant unique du produit qui permet d'accéder à la fiche détaillé du produit (voir ci-dessous), le nom du produit, le type d'emballage, la bonne solution de tri qui est un tableau indiquant les modes de recyclage.
+
+Plusieurs URL donnent accès à un fichier json particulier :
+Liste des emballages et bouteilles (qui ont le champ ""Type d'emballage"" renseigné) :
+http://r56.apps.paris.fr/tri/jsp/site/rest/directory/1/records.json/
+ 
+Liste des autres déchets (qui n'ont pas le champ ""Type d'emballage"" renseigné) : :
+http://r56.apps.paris.fr/tri/jsp/site/rest/directory/2/records.json/
+ 
+Détail d'une fiche, par exemple la 2950
+http://r56.apps.paris.fr/tri/jsp/site/rest/directory/1/record/2950.json
+
+Exemple de réutilisation de cette nomenclature :
+http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory","Environnement","tri, déchet, poubelle, recyclage, emballage","Open Data Paris","fr","2015-07-16T15:35:46+00:00","2015-06-21T14:55:01+00:00","2015-07-16T15:35:53+00:00","Ville de Paris","http://r56.apps.paris.fr/tri/jsp/site/rest/directory/1/records.json/",,0,,,,,,,,"2012-02-16","Ville de Paris","Ville de Paris","Annuelle","Paris",2012,,,,,,,,,,,,,,,,8,,,,,,,,,,,
+"annuaire_de_l_administration_-_base_de_donnees_locales_-_types_organismes","Base de données locales, Guichets Publics Locaux - Types Organismes","La Base de données locales succède à la Base d'orientation Service-Public Local (BOSPL). Elle référence environ 55 000 guichets publics locaux. Elle fournit leurs coordonnées (adresse, site internet, horaires d'ouverture, ...). La liste des types d'organismes référencés dans la base est consultable à cette adresse :http://www.service-public.fr/info/docs/liste-type-organisme.pdfLe schéma et sa documentation sont disponibles à l'adresse : http://www.service-public.fr/apropos-du-site/informations-techniques/001366.html","Administration, Gouvernement, Finances publiques, Citoyenneté","guichets, publics, locaux, types, organismes, coordonnées, ouvertures","ODbL","fr","2015-07-16T16:11:13+00:00","2015-07-16T16:14:00+00:00","2015-07-16T16:14:01+00:00",,"http://www.ideeslibres.org/service-public-fr-annuaire-de-ladministration-base-de-donnees-locales-v2/",,133,,,,,,,,"2012-03-23",,,,,,,,,,,,,,,,,,,,,7,,,,,,,,,,,
+"annuaire_de_l_administration_-_base_de_donnees_locales_v2_-_organismes","Base de données locales, Guichets Publics Locaux - Organismes","La Base de données locales succède à la Base d'orientation Service-Public Local (BOSPL). Elle référence environ 55 000 guichets publics locaux. Elle fournit leurs coordonnées (adresse, site internet, horaires d'ouverture, ...). La liste des types d'organismes référencés dans la base est consultable à cette adresse :http://www.service-public.fr/info/docs/liste-type-organisme.pdfLe schéma et sa documentation sont disponibles à l'adresse : http://www.service-public.fr/apropos-du-site/informations-techniques/001366.html","Administration, Gouvernement, Finances publiques, Citoyenneté","guichets, publics, locaux, types, organismes, coordonnées, ouvertures","ODbL","fr","2015-07-16T16:15:38+00:00","2015-07-16T16:16:51+00:00","2015-07-16T16:16:52+00:00",,"http://www.ideeslibres.org/service-public-fr-annuaire-de-ladministration-base-de-donnees-locales-v2/",,59348,,,,,,,,"2012-03-23",,,,,,,,,,,,,,,,,,,,,19,,,,,,,,,,,
+"les_references_les_plus_reservees_en_2011","Références bibliographiques les plus réservées des bibliothèques de prêt en 2011","<p>
+<span style=""line-height: 1.45em;"">Les Références les plus réservées en 2011 par les usagers dans le catalogue des bibliothèques de prêt</span>
+</p>","Culture, Patrimoine","bibliothèque, réservation, prêt, catalogue, références","Open Database License (ODbL)","fr","2015-07-16T16:25:01+00:00","2015-06-19T14:55:01+00:00","2015-07-16T16:25:30+00:00","Ville de Paris",,,1000,,,,,,,,"2012-10-23","Ville de Paris","Ville de Paris",,,2011,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"mobiliers_et_emprises_au_sol_de_signalisation_routiere_et_pietonne_-_donnees_geo","Mobiliers et emprises au sol de signalisation routière et piétonne - Données géographiques","Données de type vecteur, décrivant certains mobiliers et emprises au sol de signalisation routière et piétonne : balise, emprises au sol, feux, limites de voies, poteaux à feux, panneaux de circulation routière...","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","balise, emprise au sol, feux, limites de voies, poteaux à feux, panneaux de circulation routière","Open Data Paris","fr","2015-07-16T16:26:30+00:00","2015-06-23T14:55:01+00:00","2015-07-16T16:26:40+00:00",,,,99966,,,,,,,,"2011-04-12","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"liste_des_kiosques_presse_a_paris","Liste des kiosques presse, théâtre et loto à Paris","<p>
+<span style=""line-height: 1.45em;"">Liste des kiosques Parisiens en activité avec les horaires d'ouverture et  fermeture. Liste établie par Médiakiosk.</span></p><p>
+<strong>Exemples de réutilisations: </strong><br>
+	- Kiosques à Paris, <a href=""http://opendata.paris.fr/opendata/www.kiosque-paris.fr"">www.kiosque-paris.fr</a></br></p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","kiosque, journaux, presse","Open Data Paris","fr","2015-07-16T16:27:52+00:00","2015-06-25T08:55:02+00:00","2015-07-16T16:29:45+00:00",,,,401,,,,,,,,"2011-04-06","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"panneaux_indicateurs_de_signalisation_routiere_et_pietonne","Panneaux indicateurs de signalisation routière et piétonne","<p>
+<span style=""line-height: 1.45em;"">Données de type vecteur, décrivant les panneaux indicateurs de signalisation routière et piétonne : poteaux indicateur, potelet piéton, panneaux indicateur...</span>
+</p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","panneaux, signalisation, poteaux, potelets, voirie, route, piéton","Open Database License (ODbL)","fr","2015-07-16T16:31:28+00:00","2015-06-24T10:55:01+00:00","2015-07-16T16:31:41+00:00",,,,4237,,,,,,,,"2011-04-05","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+"cheminement_d_assainissement","Cheminement d'assainissement","<p>
+	Données de type vecteur, décrivant la partie routière du réseau d'assainissement.
+</p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","rigole, fil d'eau","Open Database License (ODbL)","fr","2015-07-16T16:34:50+00:00","2015-06-25T20:55:01+00:00","2015-07-16T16:34:54+00:00","Ville de Paris",,,34529,,,,,,,,"2011-04-04","Ville de Paris","Ville de Paris","Annuelle","Paris",2011,,,,,,,,,,,,,,,,3,,,,,,,,,,,
+"relief_naturel","Relief naturel","<p>
+	Données de type vecteur décrivant crête ou pied de talus durs, sens d'écoulement,...<br>
+<br>
+<span style=""line-height: 1.45em;"">Exemple(s) de réutilisation(s) des données :<br>
+	 - Cartographie sur <a href=""http://demo.3liz.fr/opendataparis"">http://demo.3liz.fr/opendataparis</a></br></span>
+</br></br></p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","écoulement, talus, crête","Open Database License (ODbL)","fr","2015-07-16T16:43:43+00:00","2015-06-25T07:55:01+00:00","2015-07-16T16:44:07+00:00","Ville de Paris",,,16358,,,,,,,,"2011-12-04","Ville de Paris","Ville de Paris","Annuelle","Paris",2011,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"murs_et_clotures","Murs et Clôtures","<p>
+<span style=""line-height: 1.45em;"">Données de type vecteur décrivant les murs en dur, les entrées de métro, les grilles ou clôtures.</span>
+</p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","mur, grille, cloture, entrée","Open Database License (ODbL)","fr","2015-07-16T16:44:41+00:00","2015-06-24T13:55:03+00:00","2015-07-16T16:44:49+00:00","Ville de Paris",,,232106,,,,,,,,"2011-01-25","Ville de Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"liste_des_ouvrages_des_bibliotheques_en_janvier_2009","Liste des ouvrages des bibliothèques en janvier 2009","<p>
+<span style=""line-height: 1.45em;"">Liste des ouvrages (notice bibliographique et localisation) dans les bibliothèques parisiennes au 02/01/2009</span>
+</p>","Culture, Patrimoine","livres, bibliothèque, notice bibliographique, ouvrage","Open Database License (ODbL)","fr","2015-07-16T16:46:19+00:00","2015-06-24T13:55:02+00:00","2015-07-16T16:47:37+00:00",,,,668392,,,,,,,,"2009-04-06","Ville de Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,21,,,,,,,,,,,
+"voiesactuellesparis2012","Nomenclature des voies actuelles","<p>
+	Informations sur l'origine et les dénominations successives des  voies  parisiennes<br/>
+<br/>
+<span style=""line-height: 1.45em;"">Exemple(s) de réutilisation(s) des données : <br/>
+</span><span style=""line-height: 1.45em;"">- Cartographie sur </span><a href=""http://www.govdata.eu/samples/Paris/ParisHistoRuesBing.html"" target=""_blank"">http://www.govdata.eu/samples/Paris/ParisHistoRuesBing.html</a> (lien cassé)</p>","Culture, Patrimoine","Paris, rue, voie, avenue, histoire","Open Data Paris","fr","2015-07-16T16:49:47+00:00","2015-06-24T14:55:03+00:00","2015-07-16T16:49:57+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=47&portlet_id=106",,6357,,,,,,,,"2011-04-06","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,11,,,,,,,,,,,
+"mobilierpropreteparis2011","Mobiliers urbains de propreté - Emplacements des colonnes à verre","Données de type vecteur indiquant les emplacements des points de collecte du verre.","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement, Environnement","Recyclage, Equipements, Environnement, Mobilier urbain, Paris","Open Database License (ODbL)","fr","2015-07-16T16:51:00+00:00","2015-06-22T13:55:02+00:00","2015-07-16T16:51:09+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=57&portlet_id=106",,1050,,,,,,,,"2011-04-06","Ville de Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"mobilierenvironnementparis2011","Mobiliers sur voie publique - Données géographiques","Données de type vecteur, décrivant des mobiliers (du domaine environnement) sur la voie publique : bancs, corbeilles, jardinières, poubelles...","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement, Environnement","Equipements, Environnement, Paris, Mobilier urbain","Open Database License (ODbL)","fr","2015-07-17T08:15:00+00:00","2015-06-25T09:55:01+00:00","2015-07-17T08:15:14+00:00","Ville de Paris",,,47088,,,,,,,,"2011-04-05","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"mobiliertransportsparis2011","Mobiliers des transports en commun - Données géographiques","<p>
+	Données de type vecteur, décrivant les mobiliers liés aux transports en commun, notamment bus
+	<br/>
+<br/>
+<strong>Exemple(s) de réutilisation(s) des données:<br/>
+</strong><span style=""line-height: 1.45em;"">- Application Android ""VuzZz"" </span><a href=""https://play.google.com/store/apps/details?id=com.vuzzz.android&amp;feature=search_result#?t=W251bGwsMSwyLDEsImNvbS52dXp6ei5hbmRyb2lkIl0."">Lien Google Play</a>(lien cassé)</p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement, Transports, Déplacements","Mobilier urbain, Equipements, Transports en commun, Paris","Open Data Paris","fr","2015-07-17T08:20:13+00:00","2015-06-24T17:55:02+00:00","2015-07-17T08:20:24+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=100&portlet_id=106",,1866,,,,,,,,"2011-04-05","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+"mobilierstationnementparis2011","Mobiliers de stationnement - Données géographiques","Données de type vecteur, décrivant les mobiliers liés au stationnement de véhicules : horodateurs, distributeurs, bornes vélo libre service (vélib)...","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement, Transports, Déplacements","Stationnement, Equipements, Paris, Mobilier urbain, vélib, horodateurs, distributeurs, bornes","Open Database License (ODbL)","fr","2015-07-17T08:34:14+00:00","2015-06-24T14:55:02+00:00","2015-07-17T08:35:10+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=99&portlet_id=102",,13728,,,,,,,,"2011-04-05","Ville de Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,9,,,,,,,,,,,
+"filiationvoiesparis2012","Filiation des voies actuelles","Informations sur l'origine et les dénominations successives des  voies  parisiennes","Culture, Patrimoine","Paris","Open Data Paris","fr","2015-07-17T08:40:38+00:00","2015-06-23T22:55:00+00:00","2015-07-17T08:42:26+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=47&portlet_id=106",,8623,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+"distributeurspreservatifsmasculinsparis2012","Distributeurs de préservatifs à Paris","Equipements municipaux qui hébergent un distributeur de préservatifs masculins à prix réduit (1€ les 5 préservatifs). Le jeu de données comprend l'adresse et les horaires d'ouverture des équipements.  ","Santé, Services, Social","Santé, Services, Paris, préservatifs, protection","Open Database License (ODbL)","fr","2015-07-17T08:43:23+00:00","2015-06-26T04:55:01+00:00","2015-07-17T08:43:32+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=112&portlet_id=102",,31,,,,,,,,"2012-01-20","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,8,,,,,,,,,,,
+"eclairageparis2011","Eclairage public - Données géographiques","Données de type vecteur, décrivant les mobiliers d'éclairage public : Lampadaires, lanterne, poteaux, projecteurs...","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Mobilier urbain, Paris, Equipements, Eclairage, lampadaires, lanternes, poteau, projecteur","Open Database License (ODbL)","fr","2015-07-17T08:45:14+00:00","2015-06-24T13:55:00+00:00","2015-07-17T08:45:30+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=94&portlet_id=102",,101787,,,,,,,,"2011-04-05","Ville de Paris","Ville de Paris",,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+"bornes-de-recharge-electrique-de-vehicules-rennes-metropole","Localisation des bornes de recharge dédiées aux véhicules électriques sur le territoire de Rennes Métropole",,"Transports, Déplacements",,"Open Database License (ODbL)","fr","2015-07-17T08:49:10+00:00","2015-07-17T09:08:22+00:00","2015-07-17T09:08:23+00:00","Rennes Métropole","http://www.data.rennes-metropole.fr/les-donnees/catalogue/?tx_icsopendatastore_pi1[keywords]=&tx_icsopendatastore_pi1[categories][0]=1&tx_icsopendatastore_pi1[uid]=209",,28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"arretesinsalubriteparis2010","Arrêtés municipaux d'insalubrité - 2010","Arrêté municipaux d'insalubrité de mise en demeure à 1 mois","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement, Santé","Santé, Paris, Logements","Open Database License (ODbL)","fr","2015-07-17T08:52:20+00:00","2015-06-25T14:55:02+00:00","2015-07-17T08:52:27+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=45&portlet_id=106",,276,,,,,,,,"2011-01-17","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"volumesnonbatisparis2011","Volumes non bâtis - Données géographiques","<p>Données de type vecteur qui décrivent les volumes non bâtis représentés sur le plan parcellaire</p><p>Vous trouverez en pièce jointe une notice explicative du jeu de données</p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Paris, Construction, bâti","Open Data Paris","fr","2015-07-17T09:00:54+00:00","2015-06-25T09:55:00+00:00","2015-07-17T09:01:03+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=106&portlet_id=106",,125140,,,,,,,,"2011-06-22","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"volumesbatisparis2011","Volumes bâtis - Données géographiques","<p>Données de type  vecteur qui décrivent les bâtiments représentés sur le plan parcellaire</p><p>Vous trouverez en pièce jointe une notice décrivant les valeurs attributaires et la modélisation géométrique des bâtiments.</p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","Paris, Construction, plan, parcelle , bâti","Open Data Paris","fr","2015-07-17T09:03:04+00:00","2015-06-25T18:55:00+00:00","2015-07-17T09:03:11+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=80&portlet_id=102",,352292,,,,,,,,"2011-06-22","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,9,,,,,,,,,,,
+"catalogue_des_cours_municipaux_d_adultes","Catalogue des cours municipaux d'adultes","<p>
+	Catalogue des cours municipaux d'adultes 2011-2012. Ce jeu de données comprend le département d'enseignement, la formation et le module suivis, le nom de l'établissement et les dates de début et de fin.
+</p>","Education, Formation, Recherche, Enseignement","enseignement, formation, cours, éducation","Open Database License (ODbL)","fr","2015-07-17T09:06:25+00:00","2015-06-25T17:55:01+00:00","2015-07-17T09:07:43+00:00","Ville de Paris",,,1435,,,,,,,,"2012-02-16","Ville de Paris","Ville de Paris","annuelle","Paris","2011-2012","Paris",,,,,,,,,,,,,,,9,,,,,,,,,,,
+"bornes-de-recharge-electrique-de-vehicules-bordeaux","Bornes de recharge électrique de véhicules - Bordeaux",,"Transports, Déplacements",,"Licence Ouverte (Etalab)","fr","2015-07-17T09:13:37+00:00","2015-07-17T09:16:34+00:00","2015-07-17T09:16:35+00:00","Ville de Bordeaux","http://opendata.bordeaux.fr/bornes-recharge-electrique-vehicules",,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"baby_names_nc_2013","Baby names popularity in North Carolina (2013)","<p>Distribution of given names of babies born in the state of North Carolina.</p>","Administration, Government, Public finances, Citizenship","names, North Carolina, NC, N.C., babies, baby, name, first name, given name, birth, popular",,"en","2015-07-17T09:14:58+00:00","2015-07-17T09:15:05+00:00","2015-07-17T09:15:06+00:00","Social Security Administration","http://www.ssa.gov/OACT/babynames/limits.html",,2841,,,,,,,"2014-02-28","2014-02-28","Social Security Administration",,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,
+"pistes-cyclables-ville-de-montpellier","Pistes Cyclables - Ville de Montpellier","<p>Réseau de pistes cyclables de Montpellier</p>","Transports, Déplacements","vélo, pistes, cyclables, montpellier","Licence Ouverte (Etalab)","fr","2015-07-17T09:17:20+00:00","2015-07-17T11:51:49+00:00","2015-07-17T11:51:50+00:00","Ville de Montpellier","http://opendata.montpelliernumerique.fr/Pistes-cyclables",,319,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"adresses_des_panneaux_cq","Adresses des panneaux d'affichage des Conseils de Quartier","<p>
+	     Liste des panneaux d'affichage des Conseils de Quartier.<br>
+	     Le jeu de données précise:<br>
+<span style=""line-height: 1.45em;"">- Le type de panneau<br>
+</br></span><span style=""line-height: 1.45em;""></span><span style=""line-height: 1.45em;"">- L'adresse<br>
+</br></span><span style=""line-height: 1.45em;"">- Le conseil de quartier responsable du panneau<br>
+</br></span><span style=""line-height: 1.45em;"">- Les personnes à contacter</span><span style=""line-height: 1.45em;""></span>
+</br></br></p>
+<p>
+<span style=""line-height: 1.45em;"">Les lignes vides dans le jeu de données signifient qu'il n'y a pas de panneaux dans l'arrondissement en question. </span>
+</p>
+<p>
+<span style=""line-height: 1.45em;"">Consultez l'annuaire des coordinateurs des conseils de quartier : <a href=""http://www.paris.fr/politiques/ou-participer/conseils-de-quartier/comment-ca-marche/rub_8977_stand_15333_port_21589"">http://www.paris.fr/politiques/ou-participer/conseils-de-quartier/comment-ca-marche/rub_8977_stand_15333_port_21589</a></span>
+</p>","Administration, Gouvernement, Finances publiques, Citoyenneté","Affichage, panneau, quartier, Conseil de quartier, conseil","Open Database License (ODbL)","fr","2015-07-17T09:21:17+00:00","2015-06-20T22:55:01+00:00","2015-07-17T09:21:33+00:00","Ville de Paris",,,218,,,,,,,,"2013-07-16","Ville de Paris","Ville de Paris","annuelle",,2012,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"localisation-des-stations-de-velos-en-libre-service-velhop-de-strasbourg","Localisation des stations de vélos en libre-service Velhop de Strasbourg",,"Transports, Déplacements",,"Licence Ouverte (Etalab)","fr","2015-07-17T09:25:23+00:00","2015-07-17T10:18:39+00:00","2015-07-17T10:18:40+00:00","Eurométropole de Strasbourg","http://www.strasbourg.eu/ma-situation/professionnel/open-data/donnees/mobilite-transport-open-data/localisation-stations-velos-libre-service-velhop",,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"petits_marchands_sur_l_espace_public_en_2012","Petits Marchands sur l'espace public parisien","<p>
+<span style=""line-height: 1.45em;"">Liste des commerçants autorisés et exerçant sur la voie publique. Le jeu de données comprend la localisation du stand, le type d'activité exercée et les horaires d'activité autorisés.</span>
+</p>
+<p>
+	A noter que le jeu de données ""Petits Marchands sur l'espace public parisien en 2011"" ne sera plus mis à jour. Il faudra désormais se réferer à ce jeu de donnée pour les futures mises à jour.
+</p>","Economie, Business, PME, Développement économique, Emploi","Marchands, commercants, espace public",,"fr","2015-07-17T09:27:45+00:00","2015-06-23T08:55:03+00:00","2015-07-17T09:27:56+00:00",,,,120,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2013-07-03","Ville de Paris","Ville de Paris","Annuelle",,2012,,,,,,,,,,,,,,,,1,,,,,,,,,,,
+"bati_donnees_geographiques","Bâti - Données géographiques","<p>
+	 Bâti données de type vecteur décrivant l'  emprise au sol.
+</p>
+<p>
+	 Exemple(s) de réutilisation(s) des données : - Cartographie sur http://demo.3liz.fr/opendataparis
+</p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","bâti, sol","ODbL Paris","fr","2015-07-17T09:30:04+00:00","2015-06-25T08:55:01+00:00","2015-07-17T09:30:10+00:00","Ville de Paris",,,28573,,,,,,,,"2011-04-04","Ville de Paris","Ville de Paris","annuelle","Paris",,"Paris",,,,,,,,,,,,,,,2,,,,,,,,,,,
+"petits_marchands_sur_l_espace_public","Petits Marchands sur l'espace public en 2011","<p>
+	Liste des commerçants autorisés et exerçant sur la voie publique. Le jeu de données comprend la localisation du stand, le type d'activité exercée et les horaires d'activité autorisés.</p><p>
+	A noter qu'il existe 
+	<a href=""http://public.opendatasoft.com/explore/dataset/petits_marchands_sur_l_espace_public_en_2012/?tab=table"">un autre jeu de données</a> mis à jour.</p>","Economie, Business, PME, Développement économique, Emploi","marchard, commerce, espace","ODbL Paris","fr","2015-07-17T09:32:40+00:00","2015-06-24T13:55:02+00:00","2015-07-17T09:32:45+00:00","Ville de Paris",,,116,,,,,,,,"2012-02-15","Ville de Paris","Ville de Paris","Pas de mise à jour","Paris",2011,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+"liste_des_places_de_livraison","Liste des places de livraison","<p>
+	 Liste et adresses des places de livraison.
+</p>
+<p>
+	 Le jeu de données comprend la distinction entre place de livraison permanente (même la nuit) et place de livraison le jour (transformée en place de stationnement la nuit).<br>
+<br>
+<span style=""line-height: 1.45em;"">Description des champs métier :</span>
+</br></br></p>
+<p>
+<strong>REGPAR </strong>: régime particulier. La valeur LIVRAISON correspond aux aires de livraison périodiques/partagées au stationnement la nuit et la valeur LIVRAISON NUIT correspond aux aires de livraison permanentes/sanctuarisées même la nuit.
+</p>
+<p>
+<strong>LOCNUM </strong>: Localisation de l'emplacement de l'aire de stationnement au regard du numéro de voie enregistré pour cet emplacement.
+</p>
+<p>
+<strong>DROIT </strong>: lorsque le numéro postal se trouve du même côté de rue que l'aire de stationnement
+</p>
+<p>
+<strong>FACE </strong>ou Vis-à-vis : lorsque le numéro postal se trouve du côté opposé de rue de l'aire de stationnement (notamment en cas d’absence du numéro postale au ""droit"" de l'aire de stationnement)
+</p>
+<p>
+<strong>ANGLE </strong>: lorsque le stationnement se trouve à l’angle de deux voies (en cas d’absence du numéro postale au droit et en vis à vis de l'aire de stationnement)
+</p>
+<p>
+<strong>CENTRE </strong>: lorsque le stationnement se trouve en axial à l'aire de stationnement
+</p>","Transports, Déplacements","livraison, stationnement, parking, voiture","Open Database License (ODbL)","fr","2015-07-17T09:40:26+00:00","2015-06-21T15:55:01+00:00","2015-07-17T09:40:32+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=136&portlet_id=102",,8776,,,,,,,,"2012-05-23","Ville de Paris","Ville de Paris","annuelle",,,,,,,,,,,,,,,,,,3,,,,,,,,,,,
+"lignes-de-bus-du-reseau-de-transport-de-marseille-provence-metropole","Lignes de bus du réseau de transport de Marseille Provence Métropole",,"Transports, Déplacements",,"Licence Ouverte (Etalab)","fr","2015-07-17T09:41:36+00:00","2015-07-17T10:04:28+00:00","2015-07-17T10:04:29+00:00","Marseille Provence Métropole","http://opendata.regionpaca.fr/donnees/detail/lignes-de-bus-du-reseau-de-transport-de-mpm.html",,250,,,,,,,,,"OpenDataSoft",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"liste_des_marches_de_quartier_a_paris","Liste des marchés de quartier à Paris","<p>
+	 Liste des marchés de quartier en 2012 avec :<br>
+	 • Adresse du site<br>
+	 • Jours et horaires d'ouverture (ils sont fixes)<br>
+	 • Type du marché : alimentaires couverts,alimentaires découverts,fleurs,timbres,création,puces,biologique
+</p>","Economie, Business, PME, Développement économique, Emploi","marché, quartier","Open Data Paris","fr","2015-07-17T09:43:35+00:00","2015-06-24T20:55:00+00:00","2015-07-17T09:43:40+00:00","Ville de Paris","http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=134&portlet_id=102",,94,,,,,,,,"2012-05-04","Ville de Paris","Ville de Paris","annuelle",,2012,,,,,,,,,,,,,,,,8,,,,,,,,,,,
+"logements_sociaux_finances_a_paris","Logements sociaux financés à Paris","<p>
+<span style=""line-height: 1.45em;"">Inventaire des logements sociaux financés à Paris entre 2001 et 2014, par arrondissement, par année, par maître d’ouvrage, par nombre de logements, par nature de programme, par catégorie de financement et par mode de réalisation.<br/></span></p><p><br><span style=""line-height: 1.45em;""><strong>Informations complémentaires : </strong><br/></span></br></p><p><span style=""line-height: 1.45em;"">Les logements sociaux se différencient notamment par:</span></p><p>
+	 &gt; Catégorie de financement : <br>
+	 -  Les logements PLA I (Prêt locatif aidé d’intégration) sont des logements très sociaux pour les personnes ayant des difficultés particulières d’accès au logement. Ils comprennent notamment des logements d’insertion gérés par des associations pour l’hébergement des personnes défavorisées. <br>
+	 -  Les logements PLUS (Prêt locatif à usage social) correspondent aux logements sociaux classiques. <br>
+	 -  Les logements PLS (Prêt locatif social) sont des logements sociaux de type intermédiaire, destinés notamment aux classes moyennes et accessibles sous des plafonds de ressources qui couvrent trois ménages parisiens sur quatre. <br>
+<br>
+	 &gt; Mode de réalisation : <br>
+	 - la construction neuve <br>
+	 - l’acquisition suivie d’une réhabilitation lourde et de la restructuration d’immeubles assimilable à de la construction neuve <br>
+	 - l’acquisition et le conventionnement en logement social avec pas ou peu de travaux. <br>
+<br>
+	 &gt; Année d’agrément = il s’agit de la décision administrative par laquelle la collectivité compétente donne son accord pour le financement d’une opération de logement social</br></br></br></br></br></br></br></br></br></br></p>","Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement, Services, Social","logement social, logements sociaux, logement, social",,"fr","2015-07-17T09:45:14+00:00","2015-06-25T21:55:01+00:00","2015-07-17T09:45:18+00:00",,,,2457,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2012-11-22",,,"Annuelle",,"2001 - 2014",,,,,,,,,,,,,,,,28,,,,,,,,,,,
+"les_1000_titres_les_plus_empruntes_2012_par_bibliotheque","les 1000 titres les plus empruntés par bibliothèque en 2012","<p>
+	Les 1000 références les plus empruntées en 2012, par bibliothèque
+</p>","Culture, Patrimoine","bibliothèque, prêt, livres, statistiques","ODBl Paris","fr","2015-07-17T09:56:50+00:00","2015-06-17T05:55:00+00:00","2015-07-17T09:57:01+00:00",,,,57174,,,,,,,,"2012-10-25","Ville de Paris","Ville de Paris","Semestrielle","Paris",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"les_1000_titres_les_plus_empruntes_de_2012","Les 1000 titres les plus empruntés de 2012","<p>
+	Les 1000 références les plus empruntées en 2012 au sein des bibliothèques municipales de la ville de Paris.
+</p>","Culture, Patrimoine","bibliothèques, livres, documents, DVD, références, prêt","ODBl Paris","fr","2015-07-17T09:57:12+00:00","2015-06-21T18:55:00+00:00","2015-07-17T09:57:27+00:00",,"http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=157&portlet_id=106",,1000,,,,,,,,"2013-02-14","Ville de Paris","Ville de Paris","Semestrielle",,2012,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"liste_des_etablissements_scolaires2","Liste des établissements scolaires","<p>
+	 Liste des établissements maternels et élémentaires du public parisien.
+</p>
+<p>
+	  Exemples de réutilisations: - Carte web sur http://OpenData-City.com (site suspendu?)
+</p>","Education, Formation, Recherche, Enseignement, Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","école, primaire, maternelle","Open Database License (ODbL)","fr","2015-07-17T10:00:27+00:00","2015-06-25T12:55:02+00:00","2015-07-17T10:00:39+00:00","Ville de Paris",,,670,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2011-01-17","Ville de Paris","Ville de Paris","Annuelle","Paris",,"Arrondissement",,,,,,,,,,,,,,,4,,,,,,,,,,,
+"maneges_et_jeux_2012","Attractions foraines sur l'espace public","<p>
+<span style=""line-height: 1.45em;"">Manèges et jeux forains autorisés sur l'espace public parisien. Le jeu de données comprend la localisation du l'attraction, le type d'attraction et les horaires d'activité autorisés.</span>
+</p>
+<p>
+<span style=""line-height: 1.45em;""></span>
+</p>
+<p>
+<span style=""line-height: 1.45em;"">A noter que le jeu de données "" </span>Attractions foraines sur l'espace public en 2011"" ne sera plus mis à jour.  Il faudra désormais se réferer à ce jeu de donnée pour les futures mises à jour.
+</p>","Sport, Loisirs, Economie, Business, PME, Développement économique, Emploi","attraction, foraine, espace, jeux, manège","Open Database License (ODbL)","fr","2015-07-17T10:03:08+00:00","2015-06-01T05:23:58+00:00","2015-07-17T10:03:20+00:00","Ville de Paris",,,29,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2013-07-04","Ville de Paris","Ville de Paris","Annuelle","Paris",2012,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"localisation-des-ports-du-territoire-de-la-metropole-nice-cote-dazur","Localisation des ports du territoire de la Métropole Nice Côte d'Azur",,"Transports, Déplacements",,"Licence Ouverte (Etalab)","fr","2015-07-17T10:06:19+00:00","2015-07-17T10:17:02+00:00","2015-07-17T10:17:04+00:00","Métropole Nice Côte d'Azur","http://opendata.nicecotedazur.org/data/dataset/cartographie-des-ports-du-territoire-de-la-metropole",,13,,,,,,,,,"OpenDataSoft",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"panneaux_d_affichage_associatifs","Panneaux d'affichages associatifs","<p>
+<span style=""line-height: 1.45em;"">Liste des panneaux d'affichage associatifs par arrondissement, comportant la géolocalisation et le format du panneau</span>
+</p>","Administration, Gouvernement, Finances publiques, Citoyenneté, Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement","association, communication, affichage, tracts, affiches, information","Open Data Paris","fr","2015-07-17T10:10:11+00:00","2015-06-15T15:55:01+00:00","2015-07-17T10:10:17+00:00",,,,288,"Geographical locations from OpenStreetMap contributors - http://www.openstreetmap.org",,,,,,,"2010-11-13","Ville de Paris","Ville de Paris",,,2012,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+"attractions_foraines_sur_l_espace_public","Attractions foraines sur l'espace public en 2011","<p>
+	    Manèges et jeux forains autorisés sur l'espace public parisien. Le jeu de données comprend la localisation du l'attraction, le type d'attraction et les horaires d'activité autorisés.
+</p>
+<p>
+	 A noter qu'il existe un autre jeu de donnée mis à jour.
+</p>","Sport, Loisirs, Economie, Business, PME, Développement économique, Emploi","attraction, foraine, espace, jeux, manège","ODbL Paris","fr","2015-07-17T10:17:39+00:00","2015-06-24T15:55:06+00:00","2015-07-17T10:17:58+00:00","Ville de Paris",,,29,,,,,,,,"2012-02-05","Ville de Paris","Ville de Paris","annuelle","Paris",2011,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"aires-de-covoiturage-de-nantes-metropole","Aires de covoiturage de Nantes Métropole",,"Transports, Déplacements",,"Open Database License (ODbL)","fr","2015-07-17T10:18:57+00:00","2015-07-17T10:23:03+00:00","2015-07-17T10:23:04+00:00","Nantes Métropole","http://data.nantes.fr/donnees/detail/donnees-de-cyclabilite-des-voies-de-nantes-metropole-1/?tx_icsoddatastore_pi1[page]=1",,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"annuaire_immobilier_de_l_enseignement_superieur","Annuaire Immobilier de l'Enseignement Superieur","<p>
+	  L'annuaire immobilier de l’Enseignement supérieur est une tentative pour rassembler dans un cadre unique les principaux établissements d’enseignement supérieur de Paris et de sa couronne, autrement dit de Paris-Métropole, sur la base des adresses et des parcelles.<br>
+<br>
+<span style=""line-height: 1.45em;"">Exemple(s) de réutilisation(s) des données : - Transparent School, un mash up entre Annuaire Immobilier de l'Enseignement Superieur et Foursquare <a href=""http://www.transparentschool.org/"">http://www.transparentschool.org/</a></span>
+</br></br></p>
+<p>
+	  Notice :  L’annuaire immobilier de l’Enseignement supérieur est une tentative pour rassembler dans un cadre unique les principaux établissements d’enseignement supérieur de Paris et de sa couronne, autrement dit de  Paris-Métropole, sur la base des adresses et des parcelles.<br>
+<br>
+<span style=""line-height: 1.45em;"">Les établissements sont classés par arrondissement.<br>
+<br>
+</br></br></span><span style=""line-height: 1.45em;"">Puis par N° de la parcelle, telle qu’elle est connue à la direction de l’urbanisme de la ville de Paris – sous direction de l’action foncière. La surface de la parcelle est exprimée en m².</span>
+</br></br></p>
+<p>
+	  Une grande valeur ajoutée de l’Annuaire est de mentionner le propriétaire.<br>
+<br>
+<span style=""line-height: 1.45em;"">L’occupant est cité, en sigle et avec sa dénomination développée, afin de faciliter la lecture.<br>
+<br>
+</br></br></span><span style=""line-height: 1.45em;"">La catégorie « type » renvoie à un classement selon des catégories pré-définies : université, grand établissement, grandes écoles.<br>
+<br>
+</br></br></span><span style=""line-height: 1.45em;"">La tutelle pédagogique est intéressante pour les cas, limités en nombre, où ce n’est pas celle du ministère de l’enseignement supérieur.<br>
+<br>
+</br></br></span><span style=""line-height: 1.45em;"">La rubrique « statut » permet de séparer les établissements publics des établissements privés. Cet annuaire se veut exhaustif pour les « publics » ; par contre, un choix a été fait concernant les « privés ». Ont été retenus ceux entrants dans un type pré-déterminé ou ceux, notamment en matière de gestion et de management, ayant une certaine reconnaissance ; les auteurs de l’Annuaire admettent ici une marge de choix.<br>
+<br>
+</br></br></span><span style=""line-height: 1.45em;"">Enfin, la colonne PRES signale si le site appartient à un établissement membre d’un Pole de Recherche et d’Enseignement Supérieur.</span>
+</br></br></p>
+<p>
+<span style=""line-height: 1.45em;"">P2 = </span>Paris II Panthéon-Assas<br>
+	 P4 = Paris IV Paris-Sorbonne <br>
+	 P6 = Paris VI Pierre et Marie Curie (UPMC)
+</br></br></p>","Education, Formation, Recherche, Enseignement","annuaire, immobilier, établissement, université, enseignement","Open Database License (ODbL)","fr","2015-07-17T11:56:13+00:00","2015-06-23T05:55:00+00:00","2015-07-17T11:56:25+00:00","Ville de Paris",,,589,,,,,,,,"2011-05-05","Ville de Paris","Ville de Paris","Annuelle","Région parisienne",,,,,,,,,,,,,,,,,6,,,,,,,,,,,
