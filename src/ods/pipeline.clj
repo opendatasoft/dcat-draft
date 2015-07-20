@@ -16,10 +16,6 @@
      [ods.util :refer [import-rdf unique-rows]]
      [ods.transform :refer :all]))
 
-(def c "datasets.csv")
-
-(def cols [:datasetid :title :description :theme :keyword :license :language :modified :data_processed :metadata_processed :publisher :references :odi_certificate_url :records_count :attributions :source_domain :source_domain_title :source_domain_address :source_dataset :oauth_scope :dcatcreated :dcatissued :dcatcreator :dcatcontributor :dcataccrualperiodicity :dcatspatial :dcattemporal :dcatgranularity :dcatdataquality :inspirefile_identifier :inspirehierarchy_level :inspirehierarchy_level_name :inspirecontact_individual_name :inspirecontact_position :inspirecontact_address :inspirecontact_email :inspireidentification_purpose :inspireextend_description :inspireextend_bounding_box_westbound_longitude :inspireextend_bounding_box_eastbound_longitude :inspireextend_bounding_box_southbound_latitude :inspireextend_bounding_box_northbound_latitude :exploredownload_count])
-
 (def catalog-template
   (graph-fn [{:keys [dataset-uri datasetid title description modified publisher
                      keyword references language license theme-uri theme-label]}]
@@ -27,9 +23,17 @@
                    [catalog
                     [rdf:a dcat:Catalog]
                     [dcterms:title (s "Public's catalog")]
-                    [dcterms:language (lang language)]
+                    [dcterms:description (s "OpenDataSoft Public Catalog")]
+                    [dcterms:publisher OpenDataSoft]
+                    [foaf:homepage "http://public.opendatasoft.com"]
+                    [dcat:themeTaxonomy theme-cs]
+                    [dcterms:language (when language (lang language))]
                     [dcterms:issued (s "2015-07-20T14:00:00+00:00")]
                     [dcat:dataset dataset-uri]]
+
+                   [OpenDataSoft
+                    [rdf:a foaf:Agent]
+                    [foaf:name (s "OpenDataSoft")]]
 
                    [theme-cs
                     [rdf:a skos:ConceptScheme]

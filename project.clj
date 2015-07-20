@@ -18,4 +18,6 @@
                        ;;"-Xmx4g"
                        ]
 
+  :main ods.core
+
   :plugins [[lein-grafter "0.5.0"]])
