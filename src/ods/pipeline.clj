@@ -11,8 +11,9 @@
      [grafter.vocabularies.dcterms :refer :all]
      [grafter.vocabularies.foaf :refer :all]
      [grafter.vocabularies.dcat :refer [dcat:Dataset dcat:theme]]
+     [grafter.vocabularies.skos :refer :all]
      [ods.prefix :refer :all]
-     [ods.util :refer [import-rdf]]
+     [ods.util :refer [import-rdf unique-rows]]
      [ods.transform :refer :all]))
 
 (def c "datasets.csv")
@@ -21,19 +22,37 @@
 
 (def catalog-template
   (graph-fn [{:keys [dataset-uri datasetid title description modified publisher
-                     ]}]
+                     keyword references language license theme-uri theme-label]}]
             (graph (base-graph "catalog")
+                   [catalog
+                    [rdf:a dcat:Catalog]
+                    [dcterms:title (s "Public's catalog")]
+                    [dcterms:language (lang language)]
+                    [dcterms:issued (new java.util.Date)]
+                    [dcat:dataset dataset-uri]]
+
+                   [theme-cs
+                    [rdf:a skos:ConceptScheme]
+                    [skos:prefLabel (s "A Set of data themes")]
+                    [skos:topConceptOf theme-uri]]
+
                    [dataset-uri
                     [rdf:a dcat:Dataset]
                     [dcterms:identifier (s datasetid)]
                     [dcterms:publisher (s publisher)]
-                    [dcterms:license ]
+                    [dcterms:license (->license license)]
                     [dcterms:title (s title)]
                     [dcterms:modified modified]
-                    [dcterms:language ]
-                    [dcat:theme ]
-                    [dcterms:references ]
-                    [dcterms:description (s (clean-str-str description))]])))
+                    [dcterms:language (lang language)]
+                    [dcat:theme theme-uri]
+                    [dcat:keyword ]
+                    [dcterms:references (urify-uri references)]
+                    [dcterms:description (s description)]]
+                   
+                   [theme-uri
+                    [rdf:a skos:ConceptScheme]
+                    [skos:inScheme theme-cs]
+                    [skos:prefLabel (s theme-label)]])))
 
 (defpipe convert-catalog
   "Pipeline to convert tabular ODS catalog data"
@@ -41,10 +60,10 @@
   (-> (read-dataset data-file)
       (make-dataset move-first-row-to-header)
       (rename-columns (comp keyword slugify))
-      (take-rows 2)
       (derive-column :dataset-uri [:datasetid] base-domain)
-      (columns [:description])
-      (mapc {:description clean-str-str})
+      (derive-column :theme-label [:theme] ->theme)
+      (derive-column :theme-uri [:theme-label] (comp theme-id slugify))
+      ;;(columns [:theme-uri])
       ))
 
 (defgraft catalog->graph

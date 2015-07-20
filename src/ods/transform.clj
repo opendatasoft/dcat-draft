@@ -1,6 +1,7 @@
 (ns ods.transform
   (:require [grafter.rdf.io :as io]
-            [clojure.string :as st]))
+            [clojure.string :as st]
+            [ods.prefix :refer [dcat:keyword]]))
 
 (defn s [s] (if (seq s) (io/s s) ""))
 
@@ -39,6 +40,7 @@
     (-> string
         st/trim
         (st/lower-case)
+        (st/replace "\"" "")
         (st/replace "(" "-")
         (st/replace ")" "")
         (st/replace "  " "")
@@ -50,9 +52,9 @@
         (st/replace "---" "-")
         (st/replace "--" "-"))))
 
-(defn clean-str-str
-  [s]
-  (boolean (string? (read-string s))))
+(comment (defn clean-str-str
+           [s]
+           (read-string s)))
 
 (defn ->slug
   "Slugifies several strings"
@@ -80,6 +82,13 @@
   "Combines slugs to create URI"
   [& args]
   (apply str (interpose "/" args)))
+
+(defn urify-uri
+  [s]
+  (when (seq s)
+    (if (= \h (first s))
+      s
+      (str "http://" s))))
 
 ;; Parser
 
@@ -113,3 +122,65 @@
 (defmethod parseDate nil              [x] nil)
 (defmethod parseDate java.lang.String [x] (s->yyyy-mm-dd x))
 (defmethod parseDate java.util.Date   [x] (.format (java.text.SimpleDateFormat. "yyyy-MM-dd") x))
+
+(def licenses {"odbl-paris" "http://opendata.paris.fr/page/lalicence/"
+               "open-database-license-odbl" "http://opendatacommons.org/licenses/odbl/summary/"
+               "la-réutilisation-de-geofla®-est-gratuite-pour-tous-les-usages-y-compris-commerciaux-selon-les-termes-de-la-licence-ouverte-version-10" "https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"
+               "http:-wwwdatagouvfr-licence-ouverte-open-licence" "https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"
+               "odbl" "http://opendatacommons.org/licenses/odbl/summary/"
+               "licence-ouverte-open-licence" "https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"
+               "open-data-paris" "http://opendata.paris.fr/page/lalicence/"
+               "cc-by-sa" "https://creativecommons.org/licenses/by-sa/2.0/"
+               "public-domain" "https://en.wikipedia.org/wiki/Public_domain"
+               "licence-ouverte-etalab" "https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"
+               "netatmo" "https://www.netatmo.com/site/terms"
+               "insee" "http://www.insee.fr/fr/service/default.asp?page=rediffusion/rediffusion.htm"
+               "licence-ouverte-10-etalab" "https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"
+               "cc-by" "https://creativecommons.org/licenses/by/2.0/"
+               "licence-ouverte-datagouvfr" "https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"})
+
+(defn ->license
+  [s]
+  (when (seq s)
+    (if (or (re-find #"http://" s)
+            (re-find #"https://" s))
+      s
+      (-> s
+          slugify
+          licenses))))
+
+(def themes
+  {"Environnement" "Environnement"
+   "Urbanisme" "Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement"
+   "Education" "Education, Formation, Recherche, Enseignement"
+   "Health" "Santé"
+   "Permitting" "Permitting"
+   "Citoyens" "Administration, Gouvernement, Finances publiques, Citoyenneté"
+   "Service" "Services, Social"
+   "Restaurants" "Hébergement, Restauration"
+   "Transportation" "Transports, Déplacements"
+   "Territoire" "Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement"
+   "Culture" "Culture, Patrimoine"
+   "Services" "Services, Social"
+   "Public" "Administration, Gouvernement, Finances publiques, Citoyenneté"
+   "Sport" "Sport, Loisirs"
+   "Sécurité" "Justice, Sécurité, Police, Crime"
+   "Déplacements" "Transports, Déplacements"
+   "Finances" "Administration, Gouvernement, Finances publiques, Citoyenneté"
+   "Transport" "Transports, Déplacements"
+   "Spatial" "Spatial"
+   "Transports" "Transports, Déplacements"
+   "Justice" "Justice, Sécurité, Police, Crime"
+   "Aménagement" "Aménagement du territoire, Urbanisme, Bâtiments, Equipements, Logement"
+   "Santé" "Santé"
+   "Administration" "Administration, Gouvernement, Finances publiques, Citoyenneté"
+   "Environment" "Environnement"
+   "Economie" "Economie, Business, PME, Développement économique, Emploi"})
+
+(defn ->theme
+  [s]
+  (when (seq s)
+    (let [w (re-seq #"\p{L}+" s)]
+      (-> w
+          first
+          themes))))

@@ -1,0 +1,24 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+
+<http://public.opendatasoft.com/api/datasets/1.0/opendatasoft-netatmo-weather-station>
+	a dcat:Dataset ;
+	dct:identifier "opendatasoft-netatmo-weather-station";
+	<http://purl.org/dc/terms/publisher> "OpenDataSoft";
+	<http://purl.org/dc/terms/licence> "Netatmo";
+	<http://purl.org/dc/terms/title> "Station Météo Netatmo d'OpenDataSoft";
+	<http://purl.org/dc/terms/modified> "2014-11-05T09:33:13+00:00"^^xsd:dateTime;
+	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr>;
+	<http://www.w3.org/ns/dcat#theme> "Environnement";
+	<http://www.w3.org/ns/dcat#keyword> "meteo","netatmo","weather station";
+	<http://purl.org/dc/terms/references> <http://www.netatmo.com>;
+	<http://purl.org/dc/terms/description> "<p>Historique de la station m… ».
