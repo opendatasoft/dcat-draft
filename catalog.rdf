@@ -4,11 +4,18 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:dcat="http://www.w3.org/ns/dcat#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <dcat:Catalog rdf:about="	">
+  <dcat:Catalog rdf:about="http://public.opendatasoft.com/api/datasets/1.0/search?rows=-1&amp;format=rdf">
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/conseils-quartiers">
-        <dc:identifier>conseils-quartiers</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:description>&lt;p&gt;
+&lt;span style="line-height: 1.45em;"&gt;La carte des périmètres des conseils de quartier par arrondissement&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	         Vous pouvez également la retrouver &lt;a href="http://www.paris.fr/politiques/conseils-de-quartier/conseils-de-quartier/p10047" style="line-height: 1.45em;"&gt;ici&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	 En pièce jointe, le jeu de données au format d'origine.
+&lt;/p&gt;</dc:description>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Les conseils de quartier par arrondissement</dc:title>
         <dc:modified>2013-09-10T14:58:32+00:00</dc:modified>
@@ -107,15 +114,9 @@
             <skos:prefLabel>Administration, Gouvernement, Finances publiques, Citoyenneté</skos:prefLabel>
           </skos:ConceptScheme>
         </dcat:theme>
-        <dc:description>&lt;p&gt;
-&lt;span style="line-height: 1.45em;"&gt;La carte des périmètres des conseils de quartier par arrondissement&lt;/span&gt;
-&lt;/p&gt;
-&lt;p&gt;
-	         Vous pouvez également la retrouver &lt;a href="http://www.paris.fr/politiques/conseils-de-quartier/conseils-de-quartier/p10047" style="line-height: 1.45em;"&gt;ici&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-	 En pièce jointe, le jeu de données au format d'origine.
-&lt;/p&gt;</dc:description>
+        <dc:identifier>conseils-quartiers</dc:identifier>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dcat:keyword>Conseil de quartier, Quartier, arrondissement</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -126,6 +127,7 @@
         <dc:modified>2014-03-06T11:07:54+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
+        <dcat:keyword>wifi, hotspots, internet, wifi paris, trafic</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Données quantifiées des utilisations mensuelles des hotspots Paris Wi-Fi par type de site.&lt;br&gt;
 &lt;br&gt;
@@ -140,6 +142,7 @@
         <dc:modified>2014-06-16T15:42:25+00:00</dc:modified>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=92&amp;portlet_id=102"/>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dcat:keyword>Paris, Mobilier urbain, Equipements, Eau potable, eau</dcat:keyword>
         <dc:identifier>mobiliereaupotableparis2011</dc:identifier>
         <dc:description>&lt;p&gt;
     Données de type vecteur décrivant divers points de distribution d'eau potable ou non potable : fontaine wallace, borne fontaine, vanne, bouche...
@@ -164,18 +167,20 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/annuaire_de_l_administration_-_base_de_donnees_locales_-_types_organismes">
-        <dc:identifier>annuaire_de_l_administration_-_base_de_donnees_locales_-_types_organismes</dc:identifier>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Base de données locales, Guichets Publics Locaux - Types Organismes</dc:title>
-        <dc:modified>2015-07-16T16:11:13+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:references rdf:resource="http://www.ideeslibres.org/service-public-fr-annuaire-de-ladministration-base-de-donnees-locales-v2/"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:description>La Base de données locales succède à la Base d'orientation Service-Public Local (BOSPL). Elle référence environ 55 000 guichets publics locaux. Elle fournit leurs coordonnées (adresse, site internet, horaires d'ouverture, ...). La liste des types d'organismes référencés dans la base est consultable à cette adresse :http://www.service-public.fr/info/docs/liste-type-organisme.pdfLe schéma et sa documentation sont disponibles à l'adresse : http://www.service-public.fr/apropos-du-site/informations-techniques/001366.html</dc:description>
+        <dcat:keyword>guichets, publics, locaux, types, organismes, coordonnées, ouvertures</dcat:keyword>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:identifier>annuaire_de_l_administration_-_base_de_donnees_locales_-_types_organismes</dc:identifier>
+        <dc:modified>2015-07-16T16:11:13+00:00</dc:modified>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/opendatasoft-netatmo-weather-station">
+        <dcat:keyword>meteo, netatmo, weather station</dcat:keyword>
         <dc:description>&lt;p&gt;Historique de la station météo Netatmo d'OpenDataSoft.&lt;/p&gt;&lt;p&gt;La station est située au 130 rue de Lourmel, dans l'incubateur Boucicaut, au 3ème étage. Son adresse mac est &lt;em&gt;70:ee:50:04:a3:78.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Les données récupérées sont les données publiques :&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;la température en degré Celcius (°C)&lt;/li&gt;&lt;li&gt;le pourcentage d'humidité dans l'air (%)&lt;/li&gt;&lt;li&gt;la pression atmosphérique en millibar (mbar)&lt;/li&gt;&lt;li&gt;la concentration de CO2 dans l'air en parties par million (ppm) &lt;/li&gt;&lt;li&gt;le niveau sonore en décibel (db)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Notre station n'est pas équipée du module pluviomètre et possède un seul module additionel.&lt;/p&gt;</dc:description>
         <dc:references rdf:resource="http://www.netatmo.com"/>
@@ -190,16 +195,17 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste-des-cafes-a-un-euro">
-        <dc:identifier>liste-des-cafes-a-un-euro</dc:identifier>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Liste des cafés à un euro</dc:title>
         <dc:modified>2014-05-15T10:44:01+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
-        <dc:references rdf:resource="https://docs.google.com/spreadsheet/viewform?formkey=dGNHWl83NzJvUm9USk1NZVkzWENRUUE6MQ"/>
+        <dc:identifier>liste-des-cafes-a-un-euro</dc:identifier>
         <dc:description>&lt;p&gt;
 	                     La liste des cafés à un euro de Paris.&lt;/p&gt;&lt;p&gt;
 	                     Ce jeu de données est totalement crowdsourcé. N'hésitez pas à participer à l'enrichissement de ce jeu de données ici: &lt;a href="https://docs.google.com/spreadsheet/viewform?formkey=dGNHWl83NzJvUm9USk1NZVkzWENRUUE6MQ"&gt;https://docs.google.com/spreadsheet/viewform?formkey=dGNHWl83NzJvUm9USk1NZVkzWENRUUE6MQ&lt;/a&gt;&lt;/p&gt;</dc:description>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dc:title>Liste des cafés à un euro</dc:title>
+        <dcat:keyword>Café, bistrot, euro, snack, bar, terrasse</dcat:keyword>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:references rdf:resource="https://docs.google.com/spreadsheet/viewform?formkey=dGNHWl83NzJvUm9USk1NZVkzWENRUUE6MQ"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -210,6 +216,7 @@
         <dc:modified>2015-07-16T16:31:28+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>panneaux, signalisation, poteaux, potelets, voirie, route, piéton</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Données de type vecteur, décrivant les panneaux indicateurs de signalisation routière et piétonne : poteaux indicateur, potelet piéton, panneaux indicateur...&lt;/span&gt;
 &lt;/p&gt;</dc:description>
@@ -235,30 +242,33 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/annuaire_de_l_administration_-_base_de_donnees_locales_v2_-_organismes">
-        <dc:identifier>annuaire_de_l_administration_-_base_de_donnees_locales_v2_-_organismes</dc:identifier>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Base de données locales, Guichets Publics Locaux - Organismes</dc:title>
-        <dc:modified>2015-07-16T16:15:38+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:references rdf:resource="http://www.ideeslibres.org/service-public-fr-annuaire-de-ladministration-base-de-donnees-locales-v2/"/>
         <dc:description>La Base de données locales succède à la Base d'orientation Service-Public Local (BOSPL). Elle référence environ 55 000 guichets publics locaux. Elle fournit leurs coordonnées (adresse, site internet, horaires d'ouverture, ...). La liste des types d'organismes référencés dans la base est consultable à cette adresse :http://www.service-public.fr/info/docs/liste-type-organisme.pdfLe schéma et sa documentation sont disponibles à l'adresse : http://www.service-public.fr/apropos-du-site/informations-techniques/001366.html</dc:description>
+        <dc:identifier>annuaire_de_l_administration_-_base_de_donnees_locales_v2_-_organismes</dc:identifier>
+        <dc:modified>2015-07-16T16:15:38+00:00</dc:modified>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:title>Base de données locales, Guichets Publics Locaux - Organismes</dc:title>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dcat:keyword>guichets, publics, locaux, types, organismes, coordonnées, ouvertures</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/mobilierenvironnementparis2011">
-        <dc:identifier>mobilierenvironnementparis2011</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Mobiliers sur voie publique - Données géographiques</dc:title>
-        <dc:modified>2015-07-17T08:15:00+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:description>Données de type vecteur, décrivant des mobiliers (du domaine environnement) sur la voie publique : bancs, corbeilles, jardinières, poubelles...</dc:description>
+        <dc:modified>2015-07-17T08:15:00+00:00</dc:modified>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:identifier>mobilierenvironnementparis2011</dc:identifier>
+        <dc:title>Mobiliers sur voie publique - Données géographiques</dc:title>
+        <dcat:keyword>Equipements, Environnement, Paris, Mobilier urbain</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/index-de-legalite-des-sexes">
+        <dcat:keyword>égalité des sexes, travail, santé, éducation, temps, pouvoir, argent</dcat:keyword>
         <dc:license rdf:resource="http://ec.europa.eu/geninfo/legal_notices_en.htm"/>
         <dc:description>&lt;p&gt;L'index de l'égalité des sexes est un jeu de données initialement créé par l'&lt;em&gt;European Institute for Gender Equality&lt;/em&gt;. Il mesure la distance séparant l'Europe des 27 et ses états membres d'une égalité complète entre les sexes en 2010. L'index fournit des données au niveau de l'Europe des 27 et de ses états membres. &lt;/p&gt;&lt;p&gt;Cet outil synthétise la complexité du concept d'égalité des sexes en une mesure aisément interrogeable et interprétable. facilement navigable et interprétable.&lt;/p&gt;&lt;p&gt;Il prend en compte 6 domaines-clés : &lt;/p&gt;&lt;ol&gt;&lt;li&gt;travail&lt;/li&gt;&lt;li&gt;argent&lt;/li&gt;&lt;li&gt;connaissance&lt;/li&gt;&lt;li&gt;temps&lt;/li&gt;&lt;li&gt;pouvoir&lt;/li&gt;&lt;li&gt;santé&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Pour cette réutilisation, nous n'avons pas tenu compte de deux domaines satellites "inégalités croisées" et "violence". N'hésitez pas à consulter le jeu de données original pour explorer ces deux facettes complémentaires. &lt;/p&gt;&lt;p&gt;L'index attribue à chaque état membre une note située entre 1 (inégalité totale) et 100 (égalité complète). Il attribue également une note à chaque domaine et sous-domaine.&lt;/p&gt;</dc:description>
         <dc:references rdf:resource="http://open-data.europa.eu/en/data/dataset/gender-equality-index"/>
@@ -272,14 +282,15 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/arbresremarquablesparis2011">
-        <dc:identifier>arbresremarquablesparis2011</dc:identifier>
         <dc:publisher>Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Les arbres remarquables</dc:title>
-        <dc:modified>2013-06-21T13:04:22+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dc:title>Les arbres remarquables</dc:title>
+        <dcat:keyword>ArbresRemarquables, Arbres, DEVE</dcat:keyword>
         <dc:description>&lt;p&gt;&lt;em&gt;Couche anciennement intitulée "Arbres remarquables - Données géographiques" (2011).&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Cette couche à figuré ponctuel localise géographiquement l’ensemble des arbres remarquables présents sur le territoire parisien&lt;em&gt;.&lt;/em&gt; La classification, le nom commun et la taille des arbres etc. sont renseignés sur la couche de données.&lt;/p&gt;&lt;p&gt;Pour plus de renseignements, consultez la notice en pièce jointe OU le dossier spécial &lt;em&gt;&lt;a href="http://www.paris.fr/pratique/jardinage-vegetation/dossier-arbres-remarquables/les-arbres-remarquables-a-paris/rub_10043_dossier_103510_port_25125" target="_blank"&gt;Arbres remarquables à Paris&lt;/a&gt; &lt;/em&gt;hébergé sur le site de la ville.&lt;/p&gt;</dc:description>
+        <dc:identifier>arbresremarquablesparis2011</dc:identifier>
+        <dc:modified>2013-06-21T13:04:22+00:00</dc:modified>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -290,6 +301,7 @@
         <dc:identifier>stations_et_espaces_autolib_de_la_metropole_parisienne</dc:identifier>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>Autolib, transport, stations, espaces, bornes, véhicules, abris</dcat:keyword>
         <dc:modified>2014-02-11T13:31:28+00:00</dc:modified>
         <dc:title>Stations et espaces AutoLib de la métropole parisienne</dc:title>
         <dc:description>&lt;p&gt;Ce jeu de données fournit pour l'ensemble des stations Autolib' d'Ile-de-France, leur positionnement géographique et leur capacité d'accueil de véhicules. &lt;/p&gt;&lt;p&gt;Définition:&lt;/p&gt;&lt;div&gt;- ID: Ce numero ID est composé d'un code commune suivi d'un code numéro station par commune.&lt;/div&gt;&lt;div&gt;- Identifiant Autolib': Cette identifiant est compsé du nom de la commune d'implantation de la station, du nom de la rue et du numéro de rue.&lt;/div&gt;&lt;div&gt;- Rue: Numéro de rue et rue de la station&lt;/div&gt;&lt;div&gt;- Code postal: Code postal de la commune d'implantation de la station&lt;/div&gt;&lt;div&gt;- Ville :Commune d'implantation de la station&lt;/div&gt;&lt;div&gt;- Emplacement: Espace d'emplacement de la station (Voirie ou Parking)&lt;/div&gt;&lt;div&gt;- Autolib': Nombre de places destinées aux véhicules Autolib'&lt;/div&gt;&lt;div&gt;- Tiers: Nombre de places destinées aux véhicules Tiers&lt;/div&gt;&lt;div&gt;- Abri: Précision sur le fait qu'il y ai ou non un espace d'abonnement sur le lieu de la station (1 = oui, 0 = non).&lt;/div&gt;</dc:description>
@@ -302,6 +314,7 @@
         <dc:modified>2015-07-17T09:27:45+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/economie-business-pme-développement-économique-emploi"/>
+        <dcat:keyword>Marchands, commercants, espace public</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Liste des commerçants autorisés et exerçant sur la voie publique. Le jeu de données comprend la localisation du stand, le type d'activité exercée et les horaires d'activité autorisés.&lt;/span&gt;
 &lt;/p&gt;
@@ -324,14 +337,15 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/inseerecensementgeographie2008">
-        <dc:identifier>inseerecensementgeographie2008</dc:identifier>
-        <dc:publisher>INSEE</dc:publisher>
-        <dc:title>Résultats du recensement de la population - 2008</dc:title>
-        <dc:modified>2015-07-16T14:46:52+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>INSEE</dc:publisher>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
-        <dc:references rdf:resource="http://www.recensement.insee.fr/documentation.action"/>
+        <dc:modified>2015-07-16T14:46:52+00:00</dc:modified>
+        <dcat:keyword>Recensement</dcat:keyword>
+        <dc:title>Résultats du recensement de la population - 2008</dc:title>
+        <dc:identifier>inseerecensementgeographie2008</dc:identifier>
         <dc:description>Résultats du recensement de la population - 2008. Vue géographique.</dc:description>
+        <dc:references rdf:resource="http://www.recensement.insee.fr/documentation.action"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -339,6 +353,7 @@
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Données de type vecteur décrivant des bornes: à vélo, d'amarrage, rabattable, les épingles moto, arceaux pour véhicules...&lt;/span&gt;&lt;/p&gt;</dc:description>
         <dc:modified>2014-04-25T14:13:21+00:00</dc:modified>
+        <dcat:keyword>Equipements, Paris, Mobilier urbain, bornes, arceaux</dcat:keyword>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:identifier>bornes_et_arceaux_de_stationnement_a_paris</dc:identifier>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
@@ -351,31 +366,33 @@
     <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/zones-de-rattachement-des-bureaux-de-vote-en-2012">
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dc:modified>2014-01-24T15:16:15+00:00</dc:modified>
+        <dc:description>&lt;p&gt;Zones de rattachement des bureaux de vote en 2012&lt;/p&gt;</dc:description>
+        <dc:title>Zones de rattachement des bureaux de vote en 2012</dc:title>
         <dc:identifier>zones-de-rattachement-des-bureaux-de-vote-en-2012</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Zones de rattachement des bureaux de vote en 2012</dc:title>
-        <dc:modified>2014-01-24T15:16:15+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
-        <dc:description>&lt;p&gt;Zones de rattachement des bureaux de vote en 2012&lt;/p&gt;</dc:description>
+        <dcat:keyword>élection, vote, bureau</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/attractions_foraines_sur_l_espace_public">
-        <dc:identifier>attractions_foraines_sur_l_espace_public</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dc:identifier>attractions_foraines_sur_l_espace_public</dc:identifier>
         <dc:title>Attractions foraines sur l'espace public en 2011</dc:title>
-        <dc:modified>2015-07-17T10:17:39+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/sport-loisirs"/>
         <dc:description>&lt;p&gt;
 	    Manèges et jeux forains autorisés sur l'espace public parisien. Le jeu de données comprend la localisation du l'attraction, le type d'attraction et les horaires d'activité autorisés.
 &lt;/p&gt;
 &lt;p&gt;
 	 A noter qu'il existe un autre jeu de donnée mis à jour.
 &lt;/p&gt;</dc:description>
+        <dc:modified>2015-07-17T10:17:39+00:00</dc:modified>
+        <dcat:keyword>attraction, foraine, espace, jeux, manège</dcat:keyword>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/sport-loisirs"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -386,6 +403,7 @@
         <dc:description>&lt;p&gt;
     Liste des sites municipaux disposant d'un hotspot Paris WiFi permettant une connexion à Internet offerte pendant 2h.
 &lt;/p&gt;</dc:description>
+        <dcat:keyword>wifi, internet, navigation, hotspot, web</dcat:keyword>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:modified>2014-06-16T15:52:04+00:00</dc:modified>
         <dc:identifier>liste_des_sites_des_hotspots_paris_wifi</dc:identifier>
@@ -420,6 +438,7 @@
         <dc:references rdf:resource="http://www.nosdonnees.fr/dataset/r-serve-parlementaire-2013-de-l-assembl-e-nationale"/>
         <dc:modified>2014-02-01T19:10:12+00:00</dc:modified>
         <dc:publisher>Assemblée nationale / NosDéputés.fr / Regards Citoyens</dc:publisher>
+        <dcat:keyword>législatives, Assemblée nationale, réserve parlementaire</dcat:keyword>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
       </dcat:Dataset>
@@ -440,22 +459,24 @@
         <dc:identifier>bpe_ensemble</dc:identifier>
         <dc:title>Base Permanente des Équipements</dc:title>
         <dc:publisher>INSEE</dc:publisher>
+        <dcat:keyword>Service public, Equipements</dcat:keyword>
         <dc:references rdf:resource="http://www.insee.fr/fr/themes/detail.asp?reg_id=99&amp;ref_id=fd-bpe11&amp;page=fichiers_detail/bpe11/telechargement.htm"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/mobiliertransportsparis2011">
+        <dcat:keyword>Mobilier urbain, Equipements, Transports en commun, Paris</dcat:keyword>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:title>Mobiliers des transports en commun - Données géographiques</dc:title>
+        <dc:modified>2015-07-17T08:20:13+00:00</dc:modified>
         <dc:description>&lt;p&gt;
 	Données de type vecteur, décrivant les mobiliers liés aux transports en commun, notamment bus
 	&lt;br/&gt;
 &lt;br/&gt;
 &lt;strong&gt;Exemple(s) de réutilisation(s) des données:&lt;br/&gt;
 &lt;/strong&gt;&lt;span style="line-height: 1.45em;"&gt;- Application Android "VuzZz" &lt;/span&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.vuzzz.android&amp;amp;feature=search_result#?t=W251bGwsMSwyLDEsImNvbS52dXp6ei5hbmRyb2lkIl0."&gt;Lien Google Play&lt;/a&gt;(lien cassé)&lt;/p&gt;</dc:description>
-        <dc:modified>2015-07-17T08:20:13+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=100&amp;portlet_id=106"/>
         <dc:identifier>mobiliertransportsparis2011</dc:identifier>
@@ -463,14 +484,15 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/tonnages_des_dechets_bacs_jaunes">
-        <dc:identifier>tonnages_des_dechets_bacs_jaunes</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Tonnages des déchets bacs jaunes</dc:title>
         <dc:modified>2015-07-16T15:25:47+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
         <dc:description>Tonnages des déchets bacs jaunes collectés par arrondissement et par mois.</dc:description>
+        <dcat:keyword>collecte, dechets, arrondissement, tonnages</dcat:keyword>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:title>Tonnages des déchets bacs jaunes</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:identifier>tonnages_des_dechets_bacs_jaunes</dc:identifier>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -479,6 +501,7 @@
         <dc:title>Points d'accueil police (coordonnées) - Paris</dc:title>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/justice-sécurité-police-crime"/>
         <dc:identifier>pointsaccueilpoliceparis2011</dc:identifier>
+        <dcat:keyword>Paris, Sécurité, Police</dcat:keyword>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dc:references rdf:resource="http://www.data.gouv.fr/fr/datasets/carte-des-points-d-accueil-police-a-paris-idf/"/>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
@@ -494,6 +517,7 @@
         <dc:modified>2015-03-30T11:25:01+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dcat:keyword>hémicycle, conseil de Paris, partie poitique, place, paris</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Le fichier CSV regroupe tous les membres du conseil de Paris ainsi que leur emplacement dans l'hémicycle, leur partie politique et d'autres informations.&lt;br&gt;
 &lt;br&gt;
@@ -503,13 +527,14 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste-des-marches-de-fournitures-passes-par-le-departement-de-paris">
+        <dc:title>Liste des marchés de fournitures passés par le Département de Paris</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:identifier>liste-des-marches-de-fournitures-passes-par-le-departement-de-paris</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Liste des marchés de fournitures passés par le Département de Paris</dc:title>
         <dc:modified>2014-03-12T15:25:57+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>marché, département, fournitures</dcat:keyword>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Le jeu de données comprend les marchés de fournitures passés passés le Département de Paris, de 2009 à 2013.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Ce jeu de données précise:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
@@ -524,15 +549,16 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste_des_bureaux_de_vote_2013_voies_de_paris">
-        <dc:identifier>liste_des_bureaux_de_vote_2013_voies_de_paris</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Liste des bureaux de vote : voies de Paris</dc:title>
-        <dc:modified>2014-03-06T13:37:45+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:description>&lt;p&gt;Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales.&lt;/p&gt;&lt;p&gt;Exemple(s) de réutilisation(s) des données :
 - Cartographie sur http://mounirsimon.com/dequelbord/&lt;/p&gt;</dc:description>
+        <dc:modified>2014-03-06T13:37:45+00:00</dc:modified>
+        <dc:title>Liste des bureaux de vote : voies de Paris</dc:title>
+        <dc:identifier>liste_des_bureaux_de_vote_2013_voies_de_paris</dc:identifier>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>élections, résultats, présidentielles, municipales, législatives, européennes, régionales, vote</dcat:keyword>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -543,6 +569,7 @@
         <dc:modified>2015-07-17T10:10:11+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dcat:keyword>association, communication, affichage, tracts, affiches, information</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Liste des panneaux d'affichage associatifs par arrondissement, comportant la géolocalisation et le format du panneau&lt;/span&gt;
 &lt;/p&gt;</dc:description>
@@ -563,12 +590,13 @@
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/maneges_et_jeux_2012">
         <dc:identifier>maneges_et_jeux_2012</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Attractions foraines sur l'espace public</dc:title>
         <dc:modified>2015-07-17T10:03:08+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/sport-loisirs"/>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dcat:keyword>attraction, foraine, espace, jeux, manège</dcat:keyword>
+        <dc:title>Attractions foraines sur l'espace public</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Manèges et jeux forains autorisés sur l'espace public parisien. Le jeu de données comprend la localisation du l'attraction, le type d'attraction et les horaires d'activité autorisés.&lt;/span&gt;
 &lt;/p&gt;
@@ -588,6 +616,7 @@
         <dc:modified>2015-03-19T15:39:09+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dcat:keyword>délibération, aseemblée, vote</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Ordres du jour du conseil municipal de mars 2008 à décembre 2014 par séance. &lt;br&gt;
 &lt;br&gt;
@@ -608,11 +637,13 @@
         <dc:modified>2015-07-16T14:38:11+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
+        <dcat:keyword>Paris</dcat:keyword>
         <dc:description>Liste des sites municipaux disposant d'un hotspot Paris WiFi permettant une connexion à Internet offerte pendant 2h. </dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/polices-municipales-20120">
+        <dcat:keyword>Police, polices municipales</dcat:keyword>
         <dc:description>&lt;p&gt;Données statistiques relatives aux polices municipales par commune pour l'année 2012&lt;/p&gt;</dc:description>
         <dc:identifier>polices-municipales-20120</dc:identifier>
         <dc:references rdf:resource="http://www.data.gouv.fr/fr/dataset/polices-municipales"/>
@@ -632,6 +663,7 @@
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/spatial"/>
         <dc:title>Natural Earth - US States &amp; Provinces 1:110m</dc:title>
         <dc:publisher>Natural Earth</dc:publisher>
+        <dcat:keyword>Natural Earth, State, Province, USA, Boundary</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dc:description>&lt;p&gt;Internal, first-order administrative boundaries and polygons for the United States.&lt;/p&gt;</dc:description>
         <dc:modified>2014-12-10T14:17:09+00:00</dc:modified>
@@ -657,6 +689,7 @@
         <dc:modified>2014-01-04T09:45:46+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dcat:keyword>fire department, fdny, fd, fires, station, fire station, fire house, emergency, 911</dcat:keyword>
         <dc:description>&lt;p&gt;
 	&lt;span style="line-height: 1.45em;"&gt;Listing of all the fire houses in New York City&lt;/span&gt;
 &lt;/p&gt;
@@ -687,6 +720,7 @@
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=136&amp;portlet_id=102"/>
         <dc:title>Parc de stationnement en sous-sol</dc:title>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
+        <dcat:keyword>parking, stationnement, voiture</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
       </dcat:Dataset>
     </dcat:dataset>
@@ -695,6 +729,7 @@
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dc:title>Prix des carburants - Stations non modifiées</dc:title>
         <dc:publisher>Ministère des finances et des comptes publics</dc:publisher>
+        <dcat:keyword>Carburant, Prix, Voiture, Station service</dcat:keyword>
         <dc:references rdf:resource="http://www.prix-carburants.gouv.fr/rubrique/opendata/"/>
         <dc:identifier>prix-des-carburants-stations-non-modifiees</dc:identifier>
         <dc:description>&lt;div&gt;Les informations sont extraites du système d’information « Prix Carburants ». Elles ont été récupérés via le service &lt;a href="http://www.prix-carburants.gouv.fr/itineraire/infos/ID_STATION" target="_blank"&gt;www.prix-carburants.gouv.fr/itineraire/infos/ID_ST...&lt;/a&gt;&lt;/div&gt; &lt;div&gt;&lt;hr/&gt;&lt;/div&gt;&lt;div&gt;Description des champs :&lt;/div&gt; &lt;ul&gt;&lt;li&gt;Identifiant Station : Identifiant de la station&lt;/li&gt;&lt;li&gt;Nom : Nom de la station&lt;/li&gt;&lt;li&gt;Marque : Marque de la station&lt;/li&gt;&lt;/ul&gt;</dc:description>
@@ -706,12 +741,13 @@
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/cheminement_d_assainissement">
         <dc:identifier>cheminement_d_assainissement</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Cheminement d'assainissement</dc:title>
+        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:modified>2015-07-16T16:34:50+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dc:title>Cheminement d'assainissement</dc:title>
+        <dcat:keyword>rigole, fil d'eau</dcat:keyword>
         <dc:description>&lt;p&gt;
 	Données de type vecteur, décrivant la partie routière du réseau d'assainissement.
 &lt;/p&gt;</dc:description>
@@ -721,6 +757,7 @@
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/gender-equality-in-europe">
         <dc:identifier>gender-equality-in-europe</dc:identifier>
         <dc:title>Gender Equality in Europe</dc:title>
+        <dcat:keyword>gender equality, time, money, work, knowledge, health, power</dcat:keyword>
         <dc:modified>2014-10-03T15:34:18+00:00</dc:modified>
         <dc:description>&lt;p&gt;The Gender Equality Index was initially created by the&lt;em&gt; European Institute for Gender Equality&lt;/em&gt;. It measures how far (or close) the  EU-27 and its Member States were from achieving complete gender equality  in 2010. It provides results at both Member States and EU-27 level. It synthesises the complexity of gender equality in an easily interpretable measure. &lt;/p&gt;&lt;p&gt;The Index consists of six core domains:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;work&lt;/li&gt;&lt;li&gt;money&lt;/li&gt;&lt;li&gt;knowledge&lt;/li&gt;&lt;li&gt;time&lt;/li&gt;&lt;li&gt;power&lt;/li&gt;&lt;li&gt;health&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;For this reuse, we did not took the two satellite domains (intersecting inequalities and violence) into account. Feel free to look at the original dataset to explore these two additional categories. &lt;/p&gt;&lt;p&gt;The Gender Equality  Index assigns scores for Member States, between 1,  total inequality and  100, full equality. It also provides results for  each domain and  sub-domain.&lt;/p&gt;</dc:description>
         <dc:publisher>European Institute for Gender Equality</dc:publisher>
@@ -733,6 +770,7 @@
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/sanisettesparis2011">
         <dc:publisher>Ville de Paris</dc:publisher>
+        <dcat:keyword>Equipements, Paris, Mobilier urbain</dcat:keyword>
         <dc:title>Sanisettes - Données géographiques</dc:title>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=93&amp;portlet_id=106"/>
         <dc:identifier>sanisettesparis2011</dc:identifier>
@@ -795,65 +833,71 @@
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dc:license rdf:resource="https://en.wikipedia.org/wiki/Public_domain"/>
         <dc:identifier>natural-earth-countries-1_110m</dc:identifier>
+        <dcat:keyword>Natural Earth, Country, Boundary</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/poteaux_divers_sur_voie_publique">
-        <dc:identifier>poteaux_divers_sur_voie_publique</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Poteaux divers sur voie publique</dc:title>
+        <dcat:keyword>poteau, bois, voie, publique</dcat:keyword>
         <dc:modified>2015-07-16T15:28:18+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dc:title>Poteaux divers sur voie publique</dc:title>
         <dc:description>Données de type vecteur, décrivant des poteaux divers sur voie publique</dc:description>
+        <dc:identifier>poteaux_divers_sur_voie_publique</dc:identifier>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/les_1000_titres_les_plus_empruntes_de_2012">
         <dc:identifier>les_1000_titres_les_plus_empruntes_de_2012</dc:identifier>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
         <dc:title>Les 1000 titres les plus empruntés de 2012</dc:title>
         <dc:modified>2015-07-17T09:57:12+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=157&amp;portlet_id=106"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
         <dc:description>&lt;p&gt;
 	Les 1000 références les plus empruntées en 2012 au sein des bibliothèques municipales de la ville de Paris.
 &lt;/p&gt;</dc:description>
+        <dcat:keyword>bibliothèques, livres, documents, DVD, références, prêt</dcat:keyword>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/resultat_ballon_d_or_2014">
         <dc:identifier>resultat_ballon_d_or_2014</dc:identifier>
-        <dc:publisher>FIFA</dc:publisher>
+        <dc:references rdf:resource="http://www.fifa.com/mm/document/ballond&apos;or/playeroftheyear(men)/02/26/02/68/fboaward_menplayer2013_neutral.pdf"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/sport-loisirs"/>
         <dc:title>Résultats Ballon d'Or FIFA 2013</dc:title>
         <dc:modified>2014-01-17T16:02:06+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/sport-loisirs"/>
-        <dc:references rdf:resource="http://www.fifa.com/mm/document/ballond&apos;or/playeroftheyear(men)/02/26/02/68/fboaward_menplayer2013_neutral.pdf"/>
+        <dcat:keyword>Football, Ballon d'Or, FIFA, Ribéry Franck, Ronaldo Cristiano, Messi Lionel</dcat:keyword>
+        <dc:publisher>FIFA</dc:publisher>
         <dc:description>&lt;p&gt;Résultats du Ballon d'Or FIFA 2013, révélés le 13 janvier 2014.&lt;/p&gt;&lt;p&gt;Extraits du fichier officiel de la FIFA.&lt;/p&gt;</dc:description>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/petits_marchands_sur_l_espace_public">
-        <dc:identifier>petits_marchands_sur_l_espace_public</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
         <dc:title>Petits Marchands sur l'espace public en 2011</dc:title>
-        <dc:modified>2015-07-17T09:32:40+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/economie-business-pme-développement-économique-emploi"/>
+        <dc:modified>2015-07-17T09:32:40+00:00</dc:modified>
         <dc:description>&lt;p&gt;
 	Liste des commerçants autorisés et exerçant sur la voie publique. Le jeu de données comprend la localisation du stand, le type d'activité exercée et les horaires d'activité autorisés.&lt;/p&gt;&lt;p&gt;
 	A noter qu'il existe 
 	&lt;a href="http://public.opendatasoft.com/explore/dataset/petits_marchands_sur_l_espace_public_en_2012/?tab=table"&gt;un autre jeu de données&lt;/a&gt; mis à jour.&lt;/p&gt;</dc:description>
+        <dcat:keyword>marchard, commerce, espace</dcat:keyword>
+        <dc:identifier>petits_marchands_sur_l_espace_public</dc:identifier>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/economie-business-pme-développement-économique-emploi"/>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/killings-by-law-enforcement-officers-in-the-usa">
         <dc:publisher>Wikipedia Contributors</dc:publisher>
         <dc:identifier>killings-by-law-enforcement-officers-in-the-usa</dc:identifier>
+        <dcat:keyword>killings, law enforcement officers, USA</dcat:keyword>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/justice-sécurité-police-crime"/>
         <dc:description>&lt;p&gt;
 &lt;a href="http://en.wikipedia.org/wiki/List_of_killings_by_law_enforcement_officers_in_the_United_States"&gt;http://en.wikipedia.org/wiki/List_of_killings_by_law_enforcement_officers_in_the_United_States&lt;/a&gt;:
@@ -873,13 +917,6 @@
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/adresses_des_panneaux_cq">
-        <dc:identifier>adresses_des_panneaux_cq</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Adresses des panneaux d'affichage des Conseils de Quartier</dc:title>
-        <dc:modified>2015-07-17T09:21:17+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:description>&lt;p&gt;
 	     Liste des panneaux d'affichage des Conseils de Quartier.&lt;br&gt;
 	     Le jeu de données précise:&lt;br&gt;
@@ -894,6 +931,14 @@
 &lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Consultez l'annuaire des coordinateurs des conseils de quartier : &lt;a href="http://www.paris.fr/politiques/ou-participer/conseils-de-quartier/comment-ca-marche/rub_8977_stand_15333_port_21589"&gt;http://www.paris.fr/politiques/ou-participer/conseils-de-quartier/comment-ca-marche/rub_8977_stand_15333_port_21589&lt;/a&gt;&lt;/span&gt;
 &lt;/p&gt;</dc:description>
+        <dc:identifier>adresses_des_panneaux_cq</dc:identifier>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:title>Adresses des panneaux d'affichage des Conseils de Quartier</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>Affichage, panneau, quartier, Conseil de quartier, conseil</dcat:keyword>
+        <dc:modified>2015-07-17T09:21:17+00:00</dc:modified>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -902,6 +947,7 @@
         <dc:identifier>lignes-de-metro-et-funiculaire-du-reseau-tcl-grand-lyon</dc:identifier>
         <dc:modified>2015-07-01T14:42:56+00:00</dc:modified>
         <dc:references rdf:resource="http://data.grandlyon.com/equipements/lignes-de-mftro-et-funiculaire-du-rfseau-tcl/"/>
+        <dcat:keyword>métro, furniculaire</dcat:keyword>
         <dc:publisher>Data Grand Lyon</dc:publisher>
         <dc:description>&lt;p&gt;Le jeu de données donne la représentation graphique des lignes de métro et de funiculaire du  réseau TCL et son parcours  de terminus à terminus.&lt;/p&gt;</dc:description>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
@@ -918,6 +964,7 @@
         <dc:references rdf:resource="http://www.data.gouv.fr/DataSet/30380017?xtmc=&amp;xtcr=1"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/"/>
         <dc:title>Liste des marchés conclus en 2011</dc:title>
+        <dcat:keyword>Service, Travaux publics, Achats, Marché, Attributaire, Fourniture, Travaux</dcat:keyword>
         <dc:identifier>liste_des_marches_conclus_en_2011</dc:identifier>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
       </dcat:Dataset>
@@ -930,6 +977,7 @@
         <dc:modified>2014-04-22T16:22:40+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dcat:keyword>bibliothèques, livres, documents, DVD, références, prêt, recherche</dcat:keyword>
         <dc:description>&lt;p&gt;
 	 &lt;span style="line-height: 1.45em;"&gt;Les 1000 références les plus recherchées en 2013 au sein des bibliothèques municipales de la ville de Paris.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	 La mise de ce jeu de données est semestrielle.&lt;/p&gt;&lt;p&gt;
@@ -943,6 +991,7 @@
         <dc:modified>2015-03-09T10:59:03+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dcat:keyword>Hurricanes</dcat:keyword>
         <dc:references rdf:resource="http://www.nhc.noaa.gov/pastdead.html"/>
         <dc:description>&lt;p&gt;This is taken from The Deadliest, Costliest, and Most Intense United States hurricanes of this century (and other frequently requested hurricane facts) [NOAA Technical Memorandum NWS TPC-1] updated in February, 1997.&lt;/p&gt;</dc:description>
       </dcat:Dataset>
@@ -953,6 +1002,7 @@
         <dc:modified>2015-07-17T09:17:20+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:references rdf:resource="http://opendata.montpelliernumerique.fr/Pistes-cyclables"/>
+        <dcat:keyword>vélo, pistes, cyclables, montpellier</dcat:keyword>
         <dc:description>&lt;p&gt;Réseau de pistes cyclables de Montpellier&lt;/p&gt;</dc:description>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
         <dc:title>Pistes Cyclables - Ville de Montpellier</dc:title>
@@ -970,6 +1020,7 @@
         <dc:identifier>evenements-publics-cibul</dc:identifier>
         <dc:publisher>OpenAgenda</dc:publisher>
         <dc:references rdf:resource="https://openagenda.com/"/>
+        <dcat:keyword>concert, théâtre, exposition, salon, manifestation, colloque, compétition, rencontre, art, sport</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:description>&lt;p&gt;Liste des événements publics publiés dans les agendas OpenAgenda.&lt;/p&gt;</dc:description>
       </dcat:Dataset>
@@ -982,6 +1033,7 @@
         <dc:modified>2015-07-16T16:46:19+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dcat:keyword>livres, bibliothèque, notice bibliographique, ouvrage</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Liste des ouvrages (notice bibliographique et localisation) dans les bibliothèques parisiennes au 02/01/2009&lt;/span&gt;
 &lt;/p&gt;</dc:description>
@@ -1023,22 +1075,18 @@ The file stations.csv contains all our data representing stations. Here is an ex
 &lt;/p&gt;&lt;/p&gt;</dc:description>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:identifier>european-train-stations</dc:identifier>
+        <dcat:keyword>train, station, train station, Europe, Mobility</dcat:keyword>
         <dc:title>European train stations</dc:title>
         <dc:references rdf:resource="https://github.com/capitainetrain/stations"/>
         <dc:publisher>Capitaine Train</dc:publisher>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dc:modified>2015-04-23T11:40:30+00:00</dc:modified>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste-des-marches-de-travaux-passes-par-la-ville-de-paris">
         <dc:identifier>liste-des-marches-de-travaux-passes-par-la-ville-de-paris</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Liste des marchés de travaux passés par la Ville de Paris</dc:title>
-        <dc:modified>2014-03-12T16:30:01+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dcat:keyword>marché, ville, travaux</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Le jeu de données comprend les marchés des travaux passés par la Ville de Paris, de 2009 à 2013.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	  Ce jeu de données comprend:&lt;/p&gt;&lt;p&gt;
@@ -1049,28 +1097,36 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	  - l'objet du marché&lt;/p&gt;&lt;p&gt;
 	  - le montant&lt;/p&gt;&lt;p&gt;
 	  - la date de notif&lt;/p&gt;</dc:description>
+        <dc:modified>2014-03-12T16:30:01+00:00</dc:modified>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:title>Liste des marchés de travaux passés par la Ville de Paris</dc:title>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/resultats-de-lelection-municipale-2014-1er-tour">
         <dc:identifier>resultats-de-lelection-municipale-2014-1er-tour</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Résultats de l'élection municipale 2014 1er tour</dc:title>
         <dc:modified>2014-03-24T15:20:39+00:00</dc:modified>
+        <dc:description>&lt;p&gt;Résultats du 1er tour des élections Municipales de 2014&lt;/p&gt;</dc:description>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dcat:keyword>élections, résultats, municipales, vote, bureau, candidat</dcat:keyword>
+        <dc:title>Résultats de l'élection municipale 2014 1er tour</dc:title>
+        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
-        <dc:description>&lt;p&gt;Résultats du 1er tour des élections Municipales de 2014&lt;/p&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste_epci_maine_et_loire">
         <dc:identifier>liste_epci_maine_et_loire</dc:identifier>
-        <dc:publisher>Département de Maine-et-Loire</dc:publisher>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:title>Liste des EPCI du Maine-et-Loire</dc:title>
         <dc:modified>2013-12-26T16:05:57+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>EPCI</dcat:keyword>
+        <dc:publisher>Département de Maine-et-Loire</dc:publisher>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:description>&lt;p&gt;
 	Liste des Établissements Publics de Coopération Intercommunale (EPCI) de Maine-et-Loire.
@@ -1096,14 +1152,15 @@ The file stations.csv contains all our data representing stations. Here is an ex
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/donnees-sur-les-medecins-accredites">
-        <dc:identifier>donnees-sur-les-medecins-accredites</dc:identifier>
-        <dc:publisher>Haute Autorité de Santé</dc:publisher>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
-        <dc:title>Données sur les médecins accrédités</dc:title>
         <dc:modified>2014-12-24T09:26:50+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/santé"/>
+        <dc:publisher>Haute Autorité de Santé</dc:publisher>
         <dc:description>&lt;p&gt;En application de l’article L. 1414-3-2 du Code de la santé publique, l’accréditation des médecins est une démarche volontaire. C’est une démarche de gestion des risques fondée sur les programmes élaborés par les organismes agréés pour l’accréditation (OA-Accréditation) dont objectif est d’améliorer la qualité des pratiques professionnelles, de réduire le nombre et de limiter les conséquences des événements indésirables associés aux soins au bénéfice de la sécurité du patient. Elle concerne le s médecins exerçant une spécialité ou une activité dite «à risques» en établissement de santé décret n° 2006-909 du 21 juillet 2006. : gynécologie-obstétrique, anesthésie-réanimation, chirurgie, spécialités interventionnelles, échographie obstétricale, réanimation ou de soins intensifs. Pour plus d’information sur l’accréditation : &lt;a href="http://www.has-sante.fr/portail/jcms/c_428381/fr/mieux-connaitre-laccreditation" style="font-size: 14px;"&gt;http://www.has-sante.fr/portail/jcms/c_428381/fr/mieux-connaitre-laccreditation&lt;/a&gt;&lt;/p&gt;</dc:description>
+        <dcat:keyword>Médecin, HAS, Accrédité</dcat:keyword>
+        <dc:identifier>donnees-sur-les-medecins-accredites</dc:identifier>
+        <dc:title>Données sur les médecins accrédités</dc:title>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/santé"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1113,6 +1170,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:modified>2015-07-17T09:45:14+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>logement social, logements sociaux, logement, social</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Inventaire des logements sociaux financés à Paris entre 2001 et 2014, par arrondissement, par année, par maître d’ouvrage, par nombre de logements, par nature de programme, par catégorie de financement et par mode de réalisation.&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;span style="line-height: 1.45em;"&gt;&lt;strong&gt;Informations complémentaires : &lt;/strong&gt;&lt;br/&gt;&lt;/span&gt;&lt;/br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="line-height: 1.45em;"&gt;Les logements sociaux se différencient notamment par:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	 &amp;gt; Catégorie de financement : &lt;br&gt;
@@ -1130,13 +1188,11 @@ The file stations.csv contains all our data representing stations. Here is an ex
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/etalages_et_terrasses_autorisees_a_paris">
-        <dc:identifier>etalages_et_terrasses_autorisees_a_paris</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Etalages et terrasses autorisées à Paris</dc:title>
-        <dc:modified>2013-09-04T16:21:54+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dc:identifier>etalages_et_terrasses_autorisees_a_paris</dc:identifier>
+        <dc:modified>2013-09-04T16:21:54+00:00</dc:modified>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:description>&lt;p&gt;
 	  Liste des 19000 autorisations d’occupation du domaine public délivrées aux commerces parisiens (autorisation d’installer des étalages, terrasses, commerces accessoires, contre terrasse, contre étalage,...).&lt;br&gt;
 &lt;br&gt;
@@ -1168,6 +1224,9 @@ The file stations.csv contains all our data representing stations. Here is an ex
 &lt;em&gt;Dosred &lt;/em&gt;&lt;br&gt;
 	    Raison sociale du bénéficiaire de l’autorisation et indication de la nature du commerce entre parenthèses. Exemple : SA CHEZ RIBE  (RESTAURANT)
 &lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/p&gt;</dc:description>
+        <dc:title>Etalages et terrasses autorisées à Paris</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>étalage, terrasse, autorisation, occupation, rue, trottoir, piéton</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1178,6 +1237,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:modified>2013-08-23T08:49:07+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/permitting"/>
+        <dcat:keyword>food, restaurants, inspetions</dcat:keyword>
         <dc:description>&lt;p&gt;
 	 &lt;span style="line-height: 1.45em;"&gt;Listing of food establishments with active licenses in Boston, USA&lt;/span&gt;
 &lt;/p&gt;
@@ -1196,6 +1256,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:references rdf:resource="https://www.data.gouv.fr/fr/datasets/liste-des-conseillers-communautaires-de-saint-malo-agglomeration-1/"/>
         <dc:modified>2014-12-22T15:47:22+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>conseillers communautaires, saint-malo</dcat:keyword>
         <dc:title>Liste des conseillers Communautaires de Saint-Malo Agglomération</dc:title>
       </dcat:Dataset>
     </dcat:dataset>
@@ -1208,9 +1269,10 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dc:publisher>IGN</dc:publisher>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>Mairies, France, Communes</dcat:keyword>
         <dc:modified>2015-07-16T14:45:00+00:00</dc:modified>
-        <dc:title>Répertoire Géographique des Communes 2011 - DOM</dc:title>
         <dc:references rdf:resource="http://professionnels.ign.fr/ficheProduitCMS.do?idDoc=5323862#top"/>
+        <dc:title>Répertoire Géographique des Communes 2011 - DOM</dc:title>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1247,34 +1309,37 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:publisher>Ville de Paris</dc:publisher>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>livraison, stationnement, parking, voiture</dcat:keyword>
         <dc:modified>2015-07-17T09:40:26+00:00</dc:modified>
         <dc:identifier>liste_des_places_de_livraison</dc:identifier>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/tonnages_de_la_collecte_du_verre">
-        <dc:identifier>tonnages_de_la_collecte_du_verre</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:description>Tonnages de la collecte du verre en porte à porte, via les gros producteurs et en colonnes à verre par arrondissement et par mois.</dc:description>
         <dc:title>Tonnages de la collecte du verre</dc:title>
+        <dcat:keyword>collecte, dechets, arrondissement, verre, tonnages</dcat:keyword>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:modified>2015-07-16T15:27:09+00:00</dc:modified>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:identifier>tonnages_de_la_collecte_du_verre</dc:identifier>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
-        <dc:description>Tonnages de la collecte du verre en porte à porte, via les gros producteurs et en colonnes à verre par arrondissement et par mois.</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/les_references_les_plus_reservees_en_2011">
-        <dc:identifier>les_references_les_plus_reservees_en_2011</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Références bibliographiques les plus réservées des bibliothèques de prêt en 2011</dc:title>
-        <dc:modified>2015-07-16T16:25:01+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Les Références les plus réservées en 2011 par les usagers dans le catalogue des bibliothèques de prêt&lt;/span&gt;
 &lt;/p&gt;</dc:description>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:modified>2015-07-16T16:25:01+00:00</dc:modified>
+        <dcat:keyword>bibliothèque, réservation, prêt, catalogue, références</dcat:keyword>
+        <dc:identifier>les_references_les_plus_reservees_en_2011</dc:identifier>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:title>Références bibliographiques les plus réservées des bibliothèques de prêt en 2011</dc:title>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1288,6 +1353,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:title>Monuments Historiques Protégés - Ile de France</dc:title>
         <dc:references rdf:resource="http://www.data-publica.com/opendata/12144--liste-des-immeubles-proteges-au-titre-des-monuments-historiques-ile-de-france"/>
         <dc:identifier>immeublesprotegesiledefrancedatapublica2011</dc:identifier>
+        <dcat:keyword>Art et culture, Monuments</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1295,6 +1361,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:identifier>code-insee-postaux-geoflar</dc:identifier>
         <dc:title>Base officielle des codes postaux croisée avec  Geofla® - Communes 2013</dc:title>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>INSEE, Code Postaux, Correspondance, La Poste</dcat:keyword>
         <dc:description>&lt;p&gt;Base officielle des codes postaux croisée avec les donnée GEOFLA® Communes.&lt;/p&gt;&lt;p&gt;Geofla contient uniquement les données pour la France métropolitaine, la Guadeloupe, la Martinique, la Guyane, la Réunion et Mayotte. Les territoires d'outre-mer et Monaco n'ont pas de correspondance.&lt;/p&gt;&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Champs La Poste :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;Le code commune INSEE : &lt;strong&gt;CODE INSEE&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Le nom de la commune : &lt;strong&gt;NOM DE LA COMMUNE&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Le code postal : &lt;strong&gt;CODE POSTAL&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Le libellé d’acheminement : &lt;strong&gt;LIBELLE D'ACHEMINEMENT&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Champs Geofla :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
@@ -1465,12 +1532,8 @@ The file stations.csv contains all our data representing stations. Here is an ex
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/etiquettes_energetiques_des_batiments_municipaux">
         <dc:identifier>etiquettes_energetiques_des_batiments_municipaux</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Etiquettes énergétiques des batiments municipaux</dc:title>
         <dc:modified>2013-07-18T14:40:12+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dcat:keyword>GES, énergie, diagnostic</dcat:keyword>
         <dc:description>&lt;p&gt;
 	 Jeu de données qualifiant les performances énergétiques des bâtiments :&lt;br&gt;
 &lt;span style="line-height: 1.45em;"&gt;- Étiquette énergie&lt;br&gt;
@@ -1479,34 +1542,36 @@ The file stations.csv contains all our data representing stations. Here is an ex
 &lt;p&gt;
 	 Les informations de ce jeu de données sont valables 10 ans.
 &lt;/p&gt;</dc:description>
+        <dc:title>Etiquettes énergétiques des batiments municipaux</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/bati_donnees_geographiques">
-        <dc:identifier>bati_donnees_geographiques</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Bâti - Données géographiques</dc:title>
-        <dc:modified>2015-07-17T09:30:04+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:identifier>bati_donnees_geographiques</dc:identifier>
+        <dc:modified>2015-07-17T09:30:04+00:00</dc:modified>
         <dc:description>&lt;p&gt;
 	 Bâti données de type vecteur décrivant l'  emprise au sol.
 &lt;/p&gt;
 &lt;p&gt;
 	 Exemple(s) de réutilisation(s) des données : - Cartographie sur http://demo.3liz.fr/opendataparis
 &lt;/p&gt;</dc:description>
+        <dc:title>Bâti - Données géographiques</dc:title>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dcat:keyword>bâti, sol</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste-des-marches-de-travaux-passes-par-le-departement-de-paris">
-        <dc:identifier>liste-des-marches-de-travaux-passes-par-le-departement-de-paris</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Liste des marchés de travaux passés par le Département de Paris</dc:title>
         <dc:modified>2014-03-12T16:30:09+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Le jeu de données comprend les marchés de travaux passés par le Département de Paris, de 2009 à 2013.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	  Ce jeu de données comprend:&lt;/p&gt;&lt;p&gt;
@@ -1517,6 +1582,11 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	  - l'objet du marché&lt;/p&gt;&lt;p&gt;
 	  - le montant&lt;/p&gt;&lt;p&gt;
 	  - la date de notif&lt;/p&gt;</dc:description>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>marché, travaux, département</dcat:keyword>
+        <dc:identifier>liste-des-marches-de-travaux-passes-par-le-departement-de-paris</dc:identifier>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1528,6 +1598,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:identifier>prix_des_carburants_stations</dc:identifier>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
+        <dcat:keyword>Carburant, Prix, Voiture, Station service</dcat:keyword>
         <dc:modified>2014-10-03T07:46:46+00:00</dc:modified>
         <dc:references rdf:resource="http://www.prix-carburants.gouv.fr/rubrique/opendata/"/>
       </dcat:Dataset>
@@ -1543,23 +1614,26 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dc:modified>2014-11-14T13:57:13+00:00</dc:modified>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>Geofla, Communes, Découpage, INSEE</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/arbresalignementparis2010">
-        <dc:identifier>arbresalignementparis2010</dc:identifier>
-        <dc:publisher>Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Les arbres d'alignement</dc:title>
-        <dc:modified>2015-06-12T00:39:58+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dc:publisher>Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris</dc:publisher>
         <dc:description>&lt;p&gt;Couche anciennement intitulée &lt;em&gt;Arbres d'alignement - Données géographiques (2011)&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Cette couche à figuré ponctuel localise géographiquement l’ensemble des arbres d’alignement présents sur le territoire parisien. &lt;/p&gt;</dc:description>
+        <dc:identifier>arbresalignementparis2010</dc:identifier>
+        <dc:modified>2015-06-12T00:39:58+00:00</dc:modified>
+        <dcat:keyword>Arbres, DEVE</dcat:keyword>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/volumesnonbatisparis2011">
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>Paris, Construction, bâti</dcat:keyword>
         <dc:description>&lt;p&gt;Données de type vecteur qui décrivent les volumes non bâtis représentés sur le plan parcellaire&lt;/p&gt;&lt;p&gt;Vous trouverez en pièce jointe une notice explicative du jeu de données&lt;/p&gt;</dc:description>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:title>Volumes non bâtis - Données géographiques</dc:title>
@@ -1572,13 +1646,14 @@ The file stations.csv contains all our data representing stations. Here is an ex
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste-des-marches-de-services-passes-par-le-departement-de-paris">
-        <dc:identifier>liste-des-marches-de-services-passes-par-le-departement-de-paris</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Liste des marchés de services passés par le Département de Paris</dc:title>
         <dc:modified>2014-03-12T16:29:53+00:00</dc:modified>
+        <dcat:keyword>marché, Services, département</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:identifier>liste-des-marches-de-services-passes-par-le-departement-de-paris</dc:identifier>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:title>Liste des marchés de services passés par le Département de Paris</dc:title>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Le jeu de données comprend les marchés de services passés par le Département de Paris, de 2009 à 2013.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Ce jeu de données comprend:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
@@ -1593,6 +1668,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/jcdecaux_bike_data">
+        <dcat:keyword>Urban Data, Mobility, Bike</dcat:keyword>
         <dc:modified>2014-06-26T23:05:28+00:00</dc:modified>
         <dc:description>&lt;p&gt;JCDecaux bike stations availability data. This dataset is updated in real time.&lt;/p&gt;&lt;p&gt;You can access these data directly from the JCDecaux Developer site: &lt;a href="https://developer.jcdecaux.com/#/home" target="_blank"&gt;https://developer.jcdecaux.com/#/home&lt;/a&gt;.&lt;/p&gt;</dc:description>
         <dc:identifier>jcdecaux_bike_data</dc:identifier>
@@ -1612,6 +1688,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dc:modified>2014-03-12T15:26:14+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dcat:keyword>marché, fournitures, Ville</dcat:keyword>
         <dc:description>&lt;p&gt;
 	  Le jeu de données comprend les marchés de fournitures passés par la Ville de Paris, de 2009 à 2013.&lt;/p&gt;&lt;p&gt;
 	  Ce jeu de données comprend:&lt;/p&gt;&lt;p&gt;
@@ -1626,14 +1703,15 @@ The file stations.csv contains all our data representing stations. Here is an ex
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste_des_jardins_partages_a_paris">
-        <dc:identifier>liste_des_jardins_partages_a_paris</dc:identifier>
-        <dc:publisher>Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Les jardins partagés</dc:title>
-        <dc:modified>2013-07-29T09:59:18+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:title>Les jardins partagés</dc:title>
+        <dc:publisher>Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris</dc:publisher>
+        <dc:identifier>liste_des_jardins_partages_a_paris</dc:identifier>
         <dc:description>&lt;p&gt;&lt;em&gt;Couche anciennement intitulée "Liste des jardins partagés à Paris" (2011).&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Cette couche à figuré ponctuel localise géographiquement l’ensemble  des jardins partagés, pédagogiques et/ou d’insertion gérés par  différentes associations.&lt;/p&gt;&lt;p&gt;Pour plus de renseignements,  consultez la notice en pièce jointe.&lt;/p&gt;&lt;p style="margin-left: 200px;"&gt;&lt;br&gt;&lt;strong&gt;/!\ INFOS /!\ &lt;/strong&gt;&lt;/br&gt;&lt;/p&gt;&lt;p&gt;Suite à la mise à jour de ce jeu de données, nous avons décidé  de modifier le nom des champs :&lt;/p&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Ancien nom&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Nouveau nom&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Nom du jardin&lt;/td&gt;&lt;td&gt;NOM JARDIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Type de jardin – activité principale&lt;/td&gt;&lt;td&gt;TYPE JARDIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Adresse complète&lt;/td&gt;&lt;td&gt;ADRESSE JARDIN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Nom de l’association gestionnaire (...)&lt;/td&gt;&lt;td&gt;NOM GESTIONNAIRE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Adresse postale de l’association gestionnaire&lt;/td&gt;&lt;td&gt;ADRESSE GESTIONNAIRE&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</dc:description>
+        <dc:modified>2013-07-29T09:59:18+00:00</dc:modified>
+        <dcat:keyword>jardins, JardinsPartagés, DEVE</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1647,6 +1725,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
         <dc:references rdf:resource="https://www.data.gouv.fr/fr/datasets/points-dapport-volontaire-shp/"/>
         <dc:publisher>Saint-Malo Agglomération</dc:publisher>
+        <dcat:keyword>points d'apport volontaire, saint-malo, déchets</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1663,13 +1742,12 @@ The file stations.csv contains all our data representing stations. Here is an ex
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/accidentologie">
-        <dc:identifier>accidentologie</dc:identifier>
-        <dc:publisher>Direction de la Voirie et des déplacements - Agence de la mobilité</dc:publisher>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Accidentologie</dc:title>
-        <dc:modified>2014-05-27T09:45:01+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>accident, voiture, véhicule</dcat:keyword>
+        <dc:publisher>Direction de la Voirie et des déplacements - Agence de la mobilité</dc:publisher>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
+        <dc:title>Accidentologie</dc:title>
+        <dc:identifier>accidentologie</dc:identifier>
         <dc:description>&lt;p&gt;Elements d'accidentologie de Paris.&lt;/p&gt;&lt;p&gt;Intitulés des colonnes: &lt;/p&gt;&lt;p&gt;- Carac = Caractéristiques ; &lt;/p&gt;&lt;p&gt;- Com =
 Commune (nombre à 3 chiffres, composé du 1 [pour paris] et suivi du numéro de
 l’arrondissement) ; &lt;/p&gt;&lt;p&gt;- Carr = carrefour ; &lt;/p&gt;&lt;p&gt;- Segm = segment de voie ; &lt;/p&gt;&lt;p&gt;- NomV = nom de voie ; &lt;/p&gt;&lt;p&gt;- Vehi1 = véhicule 1 ; &lt;/p&gt;&lt;p&gt;- CAdmin = catégorie
@@ -1678,53 +1756,58 @@ vehi1 a la lettre A, le vehi2 a la lettre B, le vehi 3, s’il y en a un 3ème, 
 la lettre C, la lettre Z signifie « Véhicule en fuite » ;&lt;/p&gt;&lt;p&gt;- CatU =
 catégorie d’usager (BL = blessé léger ; BH = blessé hospitalisé&lt;/p&gt;&lt;p&gt;Le code carrefour est un code nœud du RGU (référentiel
 géographique unique).&lt;/p&gt;</dc:description>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:modified>2014-05-27T09:45:01+00:00</dc:modified>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/tous-les-documents-des-bibliotheques-de-pret">
+        <dc:title>Tous les documents des bibliothèques de prêt (février 2015)</dc:title>
+        <dc:description>&lt;p&gt;Toutes les collections des bibliothèques de prêt, telles qu'elles étaient en février 2015. Plus de 750 000 titres sont référencés. Attention les données peuvent avoir évolué depuis, elles ne sont pas dynamiques&lt;/p&gt;&lt;p&gt;Le jeu de données comprend de nombreuses données sauf les résumés et les mots clés sujet&lt;/p&gt;</dc:description>
         <dc:identifier>tous-les-documents-des-bibliotheques-de-pret</dc:identifier>
+        <dcat:keyword>bibliothèques, ouvrages, DVD, CD, Livres, discothèques, vidéothèques, médiathèques, revues</dcat:keyword>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
         <dc:publisher>Réseau des bibliothèques de prêt de la Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Tous les documents des bibliothèques de prêt (février 2015)</dc:title>
         <dc:modified>2015-03-25T19:39:22+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
-        <dc:description>&lt;p&gt;Toutes les collections des bibliothèques de prêt, telles qu'elles étaient en février 2015. Plus de 750 000 titres sont référencés. Attention les données peuvent avoir évolué depuis, elles ne sont pas dynamiques&lt;/p&gt;&lt;p&gt;Le jeu de données comprend de nombreuses données sauf les résumés et les mots clés sujet&lt;/p&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/resultats-de-lelection-municipale-2014-2eme-tour">
+        <dc:title>Résultats de l'élection municipale 2014 2ème tour</dc:title>
         <dc:identifier>resultats-de-lelection-municipale-2014-2eme-tour</dc:identifier>
+        <dc:description>&lt;p&gt;Résultats du 2ème tour des élections Municipales de 2014&lt;/p&gt;</dc:description>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Résultats de l'élection municipale 2014 2ème tour</dc:title>
-        <dc:modified>2014-03-31T12:19:14+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
-        <dc:description>&lt;p&gt;Résultats du 2ème tour des élections Municipales de 2014&lt;/p&gt;</dc:description>
+        <dcat:keyword>élections, résultats, municipales, vote, bureau, candidat</dcat:keyword>
+        <dc:modified>2014-03-31T12:19:14+00:00</dc:modified>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/contours-osm-des-cantons-electoraux-departementaux-2015">
+        <dc:modified>2015-03-02T17:32:27+00:00</dc:modified>
+        <dcat:keyword>cantons, OSM, départements, élections, élections cantonales, cantonales, élections départementales</dcat:keyword>
         <dc:identifier>contours-osm-des-cantons-electoraux-departementaux-2015</dc:identifier>
-        <dc:publisher>OpenStreetMap</dc:publisher>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Contours OSM des cantons électoraux départementaux 2015</dc:title>
-        <dc:modified>2015-03-02T17:32:27+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:description>&lt;p&gt;Contours géographiques des nouveaux cantons électoraux départementaux issu des limites communales d'OpenStreetMap et du découpage publié au Journal Officiel.&lt;/p&gt;&lt;p&gt;Ces données sont issues du crowdsourcing effectué par les contributeurs au projet OpenStreetMap et sont donc sous licence ODbL qui impose un partage à l'identique et la mention obligatoire d'attribution doit être "&lt;strong&gt;© les contributeurs d'OpenStreetMap sous licence ODbL&lt;/strong&gt;" conformément à &lt;a href="http://osm.org/copyright"&gt;http://osm.org/copyright&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Descriptif du contenu des fichiers "cantons 2015"&lt;/h2&gt;&lt;h3&gt;Origine des données&lt;/h3&gt;&lt;p&gt;Les données proviennent du découpage communal issu de la base de données cartographiques OpenStreetMap (constituées à partir du cadastre mis à disposition par la DGFiP sur &lt;a href="http://cadastre.gouv.fr/"&gt;cadastre.gouv.fr&lt;/a&gt;) et de la lecture du Journal Officiel. Les informations sur la population légale &lt;a href="http://insee.fr/fr/themes/detail.asp?reg_id=0&amp;amp;ref_id=cantons-2015"&gt;proviennent de l'INSEE&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Pour plus de détail, consultez le wiki OpenStreetMap: &lt;a href="http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France"&gt;http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Format&lt;/h3&gt;&lt;p&gt;Ces fichiers sont proposés au format shapefile (en WGS84, EPSG:4326, textes en UTF-8), ainsi que KML.&lt;/p&gt;&lt;h3&gt;Contenu&lt;/h3&gt;&lt;p&gt;Pour chaque canton, les attributs suivants sont fournis:&lt;/p&gt;&lt;ul&gt; &lt;li&gt;ref : code du canton, composé du code du département et du N° de canton (ex: 094-01, 02B-04)&lt;/li&gt;&lt;li&gt;nom : nom du canton figurant au JORF (source OSM)&lt;/li&gt;&lt;li&gt;wikipedia: lien wikipedia vers l'article du canton (source OSM)&lt;/li&gt;&lt;li&gt;code_dep : code INSEE du département (source INSEE)&lt;/li&gt;&lt;li&gt;num_canton: N° du canton dans le département (source INSEE)&lt;/li&gt;&lt;li&gt;nom_insee: Nom du canton dans le fichier INSEE (source INSEE)&lt;/li&gt;&lt;li&gt;pop_legale: population légale dans le canton selon l'INSEE&lt;/li&gt;&lt;/ul&gt;</dc:description>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:publisher>OpenStreetMap</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/parcsetjardinsparis2010">
-        <dc:identifier>parcsetjardinsparis2010</dc:identifier>
-        <dc:publisher>Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Les espaces verts</dc:title>
-        <dc:modified>2015-05-29T07:43:49+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dc:publisher>Direction des Espaces Verts et de l'Environnement (DEVE) - Ville de Paris</dc:publisher>
+        <dc:modified>2015-05-29T07:43:49+00:00</dc:modified>
+        <dcat:keyword>parcs, jardins</dcat:keyword>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:description>&lt;p&gt;&lt;em&gt;Couche anciennement intitulée "Liste des parcs et jardins" (2011).&lt;/em&gt; &lt;/p&gt;&lt;p&gt;Cette couche surfacique localise géographiquement l'emprise des espaces verts publics (parcs, squares, promenades etc...) gérés par la Mairie de Paris.&lt;/p&gt;&lt;p&gt;Pour plus de renseignements, consultez la notice en pièce jointe.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;-------------------------------------------------------------&lt;br/&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Exemple(s) de réutilisation(s) des données
     &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;
 &lt;span style="line-height: 1.45em;"&gt;
@@ -1740,18 +1823,20 @@ géographique unique).&lt;/p&gt;</dc:description>
 &lt;/em&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.vuzzz.android&amp;amp;feature=search_result#?t=W251bGwsMSwyLDEsImNvbS52dXp6ei5hbmRyb2lkIl0."&gt;&lt;em&gt;
         Lien Google Play
     &lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</dc:description>
+        <dc:identifier>parcsetjardinsparis2010</dc:identifier>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/top10_nyc_christmas_scenes_fr">
-        <dc:identifier>top10_nyc_christmas_scenes_fr</dc:identifier>
-        <dc:publisher>OpenDataSoft</dc:publisher>
-        <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/"/>
-        <dc:title>Le Top 10 des scènes de Noël à New York</dc:title>
-        <dc:modified>2014-12-19T09:44:47+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dcat:keyword>New York, Séries, FIlms, Noël, Vacances</dcat:keyword>
         <dc:description>&lt;p&gt;Les fêtes de fin d’années sont proches et OpenDataSoft a dressé sa liste  des meilleures scènes de Noël à New York. Du film en noir-et-blanc aux  hymnes truculents de Barney Stinson, les membres de l’équipe partagent  leurs classiques. Et qui sait, cela pourrait vous être utile lors d’un  interminable dîner en famille. &lt;/p&gt;&lt;p&gt;La spécialité d’OpenDataSoft  étant de vous aider à extraire le meilleur de vos données, l’équipe a  sélectionné chaque scène avec amour. Les coordonnées géographiques  principales de chaque scène ont été intégrées à un beau jeu de données  et ont été passées à la moulinette de notre Cartographe. Le résultat ?  Une carte interactive sur laquelle vous retrouverez chacune de vos  scènes favorites géo-localisée. Une telle qualité de données mériterait  presque un label « données BIO ».  &lt;/p&gt;</dc:description>
+        <dc:modified>2014-12-19T09:44:47+00:00</dc:modified>
+        <dc:title>Le Top 10 des scènes de Noël à New York</dc:title>
+        <dc:identifier>top10_nyc_christmas_scenes_fr</dc:identifier>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/"/>
+        <dc:publisher>OpenDataSoft</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1762,6 +1847,7 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:identifier>openstreetmap-pois-california</dc:identifier>
         <dc:modified>2013-12-27T14:01:54+00:00</dc:modified>
         <dc:publisher>OpenStreetMap</dc:publisher>
+        <dcat:keyword>openstreetmap, POI, california, map</dcat:keyword>
         <dc:description>&lt;p&gt;
 	 OpenStreetMap Points of Interest in California, USA.
 &lt;/p&gt;
@@ -1789,6 +1875,7 @@ géographique unique).&lt;/p&gt;</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/listeassociationsparis2012">
+        <dcat:keyword>Associations, Services, Paris</dcat:keyword>
         <dc:identifier>listeassociationsparis2012</dc:identifier>
         <dc:modified>2015-07-16T14:04:28+00:00</dc:modified>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
@@ -1803,6 +1890,7 @@ géographique unique).&lt;/p&gt;</dc:description>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/contours-iris-2014">
         <dc:references rdf:resource="http://professionnels.ign.fr/contoursiris"/>
+        <dcat:keyword>Limites territoriales, organisation administrative, distribution démographique, unités administratives, statistique</dcat:keyword>
         <dc:description>&lt;p&gt;Coédition INSEE et IGN, Contours Iris® est un fond numérisé des Iris définis par l'INSEE pour les besoins des recensements sur l'ensemble des communes de plus de 10 000 habitants et la plupart des communes de 5 000 à 10 000 habitants.&lt;/p&gt;</dc:description>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dc:publisher>IGN</dc:publisher>
@@ -1815,13 +1903,14 @@ géographique unique).&lt;/p&gt;</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/nyc-subway-stations">
-        <dc:identifier>nyc-subway-stations</dc:identifier>
         <dc:publisher>NYC/Department of Information Technology &amp; Telecommunications (DoITT)</dc:publisher>
-        <dc:title>NYC Subway Stations</dc:title>
-        <dc:modified>2013-12-26T16:01:54+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
         <dc:references rdf:resource="https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49"/>
+        <dcat:keyword>subway, stations, map, transit, train, travel, transfer</dcat:keyword>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dc:modified>2013-12-26T16:01:54+00:00</dc:modified>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
+        <dc:identifier>nyc-subway-stations</dc:identifier>
+        <dc:title>NYC Subway Stations</dc:title>
         <dc:description>&lt;p&gt;
 	 NYC Subway Stations
 &lt;/p&gt;
@@ -1832,14 +1921,15 @@ géographique unique).&lt;/p&gt;</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/top10_nyc_christmas_scenes_en">
-        <dc:identifier>top10_nyc_christmas_scenes_en</dc:identifier>
-        <dc:publisher>OpenDataSoft</dc:publisher>
-        <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/"/>
-        <dc:title>Top 10 New York Christmas Scenes</dc:title>
-        <dc:modified>2014-12-18T15:59:22+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dcat:keyword>Christmas, Holidays, Movies, Series, Scenes</dcat:keyword>
         <dc:description>&lt;p&gt;The Holiday Season is here and the OpenDataSoft team has pulled a list of its New-York Christmas favorite scenes. From a black-and-white movie to Barney Stinson’s very personal carols, the team thought you’d like to have it. Who knows, you might need it to help you pass through the never-ending family dinners.&lt;/p&gt;&lt;p&gt;And because OpenDataSoft’s strong suit is helping you making the most of your data, each scene as been selected with love, picked and mapped by hand. We tracked each scene iconic location and gathered their coordinates in a nicely wrapped dataset. We uploaded it onto our Cartograph tool and wham! It is now possible to discover where your favorite bits were shot. It is fair to say that OpenDataSoft has almost invented the “organic data” label. You heard it here first. &lt;/p&gt;</dc:description>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dc:title>Top 10 New York Christmas Scenes</dc:title>
+        <dc:publisher>OpenDataSoft</dc:publisher>
+        <dc:identifier>top10_nyc_christmas_scenes_en</dc:identifier>
+        <dc:modified>2014-12-18T15:59:22+00:00</dc:modified>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1851,19 +1941,21 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:modified>2015-07-17T08:43:23+00:00</dc:modified>
         <dc:description>Equipements municipaux qui hébergent un distributeur de préservatifs masculins à prix réduit (1€ les 5 préservatifs). Le jeu de données comprend l'adresse et les horaires d'ouverture des équipements.  </dc:description>
+        <dcat:keyword>Santé, Services, Paris, préservatifs, protection</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=112&amp;portlet_id=102"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/horloges_exterieures_et_interieures">
-        <dc:identifier>horloges_exterieures_et_interieures</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Horloges extérieures et intérieures</dc:title>
         <dc:modified>2015-07-16T15:30:49+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:title>Horloges extérieures et intérieures</dc:title>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dc:identifier>horloges_exterieures_et_interieures</dc:identifier>
+        <dcat:keyword>horloges, monumentales, mécaniques, cheminées anciennes</dcat:keyword>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:description>Listes des horloges mécaniques extérieures et intérieures, monumentales ou de  cheminée pour certaines très anciennes présentes sur des sites municipaux.</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
@@ -1875,6 +1967,7 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:modified>2013-08-23T08:46:32+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
+        <dcat:keyword>gis, map, 2013-2014 school zones, doe, board of ed, ed</dcat:keyword>
         <dc:description>&lt;p&gt;
 	   2013-2014 School Zones (as of May 8, 2013)
 &lt;/p&gt;
@@ -1889,14 +1982,15 @@ géographique unique).&lt;/p&gt;</dc:description>
     <dc:issued>2015-07-20T14:00:00+00:00</dc:issued>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/detail_du_bati">
-        <dc:identifier>detail_du_bati</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Détail du Bâti</dc:title>
-        <dc:modified>2015-07-16T15:33:51+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dcat:keyword>bâti, détail, accès, rampe, escalier extérieur, terrasse, marche, ascenseur</dcat:keyword>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:modified>2015-07-16T15:33:51+00:00</dc:modified>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:description>Données de type vecteur décrivant :accès piéton, accès véhicule, seuil de porte, rampe d'accès, escalier extérieur, terrasse, etc.</dc:description>
+        <dc:identifier>detail_du_bati</dc:identifier>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -1907,6 +2001,7 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:modified>2015-07-17T09:56:50+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dcat:keyword>bibliothèque, prêt, livres, statistiques</dcat:keyword>
         <dc:description>&lt;p&gt;
 	Les 1000 références les plus empruntées en 2012, par bibliothèque
 &lt;/p&gt;</dc:description>
@@ -1916,6 +2011,7 @@ géographique unique).&lt;/p&gt;</dc:description>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/station-velov-grand-lyon">
         <dc:identifier>station-velov-grand-lyon</dc:identifier>
         <dc:description>&lt;p&gt;Le jeu de données décrit l'état des stations Vélo'V du Grand Lyon (nom, adresse, nombre de bornettes, ...). Pour accéder aux données temps réel indiquant la disponibilité de vélos en place, préférez le jeu de données original. &lt;/p&gt;</dc:description>
+        <dcat:keyword>vélo</dcat:keyword>
         <dc:references rdf:resource="http://data.grandlyon.com/equipements/station-vflov-disponibilitfs-temps-rfel/"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
         <dc:publisher>Data Grand Lyon</dc:publisher>
@@ -1947,32 +2043,28 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:identifier>volumesbatisparis2011</dc:identifier>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dcat:keyword>Paris, Construction, plan, parcelle , bâti</dcat:keyword>
         <dc:description>&lt;p&gt;Données de type  vecteur qui décrivent les bâtiments représentés sur le plan parcellaire&lt;/p&gt;&lt;p&gt;Vous trouverez en pièce jointe une notice décrivant les valeurs attributaires et la modélisation géométrique des bâtiments.&lt;/p&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste_des_prenoms_2004_a_2012">
-        <dc:identifier>liste_des_prenoms_2004_a_2012</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Liste des prénoms 2004 à 2014</dc:title>
-        <dc:modified>2014-03-24T01:52:23+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Liste des prénoms déclarés à l'état-civil  de 2004 à 2014.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	   Un "X" dans la case "sexe" signifie que le prénom est mixte et que le sexe n'est pas spécifié.&lt;/p&gt;</dc:description>
+        <dcat:keyword>Prénoms, bébés, paris, état-civil</dcat:keyword>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:modified>2014-03-24T01:52:23+00:00</dc:modified>
+        <dc:title>Liste des prénoms 2004 à 2014</dc:title>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:identifier>liste_des_prenoms_2004_a_2012</dc:identifier>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/limites-administratives-des-epci-du-maine-et-loire">
-        <dc:identifier>limites-administratives-des-epci-du-maine-et-loire</dc:identifier>
-        <dc:publisher>Département de Maine-et-Loire</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Limites administratives des EPCI du Maine-et-Loire</dc:title>
         <dc:modified>2013-12-26T16:05:03+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:description>&lt;p&gt;
 	Limite administrative des Établissements Publics de Coopération Intercommunale (EPCI) de Maine-et-Loire.
 &lt;/p&gt;
@@ -1994,23 +2086,32 @@ géographique unique).&lt;/p&gt;</dc:description>
 	MAIL : adresse courriel de l'EPCI&lt;br&gt;
 	WEB : site internet officiel de l'EPCI
 &lt;/p&gt;</dc:description>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dc:identifier>limites-administratives-des-epci-du-maine-et-loire</dc:identifier>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Département de Maine-et-Loire</dc:publisher>
+        <dcat:keyword>EPCI</dcat:keyword>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:title>Limites administratives des EPCI du Maine-et-Loire</dc:title>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/mobiliers_de_voies_routieres_de_type_barriere">
+        <dc:modified>2015-07-16T15:32:57+00:00</dc:modified>
         <dc:identifier>mobiliers_de_voies_routieres_de_type_barriere</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Mobiliers de voies routières de type barriere</dc:title>
-        <dc:modified>2015-07-16T15:32:57+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>Barrière, glissière, sécurité, garde-corps, route, rue, voie</dcat:keyword>
         <dc:description>Données de type vecteur décrivant : barrières piétons, garde-corps, glissière, poteau ...</dc:description>
+        <dc:title>Mobiliers de voies routières de type barriere</dc:title>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/natural-earth-countries-1_50m">
         <dc:modified>2014-10-02T08:47:41+00:00</dc:modified>
+        <dcat:keyword>Natural Earth, Country, Boundary</dcat:keyword>
         <dc:title>Natural Earth - Countries 1:50m</dc:title>
         <dc:publisher>Natural Earth</dc:publisher>
         <dc:identifier>natural-earth-countries-1_50m</dc:identifier>
@@ -2029,6 +2130,7 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:modified>2013-08-23T08:46:57+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/santé"/>
+        <dcat:keyword>food, food initiatives, fruit, orchards, trees, green streets, urban agriculture, boston</dcat:keyword>
         <dc:description>&lt;p&gt;
 	 &lt;span style="line-height: 1.45em;"&gt;Urban orchards and fruit trees in and around the city of Boston. Please note: locations have not been verified, and may be on private property, inaccessible, not bearing fruit, or no longer there. Always confirm permission to enter and forage with any property owners. Use utmost caution in identifying and consuming any fruit. Feel free to contact us with any information pertaining to current conditions, and we will update the data.&lt;/span&gt;
 &lt;/p&gt;
@@ -2039,40 +2141,43 @@ géographique unique).&lt;/p&gt;</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/tonnages_des_dechets_bacs_verts">
-        <dc:identifier>tonnages_des_dechets_bacs_verts</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Tonnages des déchets bacs verts</dc:title>
-        <dc:modified>2015-07-16T15:18:26+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:identifier>tonnages_des_dechets_bacs_verts</dc:identifier>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dcat:keyword>collecte, déchets, tonnages</dcat:keyword>
+        <dc:modified>2015-07-16T15:18:26+00:00</dc:modified>
         <dc:description>Tonnages des déchets bacs verts collectés par arrondissement et par mois.</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/concessions_dans_les_jardins">
-        <dc:identifier>concessions_dans_les_jardins</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Concessions dans les jardins</dc:title>
-        <dc:modified>2013-05-30T01:51:37+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
         <dc:description>&lt;p&gt;Liste des concessions (manèges, chalet de vente,...)  dans les jardins parisiens par arrondissement.&lt;/p&gt;</dc:description>
+        <dc:identifier>concessions_dans_les_jardins</dc:identifier>
+        <dc:modified>2013-05-30T01:51:37+00:00</dc:modified>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:title>Concessions dans les jardins</dc:title>
+        <dcat:keyword>jardin, parc, concessions, chalet de vente, manège, théâtre, souvenirs</dcat:keyword>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/plaques_commemoratives_1939-1945">
-        <dc:identifier>plaques_commemoratives_1939-1945</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Plaques commémoratives 1939-1945</dc:title>
         <dc:modified>2014-02-28T01:58:03+00:00</dc:modified>
+        <dcat:keyword>commémoration, guerre, plaque, patrimoine</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:title>Plaques commémoratives 1939-1945</dc:title>
+        <dc:identifier>plaques_commemoratives_1939-1945</dc:identifier>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
         <dc:description>&lt;p&gt;
 	  La list des plaques commémoratives des personnes et des organisations qui se sont illustrées durant la période 1939-1945 par arrondissement.&lt;/p&gt;&lt;p&gt;
 	      Exemples de réutilisations: - A l'aide du site www.plaques-paris.fr, conformément à la licence ODbl, le fichier web service tabulaire (Google Feuille de calcul) a reçu une amélioration. (Ajout des coordonnées géographiques)&lt;/p&gt;</dc:description>
+        <dc:publisher>Ville de Paris</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2095,6 +2200,7 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:references rdf:resource="http://www.hri.fi/fi/dataset/helsingin-ja-helsingin-seudun-vaestoennuste-sukupuolen-ja-ian-mukaan"/>
         <dc:modified>2015-05-26T07:17:58+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dcat:keyword>Population, Age, Sex, Urban Statistics , Regional Statistics , Helsinki, Helsinki Region, Population Projections</dcat:keyword>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:license rdf:resource="https://creativecommons.org/licenses/by/2.0/"/>
         <dc:publisher>Helsinki Urban Facts</dc:publisher>
@@ -2106,6 +2212,7 @@ géographique unique).&lt;/p&gt;</dc:description>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/traffic-accidents-in-helsinki">
         <dc:title>Traffic accidents in Helsinki</dc:title>
+        <dcat:keyword>accidents, accident, traffic, pedestrian, bicycle, bike, car, Helsinki, Finland</dcat:keyword>
         <dc:identifier>traffic-accidents-in-helsinki</dc:identifier>
         <dc:modified>2015-05-26T08:02:38+00:00</dc:modified>
         <dc:publisher>City of Helsinki City Planning Department</dc:publisher>
@@ -2118,13 +2225,14 @@ géographique unique).&lt;/p&gt;</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/resultats_electoraux">
-        <dc:identifier>resultats_electoraux</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Résultats électoraux</dc:title>
-        <dc:modified>2014-05-26T16:01:21+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:identifier>resultats_electoraux</dc:identifier>
+        <dc:modified>2014-05-26T16:01:21+00:00</dc:modified>
+        <dc:title>Résultats électoraux</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>élections, résulats, présidentielles, communales, municipales, législatives, européennes, régionales, vote, bureau, candidat</dcat:keyword>
         <dc:description>&lt;p&gt;Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales de 2007 à 2014 par arrondissement, bureau et candidat.&lt;/p&gt;&lt;p&gt;A partir des Elections Européennes de 2014, ont été rajoutées les colonnes "Nombres de blancs", "Nombres de nuls" et "Nombre de procurations"&lt;/p&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
@@ -2135,6 +2243,7 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:modified>2015-03-19T15:36:57+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dcat:keyword>délibération, assemblée, vote</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Ordres du jour du Conseil Général de mars 2008 à décembre 2014 par séance. &lt;br&gt;
 &lt;br&gt;
@@ -2149,13 +2258,13 @@ géographique unique).&lt;/p&gt;</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste-des-marches-de-services-passes-par-la-ville-de-paris">
-        <dc:identifier>liste-des-marches-de-services-passes-par-la-ville-de-paris</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Liste des marchés de services passés par la Ville de Paris</dc:title>
-        <dc:modified>2014-03-12T16:29:45+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:title>Liste des marchés de services passés par la Ville de Paris</dc:title>
+        <dc:identifier>liste-des-marches-de-services-passes-par-la-ville-de-paris</dc:identifier>
+        <dc:modified>2014-03-12T16:29:45+00:00</dc:modified>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Le jeu de données comprend les marchés de fournitures passés par la Ville de Paris, de 2009 à 2013.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	 Ce jeu de données comprend:&lt;/p&gt;&lt;p&gt;
@@ -2166,17 +2275,19 @@ géographique unique).&lt;/p&gt;</dc:description>
 	 - l'objet du marché&lt;/p&gt;&lt;p&gt;
 	 - le montant&lt;/p&gt;&lt;p&gt;
 	 - la date de notif&lt;/p&gt;</dc:description>
+        <dcat:keyword>marché, Ville, Services</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/murs_et_clotures">
-        <dc:identifier>murs_et_clotures</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Murs et Clôtures</dc:title>
-        <dc:modified>2015-07-16T16:44:41+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>mur, grille, cloture, entrée</dcat:keyword>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:title>Murs et Clôtures</dc:title>
+        <dc:identifier>murs_et_clotures</dc:identifier>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:modified>2015-07-16T16:44:41+00:00</dc:modified>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Données de type vecteur décrivant les murs en dur, les entrées de métro, les grilles ou clôtures.&lt;/span&gt;
 &lt;/p&gt;</dc:description>
@@ -2193,6 +2304,7 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:identifier>frenchcheese</dc:identifier>
         <dc:description>&lt;p&gt;This dataset gathers the list of all 338 French cheese. &lt;/p&gt;&lt;p&gt;In this dataset, you will find for each cheese: &lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;its name&lt;/li&gt;&lt;li&gt;its department of production&lt;/li&gt;&lt;li&gt;the French Wikipedia page URL&lt;/li&gt;&lt;li&gt;the English Wikipedia page URL&lt;/li&gt;&lt;li&gt;its picture whenever available&lt;/li&gt;&lt;li&gt;the geographic coordinates of the department of production&lt;/li&gt;&lt;/ul&gt;</dc:description>
+        <dcat:keyword>cheese, France</dcat:keyword>
         <dc:references rdf:resource="http://fr.wikipedia.org/wiki/Liste_des_sp%C3%A9cialit%C3%A9s_r%C3%A9gionales_fran%C3%A7aises_de_fromages"/>
       </dcat:Dataset>
     </dcat:dataset>
@@ -2202,6 +2314,7 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:publisher>Ville de Paris</dc:publisher>
+        <dcat:keyword>Equipements, Mobilier urbain, Paris, voiture éléctrique</dcat:keyword>
         <dc:identifier>mobilierelectriqueparis2011</dc:identifier>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=95&amp;portlet_id=102"/>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
@@ -2218,20 +2331,22 @@ géographique unique).&lt;/p&gt;</dc:description>
         <dc:identifier>lignes-de-bus-du-reseau-tcl-grand-lyon</dc:identifier>
         <dc:title>Lignes de bus du réseau TCL Grand Lyon</dc:title>
         <dc:description>&lt;p&gt;La représentation graphique des lignes de bus et trolleybus du réseau  TCL est un objet linéaire qui localise la ligne et son parcours de  terminus à terminus. La représentation graphique des lignes est caractérisée par des  informations de gestion (identifiant, numéro de ligne et sens, libellé,  unité de transport, couleur du tracé, famille de transport) et de tracés  (polylignes de terminus à terminus).&lt;/p&gt;</dc:description>
+        <dcat:keyword>arrêts de bus</dcat:keyword>
         <dc:references rdf:resource="http://data.grandlyon.com/equipements/lignes-de-bus-du-rfseau-tcl/"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
         <dc:publisher>Data Grand Lyon</dc:publisher>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/nyc-museums-and-galleries">
         <dc:identifier>nyc-museums-and-galleries</dc:identifier>
-        <dc:publisher>NYC/Department of Information Technology &amp; Telecommunications (DoITT)</dc:publisher>
-        <dc:title>NYC Museums and Galleries</dc:title>
-        <dc:modified>2013-12-26T16:35:11+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
         <dc:references rdf:resource="https://data.cityofnewyork.us/Recreation/Museums-and-Galleries/sat5-adpb"/>
+        <dc:modified>2013-12-26T16:35:11+00:00</dc:modified>
+        <dcat:keyword>art, culture, map, museum, gallery</dcat:keyword>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dc:publisher>NYC/Department of Information Technology &amp; Telecommunications (DoITT)</dc:publisher>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dc:title>NYC Museums and Galleries</dc:title>
         <dc:description>&lt;p&gt;
 	NYC Museums and Galleries
 &lt;/p&gt;</dc:description>
@@ -2241,6 +2356,7 @@ géographique unique).&lt;/p&gt;</dc:description>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/filiationvoiesparis2012">
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:title>Filiation des voies actuelles</dc:title>
+        <dcat:keyword>Paris</dcat:keyword>
         <dc:description>Informations sur l'origine et les dénominations successives des  voies  parisiennes</dc:description>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
@@ -2252,33 +2368,36 @@ géographique unique).&lt;/p&gt;</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/nyc-wifi-hotspot-locations">
-        <dc:identifier>nyc-wifi-hotspot-locations</dc:identifier>
-        <dc:publisher>NYC/Department of Information Technology &amp; Telecommunications (DoITT)</dc:publisher>
-        <dc:title>NYC Wifi Hotspot Locations</dc:title>
-        <dc:modified>2013-12-26T17:03:32+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
+        <dc:publisher>NYC/Department of Information Technology &amp; Telecommunications (DoITT)</dc:publisher>
+        <dcat:keyword>wifi, wireless, services, telecommunication, hot spot, map</dcat:keyword>
         <dc:references rdf:resource="https://data.cityofnewyork.us/Recreation/Wifi-Hotspot-Locations/ehc4-fktp"/>
         <dc:description>&lt;p&gt;
 	Location of wifi hotspots in NYC with basic descriptive information
 &lt;/p&gt;</dc:description>
+        <dc:modified>2013-12-26T17:03:32+00:00</dc:modified>
+        <dc:title>NYC Wifi Hotspot Locations</dc:title>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
+        <dc:identifier>nyc-wifi-hotspot-locations</dc:identifier>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/baby_names_nc_2013">
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:identifier>baby_names_nc_2013</dc:identifier>
         <dc:publisher>Social Security Administration</dc:publisher>
         <dc:title>Baby names popularity in North Carolina (2013)</dc:title>
+        <dcat:keyword>names, North Carolina, NC, N.C., babies, baby, name, first name, given name, birth, popular</dcat:keyword>
         <dc:modified>2015-07-17T09:14:58+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
-        <dc:references rdf:resource="http://www.ssa.gov/OACT/babynames/limits.html"/>
         <dc:description>&lt;p&gt;Distribution of given names of babies born in the state of North Carolina.&lt;/p&gt;</dc:description>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dc:references rdf:resource="http://www.ssa.gov/OACT/babynames/limits.html"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/nomenclature_du_tri_selectif">
         <dc:identifier>nomenclature_du_tri_selectif</dc:identifier>
+        <dcat:keyword>tri, déchet, poubelle, recyclage, emballage</dcat:keyword>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:references rdf:resource="http://r56.apps.paris.fr/tri/jsp/site/rest/directory/1/records.json/"/>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
@@ -2307,6 +2426,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:identifier>lignes-de-tramway-du-reseau-tcl-grand-lyon</dc:identifier>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:modified>2015-07-01T14:36:06+00:00</dc:modified>
+        <dcat:keyword>tramway</dcat:keyword>
         <dc:description>&lt;p&gt;La représentation des lignes de tramway du réseau TCL localise la ligne et son parcours de terminus à terminus.&lt;/p&gt;</dc:description>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
         <dc:references rdf:resource="http://data.grandlyon.com/equipements/lignes-de-tramway-du-rfseau-tcl/"/>
@@ -2335,6 +2455,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:modified>2014-04-22T09:55:26+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
+        <dcat:keyword>Equipements</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Ce jeu de données recense les équipements accessibles de la Ville.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	   Il détaille :&lt;br&gt;
@@ -2369,6 +2490,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/pokedex_clean">
         <dc:publisher>OpenDataSoft</dc:publisher>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/sport-loisirs"/>
+        <dcat:keyword>Pokemon, April Fools, Google Maps, Pokemon Challenge, Google</dcat:keyword>
         <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/2.0/"/>
         <dc:description>&lt;p&gt;Location of Google Pokemon Challenge's pokemons. Gotta Catch 'Em All!&lt;/p&gt;</dc:description>
         <dc:identifier>pokedex_clean</dc:identifier>
@@ -2385,16 +2507,18 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:title>Emplacement des Arrêts de Bus du Réseau Transport Saint-Malo Agglomération</dc:title>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dc:description>&lt;p&gt;Localisation géographique des arrêts de bus du réseau de transport urbain et péri-urbain sur le territoire de l’agglomération du Pays de Saint-Malo.&lt;/p&gt;</dc:description>
+        <dcat:keyword>arrêts de bus, saint-malo</dcat:keyword>
         <dc:publisher>Saint-Malo Agglomération</dc:publisher>
         <dc:identifier>emplacement-des-arrets-de-bus-du-reseau-transport-saint-malo-agglomeration</dc:identifier>
-        <dc:references rdf:resource="https://www.data.gouv.fr/fr/datasets/emplacement-des-arrets-de-bus-du-reseau-transport-saint-malo-agglomeration-2/"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
+        <dc:references rdf:resource="https://www.data.gouv.fr/fr/datasets/emplacement-des-arrets-de-bus-du-reseau-transport-saint-malo-agglomeration-2/"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/arretesinsalubriteparis2010">
         <dc:description>Arrêté municipaux d'insalubrité de mise en demeure à 1 mois</dc:description>
         <dc:publisher>Ville de Paris</dc:publisher>
+        <dcat:keyword>Santé, Paris, Logements</dcat:keyword>
         <dc:identifier>arretesinsalubriteparis2010</dc:identifier>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=45&amp;portlet_id=106"/>
         <dc:modified>2015-07-17T08:52:20+00:00</dc:modified>
@@ -2419,6 +2543,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:identifier>population-francaise-region-2011</dc:identifier>
         <dc:modified>2014-11-13T16:24:49+00:00</dc:modified>
         <dc:references rdf:resource="http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011"/>
+        <dcat:keyword>Recensement, Population, Région</dcat:keyword>
         <dc:title>Population française - Régions - 2011</dc:title>
         <dc:publisher>INSEE</dc:publisher>
         <dc:license rdf:resource="http://www.insee.fr/fr/service/default.asp?page=rediffusion/rediffusion.htm"/>
@@ -2437,6 +2562,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
         <dc:title>Prix des carburants - Historique</dc:title>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>Carburant, Prix, Voiture, Mobilité</dcat:keyword>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dc:modified>2014-10-03T08:16:23+00:00</dc:modified>
       </dcat:Dataset>
@@ -2444,19 +2570,20 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
     <dc:title>Public's catalog</dc:title>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste_des_etablissements_scolaires2">
-        <dc:identifier>liste_des_etablissements_scolaires2</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Liste des établissements scolaires</dc:title>
+        <dcat:keyword>école, primaire, maternelle</dcat:keyword>
         <dc:modified>2015-07-17T10:00:27+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
+        <dc:title>Liste des établissements scolaires</dc:title>
         <dc:description>&lt;p&gt;
 	 Liste des établissements maternels et élémentaires du public parisien.
 &lt;/p&gt;
 &lt;p&gt;
 	  Exemples de réutilisations: - Carte web sur http://OpenData-City.com (site suspendu?)
 &lt;/p&gt;</dc:description>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:identifier>liste_des_etablissements_scolaires2</dc:identifier>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2466,6 +2593,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:description>Le RGC, Répertoire Géographique des Communes, donne des renseignements géographiques et administratifs sur les communes françaises. Il contient le nom, la situation géographique et l'altitude des chefs-lieux de communes (mairies), couplés à des renseignements administratifs.</dc:description>
         <dc:title>Répertoire Géographique des Communes 2011</dc:title>
         <dc:publisher>IGN</dc:publisher>
+        <dcat:keyword>Mairies, France, Communes</dcat:keyword>
         <dc:identifier>rgc2011</dc:identifier>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:modified>2015-07-16T14:45:47+00:00</dc:modified>
@@ -2509,6 +2637,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:modified>2014-01-17T14:51:48+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
+        <dcat:keyword>antony, assistante maternelle</dcat:keyword>
         <dc:description>&lt;p&gt;Listes des assistantes maternelles de la ville d'antony. Générée à partir de la liste édité par la ville d'Antony, au 4 décembre 2013&lt;/p&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
@@ -2520,6 +2649,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:modified>2013-12-27T19:56:33+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
+        <dcat:keyword>school improvement grants, schools</dcat:keyword>
         <dc:description>&lt;p&gt;
 	 &lt;span style="line-height: 1.45em;"&gt;Since President Obama took office, Congress has appropriated more than $4 billion to help turn around the nation's lowest-performing schools. States were awarded nearly $3.5 billion in School Improvement Grant funds in 2010 to turn around their persistently lowest achieving schools. School districts then applied to state for the funds this spring. When school districts applied, they were required to indicate that they would implement one of the following four models in their persistently lowest achieving schools:&lt;/span&gt;
 &lt;/p&gt;
@@ -2542,13 +2672,14 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/nyc-theaters">
-        <dc:identifier>nyc-theaters</dc:identifier>
-        <dc:publisher>NYC/Department of Information Technology &amp; Telecommunications (DoITT)</dc:publisher>
-        <dc:title>NYC Theaters</dc:title>
-        <dc:modified>2013-12-26T16:27:48+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
         <dc:references rdf:resource="https://data.cityofnewyork.us/Recreation/Theaters/kdu2-865w"/>
+        <dc:identifier>nyc-theaters</dc:identifier>
+        <dc:modified>2013-12-26T16:27:48+00:00</dc:modified>
+        <dc:title>NYC Theaters</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dcat:keyword>theater, entertainment, map</dcat:keyword>
+        <dc:publisher>NYC/Department of Information Technology &amp; Telecommunications (DoITT)</dc:publisher>
         <dc:description>&lt;p&gt;
 	Listing of NYC Theaters
 &lt;/p&gt;</dc:description>
@@ -2562,6 +2693,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:modified>2014-11-13T21:49:10+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
+        <dcat:keyword>mobilité, trafic</dcat:keyword>
         <dc:references rdf:resource="http://cartelie.application.developpement-durable.gouv.fr/cartelie/voir.do?carte=TMJA2010_cartelie_v.2bis&amp;service=DRIEA_IF"/>
       </dcat:Dataset>
     </dcat:dataset>
@@ -2573,6 +2705,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:modified>2014-04-22T16:16:38+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dcat:keyword>bibliothèques, livres, documents, DVD, références, prêt, recherche</dcat:keyword>
         <dc:description>&lt;p&gt;
 	&lt;span style="line-height: 1.45em;"&gt;Les 1000 références les plus réservées en 2013 au sein des bibliothèques municipales de la ville de Paris.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	La mise de ce jeu de données est semestrielle.&lt;/p&gt;&lt;p&gt;
@@ -2599,14 +2732,15 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/titres-diffuses-sur-6-stations-de-radios-francaises">
-        <dc:identifier>titres-diffuses-sur-6-stations-de-radios-francaises</dc:identifier>
-        <dc:publisher>OpenDataSoft</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Titres diffusés sur 6 stations de radios françaises (13/01/2014 - 05/03/2014)</dc:title>
-        <dc:modified>2014-03-07T08:32:17+00:00</dc:modified>
+        <dcat:keyword>radio, musique</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
         <dc:description>&lt;p&gt;Liste des titres diffusés sur 6 stations de radio musicales françaises: NRJ, Fun Radio, Europe 2, Virgin Radio, Ouï FM, Radio Nova.&lt;/p&gt;&lt;p&gt;Cette liste a été constituée à partir des informations en direct sur les sites de chaque station de radio ("titre en cours de diffusion") entre le 13 janvier 2014 et le 5 mars 2014.&lt;/p&gt;&lt;p&gt;La différence de nombre de titres collectés par station s'explique par l'absence d'informations sur certaines plages horaires (par exemple la nuit, durant les émissions de type talk-show ou matinales...).&lt;/p&gt;</dc:description>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:identifier>titres-diffuses-sur-6-stations-de-radios-francaises</dc:identifier>
+        <dc:modified>2014-03-07T08:32:17+00:00</dc:modified>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dc:publisher>OpenDataSoft</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2616,19 +2750,17 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:publisher>Data Grand Lyon</dc:publisher>
         <dc:identifier>stations-autopartage-grand-lyon</dc:identifier>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
+        <dcat:keyword>automobile</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:references rdf:resource="http://data.grandlyon.com/equipements/station-autopartage/"/>
-        <dc:description>&lt;p&gt;Les Stations Autopartage sont des emplacements  réservés au stationnement des véhicules d'autopartage (Citiz LPA,  Bluely, Sunmoov, Wattmobile).&lt;/p&gt;</dc:description>
         <dc:title>Stations Autopartage Grand Lyon</dc:title>
+        <dc:description>&lt;p&gt;Les Stations Autopartage sont des emplacements  réservés au stationnement des véhicules d'autopartage (Citiz LPA,  Bluely, Sunmoov, Wattmobile).&lt;/p&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/equipements_de_proximite">
-        <dc:identifier>equipements_de_proximite</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Équipements de proximité</dc:title>
-        <dc:modified>2015-07-16T14:51:22+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
         <dc:description>&lt;p&gt; Liste des équipements de proximité (piscines, bibliothèques,jardins, gymnases,...)
@@ -2639,6 +2771,10 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
 &lt;br/&gt;- Application mobile Windows Phone &lt;a href="http://www.windowsphone.com/fr-FR/apps/2458a842-c90c-4423-846c-38031595c090" target="_blank" title="Paris Equipements"&gt;Paris Equipements&lt;/a&gt;
 &lt;br/&gt;- Application sur Windows8 : &lt;a href="http://apps.microsoft.com/webpdp/fr-fr/app/paris-equipements/27a5085f-0215-49f4-b91e-629f4e126d3d/m/ROW" target="_blank" title="app win 8"&gt;Paris Equipements&lt;/a&gt;
 &lt;br/&gt;&lt;/p&gt;</dc:description>
+        <dcat:keyword>équipement, piscine, gymnase, jardin</dcat:keyword>
+        <dc:identifier>equipements_de_proximite</dc:identifier>
+        <dc:modified>2015-07-16T14:51:22+00:00</dc:modified>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2660,6 +2796,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:title>Mobiliers de stationnement - Données géographiques</dc:title>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=99&amp;portlet_id=102"/>
+        <dcat:keyword>Stationnement, Equipements, Paris, Mobilier urbain, vélib, horodateurs, distributeurs, bornes</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:description>Données de type vecteur, décrivant les mobiliers liés au stationnement de véhicules : horodateurs, distributeurs, bornes vélo libre service (vélib)...</dc:description>
         <dc:publisher>Ville de Paris</dc:publisher>
@@ -2707,22 +2844,24 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory</dc:description>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:modified>2015-07-17T09:43:35+00:00</dc:modified>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=134&amp;portlet_id=102"/>
+        <dcat:keyword>marché, quartier</dcat:keyword>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/trottoirs_des_rues_de_paris">
-        <dc:identifier>trottoirs_des_rues_de_paris</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Trottoirs des rues de Paris</dc:title>
-        <dc:modified>2013-05-30T01:51:53+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dc:identifier>trottoirs_des_rues_de_paris</dc:identifier>
+        <dcat:keyword>trottoir, rue, voie, piéton</dcat:keyword>
         <dc:description>Données de type vecteur décrivant les trottoirs parisiens.
 
 Exemple(s) de réutilisation(s) des données :
 - Cartographie sur http://demo.3liz.fr/opendataparis</dc:description>
+        <dc:title>Trottoirs des rues de Paris</dc:title>
+        <dc:modified>2013-05-30T01:51:53+00:00</dc:modified>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2735,6 +2874,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:references rdf:resource="http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011"/>
         <dc:description>&lt;p&gt;Population légale par commune issue du recensement de la population de 2011&lt;/p&gt;
 &lt;hr&gt;&lt;div&gt;&lt;strong&gt;&lt;em&gt;Population municipale&lt;/em&gt; :&lt;/strong&gt;&lt;div&gt;La population municipale comprend les personnes ayant leur résidence habituelle sur le territoire de la commune, dans un logement ou une communauté, les personnes détenues dans les établissements pénitentiaires de la commune, les personnes sans abri recensées sur le territoire de la commune et les personnes résidant habituellement dans une habitation mobile recensées sur le territoire de la commune.&lt;/div&gt; &lt;br&gt;&lt;div&gt;&lt;strong&gt;&lt;em&gt;Population comptée à part&lt;/em&gt; :&lt;/strong&gt;&lt;/div&gt; &lt;div&gt;La population comptée à part comprend certaines personnes dont la résidence habituelle est dans une autre commune mais qui ont conservé une résidence sur le territoire de la commune :&lt;/div&gt;&lt;ul&gt; &lt;li&gt;les personnes mineures dont la résidence familiale est dans une autre commune mais qui résident, du fait de leurs études, dans la commune&lt;/li&gt;&lt;li&gt;les personnes ayant une résidence familiale sur le territoire de la commune et résidant dans une communauté d’une autre commune ; la communauté faisant partie de la liste suivante : &lt;ul&gt; &lt;li&gt;services de moyen ou de long séjour des établissements publics ou privés de santé, établissements sociaux de moyen ou de long séjour,maisons de retraite, foyers et résidences sociales ;&lt;/li&gt;&lt;li&gt;commaunautés religieuses ;&lt;/li&gt;&lt;li&gt;casernes ou établissements militaires ;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;les personnes majeures âgées de moins de 25 ans ayant leur résidence familiale sur le territoire de la commune et qui résident dans une autre commune pour leurs études ;&lt;/li&gt;&lt;li&gt;les personnes sans domicile fixe rattachées à la commune au sens de la loi du 3 janvier 1969 et non recensées dans la commune.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;strong&gt;&lt;em&gt;Population totale &lt;/em&gt;:&lt;/strong&gt;&lt;/div&gt; &lt;div&gt;La population totale est la somme de la population municipale et de la population comptée à part.&lt;/div&gt;&lt;/br&gt;&lt;/div&gt;&lt;/hr&gt;</dc:description>
+        <dcat:keyword>Recensement, Population, Commune</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:modified>2014-11-13T16:24:49+00:00</dc:modified>
       </dcat:Dataset>
@@ -2752,25 +2892,28 @@ Exemple(s) de réutilisation(s) des données :
         <dc:publisher>Ministère de l'Economie, de l'Industrie et du Numérique</dc:publisher>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
+        <dcat:keyword>Carburant, Prix, Voiture, Mobilité</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/nyc-parking-spots">
-        <dc:identifier>nyc-parking-spots</dc:identifier>
         <dc:publisher>NYC/Department of Consumer Affairs (DCA)</dc:publisher>
-        <dc:title>NYC Parking Spots</dc:title>
-        <dc:modified>2013-12-26T17:49:34+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
-        <dc:references rdf:resource="https://data.cityofnewyork.us/Transportation/NYC-Parking-Spots/nxab-ch29"/>
+        <dc:identifier>nyc-parking-spots</dc:identifier>
         <dc:description>&lt;p&gt;
 	A list of all parking facilities in New York City
 &lt;/p&gt;</dc:description>
+        <dc:modified>2013-12-26T17:49:34+00:00</dc:modified>
+        <dc:references rdf:resource="https://data.cityofnewyork.us/Transportation/NYC-Parking-Spots/nxab-ch29"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/transports-déplacements"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dc:title>NYC Parking Spots</dc:title>
+        <dcat:keyword>parking spot, parking facility, car, automobile, map</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/eclairageparis2011">
         <dc:title>Eclairage public - Données géographiques</dc:title>
+        <dcat:keyword>Mobilier urbain, Paris, Equipements, Eclairage, lampadaires, lanternes, poteau, projecteur</dcat:keyword>
         <dc:identifier>eclairageparis2011</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:modified>2015-07-17T08:45:14+00:00</dc:modified>
@@ -2783,19 +2926,20 @@ Exemple(s) de réutilisation(s) des données :
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/relief_naturel">
-        <dc:identifier>relief_naturel</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Relief naturel</dc:title>
-        <dc:modified>2015-07-16T16:43:43+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:description>&lt;p&gt;
 	Données de type vecteur décrivant crête ou pied de talus durs, sens d'écoulement,...&lt;br&gt;
 &lt;br&gt;
 &lt;span style="line-height: 1.45em;"&gt;Exemple(s) de réutilisation(s) des données :&lt;br&gt;
 	 - Cartographie sur &lt;a href="http://demo.3liz.fr/opendataparis"&gt;http://demo.3liz.fr/opendataparis&lt;/a&gt;&lt;/br&gt;&lt;/span&gt;
 &lt;/br&gt;&lt;/br&gt;&lt;/p&gt;</dc:description>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:modified>2015-07-16T16:43:43+00:00</dc:modified>
+        <dc:identifier>relief_naturel</dc:identifier>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>écoulement, talus, crête</dcat:keyword>
+        <dc:title>Relief naturel</dc:title>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2803,6 +2947,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:title>OpenStreetMap POIs - USA</dc:title>
         <dc:identifier>openstreetmap-pois-usa</dc:identifier>
         <dc:modified>2014-01-03T11:37:05+00:00</dc:modified>
+        <dcat:keyword>openstreetmap, POI, USA, map</dcat:keyword>
         <dc:description>&lt;p&gt;
 	OpenStreetMap Points of Interest in the USA.
 &lt;/p&gt;
@@ -2818,25 +2963,25 @@ Exemple(s) de réutilisation(s) des données :
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/zones-de-rattachement-des-bureaux-de-vote-en-2014">
+        <dcat:keyword>élection, élections, vote, bureau</dcat:keyword>
+        <dc:modified>2014-01-24T15:30:23+00:00</dc:modified>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:title>Zones de rattachement des bureaux de vote en 2014</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:identifier>zones-de-rattachement-des-bureaux-de-vote-en-2014</dc:identifier>
         <dc:publisher>Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Zones de rattachement des bureaux de vote en 2014</dc:title>
-        <dc:modified>2014-01-24T15:30:23+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:description>&lt;p&gt;Zones de rattachement des bureaux de vote en 2014&lt;/p&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/annuaire_immobilier_de_l_enseignement_superieur">
-        <dc:identifier>annuaire_immobilier_de_l_enseignement_superieur</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:title>Annuaire Immobilier de l'Enseignement Superieur</dc:title>
+        <dcat:keyword>annuaire, immobilier, établissement, université, enseignement</dcat:keyword>
         <dc:modified>2015-07-17T11:56:13+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
+        <dc:identifier>annuaire_immobilier_de_l_enseignement_superieur</dc:identifier>
+        <dc:publisher>Ville de Paris</dc:publisher>
         <dc:description>&lt;p&gt;
 	  L'annuaire immobilier de l’Enseignement supérieur est une tentative pour rassembler dans un cadre unique les principaux établissements d’enseignement supérieur de Paris et de sa couronne, autrement dit de Paris-Métropole, sur la base des adresses et des parcelles.&lt;br&gt;
 &lt;br&gt;
@@ -2867,6 +3012,8 @@ Exemple(s) de réutilisation(s) des données :
 	 P4 = Paris IV Paris-Sorbonne &lt;br&gt;
 	 P6 = Paris VI Pierre et Marie Curie (UPMC)
 &lt;/br&gt;&lt;/br&gt;&lt;/p&gt;</dc:description>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2881,11 +3028,13 @@ Exemple(s) de réutilisation(s) des données :
 </dc:description>
         <dc:identifier>tournagesdefilmsparis2011</dc:identifier>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>Cinéma, Paris</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/voiesactuellesparis2012">
         <dc:identifier>voiesactuellesparis2012</dc:identifier>
+        <dcat:keyword>Paris, rue, voie, avenue, histoire</dcat:keyword>
         <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
         <dc:modified>2015-07-16T16:49:47+00:00</dc:modified>
         <dc:publisher>Ville de Paris</dc:publisher>
@@ -2902,67 +3051,72 @@ Exemple(s) de réutilisation(s) des données :
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/volumes_d_eau_distribues">
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
+        <dcat:keyword>eau, consommation</dcat:keyword>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:identifier>volumes_d_eau_distribues</dc:identifier>
         <dc:publisher>Ville de Paris - Direction de la propreté et de l'eau</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Volumes d'eau distribués</dc:title>
-        <dc:modified>2013-06-24T16:17:51+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/environnement"/>
         <dc:description>&lt;p&gt;
 	Fichier détaillant les volumes d'eau potables consommés par mois en 2011 à Paris.
 &lt;/p&gt;</dc:description>
+        <dc:title>Volumes d'eau distribués</dc:title>
+        <dc:modified>2013-06-24T16:17:51+00:00</dc:modified>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/liste_des_bureaux_de_vote_2013_liste_des_bureaux">
-        <dc:identifier>liste_des_bureaux_de_vote_2013_liste_des_bureaux</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
-        <dc:title>Liste des bureaux de vote</dc:title>
-        <dc:modified>2014-03-06T13:32:29+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dcat:keyword>élections, résultats, présidentielles, municipales, législatives, européennes, régionales, vote</dcat:keyword>
+        <dc:modified>2014-03-06T13:32:29+00:00</dc:modified>
+        <dc:identifier>liste_des_bureaux_de_vote_2013_liste_des_bureaux</dc:identifier>
+        <dc:title>Liste des bureaux de vote</dc:title>
         <dc:description>&lt;p&gt;Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales.&lt;/p&gt;&lt;p&gt;Exemple(s) de réutilisation(s) des données :
 - Cartographie sur http://mounirsimon.com/dequelbord/&lt;/p&gt;</dc:description>
+        <dc:license rdf:resource="http://opendata.paris.fr/page/lalicence/"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/cantons-2015-metropole-json-simplifies">
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
+        <dc:title>Contours OSM des cantons électoraux départementaux 2015</dc:title>
         <dc:identifier>cantons-2015-metropole-json-simplifies</dc:identifier>
         <dc:publisher>OpenStreetMap</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Contours OSM des cantons électoraux départementaux 2015</dc:title>
         <dc:modified>2015-03-02T18:00:48+00:00</dc:modified>
+        <dcat:keyword>cantons, cantonales, élections départementales, élections cantonales</dcat:keyword>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:description>&lt;p&gt;Contours géographiques des nouveaux cantons électoraux départementaux issu des limites communales d'OpenStreetMap et du découpage publié au Journal Officiel.&lt;/p&gt;&lt;p&gt;Ces données sont issues du crowdsourcing effectué par les contributeurs au projet OpenStreetMap et sont donc sous licence ODbL qui impose un partage à l'identique et la mention obligatoire d'attribution doit être "&lt;strong&gt;© les contributeurs d'OpenStreetMap sous licence ODbL&lt;/strong&gt;" conformément à &lt;a href="http://osm.org/copyright"&gt;http://osm.org/copyright&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Descriptif du contenu des fichiers "cantons 2015"&lt;/h2&gt;&lt;h3&gt;Origine des données&lt;/h3&gt;&lt;p&gt;Les données proviennent du découpage communal issu de la base de données cartographiques OpenStreetMap (constituées à partir du cadastre mis à disposition par la DGFiP sur &lt;a href="http://cadastre.gouv.fr/"&gt;cadastre.gouv.fr&lt;/a&gt;) et de la lecture du Journal Officiel. Les informations sur la population légale &lt;a href="http://insee.fr/fr/themes/detail.asp?reg_id=0&amp;amp;ref_id=cantons-2015"&gt;proviennent de l'INSEE&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Pour plus de détail, consultez le wiki OpenStreetMap: &lt;a href="http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France"&gt;http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;Format&lt;/h3&gt;&lt;p&gt;Ces fichiers sont proposés au format shapefile (en WGS84, EPSG:4326, textes en UTF-8), ainsi que KML.&lt;/p&gt;&lt;h3&gt;Contenu&lt;/h3&gt;&lt;p&gt;Pour chaque canton, les attributs suivants sont fournis:&lt;/p&gt;&lt;ul&gt; &lt;li&gt;ref : code du canton, composé du code du département et du N° de canton (ex: 094-01, 02B-04)&lt;/li&gt;&lt;li&gt;nom : nom du canton figurant au JORF (source OSM)&lt;/li&gt;&lt;li&gt;wikipedia: lien wikipedia vers l'article du canton (source OSM)&lt;/li&gt;&lt;li&gt;code_dep : code INSEE du département (source INSEE)&lt;/li&gt;&lt;li&gt;num_canton: N° du canton dans le département (source INSEE)&lt;/li&gt;&lt;li&gt;nom_insee: Nom du canton dans le fichier INSEE (source INSEE)&lt;/li&gt;&lt;li&gt;pop_legale: population légale dans le canton selon l'INSEE&lt;/li&gt;&lt;/ul&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/repartition-de-la-reserve-parlementaire-en-2014">
+        <dc:modified>2015-02-13T08:18:51+00:00</dc:modified>
+        <dc:title>Répartition de la réserve parlementaire en 2014</dc:title>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:keyword>réserve parlementaire, député, assemblée, Assemblée nationale, parlement</dcat:keyword>
+        <dc:description>&lt;p&gt;Répartition de la réserve parlementaire française en 2014, par député, groupe politique, type de dépense&lt;/p&gt;</dc:description>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
         <dc:identifier>repartition-de-la-reserve-parlementaire-en-2014</dc:identifier>
         <dc:publisher>Assemblée Nationale</dc:publisher>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
-        <dc:title>Répartition de la réserve parlementaire en 2014</dc:title>
-        <dc:modified>2015-02-13T08:18:51+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté"/>
-        <dc:description>&lt;p&gt;Répartition de la réserve parlementaire française en 2014, par député, groupe politique, type de dépense&lt;/p&gt;</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
       <dcat:Dataset rdf:about="http://public.opendatasoft.com/api/datasets/1.0/catalogue_des_cours_municipaux_d_adultes">
-        <dc:identifier>catalogue_des_cours_municipaux_d_adultes</dc:identifier>
-        <dc:publisher>Ville de Paris</dc:publisher>
-        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
-        <dc:title>Catalogue des cours municipaux d'adultes</dc:title>
-        <dc:modified>2015-07-17T09:06:25+00:00</dc:modified>
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
-        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
+        <dcat:keyword>enseignement, formation, cours, éducation</dcat:keyword>
         <dc:description>&lt;p&gt;
 	Catalogue des cours municipaux d'adultes 2011-2012. Ce jeu de données comprend le département d'enseignement, la formation et le module suivis, le nom de l'établissement et les dates de début et de fin.
 &lt;/p&gt;</dc:description>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+        <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
+        <dc:title>Catalogue des cours municipaux d'adultes</dc:title>
+        <dc:modified>2015-07-17T09:06:25+00:00</dc:modified>
+        <dc:identifier>catalogue_des_cours_municipaux_d_adultes</dc:identifier>
+        <dc:license rdf:resource="http://opendatacommons.org/licenses/odbl/summary/"/>
+        <dc:publisher>Ville de Paris</dc:publisher>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2976,6 +3130,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:publisher>OpenDataSoft</dc:publisher>
         <dc:identifier>carte-des-stations-netatmo-en-france</dc:identifier>
         <dc:modified>2014-11-05T09:33:13+00:00</dc:modified>
+        <dcat:keyword>meteo, netatmo, weather map, weather station</dcat:keyword>
       </dcat:Dataset>
     </dcat:dataset>
     <dcat:dataset>
@@ -2986,6 +3141,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:modified>2014-04-22T15:49:10+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/culture-patrimoine"/>
+        <dcat:keyword>bibliothèques, livres, documents, DVD, références, prêt</dcat:keyword>
         <dc:description>&lt;p&gt;
 	 &lt;span style="line-height: 1.45em;"&gt;Les 1000 références les plus empruntées en 2013 au sein des bibliothèques municipales de la ville de Paris.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 	 La mise de ce jeu de données est semestrielle.&lt;/p&gt;&lt;p&gt;
@@ -3003,6 +3159,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:identifier>population-francaise-departements-2011</dc:identifier>
         <dc:references rdf:resource="http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011"/>
         <dc:publisher>INSEE</dc:publisher>
+        <dcat:keyword>Recensement, Population, Département</dcat:keyword>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
       </dcat:Dataset>
     </dcat:dataset>
@@ -3012,6 +3169,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:title>Dépenses d'assurance maladie hors prestations hospitalières</dc:title>
         <dc:license rdf:resource="https://wiki.data.gouv.fr/images/9/9d/Licence_Ouverte.pdf"/>
         <dc:modified>2014-12-22T10:20:28+00:00</dc:modified>
+        <dcat:keyword>cnam, sécurité sociale, dépenses publiques</dcat:keyword>
         <dc:identifier>depenses-dassurance-maladie-hors-prestations-hospitalieres</dc:identifier>
         <dc:references rdf:resource="https://www.data.gouv.fr/fr/datasets/depenses-d-assurance-maladie-hors-prestations-hospitalieres/"/>
         <dc:description>&lt;p&gt;
@@ -3253,6 +3411,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:modified>2013-08-23T08:46:12+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement"/>
+        <dcat:keyword>facilities, education, schools</dcat:keyword>
         <dc:description>&lt;p&gt;
 	&lt;span style="line-height: 1.45em;"&gt;Location of Boston Public Schools&lt;/span&gt;
 &lt;/p&gt;
@@ -3274,6 +3433,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:publisher>OpenStreetMap</dc:publisher>
         <dc:references rdf:resource="http://download.geofabrik.de/north-america.html"/>
         <dc:title>OpenStreetMap POIs - New York, USA</dc:title>
+        <dcat:keyword>openstreetmap, POI, new york, map</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
         <dc:license rdf:resource="http://www.openstreetmap.org/copyright/en"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/services-social"/>
@@ -3287,6 +3447,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:modified>2015-07-16T16:26:30+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>balise, emprise au sol, feux, limites de voies, poteaux à feux, panneaux de circulation routière</dcat:keyword>
         <dc:description>Données de type vecteur, décrivant certains mobiliers et emprises au sol de signalisation routière et piétonne : balise, emprises au sol, feux, limites de voies, poteaux à feux, panneaux de circulation routière...</dc:description>
       </dcat:Dataset>
     </dcat:dataset>
@@ -3298,6 +3459,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:modified>2015-07-16T16:27:52+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
+        <dcat:keyword>kiosque, journaux, presse</dcat:keyword>
         <dc:description>&lt;p&gt;
 &lt;span style="line-height: 1.45em;"&gt;Liste des kiosques Parisiens en activité avec les horaires d'ouverture et  fermeture. Liste établie par Médiakiosk.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;
 &lt;strong&gt;Exemples de réutilisations: &lt;/strong&gt;&lt;br&gt;
@@ -3313,6 +3475,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:description>&lt;p&gt;
     Des professionnels médicaux, paramédicaux et sociaux accueillent et proposent des consultations de médecine générale et spécialisée, ou dentaires, des examens radiologiques et échographiques, des soins infirmiers et de pédicure, des informations et des conseils de prévention. Le jeu de données comprend toutes les consultations proposées par les centres de santé du réseau paris santé avec leur type, leur localisation, leurs horaires.
 &lt;/p&gt;</dc:description>
+        <dcat:keyword>médecins, dentistes, prévention, soins, paramédicaux, santé</dcat:keyword>
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=122&amp;portlet_id=102"/>
         <dc:title>Consultations des centres de santé à Paris</dc:title>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
@@ -3327,6 +3490,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:modified>2013-11-26T13:57:38+00:00</dc:modified>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/hébergement-restauration"/>
+        <dcat:keyword>Restaurants, Pépinière 27</dcat:keyword>
         <dc:description>&lt;p&gt;
 	      Liste de restaurants facilement accessibles à pied depuis Pépinière 27, pépinière d'entreprises dont fait partie &lt;span style="line-height: 1.45em;"&gt;OpenDataSoft&lt;/span&gt;&lt;span style="line-height: 1.45em;"&gt;.&lt;/span&gt;
 &lt;/p&gt;
@@ -3360,6 +3524,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:references rdf:resource="http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=57&amp;portlet_id=106"/>
         <dc:description>Données de type vecteur indiquant les emplacements des points de collecte du verre.</dc:description>
         <dc:title>Mobiliers urbains de propreté - Emplacements des colonnes à verre</dc:title>
+        <dcat:keyword>Recyclage, Equipements, Environnement, Mobilier urbain, Paris</dcat:keyword>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dcat:theme rdf:resource="http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement"/>
         <dc:modified>2015-07-16T16:51:00+00:00</dc:modified>
@@ -3372,6 +3537,7 @@ Exemple(s) de réutilisation(s) des données :
         <dc:title>Liste des Fromages Français</dc:title>
         <dc:publisher>OpenDataSoft</dc:publisher>
         <dc:identifier>fromagescsv-fromagescsv</dc:identifier>
+        <dcat:keyword>Fromage, Carte, Gastronomie</dcat:keyword>
         <dc:description>&lt;p&gt;Ce jeu de données réunit la liste de 338 spécialités fromagères françaises. &lt;/p&gt;&lt;p&gt;Le jeu de données comprend :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;le nom du fromage&lt;/li&gt;&lt;li&gt; le département de fabrication&lt;/li&gt;&lt;li&gt;l'URL de la page Wikipédia française&lt;/li&gt;&lt;li&gt;l'URL de la page Wikipédia anglaise quand elle existait&lt;/li&gt;&lt;li&gt;la photographie quand elle existait&lt;/li&gt;&lt;li&gt;les coordonnées géographiques du département de fabrication&lt;/li&gt;&lt;/ul&gt;</dc:description>
         <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
         <dc:references rdf:resource="http://fr.wikipedia.org/wiki/Liste_des_sp%C3%A9cialit%C3%A9s_r%C3%A9gionales_fran%C3%A7aises_de_fromages"/>

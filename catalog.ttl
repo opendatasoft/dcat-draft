@@ -17,6 +17,7 @@
 	<http://purl.org/dc/terms/modified> "2013-05-30T01:51:37+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "jardin, parc, concessions, chalet de vente, manège, théâtre, souvenirs" ;
 	<http://purl.org/dc/terms/description> "<p>Liste des concessions (manèges, chalet de vente,...)  dans les jardins parisiens par arrondissement.</p>" .
 
 <http://public.opendatasoft.com/id/theme/environnement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -41,6 +42,7 @@
 	<http://purl.org/dc/terms/modified> "2013-05-30T01:51:53+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "trottoir, rue, voie, piéton" ;
 	<http://purl.org/dc/terms/description> """Données de type vecteur décrivant les trottoirs parisiens.
 
 Exemple(s) de réutilisation(s) des données :
@@ -68,6 +70,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-06-21T13:04:22+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "ArbresRemarquables, Arbres, DEVE" ;
 	<http://purl.org/dc/terms/description> "<p><em>Couche anciennement intitulée \"Arbres remarquables - Données géographiques\" (2011).</em></p><p>Cette couche à figuré ponctuel localise géographiquement l’ensemble des arbres remarquables présents sur le territoire parisien<em>.</em> La classification, le nom commun et la taille des arbres etc. sont renseignés sur la couche de données.</p><p>Pour plus de renseignements, consultez la notice en pièce jointe OU le dossier spécial <em><a href=\"http://www.paris.fr/pratique/jardinage-vegetation/dossier-arbres-remarquables/les-arbres-remarquables-a-paris/rub_10043_dossier_103510_port_25125\" target=\"_blank\">Arbres remarquables à Paris</a> </em>hébergé sur le site de la ville.</p>" .
 
 <http://public.opendatasoft.com/id/theme/environnement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -92,6 +95,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-06-24T16:17:51+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "eau, consommation" ;
 	<http://purl.org/dc/terms/description> """<p>
 	Fichier détaillant les volumes d'eau potables consommés par mois en 2011 à Paris.
 </p>""" .
@@ -118,6 +122,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-07-18T14:40:12+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "GES, énergie, diagnostic" ;
 	<http://purl.org/dc/terms/description> """<p>
 	 Jeu de données qualifiant les performances énergétiques des bâtiments :<br>
 <span style=\"line-height: 1.45em;\">- Étiquette énergie<br>
@@ -149,6 +154,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-07-29T09:59:18+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "jardins, JardinsPartagés, DEVE" ;
 	<http://purl.org/dc/terms/description> "<p><em>Couche anciennement intitulée \"Liste des jardins partagés à Paris\" (2011).</em></p><p>Cette couche à figuré ponctuel localise géographiquement l’ensemble  des jardins partagés, pédagogiques et/ou d’insertion gérés par  différentes associations.</p><p>Pour plus de renseignements,  consultez la notice en pièce jointe.</p><p style=\"margin-left: 200px;\"><br><strong>/!\\ INFOS /!\\ </strong></br></p><p>Suite à la mise à jour de ce jeu de données, nous avons décidé  de modifier le nom des champs :</p><table><tbody><tr><td><strong>Ancien nom</strong></td><td><strong>Nouveau nom</strong></td></tr><tr><td>Nom du jardin</td><td>NOM JARDIN</td></tr><tr><td>Type de jardin – activité principale</td><td>TYPE JARDIN</td></tr><tr><td>Adresse complète</td><td>ADRESSE JARDIN</td></tr><tr><td>Nom de l’association gestionnaire (...)</td><td>NOM GESTIONNAIRE</td></tr><tr><td>Adresse postale de l’association gestionnaire</td><td>ADRESSE GESTIONNAIRE</td></tr></tbody></table>" .
 
 <http://public.opendatasoft.com/id/theme/environnement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -172,6 +178,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-08-23T08:46:12+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement> ;
+	<http://www.w3.org/ns/dcat#keyword> "facilities, education, schools" ;
 	<http://purl.org/dc/terms/description> """<p>
 	<span style=\"line-height: 1.45em;\">Location of Boston Public Schools</span>
 </p>
@@ -200,6 +207,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-08-23T08:46:32+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement> ;
+	<http://www.w3.org/ns/dcat#keyword> "gis, map, 2013-2014 school zones, doe, board of ed, ed" ;
 	<http://purl.org/dc/terms/description> """<p>
 	   2013-2014 School Zones (as of May 8, 2013)
 </p>
@@ -231,6 +239,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-08-23T08:46:57+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/santé> ;
+	<http://www.w3.org/ns/dcat#keyword> "food, food initiatives, fruit, orchards, trees, green streets, urban agriculture, boston" ;
 	<http://purl.org/dc/terms/description> """<p>
 	 <span style=\"line-height: 1.45em;\">Urban orchards and fruit trees in and around the city of Boston. Please note: locations have not been verified, and may be on private property, inaccessible, not bearing fruit, or no longer there. Always confirm permission to enter and forage with any property owners. Use utmost caution in identifying and consuming any fruit. Feel free to contact us with any information pertaining to current conditions, and we will update the data.</span>
 </p>
@@ -259,6 +268,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-08-23T08:49:07+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/permitting> ;
+	<http://www.w3.org/ns/dcat#keyword> "food, restaurants, inspetions" ;
 	<http://purl.org/dc/terms/description> """<p>
 	 <span style=\"line-height: 1.45em;\">Listing of food establishments with active licenses in Boston, USA</span>
 </p>
@@ -346,6 +356,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-09-04T16:21:54+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "étalage, terrasse, autorisation, occupation, rue, trottoir, piéton" ;
 	<http://purl.org/dc/terms/description> """<p>
 	  Liste des 19000 autorisations d’occupation du domaine public délivrées aux commerces parisiens (autorisation d’installer des étalages, terrasses, commerces accessoires, contre terrasse, contre étalage,...).<br>
 <br>
@@ -400,6 +411,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-09-10T14:58:32+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "Conseil de quartier, Quartier, arrondissement" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">La carte des périmètres des conseils de quartier par arrondissement</span>
 </p>
@@ -432,6 +444,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-09-14T13:45:13+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/> ;
+	<http://www.w3.org/ns/dcat#keyword> "Service, Travaux publics, Achats, Marché, Attributaire, Fourniture, Travaux" ;
 	<http://purl.org/dc/terms/references> <http://www.data.gouv.fr/DataSet/30380017?xtmc=&xtcr=1> ;
 	<http://purl.org/dc/terms/description> "Liste des attributaires des marchés de l'État tel que référencé sur la plateforme du SAE, comprenant le nom de l'entité publique, l'entité d'achat, le nom de l'attributaire, la date de notification, le code postal, la tranche budgétaire en euro HT, la nature de l'achat, l'objet du marché, le montant du marché, l'attribution à une PME." .
 
@@ -622,6 +635,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-11-26T13:57:38+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/hébergement-restauration> ;
+	<http://www.w3.org/ns/dcat#keyword> "Restaurants, Pépinière 27" ;
 	<http://purl.org/dc/terms/description> """<p>
 	      Liste de restaurants facilement accessibles à pied depuis Pépinière 27, pépinière d'entreprises dont fait partie <span style=\"line-height: 1.45em;\">OpenDataSoft</span><span style=\"line-height: 1.45em;\">.</span>
 </p>
@@ -676,6 +690,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-26T16:01:54+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "subway, stations, map, transit, train, travel, transfer" ;
 	<http://purl.org/dc/terms/references> <https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49> ;
 	<http://purl.org/dc/terms/description> """<p>
 	 NYC Subway Stations
@@ -706,6 +721,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-26T16:05:03+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "EPCI" ;
 	<http://purl.org/dc/terms/description> """<p>
 	Limite administrative des Établissements Publics de Coopération Intercommunale (EPCI) de Maine-et-Loire.
 </p>
@@ -750,6 +766,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-26T16:05:57+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "EPCI" ;
 	<http://purl.org/dc/terms/description> """<p>
 	Liste des Établissements Publics de Coopération Intercommunale (EPCI) de Maine-et-Loire.
 </p>
@@ -792,6 +809,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-26T16:27:48+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "theater, entertainment, map" ;
 	<http://purl.org/dc/terms/references> <https://data.cityofnewyork.us/Recreation/Theaters/kdu2-865w> ;
 	<http://purl.org/dc/terms/description> """<p>
 	Listing of NYC Theaters
@@ -818,6 +836,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-26T16:35:11+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "art, culture, map, museum, gallery" ;
 	<http://purl.org/dc/terms/references> <https://data.cityofnewyork.us/Recreation/Museums-and-Galleries/sat5-adpb> ;
 	<http://purl.org/dc/terms/description> """<p>
 	NYC Museums and Galleries
@@ -844,6 +863,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-26T17:03:32+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "wifi, wireless, services, telecommunication, hot spot, map" ;
 	<http://purl.org/dc/terms/references> <https://data.cityofnewyork.us/Recreation/Wifi-Hotspot-Locations/ehc4-fktp> ;
 	<http://purl.org/dc/terms/description> """<p>
 	Location of wifi hotspots in NYC with basic descriptive information
@@ -870,6 +890,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-26T17:49:34+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "parking spot, parking facility, car, automobile, map" ;
 	<http://purl.org/dc/terms/references> <https://data.cityofnewyork.us/Transportation/NYC-Parking-Spots/nxab-ch29> ;
 	<http://purl.org/dc/terms/description> """<p>
 	A list of all parking facilities in New York City
@@ -897,6 +918,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-27T14:01:54+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "openstreetmap, POI, california, map" ;
 	<http://purl.org/dc/terms/references> <http://download.geofabrik.de/north-america.html> ;
 	<http://purl.org/dc/terms/description> """<p>
 	 OpenStreetMap Points of Interest in California, USA.
@@ -927,6 +949,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-27T14:21:47+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "openstreetmap, POI, new york, map" ;
 	<http://purl.org/dc/terms/references> <http://download.geofabrik.de/north-america.html> ;
 	<http://purl.org/dc/terms/description> """<p>
 	OpenStreetMap Points of Interest in New York, USA.
@@ -956,6 +979,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2013-12-27T19:56:33+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement> ;
+	<http://www.w3.org/ns/dcat#keyword> "school improvement grants, schools" ;
 	<http://purl.org/dc/terms/description> """<p>
 	 <span style=\"line-height: 1.45em;\">Since President Obama took office, Congress has appropriated more than $4 billion to help turn around the nation's lowest-performing schools. States were awarded nearly $3.5 billion in School Improvement Grant funds in 2010 to turn around their persistently lowest achieving schools. School districts then applied to state for the funds this spring. When school districts applied, they were required to indicate that they would implement one of the following four models in their persistently lowest achieving schools:</span>
 </p>
@@ -997,6 +1021,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-01-03T11:37:05+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "openstreetmap, POI, USA, map" ;
 	<http://purl.org/dc/terms/references> <http://download.geofabrik.de/north-america.html> ;
 	<http://purl.org/dc/terms/description> """<p>
 	OpenStreetMap Points of Interest in the USA.
@@ -1027,6 +1052,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-01-04T09:29:01+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "Service public, Equipements" ;
 	<http://purl.org/dc/terms/references> <http://www.insee.fr/fr/themes/detail.asp?reg_id=99&ref_id=fd-bpe11&page=fichiers_detail/bpe11/telechargement.htm> ;
 	<http://purl.org/dc/terms/description> """<p>
 	La base permanente des équipements (BPE) contient pour chaque territoire la liste des équipements et des services rendus à la population.
@@ -1056,6 +1082,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-01-04T09:45:46+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "fire department, fdny, fd, fires, station, fire station, fire house, emergency, 911" ;
 	<http://purl.org/dc/terms/description> """<p>
 	<span style=\"line-height: 1.45em;\">Listing of all the fire houses in New York City</span>
 </p>
@@ -1083,6 +1110,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-01-17T14:51:48+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "antony, assistante maternelle" ;
 	<http://purl.org/dc/terms/description> "<p>Listes des assistantes maternelles de la ville d'antony. Générée à partir de la liste édité par la ville d'Antony, au 4 décembre 2013</p>" .
 
 <http://public.opendatasoft.com/id/theme/services-social> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -1106,6 +1134,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-01-17T16:02:06+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/sport-loisirs> ;
+	<http://www.w3.org/ns/dcat#keyword> "Football, Ballon d'Or, FIFA, Ribéry Franck, Ronaldo Cristiano, Messi Lionel" ;
 	<http://purl.org/dc/terms/references> <http://www.fifa.com/mm/document/ballond'or/playeroftheyear(men)/02/26/02/68/fboaward_menplayer2013_neutral.pdf> ;
 	<http://purl.org/dc/terms/description> "<p>Résultats du Ballon d'Or FIFA 2013, révélés le 13 janvier 2014.</p><p>Extraits du fichier officiel de la FIFA.</p>" .
 
@@ -1162,6 +1191,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-01-23T11:10:10+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/justice-sécurité-police-crime> ;
+	<http://www.w3.org/ns/dcat#keyword> "Police, polices municipales" ;
 	<http://purl.org/dc/terms/references> <http://www.data.gouv.fr/fr/dataset/polices-municipales> ;
 	<http://purl.org/dc/terms/description> "<p>Données statistiques relatives aux polices municipales par commune pour l'année 2012</p>" .
 
@@ -1187,6 +1217,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-01-24T15:16:15+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "élection, vote, bureau" ;
 	<http://purl.org/dc/terms/description> "<p>Zones de rattachement des bureaux de vote en 2012</p>" .
 
 <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -1211,6 +1242,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-01-24T15:30:23+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "élection, élections, vote, bureau" ;
 	<http://purl.org/dc/terms/description> "<p>Zones de rattachement des bureaux de vote en 2014</p>" .
 
 <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -1235,6 +1267,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-02-01T19:10:12+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "législatives, Assemblée nationale, réserve parlementaire" ;
 	<http://purl.org/dc/terms/references> <http://www.nosdonnees.fr/dataset/r-serve-parlementaire-2013-de-l-assembl-e-nationale> ;
 	<http://purl.org/dc/terms/description> "<p>Subventions accordées aux collectivités et associations dans le cadre de la réserve parlementaire de 2013</p><p>Tableaux HTML scrapés sur le site de l'Assemblée nationale (http://www2.assemblee-nationale.fr/reserve_parlementaire/plf)&nbsp;et complétés par Regards Citoyens (http://www.regardscitoyens.org/)&nbsp;avec des informations issues de NosDéputés.fr (http://www.nosdeputes.fr/)</p>" .
 
@@ -1260,6 +1293,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-02-11T13:31:28+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Autolib, transport, stations, espaces, bornes, véhicules, abris" ;
 	<http://purl.org/dc/terms/references> <http://www.autolibmetropole.fr> ;
 	<http://purl.org/dc/terms/description> "<p>Ce jeu de données fournit pour l'ensemble des stations Autolib' d'Ile-de-France, leur positionnement géographique et leur capacité d'accueil de véhicules. </p><p>Définition:</p><div>- ID: Ce numero ID est composé d'un code commune suivi d'un code numéro station par commune.</div><div>- Identifiant Autolib': Cette identifiant est compsé du nom de la commune d'implantation de la station, du nom de la rue et du numéro de rue.</div><div>- Rue: Numéro de rue et rue de la station</div><div>- Code postal: Code postal de la commune d'implantation de la station</div><div>- Ville :Commune d'implantation de la station</div><div>- Emplacement: Espace d'emplacement de la station (Voirie ou Parking)</div><div>- Autolib': Nombre de places destinées aux véhicules Autolib'</div><div>- Tiers: Nombre de places destinées aux véhicules Tiers</div><div>- Abri: Précision sur le fait qu'il y ai ou non un espace d'abonnement sur le lieu de la station (1 = oui, 0 = non).</div>" .
 
@@ -1285,6 +1319,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-02-28T01:58:03+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "commémoration, guerre, plaque, patrimoine" ;
 	<http://purl.org/dc/terms/description> """<p>
 	  La list des plaques commémoratives des personnes et des organisations qui se sont illustrées durant la période 1939-1945 par arrondissement.</p><p>
 	      Exemples de réutilisations: - A l'aide du site www.plaques-paris.fr, conformément à la licence ODbl, le fichier web service tabulaire (Google Feuille de calcul) a reçu une amélioration. (Ajout des coordonnées géographiques)</p>""" .
@@ -1310,6 +1345,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-06T11:07:54+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "wifi, hotspots, internet, wifi paris, trafic" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Données quantifiées des utilisations mensuelles des hotspots Paris Wi-Fi par type de site.<br>
 <br>
@@ -1337,6 +1373,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-06T13:32:29+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "élections, résultats, présidentielles, municipales, législatives, européennes, régionales, vote" ;
 	<http://purl.org/dc/terms/description> """<p>Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales.</p><p>Exemple(s) de réutilisation(s) des données :
 - Cartographie sur http://mounirsimon.com/dequelbord/</p>""" .
 
@@ -1362,6 +1399,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-06T13:37:45+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "élections, résultats, présidentielles, municipales, législatives, européennes, régionales, vote" ;
 	<http://purl.org/dc/terms/description> """<p>Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales.</p><p>Exemple(s) de réutilisation(s) des données :
 - Cartographie sur http://mounirsimon.com/dequelbord/</p>""" .
 
@@ -1387,6 +1425,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-07T08:32:17+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "radio, musique" ;
 	<http://purl.org/dc/terms/description> "<p>Liste des titres diffusés sur 6 stations de radio musicales françaises: NRJ, Fun Radio, Europe 2, Virgin Radio, Ouï FM, Radio Nova.</p><p>Cette liste a été constituée à partir des informations en direct sur les sites de chaque station de radio (\"titre en cours de diffusion\") entre le 13 janvier 2014 et le 5 mars 2014.</p><p>La différence de nombre de titres collectés par station s'explique par l'absence d'informations sur certaines plages horaires (par exemple la nuit, durant les émissions de type talk-show ou matinales...).</p>" .
 
 <http://public.opendatasoft.com/id/theme/culture-patrimoine> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -1411,6 +1450,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-12T15:25:57+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "marché, département, fournitures" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Le jeu de données comprend les marchés de fournitures passés passés le Département de Paris, de 2009 à 2013.</span></p><p>
 <span style=\"line-height: 1.45em;\">Ce jeu de données précise:</span></p><p>
@@ -1443,6 +1483,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-12T15:26:14+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "marché, fournitures, Ville" ;
 	<http://purl.org/dc/terms/description> """<p>
 	  Le jeu de données comprend les marchés de fournitures passés par la Ville de Paris, de 2009 à 2013.</p><p>
 	  Ce jeu de données comprend:</p><p>
@@ -1476,6 +1517,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-12T16:29:45+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "marché, Ville, Services" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Le jeu de données comprend les marchés de fournitures passés par la Ville de Paris, de 2009 à 2013.</span></p><p>
 	 Ce jeu de données comprend:</p><p>
@@ -1509,6 +1551,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-12T16:29:53+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "marché, Services, département" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Le jeu de données comprend les marchés de services passés par le Département de Paris, de 2009 à 2013.</span></p><p>
 <span style=\"line-height: 1.45em;\">Ce jeu de données comprend:</span></p><p>
@@ -1542,6 +1585,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-12T16:30:01+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "marché, ville, travaux" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Le jeu de données comprend les marchés des travaux passés par la Ville de Paris, de 2009 à 2013.</span></p><p>
 	  Ce jeu de données comprend:</p><p>
@@ -1575,6 +1619,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-12T16:30:09+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "marché, travaux, département" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Le jeu de données comprend les marchés de travaux passés par le Département de Paris, de 2009 à 2013.</span></p><p>
 	  Ce jeu de données comprend:</p><p>
@@ -1608,6 +1653,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-24T01:52:23+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "Prénoms, bébés, paris, état-civil" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Liste des prénoms déclarés à l'état-civil  de 2004 à 2014.</span></p><p>
 	   Un \"X\" dans la case \"sexe\" signifie que le prénom est mixte et que le sexe n'est pas spécifié.</p>""" .
@@ -1634,6 +1680,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-24T15:20:39+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "élections, résultats, municipales, vote, bureau, candidat" ;
 	<http://purl.org/dc/terms/description> "<p>Résultats du 1er tour des élections Municipales de 2014</p>" .
 
 <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -1658,6 +1705,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-03-31T12:19:14+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "élections, résultats, municipales, vote, bureau, candidat" ;
 	<http://purl.org/dc/terms/description> "<p>Résultats du 2ème tour des élections Municipales de 2014</p>" .
 
 <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -1682,6 +1730,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-04-01T13:20:54+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/sport-loisirs> ;
+	<http://www.w3.org/ns/dcat#keyword> "Pokemon, April Fools, Google Maps, Pokemon Challenge, Google" ;
 	<http://purl.org/dc/terms/references> <http://pokemonaprilfools.wikia.com/wiki/Sorted_by_Pokedex_No> ;
 	<http://purl.org/dc/terms/description> "<p>Location of Google Pokemon Challenge's pokemons. Gotta Catch 'Em All!</p>" .
 
@@ -1706,6 +1755,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-04-22T09:55:26+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Equipements" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Ce jeu de données recense les équipements accessibles de la Ville.</span></p><p>
 	   Il détaille :<br>
@@ -1737,6 +1787,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-04-22T15:49:10+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "bibliothèques, livres, documents, DVD, références, prêt" ;
 	<http://purl.org/dc/terms/description> """<p>
 	 <span style=\"line-height: 1.45em;\">Les 1000 références les plus empruntées en 2013 au sein des bibliothèques municipales de la ville de Paris.</span></p><p>
 	 La mise de ce jeu de données est semestrielle.</p><p>
@@ -1763,6 +1814,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-04-22T16:16:38+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "bibliothèques, livres, documents, DVD, références, prêt, recherche" ;
 	<http://purl.org/dc/terms/description> """<p>
 	<span style=\"line-height: 1.45em;\">Les 1000 références les plus réservées en 2013 au sein des bibliothèques municipales de la ville de Paris.</span></p><p>
 	La mise de ce jeu de données est semestrielle.</p><p>
@@ -1789,6 +1841,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-04-22T16:22:40+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "bibliothèques, livres, documents, DVD, références, prêt, recherche" ;
 	<http://purl.org/dc/terms/description> """<p>
 	 <span style=\"line-height: 1.45em;\">Les 1000 références les plus recherchées en 2013 au sein des bibliothèques municipales de la ville de Paris.</span></p><p>
 	 La mise de ce jeu de données est semestrielle.</p><p>
@@ -1816,6 +1869,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-04-25T14:13:21+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Equipements, Paris, Mobilier urbain, bornes, arceaux" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=91&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Données de type vecteur décrivant des bornes: à vélo, d'amarrage, rabattable, les épingles moto, arceaux pour véhicules...</span></p>""" .
@@ -1841,6 +1895,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-05-15T10:44:01+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "Café, bistrot, euro, snack, bar, terrasse" ;
 	<http://purl.org/dc/terms/references> <https://docs.google.com/spreadsheet/viewform?formkey=dGNHWl83NzJvUm9USk1NZVkzWENRUUE6MQ> ;
 	<http://purl.org/dc/terms/description> """<p>
 	                     La liste des cafés à un euro de Paris.</p><p>
@@ -1868,6 +1923,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-05-26T16:01:21+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "élections, résulats, présidentielles, communales, municipales, législatives, européennes, régionales, vote, bureau, candidat" ;
 	<http://purl.org/dc/terms/description> "<p>Résultats des élections, Présidentielles, Législatives, Municipales,  Européennes et Régionales de 2007 à 2014 par arrondissement, bureau et candidat.</p><p>A partir des Elections Européennes de 2014, ont été rajoutées les colonnes \"Nombres de blancs\", \"Nombres de nuls\" et \"Nombre de procurations\"</p>" .
 
 <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -1892,6 +1948,7 @@ Exemple(s) de réutilisation(s) des données :
 	<http://purl.org/dc/terms/modified> "2014-05-27T09:45:01+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "accident, voiture, véhicule" ;
 	<http://purl.org/dc/terms/description> """<p>Elements d'accidentologie de Paris.</p><p>Intitulés des colonnes: </p><p>- Carac = Caractéristiques ; </p><p>- Com =
 Commune (nombre à 3 chiffres, composé du 1 [pour paris] et suivi du numéro de
 l’arrondissement) ; </p><p>- Carr = carrefour ; </p><p>- Segm = segment de voie ; </p><p>- NomV = nom de voie ; </p><p>- Vehi1 = véhicule 1 ; </p><p>- CAdmin = catégorie
@@ -1923,6 +1980,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-06-16T15:40:04+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Equipements, Mobilier urbain, Paris, voiture éléctrique" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=95&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> """<p>
     Données de type vecteur, décrivant certains mobiliers électriques : bornes pour véhicule électrique, prises basse tension. </p>""" .
@@ -1949,6 +2007,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-06-16T15:42:25+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Paris, Mobilier urbain, Equipements, Eau potable, eau" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=92&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> """<p>
     Données de type vecteur décrivant divers points de distribution d'eau potable ou non potable : fontaine wallace, borne fontaine, vanne, bouche...
@@ -1991,6 +2050,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-06-16T15:45:35+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "Cinéma, Paris" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=110&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> """Liste des lieux de tournages extérieurs de long métrage à Paris de 2002 à 2010. Avertissement : certains films ont pu changer de nom entre le moment des tournages et leurs sorties en salle.
 """ .
@@ -2017,6 +2077,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-06-16T15:50:56+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Equipements, Paris, Mobilier urbain" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=93&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> """<p>
     Données de type vecteur décrivant divers modèles de sanisettes
@@ -2083,6 +2144,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-06-16T15:52:04+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "wifi, internet, navigation, hotspot, web" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=125&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> """<p>
     Liste des sites municipaux disposant d'un hotspot Paris WiFi permettant une connexion à Internet offerte pendant 2h.
@@ -2110,6 +2172,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-06-16T15:56:26+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "médecins, dentistes, prévention, soins, paramédicaux, santé" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=122&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> """<p>
     Des professionnels médicaux, paramédicaux et sociaux accueillent et proposent des consultations de médecine générale et spécialisée, ou dentaires, des examens radiologiques et échographiques, des soins infirmiers et de pédicure, des informations et des conseils de prévention. Le jeu de données comprend toutes les consultations proposées par les centres de santé du réseau paris santé avec leur type, leur localisation, leurs horaires.
@@ -2137,6 +2200,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-06-25T13:28:06+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "parking, stationnement, voiture" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=136&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> "<p>Ce jeu de données comprend les parcs de stationnement en sous-sol concédés à Paris ainsi que ceux d'autres fournisseurs non affiliés à la Ville.</p><p>Le jeu de données comprend de nombreuses données : </p><ul><li><span style=\"line-height: 1.45em; background-color: initial;\">Nom</span></li><li><span style=\"line-height: 1.45em; background-color: initial;\"></span><span style=\"line-height: 1.45em; background-color: initial;\">A</span><span style=\"line-height: 1.45em; background-color: initial;\">dresse</span></li><li><span style=\"line-height: 1.45em; background-color: initial;\"></span><span style=\"line-height: 1.45em; background-color: initial;\">C</span><span style=\"line-height: 1.45em; background-color: initial;\">aractéristiques et services du parc</span></li><li><span style=\"line-height: 1.45em; background-color: initial;\"></span>Nom , site internet et téléphone du délégataire</li><li>Places pour les personnes à mobilité réduite</li><li>Horaires</li><li>Accès selon les véhicules</li><li><span style=\"line-height: 1.45em; background-color: initial;\">T</span><span style=\"line-height: 1.45em; background-color: initial;\">arification selon le véhicule et la durée du stationnelent</span></li><li><span style=\"line-height: 1.45em; background-color: initial;\"></span><span style=\"line-height: 1.45em; background-color: initial;\">D</span><span style=\"line-height: 1.45em; background-color: initial;\">urée de stationnement</span></li><li><span style=\"line-height: 1.45em; background-color: initial;\"></span>Tarfication des abonnements</li></ul><p>En pièce jointe, une version simplifiée du jeu de données comrpenant le nom du parc, l'adresse et la société gestionnaire</p>" .
 
@@ -2162,6 +2226,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-06-26T23:05:28+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Urban Data, Mobility, Bike" ;
 	<http://purl.org/dc/terms/references> <https://developer.jcdecaux.com/#/home> ;
 	<http://purl.org/dc/terms/description> "<p>JCDecaux bike stations availability data. This dataset is updated in real time.</p><p>You can access these data directly from the JCDecaux Developer site: <a href=\"https://developer.jcdecaux.com/#/home\" target=\"_blank\">https://developer.jcdecaux.com/#/home</a>.</p>" .
 
@@ -2211,6 +2276,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-07-16T16:10:59+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "concert, théâtre, exposition, salon, manifestation, colloque, compétition, rencontre, art, sport" ;
 	<http://purl.org/dc/terms/references> <https://openagenda.com/> ;
 	<http://purl.org/dc/terms/description> "<p>Liste des événements publics publiés dans les agendas OpenAgenda.</p>" .
 
@@ -2236,6 +2302,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-10-02T08:47:41+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/spatial> ;
+	<http://www.w3.org/ns/dcat#keyword> "Natural Earth, Country, Boundary" ;
 	<http://purl.org/dc/terms/references> <http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/> ;
 	<http://purl.org/dc/terms/description> "<p>Matched boundary lines and polygons with names attributes for countries and sovereign states. Includes dependencies (French Polynesia), map units (U.S. Pacific Island Territories) and sub-national map subunits (Corsica versus mainland Metropolitan France).</p>" .
 
@@ -2261,6 +2328,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-10-02T08:47:41+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/spatial> ;
+	<http://www.w3.org/ns/dcat#keyword> "Natural Earth, Country, Boundary" ;
 	<http://purl.org/dc/terms/references> <http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/> ;
 	<http://purl.org/dc/terms/description> "<p>Matched boundary lines and polygons with names attributes for countries and sovereign states. Includes dependencies (French Polynesia), map units (U.S. Pacific Island Territories) and sub-national map subunits (Corsica versus mainland Metropolitan France).</p>" .
 
@@ -2286,6 +2354,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-10-02T10:14:47+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement> ;
+	<http://www.w3.org/ns/dcat#keyword> "égalité des sexes, travail, santé, éducation, temps, pouvoir, argent" ;
 	<http://purl.org/dc/terms/references> <http://open-data.europa.eu/en/data/dataset/gender-equality-index> ;
 	<http://purl.org/dc/terms/description> "<p>L'index de l'égalité des sexes est un jeu de données initialement créé par l'<em>European Institute for Gender Equality</em>. Il mesure la distance séparant l'Europe des 27 et ses états membres d'une égalité complète entre les sexes en 2010. L'index fournit des données au niveau de l'Europe des 27 et de ses états membres. </p><p>Cet outil synthétise la complexité du concept d'égalité des sexes en une mesure aisément interrogeable et interprétable. facilement navigable et interprétable.</p><p>Il prend en compte 6 domaines-clés : </p><ol><li>travail</li><li>argent</li><li>connaissance</li><li>temps</li><li>pouvoir</li><li>santé</li></ol><p>Pour cette réutilisation, nous n'avons pas tenu compte de deux domaines satellites \"inégalités croisées\" et \"violence\". N'hésitez pas à consulter le jeu de données original pour explorer ces deux facettes complémentaires. </p><p>L'index attribue à chaque état membre une note située entre 1 (inégalité totale) et 100 (égalité complète). Il attribue également une note à chaque domaine et sous-domaine.</p>" .
 
@@ -2311,6 +2380,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-10-03T07:46:46+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Carburant, Prix, Voiture, Station service" ;
 	<http://purl.org/dc/terms/references> <http://www.prix-carburants.gouv.fr/rubrique/opendata/> ;
 	<http://purl.org/dc/terms/description> "<div>Les informations sont extraites du système d’information « Prix Carburants ». Elles ont été récupérés via le service <a href=\"http://www.prix-carburants.gouv.fr/itineraire/infos/ID_STATION\" target=\"_blank\">www.prix-carburants.gouv.fr/itineraire/infos/ID_ST...</a></div> <div><hr/></div><div>Description des champs :</div> <ul><li>Identifiant Station : Identifiant de la station</li><li>Nom : Nom de la station</li><li>Marque : Marque de la station</li></ul>" .
 
@@ -2336,6 +2406,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-10-03T07:46:46+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Carburant, Prix, Voiture, Station service" ;
 	<http://purl.org/dc/terms/references> <http://www.prix-carburants.gouv.fr/rubrique/opendata/> ;
 	<http://purl.org/dc/terms/description> "<div>Les informations sont extraites du système d’information « Prix Carburants ». Elles ont été récupérés via le service <a href=\"http://www.prix-carburants.gouv.fr/itineraire/infos/ID_STATION\" target=\"_blank\">www.prix-carburants.gouv.fr/itineraire/infos/ID_ST...</a></div> <div><hr/></div><div>Description des champs :</div> <ul><li>Identifiant Station : Identifiant de la station</li><li>Nom : Nom de la station</li><li>Marque : Marque de la station</li></ul>" .
 
@@ -2361,6 +2432,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-10-03T08:16:23+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Carburant, Prix, Voiture, Mobilité" ;
 	<http://purl.org/dc/terms/references> <http://www.prix-carburants.gouv.fr/rubrique/opendata/> ;
 	<http://purl.org/dc/terms/description> """<p>Les informations sont extraites du système d’information « Prix Carburants » à J-7 et l'historique 2014.</p>
 <hr> <div>Description des champs :</div>
@@ -2389,6 +2461,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-10-03T08:16:23+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "Carburant, Prix, Voiture, Mobilité" ;
 	<http://purl.org/dc/terms/references> <http://www.prix-carburants.gouv.fr/rubrique/opendata/> ;
 	<http://purl.org/dc/terms/description> """<p>Les informations sont extraites du système d’information « Prix Carburants » à J-7.</p>
 <hr><div>Description des champs :</div><ul>
@@ -2416,6 +2489,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-10-03T15:34:18+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement> ;
+	<http://www.w3.org/ns/dcat#keyword> "gender equality, time, money, work, knowledge, health, power" ;
 	<http://purl.org/dc/terms/references> <http://open-data.europa.eu/en/data/dataset/gender-equality-index> ;
 	<http://purl.org/dc/terms/description> "<p>The Gender Equality Index was initially created by the<em> European Institute for Gender Equality</em>. It measures how far (or close) the  EU-27 and its Member States were from achieving complete gender equality  in 2010. It provides results at both Member States and EU-27 level. It synthesises the complexity of gender equality in an easily interpretable measure. </p><p>The Index consists of six core domains:</p><ol><li>work</li><li>money</li><li>knowledge</li><li>time</li><li>power</li><li>health</li></ol><p>For this reuse, we did not took the two satellite domains (intersecting inequalities and violence) into account. Feel free to look at the original dataset to explore these two additional categories. </p><p>The Gender Equality  Index assigns scores for Member States, between 1,  total inequality and  100, full equality. It also provides results for  each domain and  sub-domain.</p>" .
 
@@ -2465,6 +2539,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-11-05T09:33:13+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "meteo, netatmo, weather station" ;
 	<http://purl.org/dc/terms/references> <http://www.netatmo.com> ;
 	<http://purl.org/dc/terms/description> """<p>Historique de la station météo Netatmo d'OpenDataSoft.</p><p>La station est située au 130 rue de Lourmel, dans l'incubateur Boucicaut, au 3ème étage. Son adresse mac est <em>70:ee:50:04:a3:78.</em></p><p>Les données récupérées sont les données publiques :</p><ul>
 <li>la température en degré Celcius (°C)</li><li>le pourcentage d'humidité dans l'air (%)</li><li>la pression atmosphérique en millibar (mbar)</li><li>la concentration de CO2 dans l'air en parties par million (ppm) </li><li>le niveau sonore en décibel (db)</li></ul><p>Notre station n'est pas équipée du module pluviomètre et possède un seul module additionel.</p>""" .
@@ -2491,6 +2566,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-11-05T09:33:13+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "meteo, netatmo, weather map, weather station" ;
 	<http://purl.org/dc/terms/references> <http://www.netatmo.com> ;
 	<http://purl.org/dc/terms/description> "<p>Carte des stations météo Netatmo en France.</p><p>Les données récupérées sont les données disponibles publiquement:</p><ul><li>la température en degré Celcius (°C)</li><li>le pourcentage d'humidité dans l'air (%)</li><li>la pression atmosphérique en millibar (mbar)</li><li>la pluie en direct en millimètre (mm) </li><li>la pluie sur les dernières 24 heures en millimètre (mm)</li><li>la pluie sur les dernières 60 minutes en millimètre (mm)</li><li>l'altitude de la station en mètre (m)</li></ul>" .
 
@@ -2540,6 +2616,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-11-13T16:24:49+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Recensement, Population, Région" ;
 	<http://purl.org/dc/terms/references> <http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011> ;
 	<http://purl.org/dc/terms/description> """<p>Population légale par région issue du recensement de la population de 2011</p>
 <hr><div><strong><em style=\"background-color: initial;\">Population municipale</em> :</strong><br/></div>
@@ -2573,6 +2650,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-11-13T16:24:49+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Recensement, Population, Département" ;
 	<http://purl.org/dc/terms/references> <http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011> ;
 	<http://purl.org/dc/terms/description> """<p>Population légale par département issue du recensement de la population de 2011</p>
 <hr><div><strong><em>Population municipale</em> :</strong><div>La population municipale comprend les personnes ayant leur résidence habituelle sur le territoire de la commune, dans un logement ou une communauté, les personnes détenues dans les établissements pénitentiaires de la commune, les personnes sans abri recensées sur le territoire de la commune et les personnes résidant habituellement dans une habitation mobile recensées sur le territoire de la commune.</div> <br><div><strong><em>Population comptée à part</em> :</strong></div> <div>La population comptée à part comprend certaines personnes dont la résidence habituelle est dans une autre commune mais qui ont conservé une résidence sur le territoire de la commune :</div><ul> <li>les personnes mineures dont la résidence familiale est dans une autre commune mais qui résident, du fait de leurs études, dans la commune</li><li>les personnes ayant une résidence familiale sur le territoire de la commune et résidant dans une communauté d’une autre commune ; la communauté faisant partie de la liste suivante : <ul> <li>services de moyen ou de long séjour des établissements publics ou privés de santé, établissements sociaux de moyen ou de long séjour,maisons de retraite, foyers et résidences sociales ;</li><li>commaunautés religieuses ;</li><li>casernes ou établissements militaires ;</li></ul></li><li>les personnes majeures âgées de moins de 25 ans ayant leur résidence familiale sur le territoire de la commune et qui résident dans une autre commune pour leurs études ;</li><li>les personnes sans domicile fixe rattachées à la commune au sens de la loi du 3 janvier 1969 et non recensées dans la commune.</li></ul><div><strong><em>Population totale </em>:</strong></div> <div>La population totale est la somme de la population municipale et de la population comptée à part.</div></br></div></hr>""" .
@@ -2599,6 +2677,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-11-13T16:24:49+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Recensement, Population, Commune" ;
 	<http://purl.org/dc/terms/references> <http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2011> ;
 	<http://purl.org/dc/terms/description> """<p>Population légale par commune issue du recensement de la population de 2011</p>
 <hr><div><strong><em>Population municipale</em> :</strong><div>La population municipale comprend les personnes ayant leur résidence habituelle sur le territoire de la commune, dans un logement ou une communauté, les personnes détenues dans les établissements pénitentiaires de la commune, les personnes sans abri recensées sur le territoire de la commune et les personnes résidant habituellement dans une habitation mobile recensées sur le territoire de la commune.</div> <br><div><strong><em>Population comptée à part</em> :</strong></div> <div>La population comptée à part comprend certaines personnes dont la résidence habituelle est dans une autre commune mais qui ont conservé une résidence sur le territoire de la commune :</div><ul> <li>les personnes mineures dont la résidence familiale est dans une autre commune mais qui résident, du fait de leurs études, dans la commune</li><li>les personnes ayant une résidence familiale sur le territoire de la commune et résidant dans une communauté d’une autre commune ; la communauté faisant partie de la liste suivante : <ul> <li>services de moyen ou de long séjour des établissements publics ou privés de santé, établissements sociaux de moyen ou de long séjour,maisons de retraite, foyers et résidences sociales ;</li><li>commaunautés religieuses ;</li><li>casernes ou établissements militaires ;</li></ul></li><li>les personnes majeures âgées de moins de 25 ans ayant leur résidence familiale sur le territoire de la commune et qui résident dans une autre commune pour leurs études ;</li><li>les personnes sans domicile fixe rattachées à la commune au sens de la loi du 3 janvier 1969 et non recensées dans la commune.</li></ul><div><strong><em>Population totale </em>:</strong></div> <div>La population totale est la somme de la population municipale et de la population comptée à part.</div></br></div></hr>""" .
@@ -2624,6 +2703,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-11-13T21:49:10+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "mobilité, trafic" ;
 	<http://purl.org/dc/terms/references> <http://cartelie.application.developpement-durable.gouv.fr/cartelie/voir.do?carte=TMJA2010_cartelie_v.2bis&service=DRIEA_IF> .
 
 <http://public.opendatasoft.com/id/theme/transports-déplacements> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -2648,6 +2728,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-11-14T13:57:13+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Geofla, Communes, Découpage, INSEE" ;
 	<http://purl.org/dc/terms/references> <http://professionnels.ign.fr/geofla> ;
 	<http://purl.org/dc/terms/description> "<p>GEOFLA® Communes décrit le découpage administratif au niveau communal. </p><div><hr/></div><ul><li>Code géographique de la commune : <strong>CODE_COMM</strong></li></ul> <div>Type : chaîne de caractères. </div> <div>Il s'agit du code géographique permettant d'identifier la commune dans son département </div> <div>d'appartenance (texte de trois caractères). </div> <ul><li>Numéro INSEE de la commune : <strong>INSEE_COM</strong></li></ul> <div>Type : chaîne de caractères. </div> <div>Il s'agit d’un numéro de 5 caractères : le code du département suivi du code géographique </div> <div>de la commune. Pour les DOM, le 3ème caractère est commun au n° de département et au n° </div> <div>de commune. </div> <ul><li>Nom : <b style=\"background-color: initial;\">NOM_COMM</b></li></ul> <div>Type : chaîne de caractères. </div> <div>Nom de la commune (source INSEE). C'est un texte en majuscules non accentuées d'au </div> <div>plus 50 caractères.</div><ul><li>Statut administratif : <b style=\"background-color: initial;\">STATUT</b></li></ul> <div>Type : énuméré. </div> <div>Valeurs possibles :</div><ul><li><ul><li><span style=\"background-color: initial;\">Capitale d'État<br/></span></li><li>Préfecture de région</li><li>Préfecture de département</li><li>Sous-préfecture</li><li>Chef-lieu de canton</li><li>Commune simple</li></ul></li><li>Abscisse du chef-lieu : <strong>X_CHF_LIEU</strong></li></ul> <div>Type : entier </div> <div>Abscisse du chef-lieu de la commune (en hectomètres). </div> <ul><li>Ordonnée du chef-lieu : <strong>Y_CHF_LIEU</strong></li></ul> <div>Type : entier </div> <div>Ordonnée du chef-lieu de la commune (en hectomètres). </div> <ul><li>Abscisse du centroïde1 : <strong>X_CENTROID</strong></li></ul> <div>Type : entier </div> <div>Abscisse du centroïde de la commune (en hectomètres). </div> <ul><li>Ordonnée du centroïde1 : <strong>Y_CENTROID</strong></li></ul> <div>Type : entier </div> <div>Ordonnée du centroïde de la commune (en hectomètres). </div> <ul><li>Altitude2 moyenne : <strong>Z_MOYEN</strong></li></ul> <div>Type : entier </div> <div>Altitude moyenne de la commune (en mètres). </div> <ul><li>Superficie : <b style=\"background-color: initial;\">SUPERFICIE</b></li></ul> <div>Type : entier </div> <div>Superficie de la commune en hectares. C'est la somme des surfaces des faces BD CARTO®</div> <div>composant la commune (avant allégement géométrique et suppression des îles et </div> <div>enclaves). </div> <ul><li>Population : <b style=\"background-color: initial;\">POPULATION</b></li></ul> <div>Type : décimal </div> <div>Chiffre de population sans doubles comptes au dernier recensement, en milliers d'habitants, </div> <div>à une décimale. Pour Mayotte, ce chiffre provient du recensement de 1997. </div> <ul><li>Code géographique du canton : <b style=\"background-color: initial;\">CODE_CANT</b></li></ul> <div>Type : chaîne de caractères </div> <div>Code géographique du canton auquel appartient la commune (texte de deux caractères). </div> <ul><li>Code géographique de l'arrondissement : <strong>CODE_ARR</strong></li></ul> <div>Type : chaîne de caractères </div> <div>Code géographique de l'arrondissement auquel appartient la commune (texte d'un </div> <div>caractère). Ce champ est vide pour les communes de Mayotte : il n’y a pas </div> <div>d’arrondissement dans cette collectivité départementale </div> <ul><li>Code géographique du département : <strong>CODE_DEPT</strong></li></ul> <div>Type : chaîne de caractères </div> <div>Code géographique du département auquel appartient la commune (texte de deux </div> <div>caractères). </div> <ul><li>Nom du département : <strong>NOM_DEPT</strong></li></ul> <div>Type : chaîne de caractères </div> <div>Nom du département auquel appartient la commune. C'est un texte en majuscules non </div> <div>accentuées d'au plus 30 caractères. </div> <ul><li>Code géographique de la région : <b style=\"background-color: initial;\">CODE_REG</b></li></ul> <div>Type : chaîne de caractères </div> <div>Code géographique de la région à laquelle appartient la commune (texte de deux </div> <div>caractères). </div> <ul><li>Nom de la région : <strong>NOM_REGION</strong></li></ul> <div>Type : chaîne de caractères </div> <div>Nom de la région à laquelle appartient la commune. C'est un texte en majuscules non </div> <div>accentuées d'au plus 30 caractères. </div>" .
 
@@ -2673,6 +2754,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-11-14T14:13:04+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "INSEE, Code Postaux, Correspondance, La Poste" ;
 	<http://purl.org/dc/terms/references> <https://www.data.gouv.fr/fr/datasets/base-officielle-des-codes-postaux/> ;
 	<http://purl.org/dc/terms/description> """<p>Base officielle des codes postaux croisée avec les donnée GEOFLA® Communes.</p><p>Geofla contient uniquement les données pour la France métropolitaine, la Guadeloupe, la Martinique, la Guyane, la Réunion et Mayotte. Les territoires d'outre-mer et Monaco n'ont pas de correspondance.</p><hr>
 <p><strong>Champs La Poste :</strong></p><ul>
@@ -2842,6 +2924,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-10T13:51:32+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/justice-sécurité-police-crime> ;
+	<http://www.w3.org/ns/dcat#keyword> "killings, law enforcement officers, USA" ;
 	<http://purl.org/dc/terms/references> <http://en.wikipedia.org/wiki/List_of_killings_by_law_enforcement_officers_in_the_United_States> ;
 	<http://purl.org/dc/terms/description> """<p>
 <a href=\"http://en.wikipedia.org/wiki/List_of_killings_by_law_enforcement_officers_in_the_United_States\">http://en.wikipedia.org/wiki/List_of_killings_by_law_enforcement_officers_in_the_United_States</a>:
@@ -2875,6 +2958,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-10T14:17:09+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/spatial> ;
+	<http://www.w3.org/ns/dcat#keyword> "Natural Earth, State, Province, USA, Boundary" ;
 	<http://purl.org/dc/terms/references> <http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-1-states-provinces/> ;
 	<http://purl.org/dc/terms/description> "<p>Internal, first-order administrative boundaries and polygons for the United States.</p>" .
 
@@ -2900,6 +2984,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-18T15:59:22+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "Christmas, Holidays, Movies, Series, Scenes" ;
 	<http://purl.org/dc/terms/description> "<p>The Holiday Season is here and the OpenDataSoft team has pulled a list of its New-York Christmas favorite scenes. From a black-and-white movie to Barney Stinson’s very personal carols, the team thought you’d like to have it. Who knows, you might need it to help you pass through the never-ending family dinners.</p><p>And because OpenDataSoft’s strong suit is helping you making the most of your data, each scene as been selected with love, picked and mapped by hand. We tracked each scene iconic location and gathered their coordinates in a nicely wrapped dataset. We uploaded it onto our Cartograph tool and wham! It is now possible to discover where your favorite bits were shot. It is fair to say that OpenDataSoft has almost invented the “organic data” label. You heard it here first. </p>" .
 
 <http://public.opendatasoft.com/id/theme/culture-patrimoine> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -2924,6 +3009,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-19T09:44:47+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "New York, Séries, FIlms, Noël, Vacances" ;
 	<http://purl.org/dc/terms/description> "<p>Les fêtes de fin d’années sont proches et OpenDataSoft a dressé sa liste  des meilleures scènes de Noël à New York. Du film en noir-et-blanc aux  hymnes truculents de Barney Stinson, les membres de l’équipe partagent  leurs classiques. Et qui sait, cela pourrait vous être utile lors d’un  interminable dîner en famille. </p><p>La spécialité d’OpenDataSoft  étant de vous aider à extraire le meilleur de vos données, l’équipe a  sélectionné chaque scène avec amour. Les coordonnées géographiques  principales de chaque scène ont été intégrées à un beau jeu de données  et ont été passées à la moulinette de notre Cartographe. Le résultat ?  Une carte interactive sur laquelle vous retrouverez chacune de vos  scènes favorites géo-localisée. Une telle qualité de données mériterait  presque un label « données BIO ».  </p>" .
 
 <http://public.opendatasoft.com/id/theme/culture-patrimoine> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -2948,6 +3034,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-22T10:20:28+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/santé> ;
+	<http://www.w3.org/ns/dcat#keyword> "cnam, sécurité sociale, dépenses publiques" ;
 	<http://purl.org/dc/terms/references> <https://www.data.gouv.fr/fr/datasets/depenses-d-assurance-maladie-hors-prestations-hospitalieres/> ;
 	<http://purl.org/dc/terms/description> """<p>
 	Cette base de données contient l'ensemble des remboursements mensuels effectués par le régime général de l'assurance maladie (hors prestations hospitalières) par type de prestations (soins et prestations en espèces), type d'exécutant (médecins par spécialité, chirurgiens dentistes, auxiliaires médicaux, laboratoires d'analyse, pharmaciens, ...) et par type de prescripteurs. Les dépenses sont indiquées en montants remboursés et présentées au remboursement.
@@ -3199,6 +3286,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-22T15:47:22+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "conseillers communautaires, saint-malo" ;
 	<http://purl.org/dc/terms/references> <https://www.data.gouv.fr/fr/datasets/liste-des-conseillers-communautaires-de-saint-malo-agglomeration-1/> ;
 	<http://purl.org/dc/terms/description> "<p>Liste des conseillers Communautaires, avec leurs fonctions communautaires et communales, délégations et communes d'appartenance, pour la période 2014-2020.</p>" .
 
@@ -3224,6 +3312,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-22T15:47:23+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "points d'apport volontaire, saint-malo, déchets" ;
 	<http://purl.org/dc/terms/references> <https://www.data.gouv.fr/fr/datasets/points-dapport-volontaire-shp/> ;
 	<http://purl.org/dc/terms/description> "<p>Localisation géographique des points d'apport volontaire, avec identification de la commune et du type de point (colonne papier ou verre, en surface ou enterrée,...)</p>" .
 
@@ -3249,6 +3338,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-22T15:47:24+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "arrêts de bus, saint-malo" ;
 	<http://purl.org/dc/terms/references> <https://www.data.gouv.fr/fr/datasets/emplacement-des-arrets-de-bus-du-reseau-transport-saint-malo-agglomeration-2/> ;
 	<http://purl.org/dc/terms/description> "<p>Localisation géographique des arrêts de bus du réseau de transport urbain et péri-urbain sur le territoire de l’agglomération du Pays de Saint-Malo.</p>" .
 
@@ -3274,6 +3364,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2014-12-24T09:26:50+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/santé> ;
+	<http://www.w3.org/ns/dcat#keyword> "Médecin, HAS, Accrédité" ;
 	<http://purl.org/dc/terms/description> "<p>En application de l’article L. 1414-3-2 du Code de la santé publique, l’accréditation des médecins est une démarche volontaire. C’est une démarche de gestion des risques fondée sur les programmes élaborés par les organismes agréés pour l’accréditation (OA-Accréditation) dont objectif est d’améliorer la qualité des pratiques professionnelles, de réduire le nombre et de limiter les conséquences des événements indésirables associés aux soins au bénéfice de la sécurité du patient. Elle concerne le s médecins exerçant une spécialité ou une activité dite «à risques» en établissement de santé décret n° 2006-909 du 21 juillet 2006. : gynécologie-obstétrique, anesthésie-réanimation, chirurgie, spécialités interventionnelles, échographie obstétricale, réanimation ou de soins intensifs. Pour plus d’information sur l’accréditation : <a href=\"http://www.has-sante.fr/portail/jcms/c_428381/fr/mieux-connaitre-laccreditation\" style=\"font-size: 14px;\">http://www.has-sante.fr/portail/jcms/c_428381/fr/mieux-connaitre-laccreditation</a></p>" .
 
 <http://public.opendatasoft.com/id/theme/santé> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -3298,6 +3389,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-02-13T08:18:51+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "réserve parlementaire, député, assemblée, Assemblée nationale, parlement" ;
 	<http://purl.org/dc/terms/description> "<p>Répartition de la réserve parlementaire française en 2014, par député, groupe politique, type de dépense</p>" .
 
 <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -3322,6 +3414,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-03-02T17:32:27+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "cantons, OSM, départements, élections, élections cantonales, cantonales, élections départementales" ;
 	<http://purl.org/dc/terms/description> "<p>Contours géographiques des nouveaux cantons électoraux départementaux issu des limites communales d'OpenStreetMap et du découpage publié au Journal Officiel.</p><p>Ces données sont issues du crowdsourcing effectué par les contributeurs au projet OpenStreetMap et sont donc sous licence ODbL qui impose un partage à l'identique et la mention obligatoire d'attribution doit être \"<strong>© les contributeurs d'OpenStreetMap sous licence ODbL</strong>\" conformément à <a href=\"http://osm.org/copyright\">http://osm.org/copyright</a></p><h2>Descriptif du contenu des fichiers \"cantons 2015\"</h2><h3>Origine des données</h3><p>Les données proviennent du découpage communal issu de la base de données cartographiques OpenStreetMap (constituées à partir du cadastre mis à disposition par la DGFiP sur <a href=\"http://cadastre.gouv.fr/\">cadastre.gouv.fr</a>) et de la lecture du Journal Officiel. Les informations sur la population légale <a href=\"http://insee.fr/fr/themes/detail.asp?reg_id=0&amp;ref_id=cantons-2015\">proviennent de l'INSEE</a>.</p><p>Pour plus de détail, consultez le wiki OpenStreetMap: <a href=\"http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France\">http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France</a></p><h3>Format</h3><p>Ces fichiers sont proposés au format shapefile (en WGS84, EPSG:4326, textes en UTF-8), ainsi que KML.</p><h3>Contenu</h3><p>Pour chaque canton, les attributs suivants sont fournis:</p><ul> <li>ref : code du canton, composé du code du département et du N° de canton (ex: 094-01, 02B-04)</li><li>nom : nom du canton figurant au JORF (source OSM)</li><li>wikipedia: lien wikipedia vers l'article du canton (source OSM)</li><li>code_dep : code INSEE du département (source INSEE)</li><li>num_canton: N° du canton dans le département (source INSEE)</li><li>nom_insee: Nom du canton dans le fichier INSEE (source INSEE)</li><li>pop_legale: population légale dans le canton selon l'INSEE</li></ul>" .
 
 <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -3346,6 +3439,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-03-02T18:00:48+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "cantons, cantonales, élections départementales, élections cantonales" ;
 	<http://purl.org/dc/terms/description> "<p>Contours géographiques des nouveaux cantons électoraux départementaux issu des limites communales d'OpenStreetMap et du découpage publié au Journal Officiel.</p><p>Ces données sont issues du crowdsourcing effectué par les contributeurs au projet OpenStreetMap et sont donc sous licence ODbL qui impose un partage à l'identique et la mention obligatoire d'attribution doit être \"<strong>© les contributeurs d'OpenStreetMap sous licence ODbL</strong>\" conformément à <a href=\"http://osm.org/copyright\">http://osm.org/copyright</a></p><h2>Descriptif du contenu des fichiers \"cantons 2015\"</h2><h3>Origine des données</h3><p>Les données proviennent du découpage communal issu de la base de données cartographiques OpenStreetMap (constituées à partir du cadastre mis à disposition par la DGFiP sur <a href=\"http://cadastre.gouv.fr/\">cadastre.gouv.fr</a>) et de la lecture du Journal Officiel. Les informations sur la population légale <a href=\"http://insee.fr/fr/themes/detail.asp?reg_id=0&amp;ref_id=cantons-2015\">proviennent de l'INSEE</a>.</p><p>Pour plus de détail, consultez le wiki OpenStreetMap: <a href=\"http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France\">http://wiki.openstreetmap.org/wiki/FR:Cantons_in_France</a></p><h3>Format</h3><p>Ces fichiers sont proposés au format shapefile (en WGS84, EPSG:4326, textes en UTF-8), ainsi que KML.</p><h3>Contenu</h3><p>Pour chaque canton, les attributs suivants sont fournis:</p><ul> <li>ref : code du canton, composé du code du département et du N° de canton (ex: 094-01, 02B-04)</li><li>nom : nom du canton figurant au JORF (source OSM)</li><li>wikipedia: lien wikipedia vers l'article du canton (source OSM)</li><li>code_dep : code INSEE du département (source INSEE)</li><li>num_canton: N° du canton dans le département (source INSEE)</li><li>nom_insee: Nom du canton dans le fichier INSEE (source INSEE)</li><li>pop_legale: population légale dans le canton selon l'INSEE</li></ul>" .
 
 <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -3368,6 +3462,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-03-09T10:59:03+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Hurricanes" ;
 	<http://purl.org/dc/terms/references> <http://www.nhc.noaa.gov/pastdead.html> ;
 	<http://purl.org/dc/terms/description> "<p>This is taken from The Deadliest, Costliest, and Most Intense United States hurricanes of this century (and other frequently requested hurricane facts) [NOAA Technical Memorandum NWS TPC-1] updated in February, 1997.</p>" .
 
@@ -3391,6 +3486,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-03-19T15:36:57+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "délibération, assemblée, vote" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Ordres du jour du Conseil Général de mars 2008 à décembre 2014 par séance. <br>
 <br>
@@ -3423,6 +3519,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-03-19T15:39:09+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "délibération, aseemblée, vote" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Ordres du jour du conseil municipal de mars 2008 à décembre 2014 par séance. <br>
 <br>
@@ -3456,6 +3553,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-03-25T19:39:22+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "bibliothèques, ouvrages, DVD, CD, Livres, discothèques, vidéothèques, médiathèques, revues" ;
 	<http://purl.org/dc/terms/description> "<p>Toutes les collections des bibliothèques de prêt, telles qu'elles étaient en février 2015. Plus de 750 000 titres sont référencés. Attention les données peuvent avoir évolué depuis, elles ne sont pas dynamiques</p><p>Le jeu de données comprend de nombreuses données sauf les résumés et les mots clés sujet</p>" .
 
 <http://public.opendatasoft.com/id/theme/culture-patrimoine> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -3479,6 +3577,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-03-30T11:25:01+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "hémicycle, conseil de Paris, partie poitique, place, paris" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Le fichier CSV regroupe tous les membres du conseil de Paris ainsi que leur emplacement dans l'hémicycle, leur partie politique et d'autres informations.<br>
 <br>
@@ -3507,6 +3606,7 @@ géographique unique).</p>""" .
 	<http://purl.org/dc/terms/modified> "2015-04-23T11:40:30+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "train, station, train station, Europe, Mobility" ;
 	<http://purl.org/dc/terms/references> <https://github.com/capitainetrain/stations> ;
 	<http://purl.org/dc/terms/description> """<h2>Capitaine Train train stations data, released under the ODbL license.</h2>
 <p>Up to date informations on <a href=\"https://github.com/capitainetrain/stations/blob/master/README.md\">the original repository</a>
@@ -3562,6 +3662,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-04-23T12:13:46+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "Fromage, Carte, Gastronomie" ;
 	<http://purl.org/dc/terms/references> <http://fr.wikipedia.org/wiki/Liste_des_sp%C3%A9cialit%C3%A9s_r%C3%A9gionales_fran%C3%A7aises_de_fromages> ;
 	<http://purl.org/dc/terms/description> "<p>Ce jeu de données réunit la liste de 338 spécialités fromagères françaises. </p><p>Le jeu de données comprend :</p><ul><li>le nom du fromage</li><li> le département de fabrication</li><li>l'URL de la page Wikipédia française</li><li>l'URL de la page Wikipédia anglaise quand elle existait</li><li>la photographie quand elle existait</li><li>les coordonnées géographiques du département de fabrication</li></ul>" .
 
@@ -3587,6 +3688,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-04-30T13:25:52+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "cheese, France" ;
 	<http://purl.org/dc/terms/references> <http://fr.wikipedia.org/wiki/Liste_des_sp%C3%A9cialit%C3%A9s_r%C3%A9gionales_fran%C3%A7aises_de_fromages> ;
 	<http://purl.org/dc/terms/description> """<p>This dataset gathers the list of all 338 French cheese. </p><p>In this dataset, you will find for each cheese: </p><ul>
 <li>its name</li><li>its department of production</li><li>the French Wikipedia page URL</li><li>the English Wikipedia page URL</li><li>its picture whenever available</li><li>the geographic coordinates of the department of production</li></ul>""" .
@@ -3613,6 +3715,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-05-13T13:29:37+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/> ;
+	<http://www.w3.org/ns/dcat#keyword> "Limites territoriales, organisation administrative, distribution démographique, unités administratives, statistique" ;
 	<http://purl.org/dc/terms/references> <http://professionnels.ign.fr/contoursiris> ;
 	<http://purl.org/dc/terms/description> "<p>Coédition INSEE et IGN, Contours Iris® est un fond numérisé des Iris définis par l'INSEE pour les besoins des recensements sur l'ensemble des communes de plus de 10 000 habitants et la plupart des communes de 5 000 à 10 000 habitants.</p>" .
 
@@ -3637,6 +3740,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-05-26T07:17:58+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "Population, Age, Sex, Urban Statistics , Regional Statistics , Helsinki, Helsinki Region, Population Projections" ;
 	<http://purl.org/dc/terms/references> <http://www.hri.fi/fi/dataset/helsingin-ja-helsingin-seudun-vaestoennuste-sukupuolen-ja-ian-mukaan> ;
 	<http://purl.org/dc/terms/description> "<p>This dataset is a projection of the Helsinki and Helsinki Region population for the years 2014-2050, broken down further by age and sex. This data was taken from the Helsinki Region Infoshare website, and the original can be found here: http://www.hri.fi/fi/dataset/helsingin-ja-helsingin-seudun-vaestoennuste-sukupuolen-ja-ian-mukaan</p>" .
 
@@ -3662,6 +3766,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-05-26T08:02:38+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/spatial> ;
+	<http://www.w3.org/ns/dcat#keyword> "accidents, accident, traffic, pedestrian, bicycle, bike, car, Helsinki, Finland" ;
 	<http://purl.org/dc/terms/references> <http://www.hri.fi/en/dataset/liikenneonnettomuudet-helsingissa> ;
 	<http://purl.org/dc/terms/description> "<p>Traffic accidents occurred in Helsinki venues, by severity and accident types.</p>" .
 
@@ -3687,6 +3792,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-05-29T07:43:49+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "parcs, jardins" ;
 	<http://purl.org/dc/terms/description> """<p><em>Couche anciennement intitulée \"Liste des parcs et jardins\" (2011).</em> </p><p>Cette couche surfacique localise géographiquement l'emprise des espaces verts publics (parcs, squares, promenades etc...) gérés par la Mairie de Paris.</p><p>Pour plus de renseignements, consultez la notice en pièce jointe.</p><p><strong>-------------------------------------------------------------<br/></strong></p><p><strong><em>Exemple(s) de réutilisation(s) des données
     </em></strong><em>
 <span style=\"line-height: 1.45em;\">
@@ -3750,6 +3856,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-06-12T00:39:58+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Arbres, DEVE" ;
 	<http://purl.org/dc/terms/description> "<p>Couche anciennement intitulée <em>Arbres d'alignement - Données géographiques (2011)</em></p><p>Cette couche à figuré ponctuel localise géographiquement l’ensemble des arbres d’alignement présents sur le territoire parisien. </p>" .
 
 <http://public.opendatasoft.com/id/theme/environnement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -3774,6 +3881,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-01T14:16:10+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "arrêts de bus" ;
 	<http://purl.org/dc/terms/references> <http://data.grandlyon.com/equipements/lignes-de-bus-du-rfseau-tcl/> ;
 	<http://purl.org/dc/terms/description> "<p>La représentation graphique des lignes de bus et trolleybus du réseau  TCL est un objet linéaire qui localise la ligne et son parcours de  terminus à terminus. La représentation graphique des lignes est caractérisée par des  informations de gestion (identifiant, numéro de ligne et sens, libellé,  unité de transport, couleur du tracé, famille de transport) et de tracés  (polylignes de terminus à terminus).</p>" .
 
@@ -3799,6 +3907,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-01T14:29:22+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "vélo" ;
 	<http://purl.org/dc/terms/references> <http://data.grandlyon.com/equipements/station-vflov-disponibilitfs-temps-rfel/> ;
 	<http://purl.org/dc/terms/description> "<p>Le jeu de données décrit l'état des stations Vélo'V du Grand Lyon (nom, adresse, nombre de bornettes, ...). Pour accéder aux données temps réel indiquant la disponibilité de vélos en place, préférez le jeu de données original. </p>" .
 
@@ -3824,6 +3933,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-01T14:36:06+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "tramway" ;
 	<http://purl.org/dc/terms/references> <http://data.grandlyon.com/equipements/lignes-de-tramway-du-rfseau-tcl/> ;
 	<http://purl.org/dc/terms/description> "<p>La représentation des lignes de tramway du réseau TCL localise la ligne et son parcours de terminus à terminus.</p>" .
 
@@ -3849,6 +3959,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-01T14:40:25+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "automobile" ;
 	<http://purl.org/dc/terms/references> <http://data.grandlyon.com/equipements/station-autopartage/> ;
 	<http://purl.org/dc/terms/description> "<p>Les Stations Autopartage sont des emplacements  réservés au stationnement des véhicules d'autopartage (Citiz LPA,  Bluely, Sunmoov, Wattmobile).</p>" .
 
@@ -3874,6 +3985,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-01T14:42:56+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "métro, furniculaire" ;
 	<http://purl.org/dc/terms/references> <http://data.grandlyon.com/equipements/lignes-de-mftro-et-funiculaire-du-rfseau-tcl/> ;
 	<http://purl.org/dc/terms/description> "<p>Le jeu de données donne la représentation graphique des lignes de métro et de funiculaire du  réseau TCL et son parcours  de terminus à terminus.</p>" .
 
@@ -3899,6 +4011,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T13:26:52+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/justice-sécurité-police-crime> ;
+	<http://www.w3.org/ns/dcat#keyword> "Paris, Sécurité, Police" ;
 	<http://purl.org/dc/terms/references> <http://www.data.gouv.fr/fr/datasets/carte-des-points-d-accueil-police-a-paris-idf/> ;
 	<http://purl.org/dc/terms/description> "Liste des points d'accueil police pour Paris répertoriant par arrondissement les services, adresses, téléphones, horaires, conditions d'accessibilité." .
 
@@ -3924,6 +4037,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T13:50:54+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "Art et culture, Monuments" ;
 	<http://purl.org/dc/terms/references> <http://www.data-publica.com/opendata/12144--liste-des-immeubles-proteges-au-titre-des-monuments-historiques-ile-de-france> ;
 	<http://purl.org/dc/terms/description> "Liste des Immeubles protégés au titre des Monuments Historiques pour la région Ile-de-France (43720 monuments pour l'ensemble des régions). Libellés des champs : REF (référence de l'édifice dans la base Mérimée) ; ETUD (type d'étude : recensement immeubles MH, avec éventuellement la mention label Xxe) ; LOCA OU REG + DEPT + COM (localisation de l'édifice) ; INSEE (code INSEE) ; TICO (appellation courante de l'édifice) ; ADRS (adresse, n° de la voie, type de voie, nom de la voie) ; STAT (statut propriété : type de propriétaire par catégorie ; pas de noms) ; AFFE (affectataire : utile pour les propriétés de l'Etat, mentionne le nom du ministère affectataire) ; PPRO (précisions sur la protection : article 1er de l'arrêté de protection + cadastre + nature et date de la protection) ; AUTR (architecte ou maître d'oeuvre) ; SCLE (période de construction)." .
 
@@ -3949,6 +4063,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T14:04:28+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "Associations, Services, Paris" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/explore/dataset/liste_des_associations_parisiennes/?tab=table> ;
 	<http://purl.org/dc/terms/description> "Liste des associations en relation avec la municipalité parisienne. Ce jeu de données comprend le nom statutaire de l'association, son code postal et sa ville d'enregistrement, ses secteurs d'activité, son domaine d'activité, ses publics, son secteur géographique d'activité et l'identifiant de sa fiche si elle est présente dans l'annuaire parisien des associations accessible via l'adresse : http://w35-associations.apps.paris.fr/searchasso/jsp/site/Portal.jsp?page=searchasso&amp;id;=[IDASSO]" .
 
@@ -3973,6 +4088,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T14:38:11+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "Paris" ;
 	<http://purl.org/dc/terms/description> "Liste des sites municipaux disposant d'un hotspot Paris WiFi permettant une connexion à Internet offerte pendant 2h. " .
 
 <http://public.opendatasoft.com/id/theme/services-social> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -3997,6 +4113,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T14:45:00+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Mairies, France, Communes" ;
 	<http://purl.org/dc/terms/references> <http://professionnels.ign.fr/ficheProduitCMS.do?idDoc=5323862#top> ;
 	<http://purl.org/dc/terms/description> """Le RGC, Répertoire Géographique des Communes, donne des renseignements géographiques et administratifs sur les communes françaises. Il contient le nom, la situation géographique et l'altitude des chefs-lieux de communes (mairies), couplés à des renseignements administratifs.
 """ .
@@ -4023,6 +4140,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T14:45:47+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Mairies, France, Communes" ;
 	<http://purl.org/dc/terms/references> <http://professionnels.ign.fr/ficheProduitCMS.do?idDoc=5323862#top> ;
 	<http://purl.org/dc/terms/description> "Le RGC, Répertoire Géographique des Communes, donne des renseignements géographiques et administratifs sur les communes françaises. Il contient le nom, la situation géographique et l'altitude des chefs-lieux de communes (mairies), couplés à des renseignements administratifs." .
 
@@ -4047,6 +4165,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T14:46:52+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "Recensement" ;
 	<http://purl.org/dc/terms/references> <http://www.recensement.insee.fr/documentation.action> ;
 	<http://purl.org/dc/terms/description> "Résultats du recensement de la population - 2008. Vue géographique." .
 
@@ -4072,6 +4191,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T14:51:22+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/services-social> ;
+	<http://www.w3.org/ns/dcat#keyword> "équipement, piscine, gymnase, jardin" ;
 	<http://purl.org/dc/terms/description> """<p> Liste des équipements de proximité (piscines, bibliothèques,jardins, gymnases,...)
   <br/>
 <br/><strong>Exemple(s) de réutilisation(s) des données</strong> :
@@ -4103,6 +4223,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T15:18:26+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "collecte, déchets, tonnages" ;
 	<http://purl.org/dc/terms/description> "Tonnages des déchets bacs verts collectés par arrondissement et par mois." .
 
 <http://public.opendatasoft.com/id/theme/environnement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4127,6 +4248,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T15:25:47+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "collecte, dechets, arrondissement, tonnages" ;
 	<http://purl.org/dc/terms/description> "Tonnages des déchets bacs jaunes collectés par arrondissement et par mois." .
 
 <http://public.opendatasoft.com/id/theme/environnement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4151,6 +4273,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T15:27:09+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "collecte, dechets, arrondissement, verre, tonnages" ;
 	<http://purl.org/dc/terms/description> "Tonnages de la collecte du verre en porte à porte, via les gros producteurs et en colonnes à verre par arrondissement et par mois." .
 
 <http://public.opendatasoft.com/id/theme/environnement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4175,6 +4298,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T15:28:18+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "poteau, bois, voie, publique" ;
 	<http://purl.org/dc/terms/description> "Données de type vecteur, décrivant des poteaux divers sur voie publique" .
 
 <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4199,6 +4323,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T15:30:49+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "horloges, monumentales, mécaniques, cheminées anciennes" ;
 	<http://purl.org/dc/terms/description> "Listes des horloges mécaniques extérieures et intérieures, monumentales ou de  cheminée pour certaines très anciennes présentes sur des sites municipaux." .
 
 <http://public.opendatasoft.com/id/theme/culture-patrimoine> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4223,6 +4348,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T15:32:57+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Barrière, glissière, sécurité, garde-corps, route, rue, voie" ;
 	<http://purl.org/dc/terms/description> "Données de type vecteur décrivant : barrières piétons, garde-corps, glissière, poteau ..." .
 
 <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4247,6 +4373,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T15:33:51+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "bâti, détail, accès, rampe, escalier extérieur, terrasse, marche, ascenseur" ;
 	<http://purl.org/dc/terms/description> "Données de type vecteur décrivant :accès piéton, accès véhicule, seuil de porte, rampe d'accès, escalier extérieur, terrasse, etc." .
 
 <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4271,6 +4398,7 @@ The file stations.csv contains all our data representing stations. Here is an ex
 	<http://purl.org/dc/terms/modified> "2015-07-16T15:35:46+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/environnement> ;
+	<http://www.w3.org/ns/dcat#keyword> "tri, déchet, poubelle, recyclage, emballage" ;
 	<http://purl.org/dc/terms/references> <http://r56.apps.paris.fr/tri/jsp/site/rest/directory/1/records.json/> ;
 	<http://purl.org/dc/terms/description> """Nomenclature du tri sélectif utilisé à Paris. Le jeu de données comprend l'identifiant unique du produit qui permet d'accéder à la fiche détaillé du produit (voir ci-dessous), le nom du produit, le type d'emballage, la bonne solution de tri qui est un tableau indiquant les modes de recyclage.
 
@@ -4308,6 +4436,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:11:13+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "guichets, publics, locaux, types, organismes, coordonnées, ouvertures" ;
 	<http://purl.org/dc/terms/references> <http://www.ideeslibres.org/service-public-fr-annuaire-de-ladministration-base-de-donnees-locales-v2/> ;
 	<http://purl.org/dc/terms/description> "La Base de données locales succède à la Base d'orientation Service-Public Local (BOSPL). Elle référence environ 55 000 guichets publics locaux. Elle fournit leurs coordonnées (adresse, site internet, horaires d'ouverture, ...). La liste des types d'organismes référencés dans la base est consultable à cette adresse :http://www.service-public.fr/info/docs/liste-type-organisme.pdfLe schéma et sa documentation sont disponibles à l'adresse : http://www.service-public.fr/apropos-du-site/informations-techniques/001366.html" .
 
@@ -4332,6 +4461,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:15:38+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "guichets, publics, locaux, types, organismes, coordonnées, ouvertures" ;
 	<http://purl.org/dc/terms/references> <http://www.ideeslibres.org/service-public-fr-annuaire-de-ladministration-base-de-donnees-locales-v2/> ;
 	<http://purl.org/dc/terms/description> "La Base de données locales succède à la Base d'orientation Service-Public Local (BOSPL). Elle référence environ 55 000 guichets publics locaux. Elle fournit leurs coordonnées (adresse, site internet, horaires d'ouverture, ...). La liste des types d'organismes référencés dans la base est consultable à cette adresse :http://www.service-public.fr/info/docs/liste-type-organisme.pdfLe schéma et sa documentation sont disponibles à l'adresse : http://www.service-public.fr/apropos-du-site/informations-techniques/001366.html" .
 
@@ -4357,6 +4487,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:25:01+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "bibliothèque, réservation, prêt, catalogue, références" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Les Références les plus réservées en 2011 par les usagers dans le catalogue des bibliothèques de prêt</span>
 </p>""" .
@@ -4382,6 +4513,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:26:30+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "balise, emprise au sol, feux, limites de voies, poteaux à feux, panneaux de circulation routière" ;
 	<http://purl.org/dc/terms/description> "Données de type vecteur, décrivant certains mobiliers et emprises au sol de signalisation routière et piétonne : balise, emprises au sol, feux, limites de voies, poteaux à feux, panneaux de circulation routière..." .
 
 <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4405,6 +4537,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:27:52+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "kiosque, journaux, presse" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Liste des kiosques Parisiens en activité avec les horaires d'ouverture et  fermeture. Liste établie par Médiakiosk.</span></p><p>
 <strong>Exemples de réutilisations: </strong><br>
@@ -4431,6 +4564,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:31:28+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "panneaux, signalisation, poteaux, potelets, voirie, route, piéton" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Données de type vecteur, décrivant les panneaux indicateurs de signalisation routière et piétonne : poteaux indicateur, potelet piéton, panneaux indicateur...</span>
 </p>""" .
@@ -4457,6 +4591,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:34:50+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "rigole, fil d'eau" ;
 	<http://purl.org/dc/terms/description> """<p>
 	Données de type vecteur, décrivant la partie routière du réseau d'assainissement.
 </p>""" .
@@ -4483,6 +4618,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:43:43+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "écoulement, talus, crête" ;
 	<http://purl.org/dc/terms/description> """<p>
 	Données de type vecteur décrivant crête ou pied de talus durs, sens d'écoulement,...<br>
 <br>
@@ -4512,6 +4648,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:44:41+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "mur, grille, cloture, entrée" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Données de type vecteur décrivant les murs en dur, les entrées de métro, les grilles ou clôtures.</span>
 </p>""" .
@@ -4537,6 +4674,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:46:19+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "livres, bibliothèque, notice bibliographique, ouvrage" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Liste des ouvrages (notice bibliographique et localisation) dans les bibliothèques parisiennes au 02/01/2009</span>
 </p>""" .
@@ -4563,6 +4701,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:49:47+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "Paris, rue, voie, avenue, histoire" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=47&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> """<p>
 	Informations sur l'origine et les dénominations successives des  voies  parisiennes<br/>
@@ -4592,6 +4731,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-16T16:51:00+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Recyclage, Equipements, Environnement, Mobilier urbain, Paris" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=57&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> "Données de type vecteur indiquant les emplacements des points de collecte du verre." .
 
@@ -4617,6 +4757,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T08:15:00+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Equipements, Environnement, Paris, Mobilier urbain" ;
 	<http://purl.org/dc/terms/description> "Données de type vecteur, décrivant des mobiliers (du domaine environnement) sur la voie publique : bancs, corbeilles, jardinières, poubelles..." .
 
 <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
@@ -4641,6 +4782,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T08:20:13+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Mobilier urbain, Equipements, Transports en commun, Paris" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=100&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> """<p>
 	Données de type vecteur, décrivant les mobiliers liés aux transports en commun, notamment bus
@@ -4671,6 +4813,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T08:34:14+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Stationnement, Equipements, Paris, Mobilier urbain, vélib, horodateurs, distributeurs, bornes" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=99&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> "Données de type vecteur, décrivant les mobiliers liés au stationnement de véhicules : horodateurs, distributeurs, bornes vélo libre service (vélib)..." .
 
@@ -4696,6 +4839,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T08:40:38+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "Paris" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=47&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> "Informations sur l'origine et les dénominations successives des  voies  parisiennes" .
 
@@ -4721,6 +4865,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T08:43:23+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/santé> ;
+	<http://www.w3.org/ns/dcat#keyword> "Santé, Services, Paris, préservatifs, protection" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=112&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> "Equipements municipaux qui hébergent un distributeur de préservatifs masculins à prix réduit (1€ les 5 préservatifs). Le jeu de données comprend l'adresse et les horaires d'ouverture des équipements.  " .
 
@@ -4746,6 +4891,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T08:45:14+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Mobilier urbain, Paris, Equipements, Eclairage, lampadaires, lanternes, poteau, projecteur" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=94&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> "Données de type vecteur, décrivant les mobiliers d'éclairage public : Lampadaires, lanterne, poteaux, projecteurs..." .
 
@@ -4795,6 +4941,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T08:52:20+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Santé, Paris, Logements" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=45&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> "Arrêté municipaux d'insalubrité de mise en demeure à 1 mois" .
 
@@ -4820,6 +4967,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:00:54+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Paris, Construction, bâti" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=106&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> "<p>Données de type vecteur qui décrivent les volumes non bâtis représentés sur le plan parcellaire</p><p>Vous trouverez en pièce jointe une notice explicative du jeu de données</p>" .
 
@@ -4845,6 +4993,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:03:04+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "Paris, Construction, plan, parcelle , bâti" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=80&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> "<p>Données de type  vecteur qui décrivent les bâtiments représentés sur le plan parcellaire</p><p>Vous trouverez en pièce jointe une notice décrivant les valeurs attributaires et la modélisation géométrique des bâtiments.</p>" .
 
@@ -4870,6 +5019,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:06:25+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement> ;
+	<http://www.w3.org/ns/dcat#keyword> "enseignement, formation, cours, éducation" ;
 	<http://purl.org/dc/terms/description> """<p>
 	Catalogue des cours municipaux d'adultes 2011-2012. Ce jeu de données comprend le département d'enseignement, la formation et le module suivis, le nom de l'établissement et les dates de début et de fin.
 </p>""" .
@@ -4919,6 +5069,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:14:58+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "names, North Carolina, NC, N.C., babies, baby, name, first name, given name, birth, popular" ;
 	<http://purl.org/dc/terms/references> <http://www.ssa.gov/OACT/babynames/limits.html> ;
 	<http://purl.org/dc/terms/description> "<p>Distribution of given names of babies born in the state of North Carolina.</p>" .
 
@@ -4944,6 +5095,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:17:20+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "vélo, pistes, cyclables, montpellier" ;
 	<http://purl.org/dc/terms/references> <http://opendata.montpelliernumerique.fr/Pistes-cyclables> ;
 	<http://purl.org/dc/terms/description> "<p>Réseau de pistes cyclables de Montpellier</p>" .
 
@@ -4969,6 +5121,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:21:17+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "Affichage, panneau, quartier, Conseil de quartier, conseil" ;
 	<http://purl.org/dc/terms/description> """<p>
 	     Liste des panneaux d'affichage des Conseils de Quartier.<br>
 	     Le jeu de données précise:<br>
@@ -5028,6 +5181,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:27:45+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/economie-business-pme-développement-économique-emploi> ;
+	<http://www.w3.org/ns/dcat#keyword> "Marchands, commercants, espace public" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Liste des commerçants autorisés et exerçant sur la voie publique. Le jeu de données comprend la localisation du stand, le type d'activité exercée et les horaires d'activité autorisés.</span>
 </p>
@@ -5057,6 +5211,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:30:04+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "bâti, sol" ;
 	<http://purl.org/dc/terms/description> """<p>
 	 Bâti données de type vecteur décrivant l'  emprise au sol.
 </p>
@@ -5086,6 +5241,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:32:40+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/economie-business-pme-développement-économique-emploi> ;
+	<http://www.w3.org/ns/dcat#keyword> "marchard, commerce, espace" ;
 	<http://purl.org/dc/terms/description> """<p>
 	Liste des commerçants autorisés et exerçant sur la voie publique. Le jeu de données comprend la localisation du stand, le type d'activité exercée et les horaires d'activité autorisés.</p><p>
 	A noter qu'il existe 
@@ -5113,6 +5269,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:40:26+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/transports-déplacements> ;
+	<http://www.w3.org/ns/dcat#keyword> "livraison, stationnement, parking, voiture" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=136&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> """<p>
 	 Liste et adresses des places de livraison.
@@ -5187,6 +5344,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:43:35+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/economie-business-pme-développement-économique-emploi> ;
+	<http://www.w3.org/ns/dcat#keyword> "marché, quartier" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=134&portlet_id=102> ;
 	<http://purl.org/dc/terms/description> """<p>
 	 Liste des marchés de quartier en 2012 avec :<br>
@@ -5215,6 +5373,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:45:14+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/aménagement-du-territoire-urbanisme-bâtiments-equipements-logement> ;
+	<http://www.w3.org/ns/dcat#keyword> "logement social, logements sociaux, logement, social" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Inventaire des logements sociaux financés à Paris entre 2001 et 2014, par arrondissement, par année, par maître d’ouvrage, par nombre de logements, par nature de programme, par catégorie de financement et par mode de réalisation.<br/></span></p><p><br><span style=\"line-height: 1.45em;\"><strong>Informations complémentaires : </strong><br/></span></br></p><p><span style=\"line-height: 1.45em;\">Les logements sociaux se différencient notamment par:</span></p><p>
 	 &gt; Catégorie de financement : <br>
@@ -5250,6 +5409,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:56:50+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "bibliothèque, prêt, livres, statistiques" ;
 	<http://purl.org/dc/terms/description> """<p>
 	Les 1000 références les plus empruntées en 2012, par bibliothèque
 </p>""" .
@@ -5275,6 +5435,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T09:57:12+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/culture-patrimoine> ;
+	<http://www.w3.org/ns/dcat#keyword> "bibliothèques, livres, documents, DVD, références, prêt" ;
 	<http://purl.org/dc/terms/references> <http://opendata.paris.fr/opendata/jsp/site/Portal.jsp?document_id=157&portlet_id=106> ;
 	<http://purl.org/dc/terms/description> """<p>
 	Les 1000 références les plus empruntées en 2012 au sein des bibliothèques municipales de la ville de Paris.
@@ -5302,6 +5463,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T10:00:27+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement> ;
+	<http://www.w3.org/ns/dcat#keyword> "école, primaire, maternelle" ;
 	<http://purl.org/dc/terms/description> """<p>
 	 Liste des établissements maternels et élémentaires du public parisien.
 </p>
@@ -5331,6 +5493,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T10:03:08+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/sport-loisirs> ;
+	<http://www.w3.org/ns/dcat#keyword> "attraction, foraine, espace, jeux, manège" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Manèges et jeux forains autorisés sur l'espace public parisien. Le jeu de données comprend la localisation du l'attraction, le type d'attraction et les horaires d'activité autorisés.</span>
 </p>
@@ -5386,6 +5549,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T10:10:11+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/administration-gouvernement-finances-publiques-citoyenneté> ;
+	<http://www.w3.org/ns/dcat#keyword> "association, communication, affichage, tracts, affiches, information" ;
 	<http://purl.org/dc/terms/description> """<p>
 <span style=\"line-height: 1.45em;\">Liste des panneaux d'affichage associatifs par arrondissement, comportant la géolocalisation et le format du panneau</span>
 </p>""" .
@@ -5412,6 +5576,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T10:17:39+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/sport-loisirs> ;
+	<http://www.w3.org/ns/dcat#keyword> "attraction, foraine, espace, jeux, manège" ;
 	<http://purl.org/dc/terms/description> """<p>
 	    Manèges et jeux forains autorisés sur l'espace public parisien. Le jeu de données comprend la localisation du l'attraction, le type d'attraction et les horaires d'activité autorisés.
 </p>
@@ -5465,6 +5630,7 @@ http://r56.apps.paris.fr/tri/jsp/site/Portal.jsp?page=directory""" .
 	<http://purl.org/dc/terms/modified> "2015-07-17T11:56:13+00:00" ;
 	<http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	<http://www.w3.org/ns/dcat#theme> <http://public.opendatasoft.com/id/theme/education-formation-recherche-enseignement> ;
+	<http://www.w3.org/ns/dcat#keyword> "annuaire, immobilier, établissement, université, enseignement" ;
 	<http://purl.org/dc/terms/description> """<p>
 	  L'annuaire immobilier de l’Enseignement supérieur est une tentative pour rassembler dans un cadre unique les principaux établissements d’enseignement supérieur de Paris et de sa couronne, autrement dit de Paris-Métropole, sur la base des adresses et des parcelles.<br>
 <br>

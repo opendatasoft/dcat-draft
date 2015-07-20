@@ -45,7 +45,7 @@
                     [dcterms:modified (s modified)]
                     [dcterms:language (lang language)]
                     [dcat:theme theme-uri]
-                    [dcat:keyword ]
+                    [dcat:keyword (s keyword)]
                     [dcterms:references (urify-uri references)]
                     [dcterms:description (s description)]]
                    
@@ -60,11 +60,10 @@
   (-> (read-dataset data-file)
       (make-dataset move-first-row-to-header)
       (rename-columns (comp keyword slugify))
+      (columns [:datasetid :title :description :theme :keyword :license :language :modified :publisher :references])
       (derive-column :dataset-uri [:datasetid] base-domain)
       (derive-column :theme-label [:theme] ->theme)
-      (derive-column :theme-uri [:theme-label] (comp theme-id slugify))
-      ;;(columns [:modified])
-      ))
+      (derive-column :theme-uri [:theme-label] (comp theme-id slugify))))
 
 (defgraft catalog->graph
   "Pipeline to convert the tabular ODS catalog data sheet into graph data."
