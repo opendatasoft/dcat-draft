@@ -1,5 +1,6 @@
 (ns ods.core
-  (:require [ods.pipeline :refer [catalog-pipeline]]))
+  (:require [ods.pipeline :refer [catalog-pipeline]])
+  (:gen-class))
 
 (defn -main
   "run the pipeline"
