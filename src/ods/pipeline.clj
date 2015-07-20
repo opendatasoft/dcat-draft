@@ -28,7 +28,7 @@
                     [rdf:a dcat:Catalog]
                     [dcterms:title (s "Public's catalog")]
                     [dcterms:language (lang language)]
-                    [dcterms:issued (new java.util.Date)]
+                    [dcterms:issued (s "2015-07-20T14:00:00+00:00")]
                     [dcat:dataset dataset-uri]]
 
                    [theme-cs
@@ -42,7 +42,7 @@
                     [dcterms:publisher (s publisher)]
                     [dcterms:license (->license license)]
                     [dcterms:title (s title)]
-                    [dcterms:modified modified]
+                    [dcterms:modified (s modified)]
                     [dcterms:language (lang language)]
                     [dcat:theme theme-uri]
                     [dcat:keyword ]
@@ -63,7 +63,7 @@
       (derive-column :dataset-uri [:datasetid] base-domain)
       (derive-column :theme-label [:theme] ->theme)
       (derive-column :theme-uri [:theme-label] (comp theme-id slugify))
-      ;;(columns [:theme-uri])
+      ;;(columns [:modified])
       ))
 
 (defgraft catalog->graph

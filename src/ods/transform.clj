@@ -84,11 +84,11 @@
   (apply str (interpose "/" args)))
 
 (defn urify-uri
-  [s]
-  (when (seq s)
-    (if (= \h (first s))
-      s
-      (str "http://" s))))
+  [string]
+  (when (seq string)
+    (if (= \h (first string))
+      (if (re-find #"\[" string) (s string) string)
+      (str "http://" string))))
 
 ;; Parser
 
@@ -121,7 +121,7 @@
 (defmulti parseDate class)
 (defmethod parseDate nil              [x] nil)
 (defmethod parseDate java.lang.String [x] (s->yyyy-mm-dd x))
-(defmethod parseDate java.util.Date   [x] (.format (java.text.SimpleDateFormat. "yyyy-MM-dd") x))
+(defmethod parseDate java.util.Date   [x] (.format (java.text.SimpleDateFormat. "yyyy-MM-dd'T'HH:mm:ss.SSSXXX") x))
 
 (def licenses {"odbl-paris" "http://opendata.paris.fr/page/lalicence/"
                "open-database-license-odbl" "http://opendatacommons.org/licenses/odbl/summary/"
