@@ -18,7 +18,8 @@
 
 (def catalog-template
   (graph-fn [{:keys [dataset-uri datasetid title description modified publisher
-                     keyword references language license theme-uri theme-label]}]
+                     keyword references language license theme-uri theme-label
+                     theme dl-uri dl-json]}]
             (graph (base-graph "catalog")
                    [catalog
                     [rdf:a dcat:Catalog]
@@ -27,7 +28,6 @@
                     [dcterms:publisher OpenDataSoft]
                     [foaf:homepage "http://public.opendatasoft.com"]
                     [dcat:themeTaxonomy theme-cs]
-                    [dcterms:language (when language (lang language))]
                     [dcterms:issued (s "2015-07-20T14:00:00+00:00")]
                     [dcat:dataset dataset-uri]]
 
@@ -37,13 +37,14 @@
 
                    [theme-cs
                     [rdf:a skos:ConceptScheme]
+                    [dcterms:title (s "Themes")]
                     [skos:prefLabel (s "A Set of data themes")]
                     [skos:topConceptOf theme-uri]]
 
                    [dataset-uri
                     [rdf:a dcat:Dataset]
                     [dcterms:identifier (s datasetid)]
-                    [dcterms:publisher (s publisher)]
+                    [dcterms:publisher (publisher-uris publisher)]
                     [dcterms:license (->license license)]
                     [dcterms:title (s title)]
                     [dcterms:modified (s modified)]
@@ -51,10 +52,18 @@
                     [dcat:theme theme-uri]
                     [dcat:keyword (s keyword)]
                     [dcterms:references (urify-uri references)]
-                    [dcterms:description (s description)]]
+                    [dcterms:description (if (seq description) (s description) (s "unknown"))]
+                    [dcat:distribution dl-json]]
+
+                   [dl-json
+                    [rdf:a dcat:Distribution]
+                    [dcterms:description (s (str "A json feed of" dataset-uri))]
+                    [dcat:accessURL dl-uri]
+                    [dcterms:mediaType (s "application/json")]]
                    
                    [theme-uri
                     [rdf:a skos:ConceptScheme]
+                    [dcterms:title (s (->theme theme))]
                     [skos:inScheme theme-cs]
                     [skos:prefLabel (s theme-label)]])))
 
@@ -66,6 +75,8 @@
       (rename-columns (comp keyword slugify))
       (columns [:datasetid :title :description :theme :keyword :license :language :modified :publisher :references])
       (derive-column :dataset-uri [:datasetid] base-domain)
+      (derive-column :dl-uri [:datasetid] ->dl)
+      (derive-column :dl-json [:datasetid] ->dl-json)
       (derive-column :theme-label [:theme] ->theme)
       (derive-column :theme-uri [:theme-label] (comp theme-id slugify))))
 

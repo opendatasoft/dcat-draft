@@ -11,15 +11,22 @@
 (def OpenDataSoft "http://www.opendatasoft.com")
 
 (def catalog "http://public.opendatasoft.com/api/datasets/1.0/search?rows=-1&format=rdf")
+(defn ->dl [s] (str "http://public.opendatasoft.com/explore/dataset/" s "/download/?format=json"))
+(defn ->dl-json [s] (str "http://public.opendatasoft.com/explore/dataset/" s "-json"))
 
 (def dcterms:identifier (dcterms "identifier"))
 (def dcterms:language (dcterms "language"))
+(def dcterms:mediaType (dcterms "mediaType"))
 
 (def dcat:keyword (dcat "keyword"))
 (def dcat:Catalog (dcat "Catalog"))
 (def dcat:dataset (dcat "dataset"))
 (def dcat:themeTaxonomy (dcat "themeTaxonomy"))
+(def dcat:accessURL (dcat "accessURL"))
+(def dcat:distribution (dcat "distribution"))
+(def dcat:Distribution (dcat "Distribution"))
 
 (def foaf:Agent (foaf "Agent"))
 
 (def lang (prefixer "http://id.loc.gov/vocabulary/iso639-1/"))
+
