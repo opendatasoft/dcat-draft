@@ -58,7 +58,7 @@
                    [dl-json
                     [rdf:a dcat:Distribution]
                     [dcterms:description (s (str "A json feed of" dataset-uri))]
-                    [dcat:accessURL dl-uri]
+                    [dcat:downloadURL dl-uri]
                     [dcterms:mediaType (s "application/json")]]
                    
                    [theme-uri

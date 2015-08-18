@@ -22,7 +22,7 @@
 (def dcat:Catalog (dcat "Catalog"))
 (def dcat:dataset (dcat "dataset"))
 (def dcat:themeTaxonomy (dcat "themeTaxonomy"))
-(def dcat:accessURL (dcat "accessURL"))
+(def dcat:downloadURL (dcat "downloadURL"))
 (def dcat:distribution (dcat "distribution"))
 (def dcat:Distribution (dcat "Distribution"))
 
